@@ -1,0 +1,26 @@
+{
+  "workflow": "divorce_relationships",
+  "cluster_title": "Divorce & Relationship Breakdown",
+  "pages": [
+    { "keyword": "therapy after divorce", "slug": "therapy-after-divorce", "angle": "general — the emotional aftermath of divorce and how therapy helps you rebuild" },
+    { "keyword": "counseling after separation", "slug": "counseling-after-separation", "angle": "the limbo period of separation before divorce is final" },
+    { "keyword": "therapy during the divorce process", "slug": "therapy-during-divorce-process", "angle": "coping with the stress while the divorce is still ongoing" },
+    { "keyword": "how to cope with divorce emotionally", "slug": "how-to-cope-with-divorce-emotionally", "angle": "practical emotional coping, leading to therapy as the deeper solution" },
+    { "keyword": "therapy after a breakup that broke you", "slug": "therapy-after-a-breakup", "angle": "a devastating non-marriage breakup that still wrecked them" },
+    { "keyword": "counseling after a long marriage ends", "slug": "counseling-after-long-marriage-ends", "angle": "losing an identity built over decades" },
+    { "keyword": "therapy after divorce with kids involved", "slug": "therapy-after-divorce-with-kids", "angle": "co-parenting pain and guilt about the children" },
+    { "keyword": "therapy for divorced dads who lost custody", "slug": "therapy-for-divorced-dads-custody", "angle": "fathers grieving reduced access to their kids" },
+    { "keyword": "therapy after divorce in your 50s", "slug": "therapy-after-divorce-in-your-50s", "angle": "starting over later in life, gray divorce" },
+    { "keyword": "therapy after divorce you didn't want", "slug": "therapy-after-divorce-you-didnt-want", "angle": "being left when you wanted to stay" },
+    { "keyword": "therapy after being left by your spouse", "slug": "therapy-after-being-left-by-spouse", "angle": "the shock and rejection of being abandoned" },
+    { "keyword": "therapy after divorcing a narcissist", "slug": "therapy-after-divorcing-a-narcissist", "angle": "recovery from an abusive/narcissistic marriage" },
+    { "keyword": "therapy when your ex moved on fast", "slug": "therapy-when-ex-moved-on-fast", "angle": "the pain of watching an ex replace you quickly" },
+    { "keyword": "counseling after infidelity ended the marriage", "slug": "counseling-after-infidelity-ended-marriage", "angle": "betrayal trauma that destroyed the marriage" },
+    { "keyword": "therapy after being cheated on", "slug": "therapy-after-being-cheated-on", "angle": "rebuilding trust and self-worth after betrayal" },
+    { "keyword": "therapy for codependency in relationships", "slug": "therapy-for-codependency", "angle": "breaking unhealthy patterns of over-reliance" },
+    { "keyword": "therapy after a toxic relationship", "slug": "therapy-after-toxic-relationship", "angle": "healing after emotional abuse or a draining partner" },
+    { "keyword": "therapy for anxious attachment", "slug": "therapy-for-anxious-attachment", "angle": "the constant fear of abandonment in relationships" },
+    { "keyword": "therapy for people who keep picking the wrong partner", "slug": "therapy-for-picking-wrong-partners", "angle": "repeating destructive relationship patterns" },
+    { "keyword": "therapy after a gray divorce", "slug": "therapy-after-gray-divorce", "angle": "divorcing after 50+ and facing solitude in later life" }
+  ]
+}

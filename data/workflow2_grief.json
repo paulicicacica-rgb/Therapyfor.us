@@ -1,0 +1,24 @@
+{
+  "workflow": "grief_loss",
+  "cluster_title": "Grief & Loss",
+  "pages": [
+    { "keyword": "grief counseling after losing a parent", "slug": "grief-counseling-losing-a-parent", "angle": "the specific weight of losing a mother or father, becoming the older generation" },
+    { "keyword": "therapy after losing your mother", "slug": "therapy-after-losing-your-mother", "angle": "the particular grief of losing a mom, the person who knew you first" },
+    { "keyword": "therapy after losing your father", "slug": "therapy-after-losing-your-father", "angle": "losing a dad, unspoken things, complicated or close relationships" },
+    { "keyword": "grief therapy after losing a spouse", "slug": "grief-therapy-losing-a-spouse", "angle": "widowhood, losing your partner and your shared future" },
+    { "keyword": "therapy after losing a child", "slug": "therapy-after-losing-a-child", "angle": "the most profound loss, handled with extreme tenderness" },
+    { "keyword": "therapy for sudden unexpected loss", "slug": "therapy-for-sudden-unexpected-loss", "angle": "the shock of a death with no warning, no goodbye" },
+    { "keyword": "therapy after a suicide loss", "slug": "therapy-after-suicide-loss", "angle": "grief tangled with guilt and unanswerable questions, handled gently" },
+    { "keyword": "therapy for grief that won't go away", "slug": "therapy-for-grief-that-wont-go-away", "angle": "grief that lingers far longer than people expect" },
+    { "keyword": "therapy for complicated grief", "slug": "therapy-for-complicated-grief", "angle": "when grief gets stuck and stops you from functioning" },
+    { "keyword": "therapy after losing a sibling", "slug": "therapy-after-losing-a-sibling", "angle": "losing a brother or sister, the disenfranchised grief nobody acknowledges" },
+    { "keyword": "therapy for anticipatory grief", "slug": "therapy-for-anticipatory-grief", "angle": "grieving someone who is still alive but dying" },
+    { "keyword": "therapy after a miscarriage", "slug": "therapy-after-a-miscarriage", "angle": "the invisible, often silent grief of pregnancy loss" },
+    { "keyword": "therapy for pet loss grief", "slug": "therapy-for-pet-loss-grief", "angle": "the real, often dismissed grief of losing a beloved animal" },
+    { "keyword": "therapy for grief years later", "slug": "therapy-for-grief-years-later", "angle": "grief that resurfaces long after a loss, delayed mourning" },
+    { "keyword": "how to deal with grief alone", "slug": "how-to-deal-with-grief-alone", "angle": "grieving without a support system around you" },
+    { "keyword": "therapy when you can't stop crying after a death", "slug": "therapy-cant-stop-crying-after-death", "angle": "overwhelming, uncontrollable grief responses" },
+    { "keyword": "therapy for grief and depression", "slug": "therapy-for-grief-and-depression", "angle": "when grief tips into clinical depression" },
+    { "keyword": "therapy after losing a best friend", "slug": "therapy-after-losing-a-best-friend", "angle": "losing a close friend, grief that others underestimate" }
+  ]
+}

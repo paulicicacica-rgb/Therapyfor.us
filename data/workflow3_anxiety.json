@@ -1,0 +1,30 @@
+{
+  "workflow": "anxiety_symptoms",
+  "cluster_title": "Anxiety, Depression & Symptoms",
+  "pages": [
+    { "keyword": "why do I feel anxious all the time", "slug": "why-do-i-feel-anxious-all-the-time", "angle": "constant low-grade anxiety with no obvious cause, the 2am search" },
+    { "keyword": "why do I cry for no reason", "slug": "why-do-i-cry-for-no-reason", "angle": "unexplained tears, emotional overflow they can't explain" },
+    { "keyword": "why do I feel empty inside", "slug": "why-do-i-feel-empty-inside", "angle": "emotional numbness and emptiness, the hollow feeling" },
+    { "keyword": "why can't I stop overthinking", "slug": "why-cant-i-stop-overthinking", "angle": "the racing mind that won't switch off" },
+    { "keyword": "why do I feel disconnected from everyone", "slug": "why-do-i-feel-disconnected-from-everyone", "angle": "feeling alone even around people, emotional disconnection" },
+    { "keyword": "I feel numb and I don't know why", "slug": "i-feel-numb-and-dont-know-why", "angle": "emotional flatness, feeling nothing at all" },
+    { "keyword": "I feel like I'm failing at life", "slug": "i-feel-like-im-failing-at-life", "angle": "the crushing sense of falling behind everyone else" },
+    { "keyword": "I can't get out of bed lately", "slug": "i-cant-get-out-of-bed-lately", "angle": "the heaviness of depression, losing basic function" },
+    { "keyword": "everything feels pointless lately", "slug": "everything-feels-pointless-lately", "angle": "loss of meaning and motivation, anhedonia in plain words" },
+    { "keyword": "why do I feel worse at night", "slug": "why-do-i-feel-worse-at-night", "angle": "the way anxiety and low mood intensify after dark" },
+    { "keyword": "therapy for high functioning anxiety", "slug": "therapy-for-high-functioning-anxiety", "angle": "looking fine on the outside, falling apart inside" },
+    { "keyword": "therapy for health anxiety", "slug": "therapy-for-health-anxiety", "angle": "constant fear about illness and the body" },
+    { "keyword": "therapy for social anxiety", "slug": "therapy-for-social-anxiety", "angle": "the dread of being perceived, avoiding people" },
+    { "keyword": "therapy for panic attacks", "slug": "therapy-for-panic-attacks", "angle": "the terror of panic, fear of the next one" },
+    { "keyword": "therapy for depression without medication", "slug": "therapy-for-depression-without-medication", "angle": "wanting help but not wanting pills" },
+    { "keyword": "therapy for seasonal depression", "slug": "therapy-for-seasonal-depression", "angle": "the winter slump, light and mood" },
+    { "keyword": "therapy for intrusive thoughts", "slug": "therapy-for-intrusive-thoughts", "angle": "disturbing unwanted thoughts and the shame around them" },
+    { "keyword": "therapy for chronic worrying", "slug": "therapy-for-chronic-worrying", "angle": "the worry that never ends, always bracing for disaster" },
+    { "keyword": "therapy for emotional burnout", "slug": "therapy-for-emotional-burnout", "angle": "running on empty, depleted past exhaustion" },
+    { "keyword": "therapy for feeling stuck in life", "slug": "therapy-for-feeling-stuck-in-life", "angle": "paralysis, the sense that nothing is moving forward" },
+    { "keyword": "I feel like a burden to everyone", "slug": "i-feel-like-a-burden-to-everyone", "angle": "the painful belief that you weigh others down, handled gently" },
+    { "keyword": "why am I so angry all the time", "slug": "why-am-i-so-angry-all-the-time", "angle": "irritability and anger masking deeper pain" },
+    { "keyword": "I don't feel like myself anymore", "slug": "i-dont-feel-like-myself-anymore", "angle": "the loss of identity, not recognising who you've become" },
+    { "keyword": "therapy for constant exhaustion and low mood", "slug": "therapy-for-exhaustion-and-low-mood", "angle": "the bone-tired heaviness of ongoing depression" }
+  ]
+}
