@@ -1,0 +1,60 @@
+name: Generate Therapy Pages
+
+# HOW TO USE:
+# 1. Go to the "Actions" tab in your GitHub repo
+# 2. Click "Generate Therapy Pages" on the left
+# 3. Click the "Run workflow" button on the right
+# 4. Pick a cluster from the dropdown (or "all")
+# 5. Click the green "Run workflow" button
+# The pages get generated and committed to output/ automatically.
+
+on:
+  workflow_dispatch:
+    inputs:
+      cluster:
+        description: "Which cluster to generate"
+        required: true
+        type: choice
+        default: "workflow1_divorce"
+        options:
+          - workflow1_divorce
+          - workflow2_grief
+          - workflow3_anxiety
+          - all
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Generate pages
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          if [ "${{ github.event.inputs.cluster }}" = "all" ]; then
+            for f in data/*.json; do
+              echo "=== Generating $f ==="
+              python generate.py "$f"
+            done
+          else
+            python generate.py "data/${{ github.event.inputs.cluster }}.json"
+          fi
+          python build_sitemap.py
+
+      - name: Commit and push generated pages
+        run: |
+          git config user.name "page-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add output/
+          git commit -m "Generate pages: ${{ github.event.inputs.cluster }}" || echo "No changes to commit"
+          git push
