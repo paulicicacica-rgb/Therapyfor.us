@@ -1,0 +1,880 @@
+{
+  "workflow": "lang_arabic",
+  "cluster_title": "Arabic (العربية) — 97 pages",
+  "language": "arabic",
+  "pages": [
+    {
+      "keyword": "علاج نفسي بالعربية",
+      "slug": "arabic-therapy-in-arabic-for-us-arabic-speakers",
+      "angle": "therapy in Arabic for US Arabic speakers",
+      "lang": "arabic",
+      "lang_name": "Arabic",
+      "native_name": "العربية",
+      "rtl": true
+    },
+    {
+      "keyword": "علاج نفسي اونلاين بالعربية",
+      "slug": "arabic-online-arabic-therapy",
+      "angle": "online Arabic therapy",
+      "lang": "arabic",
+      "lang_name": "Arabic",
+      "native_name": "العربية",
+      "rtl": true
+    },
+    {
+      "keyword": "علاج القلق بالعربية",
+      "slug": "arabic-anxiety-therapy-in-arabic",
+      "angle": "anxiety therapy in Arabic",
+      "lang": "arabic",
+      "lang_name": "Arabic",
+      "native_name": "العربية",
+      "rtl": true
+    },
+    {
+      "keyword": "علاج الاكتئاب بالعربية",
+      "slug": "arabic-depression-therapy-in-arabic",
+      "angle": "depression therapy in Arabic",
+      "lang": "arabic",
+      "lang_name": "Arabic",
+      "native_name": "العربية",
+      "rtl": true
+    },
+    {
+      "keyword": "علاج نفسي للمهاجرين العرب",
+      "slug": "arabic-therapy-for-arab-immigrants",
+      "angle": "therapy for Arab immigrants",
+      "lang": "arabic",
+      "lang_name": "Arabic",
+      "native_name": "العربية",
+      "rtl": true
+    },
+    {
+      "keyword": "معالج نفسي يتحدث العربية",
+      "slug": "arabic-finding-an-arabic-speaking-therapist",
+      "angle": "finding an Arabic-speaking therapist",
+      "lang": "arabic",
+      "lang_name": "Arabic",
+      "native_name": "العربية",
+      "rtl": true
+    },
+    {
+      "keyword": "علاج نفسي بعد الطلاق",
+      "slug": "arabic-therapy-after-divorce",
+      "angle": "therapy after divorce",
+      "lang": "arabic",
+      "lang_name": "Arabic",
+      "native_name": "العربية",
+      "rtl": true
+    },
+    {
+      "keyword": "علاج الشعور بالوحدة للمهاجرين",
+      "slug": "arabic-immigrant-loneliness",
+      "angle": "immigrant loneliness",
+      "lang": "arabic",
+      "lang_name": "Arabic",
+      "native_name": "العربية",
+      "rtl": true
+    },
+    {
+      "keyword": "لماذا أشعر بالوحدة في أمريكا",
+      "slug": "arabic-why-do-i-feel-alone-in-america",
+      "angle": "why do I feel alone in America",
+      "lang": "arabic",
+      "lang_name": "Arabic",
+      "native_name": "العربية",
+      "rtl": true
+    },
+    {
+      "keyword": "علاج الحنين إلى الوطن",
+      "slug": "arabic-homesickness-therapy",
+      "angle": "homesickness therapy",
+      "lang": "arabic",
+      "lang_name": "Arabic",
+      "native_name": "العربية",
+      "rtl": true
+    },
+    {
+      "keyword": "علاج نفسي للأمهات العربيات",
+      "slug": "arabic-therapy-for-arab-mothers",
+      "angle": "therapy for Arab mothers",
+      "lang": "arabic",
+      "lang_name": "Arabic",
+      "native_name": "العربية",
+      "rtl": true
+    },
+    {
+      "keyword": "علاج الإرهاق العاطفي",
+      "slug": "arabic-emotional-burnout",
+      "angle": "emotional burnout",
+      "lang": "arabic",
+      "lang_name": "Arabic",
+      "native_name": "العربية",
+      "rtl": true
+    },
+    {
+      "keyword": "علاج الحزن والفقدان بالعربية",
+      "slug": "arabic-grief-therapy-in-arabic",
+      "angle": "grief therapy in Arabic",
+      "lang": "arabic",
+      "lang_name": "Arabic",
+      "native_name": "العربية",
+      "rtl": true
+    },
+    {
+      "keyword": "Arabic therapy for anxiety",
+      "slug": "arabic-arabic-therapy-for-anxiety",
+      "angle": "anxiety, written natively in Arabic",
+      "lang": "arabic",
+      "lang_name": "Arabic",
+      "native_name": "العربية",
+      "rtl": true
+    },
+    {
+      "keyword": "Arabic speaking therapist for anxiety",
+      "slug": "arabic-arabic-speaking-therapist-for-anxiety",
+      "angle": "anxiety; finding a Arabic-speaking therapist",
+      "lang": "arabic",
+      "lang_name": "Arabic",
+      "native_name": "العربية",
+      "rtl": true
+    },
+    {
+      "keyword": "online Arabic therapy for anxiety",
+      "slug": "arabic-online-arabic-therapy-for-anxiety",
+      "angle": "anxiety; online and confidential, in Arabic",
+      "lang": "arabic",
+      "lang_name": "Arabic",
+      "native_name": "العربية",
+      "rtl": true
+    },
+    {
+      "keyword": "Arabic therapy for depression",
+      "slug": "arabic-arabic-therapy-for-depression",
+      "angle": "depression, written natively in Arabic",
+      "lang": "arabic",
+      "lang_name": "Arabic",
+      "native_name": "العربية",
+      "rtl": true
+    },
+    {
+      "keyword": "Arabic speaking therapist for depression",
+      "slug": "arabic-arabic-speaking-therapist-for-depression",
+      "angle": "depression; finding a Arabic-speaking therapist",
+      "lang": "arabic",
+      "lang_name": "Arabic",
+      "native_name": "العربية",
+      "rtl": true
+    },
+    {
+      "keyword": "online Arabic therapy for depression",
+      "slug": "arabic-online-arabic-therapy-for-depression",
+      "angle": "depression; online and confidential, in Arabic",
+      "lang": "arabic",
+      "lang_name": "Arabic",
+      "native_name": "العربية",
+      "rtl": true
+    },
+    {
+      "keyword": "Arabic therapy for loneliness",
+      "slug": "arabic-arabic-therapy-for-loneliness",
+      "angle": "loneliness, written natively in Arabic",
+      "lang": "arabic",
+      "lang_name": "Arabic",
+      "native_name": "العربية",
+      "rtl": true
+    },
+    {
+      "keyword": "Arabic speaking therapist for loneliness",
+      "slug": "arabic-arabic-speaking-therapist-for-loneliness",
+      "angle": "loneliness; finding a Arabic-speaking therapist",
+      "lang": "arabic",
+      "lang_name": "Arabic",
+      "native_name": "العربية",
+      "rtl": true
+    },
+    {
+      "keyword": "online Arabic therapy for loneliness",
+      "slug": "arabic-online-arabic-therapy-for-loneliness",
+      "angle": "loneliness; online and confidential, in Arabic",
+      "lang": "arabic",
+      "lang_name": "Arabic",
+      "native_name": "العربية",
+      "rtl": true
+    },
+    {
+      "keyword": "Arabic therapy for homesickness",
+      "slug": "arabic-arabic-therapy-for-homesickness",
+      "angle": "homesickness, written natively in Arabic",
+      "lang": "arabic",
+      "lang_name": "Arabic",
+      "native_name": "العربية",
+      "rtl": true
+    },
+    {
+      "keyword": "Arabic speaking therapist for homesickness",
+      "slug": "arabic-arabic-speaking-therapist-for-homesickness",
+      "angle": "homesickness; finding a Arabic-speaking therapist",
+      "lang": "arabic",
+      "lang_name": "Arabic",
+      "native_name": "العربية",
+      "rtl": true
+    },
+    {
+      "keyword": "online Arabic therapy for homesickness",
+      "slug": "arabic-online-arabic-therapy-for-homesickness",
+      "angle": "homesickness; online and confidential, in Arabic",
+      "lang": "arabic",
+      "lang_name": "Arabic",
+      "native_name": "العربية",
+      "rtl": true
+    },
+    {
+      "keyword": "Arabic therapy for divorce",
+      "slug": "arabic-arabic-therapy-for-divorce",
+      "angle": "after divorce, written natively in Arabic",
+      "lang": "arabic",
+      "lang_name": "Arabic",
+      "native_name": "العربية",
+      "rtl": true
+    },
+    {
+      "keyword": "Arabic speaking therapist for divorce",
+      "slug": "arabic-arabic-speaking-therapist-for-divorce",
+      "angle": "after divorce; finding a Arabic-speaking therapist",
+      "lang": "arabic",
+      "lang_name": "Arabic",
+      "native_name": "العربية",
+      "rtl": true
+    },
+    {
+      "keyword": "online Arabic therapy for divorce",
+      "slug": "arabic-online-arabic-therapy-for-divorce",
+      "angle": "after divorce; online and confidential, in Arabic",
+      "lang": "arabic",
+      "lang_name": "Arabic",
+      "native_name": "العربية",
+      "rtl": true
+    },
+    {
+      "keyword": "Arabic therapy for grief",
+      "slug": "arabic-arabic-therapy-for-grief",
+      "angle": "grief and loss, written natively in Arabic",
+      "lang": "arabic",
+      "lang_name": "Arabic",
+      "native_name": "العربية",
+      "rtl": true
+    },
+    {
+      "keyword": "Arabic speaking therapist for grief",
+      "slug": "arabic-arabic-speaking-therapist-for-grief",
+      "angle": "grief and loss; finding a Arabic-speaking therapist",
+      "lang": "arabic",
+      "lang_name": "Arabic",
+      "native_name": "العربية",
+      "rtl": true
+    },
+    {
+      "keyword": "online Arabic therapy for grief",
+      "slug": "arabic-online-arabic-therapy-for-grief",
+      "angle": "grief and loss; online and confidential, in Arabic",
+      "lang": "arabic",
+      "lang_name": "Arabic",
+      "native_name": "العربية",
+      "rtl": true
+    },
+    {
+      "keyword": "Arabic therapy for burnout",
+      "slug": "arabic-arabic-therapy-for-burnout",
+      "angle": "emotional burnout, written natively in Arabic",
+      "lang": "arabic",
+      "lang_name": "Arabic",
+      "native_name": "العربية",
+      "rtl": true
+    },
+    {
+      "keyword": "Arabic speaking therapist for burnout",
+      "slug": "arabic-arabic-speaking-therapist-for-burnout",
+      "angle": "emotional burnout; finding a Arabic-speaking therapist",
+      "lang": "arabic",
+      "lang_name": "Arabic",
+      "native_name": "العربية",
+      "rtl": true
+    },
+    {
+      "keyword": "online Arabic therapy for burnout",
+      "slug": "arabic-online-arabic-therapy-for-burnout",
+      "angle": "emotional burnout; online and confidential, in Arabic",
+      "lang": "arabic",
+      "lang_name": "Arabic",
+      "native_name": "العربية",
+      "rtl": true
+    },
+    {
+      "keyword": "Arabic therapy for panic attacks",
+      "slug": "arabic-arabic-therapy-for-panic-attacks",
+      "angle": "panic attacks, written natively in Arabic",
+      "lang": "arabic",
+      "lang_name": "Arabic",
+      "native_name": "العربية",
+      "rtl": true
+    },
+    {
+      "keyword": "Arabic speaking therapist for panic attacks",
+      "slug": "arabic-arabic-speaking-therapist-for-panic-attacks",
+      "angle": "panic attacks; finding a Arabic-speaking therapist",
+      "lang": "arabic",
+      "lang_name": "Arabic",
+      "native_name": "العربية",
+      "rtl": true
+    },
+    {
+      "keyword": "online Arabic therapy for panic attacks",
+      "slug": "arabic-online-arabic-therapy-for-panic-attacks",
+      "angle": "panic attacks; online and confidential, in Arabic",
+      "lang": "arabic",
+      "lang_name": "Arabic",
+      "native_name": "العربية",
+      "rtl": true
+    },
+    {
+      "keyword": "Arabic therapy for stress",
+      "slug": "arabic-arabic-therapy-for-stress",
+      "angle": "chronic stress, written natively in Arabic",
+      "lang": "arabic",
+      "lang_name": "Arabic",
+      "native_name": "العربية",
+      "rtl": true
+    },
+    {
+      "keyword": "Arabic speaking therapist for stress",
+      "slug": "arabic-arabic-speaking-therapist-for-stress",
+      "angle": "chronic stress; finding a Arabic-speaking therapist",
+      "lang": "arabic",
+      "lang_name": "Arabic",
+      "native_name": "العربية",
+      "rtl": true
+    },
+    {
+      "keyword": "online Arabic therapy for stress",
+      "slug": "arabic-online-arabic-therapy-for-stress",
+      "angle": "chronic stress; online and confidential, in Arabic",
+      "lang": "arabic",
+      "lang_name": "Arabic",
+      "native_name": "العربية",
+      "rtl": true
+    },
+    {
+      "keyword": "Arabic therapy for trauma",
+      "slug": "arabic-arabic-therapy-for-trauma",
+      "angle": "trauma, written natively in Arabic",
+      "lang": "arabic",
+      "lang_name": "Arabic",
+      "native_name": "العربية",
+      "rtl": true
+    },
+    {
+      "keyword": "Arabic speaking therapist for trauma",
+      "slug": "arabic-arabic-speaking-therapist-for-trauma",
+      "angle": "trauma; finding a Arabic-speaking therapist",
+      "lang": "arabic",
+      "lang_name": "Arabic",
+      "native_name": "العربية",
+      "rtl": true
+    },
+    {
+      "keyword": "online Arabic therapy for trauma",
+      "slug": "arabic-online-arabic-therapy-for-trauma",
+      "angle": "trauma; online and confidential, in Arabic",
+      "lang": "arabic",
+      "lang_name": "Arabic",
+      "native_name": "العربية",
+      "rtl": true
+    },
+    {
+      "keyword": "Arabic therapy for low self esteem",
+      "slug": "arabic-arabic-therapy-for-low-self-esteem",
+      "angle": "low self-esteem, written natively in Arabic",
+      "lang": "arabic",
+      "lang_name": "Arabic",
+      "native_name": "العربية",
+      "rtl": true
+    },
+    {
+      "keyword": "Arabic speaking therapist for low self esteem",
+      "slug": "arabic-arabic-speaking-therapist-for-low-self-esteem",
+      "angle": "low self-esteem; finding a Arabic-speaking therapist",
+      "lang": "arabic",
+      "lang_name": "Arabic",
+      "native_name": "العربية",
+      "rtl": true
+    },
+    {
+      "keyword": "online Arabic therapy for low self esteem",
+      "slug": "arabic-online-arabic-therapy-for-low-self-esteem",
+      "angle": "low self-esteem; online and confidential, in Arabic",
+      "lang": "arabic",
+      "lang_name": "Arabic",
+      "native_name": "العربية",
+      "rtl": true
+    },
+    {
+      "keyword": "Arabic therapy for relationship problems",
+      "slug": "arabic-arabic-therapy-for-relationship-problems",
+      "angle": "relationship difficulties, written natively in Arabic",
+      "lang": "arabic",
+      "lang_name": "Arabic",
+      "native_name": "العربية",
+      "rtl": true
+    },
+    {
+      "keyword": "Arabic speaking therapist for relationship problems",
+      "slug": "arabic-arabic-speaking-therapist-for-relationship-problems",
+      "angle": "relationship difficulties; finding a Arabic-speaking therapist",
+      "lang": "arabic",
+      "lang_name": "Arabic",
+      "native_name": "العربية",
+      "rtl": true
+    },
+    {
+      "keyword": "online Arabic therapy for relationship problems",
+      "slug": "arabic-online-arabic-therapy-for-relationship-problems",
+      "angle": "relationship difficulties; online and confidential, in Arabic",
+      "lang": "arabic",
+      "lang_name": "Arabic",
+      "native_name": "العربية",
+      "rtl": true
+    },
+    {
+      "keyword": "Arabic therapy for parenting stress",
+      "slug": "arabic-arabic-therapy-for-parenting-stress",
+      "angle": "parenting stress, written natively in Arabic",
+      "lang": "arabic",
+      "lang_name": "Arabic",
+      "native_name": "العربية",
+      "rtl": true
+    },
+    {
+      "keyword": "Arabic speaking therapist for parenting stress",
+      "slug": "arabic-arabic-speaking-therapist-for-parenting-stress",
+      "angle": "parenting stress; finding a Arabic-speaking therapist",
+      "lang": "arabic",
+      "lang_name": "Arabic",
+      "native_name": "العربية",
+      "rtl": true
+    },
+    {
+      "keyword": "online Arabic therapy for parenting stress",
+      "slug": "arabic-online-arabic-therapy-for-parenting-stress",
+      "angle": "parenting stress; online and confidential, in Arabic",
+      "lang": "arabic",
+      "lang_name": "Arabic",
+      "native_name": "العربية",
+      "rtl": true
+    },
+    {
+      "keyword": "Arabic therapy for work stress",
+      "slug": "arabic-arabic-therapy-for-work-stress",
+      "angle": "work stress, written natively in Arabic",
+      "lang": "arabic",
+      "lang_name": "Arabic",
+      "native_name": "العربية",
+      "rtl": true
+    },
+    {
+      "keyword": "Arabic speaking therapist for work stress",
+      "slug": "arabic-arabic-speaking-therapist-for-work-stress",
+      "angle": "work stress; finding a Arabic-speaking therapist",
+      "lang": "arabic",
+      "lang_name": "Arabic",
+      "native_name": "العربية",
+      "rtl": true
+    },
+    {
+      "keyword": "online Arabic therapy for work stress",
+      "slug": "arabic-online-arabic-therapy-for-work-stress",
+      "angle": "work stress; online and confidential, in Arabic",
+      "lang": "arabic",
+      "lang_name": "Arabic",
+      "native_name": "العربية",
+      "rtl": true
+    },
+    {
+      "keyword": "Arabic therapy for insomnia",
+      "slug": "arabic-arabic-therapy-for-insomnia",
+      "angle": "anxiety-driven sleeplessness, written natively in Arabic",
+      "lang": "arabic",
+      "lang_name": "Arabic",
+      "native_name": "العربية",
+      "rtl": true
+    },
+    {
+      "keyword": "Arabic speaking therapist for insomnia",
+      "slug": "arabic-arabic-speaking-therapist-for-insomnia",
+      "angle": "anxiety-driven sleeplessness; finding a Arabic-speaking therapist",
+      "lang": "arabic",
+      "lang_name": "Arabic",
+      "native_name": "العربية",
+      "rtl": true
+    },
+    {
+      "keyword": "online Arabic therapy for insomnia",
+      "slug": "arabic-online-arabic-therapy-for-insomnia",
+      "angle": "anxiety-driven sleeplessness; online and confidential, in Arabic",
+      "lang": "arabic",
+      "lang_name": "Arabic",
+      "native_name": "العربية",
+      "rtl": true
+    },
+    {
+      "keyword": "Arabic therapy for identity",
+      "slug": "arabic-arabic-therapy-for-identity",
+      "angle": "cultural identity struggles, written natively in Arabic",
+      "lang": "arabic",
+      "lang_name": "Arabic",
+      "native_name": "العربية",
+      "rtl": true
+    },
+    {
+      "keyword": "Arabic speaking therapist for identity",
+      "slug": "arabic-arabic-speaking-therapist-for-identity",
+      "angle": "cultural identity struggles; finding a Arabic-speaking therapist",
+      "lang": "arabic",
+      "lang_name": "Arabic",
+      "native_name": "العربية",
+      "rtl": true
+    },
+    {
+      "keyword": "online Arabic therapy for identity",
+      "slug": "arabic-online-arabic-therapy-for-identity",
+      "angle": "cultural identity struggles; online and confidential, in Arabic",
+      "lang": "arabic",
+      "lang_name": "Arabic",
+      "native_name": "العربية",
+      "rtl": true
+    },
+    {
+      "keyword": "Arabic therapy for family pressure",
+      "slug": "arabic-arabic-therapy-for-family-pressure",
+      "angle": "family expectation and pressure, written natively in Arabic",
+      "lang": "arabic",
+      "lang_name": "Arabic",
+      "native_name": "العربية",
+      "rtl": true
+    },
+    {
+      "keyword": "Arabic speaking therapist for family pressure",
+      "slug": "arabic-arabic-speaking-therapist-for-family-pressure",
+      "angle": "family expectation and pressure; finding a Arabic-speaking therapist",
+      "lang": "arabic",
+      "lang_name": "Arabic",
+      "native_name": "العربية",
+      "rtl": true
+    },
+    {
+      "keyword": "online Arabic therapy for family pressure",
+      "slug": "arabic-online-arabic-therapy-for-family-pressure",
+      "angle": "family expectation and pressure; online and confidential, in Arabic",
+      "lang": "arabic",
+      "lang_name": "Arabic",
+      "native_name": "العربية",
+      "rtl": true
+    },
+    {
+      "keyword": "Arabic therapy for isolation",
+      "slug": "arabic-arabic-therapy-for-isolation",
+      "angle": "social isolation, written natively in Arabic",
+      "lang": "arabic",
+      "lang_name": "Arabic",
+      "native_name": "العربية",
+      "rtl": true
+    },
+    {
+      "keyword": "Arabic speaking therapist for isolation",
+      "slug": "arabic-arabic-speaking-therapist-for-isolation",
+      "angle": "social isolation; finding a Arabic-speaking therapist",
+      "lang": "arabic",
+      "lang_name": "Arabic",
+      "native_name": "العربية",
+      "rtl": true
+    },
+    {
+      "keyword": "online Arabic therapy for isolation",
+      "slug": "arabic-online-arabic-therapy-for-isolation",
+      "angle": "social isolation; online and confidential, in Arabic",
+      "lang": "arabic",
+      "lang_name": "Arabic",
+      "native_name": "العربية",
+      "rtl": true
+    },
+    {
+      "keyword": "Arabic therapy for breakup",
+      "slug": "arabic-arabic-therapy-for-breakup",
+      "angle": "after a painful breakup, written natively in Arabic",
+      "lang": "arabic",
+      "lang_name": "Arabic",
+      "native_name": "العربية",
+      "rtl": true
+    },
+    {
+      "keyword": "Arabic speaking therapist for breakup",
+      "slug": "arabic-arabic-speaking-therapist-for-breakup",
+      "angle": "after a painful breakup; finding a Arabic-speaking therapist",
+      "lang": "arabic",
+      "lang_name": "Arabic",
+      "native_name": "العربية",
+      "rtl": true
+    },
+    {
+      "keyword": "online Arabic therapy for breakup",
+      "slug": "arabic-online-arabic-therapy-for-breakup",
+      "angle": "after a painful breakup; online and confidential, in Arabic",
+      "lang": "arabic",
+      "lang_name": "Arabic",
+      "native_name": "العربية",
+      "rtl": true
+    },
+    {
+      "keyword": "Arabic therapy for acculturative stress",
+      "slug": "arabic-arabic-therapy-for-acculturative-stress",
+      "angle": "the exhaustion of adapting to a new country, written natively in Arabic",
+      "lang": "arabic",
+      "lang_name": "Arabic",
+      "native_name": "العربية",
+      "rtl": true
+    },
+    {
+      "keyword": "Arabic speaking therapist for acculturative stress",
+      "slug": "arabic-arabic-speaking-therapist-for-acculturative-stress",
+      "angle": "the exhaustion of adapting to a new country; finding a Arabic-speaking therapist",
+      "lang": "arabic",
+      "lang_name": "Arabic",
+      "native_name": "العربية",
+      "rtl": true
+    },
+    {
+      "keyword": "online Arabic therapy for acculturative stress",
+      "slug": "arabic-online-arabic-therapy-for-acculturative-stress",
+      "angle": "the exhaustion of adapting to a new country; online and confidential, in Arabic",
+      "lang": "arabic",
+      "lang_name": "Arabic",
+      "native_name": "العربية",
+      "rtl": true
+    },
+    {
+      "keyword": "Arabic therapy for immigrant guilt",
+      "slug": "arabic-arabic-therapy-for-immigrant-guilt",
+      "angle": "guilt over family left behind, written natively in Arabic",
+      "lang": "arabic",
+      "lang_name": "Arabic",
+      "native_name": "العربية",
+      "rtl": true
+    },
+    {
+      "keyword": "Arabic speaking therapist for immigrant guilt",
+      "slug": "arabic-arabic-speaking-therapist-for-immigrant-guilt",
+      "angle": "guilt over family left behind; finding a Arabic-speaking therapist",
+      "lang": "arabic",
+      "lang_name": "Arabic",
+      "native_name": "العربية",
+      "rtl": true
+    },
+    {
+      "keyword": "online Arabic therapy for immigrant guilt",
+      "slug": "arabic-online-arabic-therapy-for-immigrant-guilt",
+      "angle": "guilt over family left behind; online and confidential, in Arabic",
+      "lang": "arabic",
+      "lang_name": "Arabic",
+      "native_name": "العربية",
+      "rtl": true
+    },
+    {
+      "keyword": "Arabic therapy for postpartum depression",
+      "slug": "arabic-arabic-therapy-for-postpartum-depression",
+      "angle": "depression after childbirth, written natively in Arabic",
+      "lang": "arabic",
+      "lang_name": "Arabic",
+      "native_name": "العربية",
+      "rtl": true
+    },
+    {
+      "keyword": "Arabic speaking therapist for postpartum depression",
+      "slug": "arabic-arabic-speaking-therapist-for-postpartum-depression",
+      "angle": "depression after childbirth; finding a Arabic-speaking therapist",
+      "lang": "arabic",
+      "lang_name": "Arabic",
+      "native_name": "العربية",
+      "rtl": true
+    },
+    {
+      "keyword": "online Arabic therapy for postpartum depression",
+      "slug": "arabic-online-arabic-therapy-for-postpartum-depression",
+      "angle": "depression after childbirth; online and confidential, in Arabic",
+      "lang": "arabic",
+      "lang_name": "Arabic",
+      "native_name": "العربية",
+      "rtl": true
+    },
+    {
+      "keyword": "Arabic therapy for anger",
+      "slug": "arabic-arabic-therapy-for-anger",
+      "angle": "anger and irritability, written natively in Arabic",
+      "lang": "arabic",
+      "lang_name": "Arabic",
+      "native_name": "العربية",
+      "rtl": true
+    },
+    {
+      "keyword": "Arabic speaking therapist for anger",
+      "slug": "arabic-arabic-speaking-therapist-for-anger",
+      "angle": "anger and irritability; finding a Arabic-speaking therapist",
+      "lang": "arabic",
+      "lang_name": "Arabic",
+      "native_name": "العربية",
+      "rtl": true
+    },
+    {
+      "keyword": "online Arabic therapy for anger",
+      "slug": "arabic-online-arabic-therapy-for-anger",
+      "angle": "anger and irritability; online and confidential, in Arabic",
+      "lang": "arabic",
+      "lang_name": "Arabic",
+      "native_name": "العربية",
+      "rtl": true
+    },
+    {
+      "keyword": "Arabic therapy for overthinking",
+      "slug": "arabic-arabic-therapy-for-overthinking",
+      "angle": "constant overthinking and worry, written natively in Arabic",
+      "lang": "arabic",
+      "lang_name": "Arabic",
+      "native_name": "العربية",
+      "rtl": true
+    },
+    {
+      "keyword": "Arabic speaking therapist for overthinking",
+      "slug": "arabic-arabic-speaking-therapist-for-overthinking",
+      "angle": "constant overthinking and worry; finding a Arabic-speaking therapist",
+      "lang": "arabic",
+      "lang_name": "Arabic",
+      "native_name": "العربية",
+      "rtl": true
+    },
+    {
+      "keyword": "online Arabic therapy for overthinking",
+      "slug": "arabic-online-arabic-therapy-for-overthinking",
+      "angle": "constant overthinking and worry; online and confidential, in Arabic",
+      "lang": "arabic",
+      "lang_name": "Arabic",
+      "native_name": "العربية",
+      "rtl": true
+    },
+    {
+      "keyword": "Arabic therapy for perfectionism",
+      "slug": "arabic-arabic-therapy-for-perfectionism",
+      "angle": "perfectionism and never feeling enough, written natively in Arabic",
+      "lang": "arabic",
+      "lang_name": "Arabic",
+      "native_name": "العربية",
+      "rtl": true
+    },
+    {
+      "keyword": "Arabic speaking therapist for perfectionism",
+      "slug": "arabic-arabic-speaking-therapist-for-perfectionism",
+      "angle": "perfectionism and never feeling enough; finding a Arabic-speaking therapist",
+      "lang": "arabic",
+      "lang_name": "Arabic",
+      "native_name": "العربية",
+      "rtl": true
+    },
+    {
+      "keyword": "online Arabic therapy for perfectionism",
+      "slug": "arabic-online-arabic-therapy-for-perfectionism",
+      "angle": "perfectionism and never feeling enough; online and confidential, in Arabic",
+      "lang": "arabic",
+      "lang_name": "Arabic",
+      "native_name": "العربية",
+      "rtl": true
+    },
+    {
+      "keyword": "Arabic therapy for financial stress",
+      "slug": "arabic-arabic-therapy-for-financial-stress",
+      "angle": "money worries and financial pressure, written natively in Arabic",
+      "lang": "arabic",
+      "lang_name": "Arabic",
+      "native_name": "العربية",
+      "rtl": true
+    },
+    {
+      "keyword": "Arabic speaking therapist for financial stress",
+      "slug": "arabic-arabic-speaking-therapist-for-financial-stress",
+      "angle": "money worries and financial pressure; finding a Arabic-speaking therapist",
+      "lang": "arabic",
+      "lang_name": "Arabic",
+      "native_name": "العربية",
+      "rtl": true
+    },
+    {
+      "keyword": "online Arabic therapy for financial stress",
+      "slug": "arabic-online-arabic-therapy-for-financial-stress",
+      "angle": "money worries and financial pressure; online and confidential, in Arabic",
+      "lang": "arabic",
+      "lang_name": "Arabic",
+      "native_name": "العربية",
+      "rtl": true
+    },
+    {
+      "keyword": "Arabic therapy for social anxiety",
+      "slug": "arabic-arabic-therapy-for-social-anxiety",
+      "angle": "social anxiety and fear of judgment, written natively in Arabic",
+      "lang": "arabic",
+      "lang_name": "Arabic",
+      "native_name": "العربية",
+      "rtl": true
+    },
+    {
+      "keyword": "Arabic speaking therapist for social anxiety",
+      "slug": "arabic-arabic-speaking-therapist-for-social-anxiety",
+      "angle": "social anxiety and fear of judgment; finding a Arabic-speaking therapist",
+      "lang": "arabic",
+      "lang_name": "Arabic",
+      "native_name": "العربية",
+      "rtl": true
+    },
+    {
+      "keyword": "online Arabic therapy for social anxiety",
+      "slug": "arabic-online-arabic-therapy-for-social-anxiety",
+      "angle": "social anxiety and fear of judgment; online and confidential, in Arabic",
+      "lang": "arabic",
+      "lang_name": "Arabic",
+      "native_name": "العربية",
+      "rtl": true
+    },
+    {
+      "keyword": "Arabic therapy for emotional numbness",
+      "slug": "arabic-arabic-therapy-for-emotional-numbness",
+      "angle": "feeling numb and disconnected, written natively in Arabic",
+      "lang": "arabic",
+      "lang_name": "Arabic",
+      "native_name": "العربية",
+      "rtl": true
+    },
+    {
+      "keyword": "Arabic speaking therapist for emotional numbness",
+      "slug": "arabic-arabic-speaking-therapist-for-emotional-numbness",
+      "angle": "feeling numb and disconnected; finding a Arabic-speaking therapist",
+      "lang": "arabic",
+      "lang_name": "Arabic",
+      "native_name": "العربية",
+      "rtl": true
+    },
+    {
+      "keyword": "online Arabic therapy for emotional numbness",
+      "slug": "arabic-online-arabic-therapy-for-emotional-numbness",
+      "angle": "feeling numb and disconnected; online and confidential, in Arabic",
+      "lang": "arabic",
+      "lang_name": "Arabic",
+      "native_name": "العربية",
+      "rtl": true
+    }
+  ]
+}

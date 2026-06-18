@@ -1,0 +1,889 @@
+{
+  "workflow": "lang_polish",
+  "cluster_title": "Polish (Polski) — 98 pages",
+  "language": "polish",
+  "pages": [
+    {
+      "keyword": "terapia po polsku",
+      "slug": "polish-terapia-po-polsku",
+      "angle": "therapy in Polish for the US Polish community",
+      "lang": "polish",
+      "lang_name": "Polish",
+      "native_name": "Polski",
+      "rtl": false
+    },
+    {
+      "keyword": "terapia online po polsku",
+      "slug": "polish-terapia-online-po-polsku",
+      "angle": "online Polish therapy",
+      "lang": "polish",
+      "lang_name": "Polish",
+      "native_name": "Polski",
+      "rtl": false
+    },
+    {
+      "keyword": "terapia na lęk po polsku",
+      "slug": "polish-terapia-na-lk-po-polsku",
+      "angle": "anxiety therapy in Polish",
+      "lang": "polish",
+      "lang_name": "Polish",
+      "native_name": "Polski",
+      "rtl": false
+    },
+    {
+      "keyword": "terapia na depresję po polsku",
+      "slug": "polish-terapia-na-depresj-po-polsku",
+      "angle": "depression therapy in Polish",
+      "lang": "polish",
+      "lang_name": "Polish",
+      "native_name": "Polski",
+      "rtl": false
+    },
+    {
+      "keyword": "terapia dla polskich imigrantów",
+      "slug": "polish-terapia-dla-polskich-imigrantw",
+      "angle": "therapy for Polish immigrants",
+      "lang": "polish",
+      "lang_name": "Polish",
+      "native_name": "Polski",
+      "rtl": false
+    },
+    {
+      "keyword": "psycholog mówiący po polsku",
+      "slug": "polish-psycholog-mwicy-po-polsku",
+      "angle": "finding a Polish-speaking therapist",
+      "lang": "polish",
+      "lang_name": "Polish",
+      "native_name": "Polski",
+      "rtl": false
+    },
+    {
+      "keyword": "terapia po rozwodzie",
+      "slug": "polish-terapia-po-rozwodzie",
+      "angle": "therapy after divorce",
+      "lang": "polish",
+      "lang_name": "Polish",
+      "native_name": "Polski",
+      "rtl": false
+    },
+    {
+      "keyword": "terapia na samotność imigranta",
+      "slug": "polish-terapia-na-samotno-imigranta",
+      "angle": "immigrant loneliness",
+      "lang": "polish",
+      "lang_name": "Polish",
+      "native_name": "Polski",
+      "rtl": false
+    },
+    {
+      "keyword": "terapia na tęsknotę za domem",
+      "slug": "polish-terapia-na-tsknot-za-domem",
+      "angle": "homesickness therapy",
+      "lang": "polish",
+      "lang_name": "Polish",
+      "native_name": "Polski",
+      "rtl": false
+    },
+    {
+      "keyword": "dlaczego czuję się samotny w Ameryce",
+      "slug": "polish-dlaczego-czuj-si-samotny-w-ameryce",
+      "angle": "why do I feel alone in America",
+      "lang": "polish",
+      "lang_name": "Polish",
+      "native_name": "Polski",
+      "rtl": false
+    },
+    {
+      "keyword": "terapia dla polskich matek",
+      "slug": "polish-terapia-dla-polskich-matek",
+      "angle": "therapy for Polish mothers",
+      "lang": "polish",
+      "lang_name": "Polish",
+      "native_name": "Polski",
+      "rtl": false
+    },
+    {
+      "keyword": "terapia na stres adaptacyjny",
+      "slug": "polish-terapia-na-stres-adaptacyjny",
+      "angle": "acculturative stress",
+      "lang": "polish",
+      "lang_name": "Polish",
+      "native_name": "Polski",
+      "rtl": false
+    },
+    {
+      "keyword": "terapia na wypalenie emocjonalne",
+      "slug": "polish-terapia-na-wypalenie-emocjonalne",
+      "angle": "emotional burnout",
+      "lang": "polish",
+      "lang_name": "Polish",
+      "native_name": "Polski",
+      "rtl": false
+    },
+    {
+      "keyword": "terapia w żałobie po polsku",
+      "slug": "polish-terapia-w-aobie-po-polsku",
+      "angle": "grief therapy in Polish",
+      "lang": "polish",
+      "lang_name": "Polish",
+      "native_name": "Polski",
+      "rtl": false
+    },
+    {
+      "keyword": "Polish therapy for anxiety",
+      "slug": "polish-polish-therapy-for-anxiety",
+      "angle": "anxiety, written natively in Polish",
+      "lang": "polish",
+      "lang_name": "Polish",
+      "native_name": "Polski",
+      "rtl": false
+    },
+    {
+      "keyword": "Polish speaking therapist for anxiety",
+      "slug": "polish-polish-speaking-therapist-for-anxiety",
+      "angle": "anxiety; finding a Polish-speaking therapist",
+      "lang": "polish",
+      "lang_name": "Polish",
+      "native_name": "Polski",
+      "rtl": false
+    },
+    {
+      "keyword": "online Polish therapy for anxiety",
+      "slug": "polish-online-polish-therapy-for-anxiety",
+      "angle": "anxiety; online and confidential, in Polish",
+      "lang": "polish",
+      "lang_name": "Polish",
+      "native_name": "Polski",
+      "rtl": false
+    },
+    {
+      "keyword": "Polish therapy for depression",
+      "slug": "polish-polish-therapy-for-depression",
+      "angle": "depression, written natively in Polish",
+      "lang": "polish",
+      "lang_name": "Polish",
+      "native_name": "Polski",
+      "rtl": false
+    },
+    {
+      "keyword": "Polish speaking therapist for depression",
+      "slug": "polish-polish-speaking-therapist-for-depression",
+      "angle": "depression; finding a Polish-speaking therapist",
+      "lang": "polish",
+      "lang_name": "Polish",
+      "native_name": "Polski",
+      "rtl": false
+    },
+    {
+      "keyword": "online Polish therapy for depression",
+      "slug": "polish-online-polish-therapy-for-depression",
+      "angle": "depression; online and confidential, in Polish",
+      "lang": "polish",
+      "lang_name": "Polish",
+      "native_name": "Polski",
+      "rtl": false
+    },
+    {
+      "keyword": "Polish therapy for loneliness",
+      "slug": "polish-polish-therapy-for-loneliness",
+      "angle": "loneliness, written natively in Polish",
+      "lang": "polish",
+      "lang_name": "Polish",
+      "native_name": "Polski",
+      "rtl": false
+    },
+    {
+      "keyword": "Polish speaking therapist for loneliness",
+      "slug": "polish-polish-speaking-therapist-for-loneliness",
+      "angle": "loneliness; finding a Polish-speaking therapist",
+      "lang": "polish",
+      "lang_name": "Polish",
+      "native_name": "Polski",
+      "rtl": false
+    },
+    {
+      "keyword": "online Polish therapy for loneliness",
+      "slug": "polish-online-polish-therapy-for-loneliness",
+      "angle": "loneliness; online and confidential, in Polish",
+      "lang": "polish",
+      "lang_name": "Polish",
+      "native_name": "Polski",
+      "rtl": false
+    },
+    {
+      "keyword": "Polish therapy for homesickness",
+      "slug": "polish-polish-therapy-for-homesickness",
+      "angle": "homesickness, written natively in Polish",
+      "lang": "polish",
+      "lang_name": "Polish",
+      "native_name": "Polski",
+      "rtl": false
+    },
+    {
+      "keyword": "Polish speaking therapist for homesickness",
+      "slug": "polish-polish-speaking-therapist-for-homesickness",
+      "angle": "homesickness; finding a Polish-speaking therapist",
+      "lang": "polish",
+      "lang_name": "Polish",
+      "native_name": "Polski",
+      "rtl": false
+    },
+    {
+      "keyword": "online Polish therapy for homesickness",
+      "slug": "polish-online-polish-therapy-for-homesickness",
+      "angle": "homesickness; online and confidential, in Polish",
+      "lang": "polish",
+      "lang_name": "Polish",
+      "native_name": "Polski",
+      "rtl": false
+    },
+    {
+      "keyword": "Polish therapy for divorce",
+      "slug": "polish-polish-therapy-for-divorce",
+      "angle": "after divorce, written natively in Polish",
+      "lang": "polish",
+      "lang_name": "Polish",
+      "native_name": "Polski",
+      "rtl": false
+    },
+    {
+      "keyword": "Polish speaking therapist for divorce",
+      "slug": "polish-polish-speaking-therapist-for-divorce",
+      "angle": "after divorce; finding a Polish-speaking therapist",
+      "lang": "polish",
+      "lang_name": "Polish",
+      "native_name": "Polski",
+      "rtl": false
+    },
+    {
+      "keyword": "online Polish therapy for divorce",
+      "slug": "polish-online-polish-therapy-for-divorce",
+      "angle": "after divorce; online and confidential, in Polish",
+      "lang": "polish",
+      "lang_name": "Polish",
+      "native_name": "Polski",
+      "rtl": false
+    },
+    {
+      "keyword": "Polish therapy for grief",
+      "slug": "polish-polish-therapy-for-grief",
+      "angle": "grief and loss, written natively in Polish",
+      "lang": "polish",
+      "lang_name": "Polish",
+      "native_name": "Polski",
+      "rtl": false
+    },
+    {
+      "keyword": "Polish speaking therapist for grief",
+      "slug": "polish-polish-speaking-therapist-for-grief",
+      "angle": "grief and loss; finding a Polish-speaking therapist",
+      "lang": "polish",
+      "lang_name": "Polish",
+      "native_name": "Polski",
+      "rtl": false
+    },
+    {
+      "keyword": "online Polish therapy for grief",
+      "slug": "polish-online-polish-therapy-for-grief",
+      "angle": "grief and loss; online and confidential, in Polish",
+      "lang": "polish",
+      "lang_name": "Polish",
+      "native_name": "Polski",
+      "rtl": false
+    },
+    {
+      "keyword": "Polish therapy for burnout",
+      "slug": "polish-polish-therapy-for-burnout",
+      "angle": "emotional burnout, written natively in Polish",
+      "lang": "polish",
+      "lang_name": "Polish",
+      "native_name": "Polski",
+      "rtl": false
+    },
+    {
+      "keyword": "Polish speaking therapist for burnout",
+      "slug": "polish-polish-speaking-therapist-for-burnout",
+      "angle": "emotional burnout; finding a Polish-speaking therapist",
+      "lang": "polish",
+      "lang_name": "Polish",
+      "native_name": "Polski",
+      "rtl": false
+    },
+    {
+      "keyword": "online Polish therapy for burnout",
+      "slug": "polish-online-polish-therapy-for-burnout",
+      "angle": "emotional burnout; online and confidential, in Polish",
+      "lang": "polish",
+      "lang_name": "Polish",
+      "native_name": "Polski",
+      "rtl": false
+    },
+    {
+      "keyword": "Polish therapy for panic attacks",
+      "slug": "polish-polish-therapy-for-panic-attacks",
+      "angle": "panic attacks, written natively in Polish",
+      "lang": "polish",
+      "lang_name": "Polish",
+      "native_name": "Polski",
+      "rtl": false
+    },
+    {
+      "keyword": "Polish speaking therapist for panic attacks",
+      "slug": "polish-polish-speaking-therapist-for-panic-attacks",
+      "angle": "panic attacks; finding a Polish-speaking therapist",
+      "lang": "polish",
+      "lang_name": "Polish",
+      "native_name": "Polski",
+      "rtl": false
+    },
+    {
+      "keyword": "online Polish therapy for panic attacks",
+      "slug": "polish-online-polish-therapy-for-panic-attacks",
+      "angle": "panic attacks; online and confidential, in Polish",
+      "lang": "polish",
+      "lang_name": "Polish",
+      "native_name": "Polski",
+      "rtl": false
+    },
+    {
+      "keyword": "Polish therapy for stress",
+      "slug": "polish-polish-therapy-for-stress",
+      "angle": "chronic stress, written natively in Polish",
+      "lang": "polish",
+      "lang_name": "Polish",
+      "native_name": "Polski",
+      "rtl": false
+    },
+    {
+      "keyword": "Polish speaking therapist for stress",
+      "slug": "polish-polish-speaking-therapist-for-stress",
+      "angle": "chronic stress; finding a Polish-speaking therapist",
+      "lang": "polish",
+      "lang_name": "Polish",
+      "native_name": "Polski",
+      "rtl": false
+    },
+    {
+      "keyword": "online Polish therapy for stress",
+      "slug": "polish-online-polish-therapy-for-stress",
+      "angle": "chronic stress; online and confidential, in Polish",
+      "lang": "polish",
+      "lang_name": "Polish",
+      "native_name": "Polski",
+      "rtl": false
+    },
+    {
+      "keyword": "Polish therapy for trauma",
+      "slug": "polish-polish-therapy-for-trauma",
+      "angle": "trauma, written natively in Polish",
+      "lang": "polish",
+      "lang_name": "Polish",
+      "native_name": "Polski",
+      "rtl": false
+    },
+    {
+      "keyword": "Polish speaking therapist for trauma",
+      "slug": "polish-polish-speaking-therapist-for-trauma",
+      "angle": "trauma; finding a Polish-speaking therapist",
+      "lang": "polish",
+      "lang_name": "Polish",
+      "native_name": "Polski",
+      "rtl": false
+    },
+    {
+      "keyword": "online Polish therapy for trauma",
+      "slug": "polish-online-polish-therapy-for-trauma",
+      "angle": "trauma; online and confidential, in Polish",
+      "lang": "polish",
+      "lang_name": "Polish",
+      "native_name": "Polski",
+      "rtl": false
+    },
+    {
+      "keyword": "Polish therapy for low self esteem",
+      "slug": "polish-polish-therapy-for-low-self-esteem",
+      "angle": "low self-esteem, written natively in Polish",
+      "lang": "polish",
+      "lang_name": "Polish",
+      "native_name": "Polski",
+      "rtl": false
+    },
+    {
+      "keyword": "Polish speaking therapist for low self esteem",
+      "slug": "polish-polish-speaking-therapist-for-low-self-esteem",
+      "angle": "low self-esteem; finding a Polish-speaking therapist",
+      "lang": "polish",
+      "lang_name": "Polish",
+      "native_name": "Polski",
+      "rtl": false
+    },
+    {
+      "keyword": "online Polish therapy for low self esteem",
+      "slug": "polish-online-polish-therapy-for-low-self-esteem",
+      "angle": "low self-esteem; online and confidential, in Polish",
+      "lang": "polish",
+      "lang_name": "Polish",
+      "native_name": "Polski",
+      "rtl": false
+    },
+    {
+      "keyword": "Polish therapy for relationship problems",
+      "slug": "polish-polish-therapy-for-relationship-problems",
+      "angle": "relationship difficulties, written natively in Polish",
+      "lang": "polish",
+      "lang_name": "Polish",
+      "native_name": "Polski",
+      "rtl": false
+    },
+    {
+      "keyword": "Polish speaking therapist for relationship problems",
+      "slug": "polish-polish-speaking-therapist-for-relationship-problems",
+      "angle": "relationship difficulties; finding a Polish-speaking therapist",
+      "lang": "polish",
+      "lang_name": "Polish",
+      "native_name": "Polski",
+      "rtl": false
+    },
+    {
+      "keyword": "online Polish therapy for relationship problems",
+      "slug": "polish-online-polish-therapy-for-relationship-problems",
+      "angle": "relationship difficulties; online and confidential, in Polish",
+      "lang": "polish",
+      "lang_name": "Polish",
+      "native_name": "Polski",
+      "rtl": false
+    },
+    {
+      "keyword": "Polish therapy for parenting stress",
+      "slug": "polish-polish-therapy-for-parenting-stress",
+      "angle": "parenting stress, written natively in Polish",
+      "lang": "polish",
+      "lang_name": "Polish",
+      "native_name": "Polski",
+      "rtl": false
+    },
+    {
+      "keyword": "Polish speaking therapist for parenting stress",
+      "slug": "polish-polish-speaking-therapist-for-parenting-stress",
+      "angle": "parenting stress; finding a Polish-speaking therapist",
+      "lang": "polish",
+      "lang_name": "Polish",
+      "native_name": "Polski",
+      "rtl": false
+    },
+    {
+      "keyword": "online Polish therapy for parenting stress",
+      "slug": "polish-online-polish-therapy-for-parenting-stress",
+      "angle": "parenting stress; online and confidential, in Polish",
+      "lang": "polish",
+      "lang_name": "Polish",
+      "native_name": "Polski",
+      "rtl": false
+    },
+    {
+      "keyword": "Polish therapy for work stress",
+      "slug": "polish-polish-therapy-for-work-stress",
+      "angle": "work stress, written natively in Polish",
+      "lang": "polish",
+      "lang_name": "Polish",
+      "native_name": "Polski",
+      "rtl": false
+    },
+    {
+      "keyword": "Polish speaking therapist for work stress",
+      "slug": "polish-polish-speaking-therapist-for-work-stress",
+      "angle": "work stress; finding a Polish-speaking therapist",
+      "lang": "polish",
+      "lang_name": "Polish",
+      "native_name": "Polski",
+      "rtl": false
+    },
+    {
+      "keyword": "online Polish therapy for work stress",
+      "slug": "polish-online-polish-therapy-for-work-stress",
+      "angle": "work stress; online and confidential, in Polish",
+      "lang": "polish",
+      "lang_name": "Polish",
+      "native_name": "Polski",
+      "rtl": false
+    },
+    {
+      "keyword": "Polish therapy for insomnia",
+      "slug": "polish-polish-therapy-for-insomnia",
+      "angle": "anxiety-driven sleeplessness, written natively in Polish",
+      "lang": "polish",
+      "lang_name": "Polish",
+      "native_name": "Polski",
+      "rtl": false
+    },
+    {
+      "keyword": "Polish speaking therapist for insomnia",
+      "slug": "polish-polish-speaking-therapist-for-insomnia",
+      "angle": "anxiety-driven sleeplessness; finding a Polish-speaking therapist",
+      "lang": "polish",
+      "lang_name": "Polish",
+      "native_name": "Polski",
+      "rtl": false
+    },
+    {
+      "keyword": "online Polish therapy for insomnia",
+      "slug": "polish-online-polish-therapy-for-insomnia",
+      "angle": "anxiety-driven sleeplessness; online and confidential, in Polish",
+      "lang": "polish",
+      "lang_name": "Polish",
+      "native_name": "Polski",
+      "rtl": false
+    },
+    {
+      "keyword": "Polish therapy for identity",
+      "slug": "polish-polish-therapy-for-identity",
+      "angle": "cultural identity struggles, written natively in Polish",
+      "lang": "polish",
+      "lang_name": "Polish",
+      "native_name": "Polski",
+      "rtl": false
+    },
+    {
+      "keyword": "Polish speaking therapist for identity",
+      "slug": "polish-polish-speaking-therapist-for-identity",
+      "angle": "cultural identity struggles; finding a Polish-speaking therapist",
+      "lang": "polish",
+      "lang_name": "Polish",
+      "native_name": "Polski",
+      "rtl": false
+    },
+    {
+      "keyword": "online Polish therapy for identity",
+      "slug": "polish-online-polish-therapy-for-identity",
+      "angle": "cultural identity struggles; online and confidential, in Polish",
+      "lang": "polish",
+      "lang_name": "Polish",
+      "native_name": "Polski",
+      "rtl": false
+    },
+    {
+      "keyword": "Polish therapy for family pressure",
+      "slug": "polish-polish-therapy-for-family-pressure",
+      "angle": "family expectation and pressure, written natively in Polish",
+      "lang": "polish",
+      "lang_name": "Polish",
+      "native_name": "Polski",
+      "rtl": false
+    },
+    {
+      "keyword": "Polish speaking therapist for family pressure",
+      "slug": "polish-polish-speaking-therapist-for-family-pressure",
+      "angle": "family expectation and pressure; finding a Polish-speaking therapist",
+      "lang": "polish",
+      "lang_name": "Polish",
+      "native_name": "Polski",
+      "rtl": false
+    },
+    {
+      "keyword": "online Polish therapy for family pressure",
+      "slug": "polish-online-polish-therapy-for-family-pressure",
+      "angle": "family expectation and pressure; online and confidential, in Polish",
+      "lang": "polish",
+      "lang_name": "Polish",
+      "native_name": "Polski",
+      "rtl": false
+    },
+    {
+      "keyword": "Polish therapy for isolation",
+      "slug": "polish-polish-therapy-for-isolation",
+      "angle": "social isolation, written natively in Polish",
+      "lang": "polish",
+      "lang_name": "Polish",
+      "native_name": "Polski",
+      "rtl": false
+    },
+    {
+      "keyword": "Polish speaking therapist for isolation",
+      "slug": "polish-polish-speaking-therapist-for-isolation",
+      "angle": "social isolation; finding a Polish-speaking therapist",
+      "lang": "polish",
+      "lang_name": "Polish",
+      "native_name": "Polski",
+      "rtl": false
+    },
+    {
+      "keyword": "online Polish therapy for isolation",
+      "slug": "polish-online-polish-therapy-for-isolation",
+      "angle": "social isolation; online and confidential, in Polish",
+      "lang": "polish",
+      "lang_name": "Polish",
+      "native_name": "Polski",
+      "rtl": false
+    },
+    {
+      "keyword": "Polish therapy for breakup",
+      "slug": "polish-polish-therapy-for-breakup",
+      "angle": "after a painful breakup, written natively in Polish",
+      "lang": "polish",
+      "lang_name": "Polish",
+      "native_name": "Polski",
+      "rtl": false
+    },
+    {
+      "keyword": "Polish speaking therapist for breakup",
+      "slug": "polish-polish-speaking-therapist-for-breakup",
+      "angle": "after a painful breakup; finding a Polish-speaking therapist",
+      "lang": "polish",
+      "lang_name": "Polish",
+      "native_name": "Polski",
+      "rtl": false
+    },
+    {
+      "keyword": "online Polish therapy for breakup",
+      "slug": "polish-online-polish-therapy-for-breakup",
+      "angle": "after a painful breakup; online and confidential, in Polish",
+      "lang": "polish",
+      "lang_name": "Polish",
+      "native_name": "Polski",
+      "rtl": false
+    },
+    {
+      "keyword": "Polish therapy for acculturative stress",
+      "slug": "polish-polish-therapy-for-acculturative-stress",
+      "angle": "the exhaustion of adapting to a new country, written natively in Polish",
+      "lang": "polish",
+      "lang_name": "Polish",
+      "native_name": "Polski",
+      "rtl": false
+    },
+    {
+      "keyword": "Polish speaking therapist for acculturative stress",
+      "slug": "polish-polish-speaking-therapist-for-acculturative-stress",
+      "angle": "the exhaustion of adapting to a new country; finding a Polish-speaking therapist",
+      "lang": "polish",
+      "lang_name": "Polish",
+      "native_name": "Polski",
+      "rtl": false
+    },
+    {
+      "keyword": "online Polish therapy for acculturative stress",
+      "slug": "polish-online-polish-therapy-for-acculturative-stress",
+      "angle": "the exhaustion of adapting to a new country; online and confidential, in Polish",
+      "lang": "polish",
+      "lang_name": "Polish",
+      "native_name": "Polski",
+      "rtl": false
+    },
+    {
+      "keyword": "Polish therapy for immigrant guilt",
+      "slug": "polish-polish-therapy-for-immigrant-guilt",
+      "angle": "guilt over family left behind, written natively in Polish",
+      "lang": "polish",
+      "lang_name": "Polish",
+      "native_name": "Polski",
+      "rtl": false
+    },
+    {
+      "keyword": "Polish speaking therapist for immigrant guilt",
+      "slug": "polish-polish-speaking-therapist-for-immigrant-guilt",
+      "angle": "guilt over family left behind; finding a Polish-speaking therapist",
+      "lang": "polish",
+      "lang_name": "Polish",
+      "native_name": "Polski",
+      "rtl": false
+    },
+    {
+      "keyword": "online Polish therapy for immigrant guilt",
+      "slug": "polish-online-polish-therapy-for-immigrant-guilt",
+      "angle": "guilt over family left behind; online and confidential, in Polish",
+      "lang": "polish",
+      "lang_name": "Polish",
+      "native_name": "Polski",
+      "rtl": false
+    },
+    {
+      "keyword": "Polish therapy for postpartum depression",
+      "slug": "polish-polish-therapy-for-postpartum-depression",
+      "angle": "depression after childbirth, written natively in Polish",
+      "lang": "polish",
+      "lang_name": "Polish",
+      "native_name": "Polski",
+      "rtl": false
+    },
+    {
+      "keyword": "Polish speaking therapist for postpartum depression",
+      "slug": "polish-polish-speaking-therapist-for-postpartum-depression",
+      "angle": "depression after childbirth; finding a Polish-speaking therapist",
+      "lang": "polish",
+      "lang_name": "Polish",
+      "native_name": "Polski",
+      "rtl": false
+    },
+    {
+      "keyword": "online Polish therapy for postpartum depression",
+      "slug": "polish-online-polish-therapy-for-postpartum-depression",
+      "angle": "depression after childbirth; online and confidential, in Polish",
+      "lang": "polish",
+      "lang_name": "Polish",
+      "native_name": "Polski",
+      "rtl": false
+    },
+    {
+      "keyword": "Polish therapy for anger",
+      "slug": "polish-polish-therapy-for-anger",
+      "angle": "anger and irritability, written natively in Polish",
+      "lang": "polish",
+      "lang_name": "Polish",
+      "native_name": "Polski",
+      "rtl": false
+    },
+    {
+      "keyword": "Polish speaking therapist for anger",
+      "slug": "polish-polish-speaking-therapist-for-anger",
+      "angle": "anger and irritability; finding a Polish-speaking therapist",
+      "lang": "polish",
+      "lang_name": "Polish",
+      "native_name": "Polski",
+      "rtl": false
+    },
+    {
+      "keyword": "online Polish therapy for anger",
+      "slug": "polish-online-polish-therapy-for-anger",
+      "angle": "anger and irritability; online and confidential, in Polish",
+      "lang": "polish",
+      "lang_name": "Polish",
+      "native_name": "Polski",
+      "rtl": false
+    },
+    {
+      "keyword": "Polish therapy for overthinking",
+      "slug": "polish-polish-therapy-for-overthinking",
+      "angle": "constant overthinking and worry, written natively in Polish",
+      "lang": "polish",
+      "lang_name": "Polish",
+      "native_name": "Polski",
+      "rtl": false
+    },
+    {
+      "keyword": "Polish speaking therapist for overthinking",
+      "slug": "polish-polish-speaking-therapist-for-overthinking",
+      "angle": "constant overthinking and worry; finding a Polish-speaking therapist",
+      "lang": "polish",
+      "lang_name": "Polish",
+      "native_name": "Polski",
+      "rtl": false
+    },
+    {
+      "keyword": "online Polish therapy for overthinking",
+      "slug": "polish-online-polish-therapy-for-overthinking",
+      "angle": "constant overthinking and worry; online and confidential, in Polish",
+      "lang": "polish",
+      "lang_name": "Polish",
+      "native_name": "Polski",
+      "rtl": false
+    },
+    {
+      "keyword": "Polish therapy for perfectionism",
+      "slug": "polish-polish-therapy-for-perfectionism",
+      "angle": "perfectionism and never feeling enough, written natively in Polish",
+      "lang": "polish",
+      "lang_name": "Polish",
+      "native_name": "Polski",
+      "rtl": false
+    },
+    {
+      "keyword": "Polish speaking therapist for perfectionism",
+      "slug": "polish-polish-speaking-therapist-for-perfectionism",
+      "angle": "perfectionism and never feeling enough; finding a Polish-speaking therapist",
+      "lang": "polish",
+      "lang_name": "Polish",
+      "native_name": "Polski",
+      "rtl": false
+    },
+    {
+      "keyword": "online Polish therapy for perfectionism",
+      "slug": "polish-online-polish-therapy-for-perfectionism",
+      "angle": "perfectionism and never feeling enough; online and confidential, in Polish",
+      "lang": "polish",
+      "lang_name": "Polish",
+      "native_name": "Polski",
+      "rtl": false
+    },
+    {
+      "keyword": "Polish therapy for financial stress",
+      "slug": "polish-polish-therapy-for-financial-stress",
+      "angle": "money worries and financial pressure, written natively in Polish",
+      "lang": "polish",
+      "lang_name": "Polish",
+      "native_name": "Polski",
+      "rtl": false
+    },
+    {
+      "keyword": "Polish speaking therapist for financial stress",
+      "slug": "polish-polish-speaking-therapist-for-financial-stress",
+      "angle": "money worries and financial pressure; finding a Polish-speaking therapist",
+      "lang": "polish",
+      "lang_name": "Polish",
+      "native_name": "Polski",
+      "rtl": false
+    },
+    {
+      "keyword": "online Polish therapy for financial stress",
+      "slug": "polish-online-polish-therapy-for-financial-stress",
+      "angle": "money worries and financial pressure; online and confidential, in Polish",
+      "lang": "polish",
+      "lang_name": "Polish",
+      "native_name": "Polski",
+      "rtl": false
+    },
+    {
+      "keyword": "Polish therapy for social anxiety",
+      "slug": "polish-polish-therapy-for-social-anxiety",
+      "angle": "social anxiety and fear of judgment, written natively in Polish",
+      "lang": "polish",
+      "lang_name": "Polish",
+      "native_name": "Polski",
+      "rtl": false
+    },
+    {
+      "keyword": "Polish speaking therapist for social anxiety",
+      "slug": "polish-polish-speaking-therapist-for-social-anxiety",
+      "angle": "social anxiety and fear of judgment; finding a Polish-speaking therapist",
+      "lang": "polish",
+      "lang_name": "Polish",
+      "native_name": "Polski",
+      "rtl": false
+    },
+    {
+      "keyword": "online Polish therapy for social anxiety",
+      "slug": "polish-online-polish-therapy-for-social-anxiety",
+      "angle": "social anxiety and fear of judgment; online and confidential, in Polish",
+      "lang": "polish",
+      "lang_name": "Polish",
+      "native_name": "Polski",
+      "rtl": false
+    },
+    {
+      "keyword": "Polish therapy for emotional numbness",
+      "slug": "polish-polish-therapy-for-emotional-numbness",
+      "angle": "feeling numb and disconnected, written natively in Polish",
+      "lang": "polish",
+      "lang_name": "Polish",
+      "native_name": "Polski",
+      "rtl": false
+    },
+    {
+      "keyword": "Polish speaking therapist for emotional numbness",
+      "slug": "polish-polish-speaking-therapist-for-emotional-numbness",
+      "angle": "feeling numb and disconnected; finding a Polish-speaking therapist",
+      "lang": "polish",
+      "lang_name": "Polish",
+      "native_name": "Polski",
+      "rtl": false
+    },
+    {
+      "keyword": "online Polish therapy for emotional numbness",
+      "slug": "polish-online-polish-therapy-for-emotional-numbness",
+      "angle": "feeling numb and disconnected; online and confidential, in Polish",
+      "lang": "polish",
+      "lang_name": "Polish",
+      "native_name": "Polski",
+      "rtl": false
+    }
+  ]
+}

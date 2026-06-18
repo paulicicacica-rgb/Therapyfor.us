@@ -1,0 +1,26 @@
+{
+  "workflow": "stories_hubs",
+  "cluster_title": "Stories & Hub Pages",
+  "pages": [
+    { "keyword": "online therapy complete guide", "slug": "online-therapy-guide", "angle": "the master hub page — everything someone needs to know before starting" },
+    { "keyword": "therapy for anxiety complete guide", "slug": "therapy-for-anxiety-guide", "angle": "hub page covering all angles of anxiety and how therapy helps" },
+    { "keyword": "therapy after divorce complete guide", "slug": "therapy-after-divorce-guide", "angle": "hub page linking all divorce/relationship content" },
+    { "keyword": "grief counseling explained", "slug": "grief-counseling-explained", "angle": "hub page covering all aspects of grief therapy" },
+    { "keyword": "affordable therapy options in the US", "slug": "affordable-therapy-options-us", "angle": "hub page covering all affordability content" },
+    { "keyword": "BetterHelp review honest", "slug": "betterhelp-review", "angle": "honest balanced review of BetterHelp covering pros, cons, cost, who it suits" },
+    { "keyword": "how online therapy works", "slug": "how-online-therapy-works", "angle": "explainer for someone who has never tried therapy before" },
+    { "keyword": "signs you need therapy", "slug": "signs-you-need-therapy", "angle": "gentle checklist for people who wonder if their struggle warrants help" },
+    { "keyword": "how to find the right therapist", "slug": "how-to-find-the-right-therapist", "angle": "practical guide leading to BetterHelp matching as the solution" },
+    { "keyword": "what to expect from your first therapy session", "slug": "what-to-expect-first-therapy-session", "angle": "fear of the unknown — demystifying the first appointment" },
+    { "keyword": "her marriage ended after 19 years this is what helped", "slug": "story-sarah-marriage-ended", "angle": "story page — Sarah, 47, divorce after long marriage, found therapy via BetterHelp" },
+    { "keyword": "he didnt speak to anyone for months after his dad died", "slug": "story-mark-dad-died", "angle": "story page — Mark, 38, grief after losing father, broke silence with therapy" },
+    { "keyword": "she moved to america alone at 24 and fell apart", "slug": "story-ana-moved-to-america", "angle": "story page — Ana, 29, immigrant loneliness and anxiety, found help online" },
+    { "keyword": "i had everything and still couldnt get out of bed", "slug": "story-james-depression", "angle": "story page — James, 41, high functioning depression, looked fine from outside" },
+    { "keyword": "after the miscarriage nobody knew what to say", "slug": "story-claire-miscarriage", "angle": "story page — Claire, 33, pregnancy loss grief, found a space to mourn" },
+    { "keyword": "i was the strong one and then i wasnt", "slug": "story-the-strong-one", "angle": "story page — the person everyone leans on who finally broke" },
+    { "keyword": "single mom therapy story", "slug": "story-single-mom-therapy", "angle": "story page — Maria, 36, single mother holding it together alone, found support" },
+    { "keyword": "anxiety therapy success story", "slug": "story-anxiety-therapy-success", "angle": "story page — someone whose anxiety felt unmanageable until therapy shifted it" },
+    { "keyword": "mens therapy story", "slug": "story-men-therapy", "angle": "story page — a man who resisted therapy for years and what changed his mind" },
+    { "keyword": "burnout therapy story", "slug": "story-burnout-therapy", "angle": "story page — complete work burnout, therapy helped rebuild a different life" }
+  ]
+}

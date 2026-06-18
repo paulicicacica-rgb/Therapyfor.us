@@ -1,0 +1,1816 @@
+{
+  "workflow": "imm_p2",
+  "cluster_title": "Immigrant P2 — Nationality + situation/profession",
+  "pages": [
+    {
+      "keyword": "therapy for Mexican immigrants with loneliness",
+      "slug": "therapy-for-mexican-immigrants-with-loneliness",
+      "angle": "the largest US immigrant community, deep family ties left behind; the specific isolation of being far from everyone who knows you"
+    },
+    {
+      "keyword": "therapy for Mexican immigrants with homesickness",
+      "slug": "therapy-for-mexican-immigrants-with-homesickness",
+      "angle": "the largest US immigrant community, deep family ties left behind; missing home so deeply it physically aches"
+    },
+    {
+      "keyword": "therapy for Mexican immigrants with anxiety",
+      "slug": "therapy-for-mexican-immigrants-with-anxiety",
+      "angle": "the largest US immigrant community, deep family ties left behind; the constant low hum of uncertainty as an immigrant"
+    },
+    {
+      "keyword": "therapy for Mexican immigrants with depression",
+      "slug": "therapy-for-mexican-immigrants-with-depression",
+      "angle": "the largest US immigrant community, deep family ties left behind; the quiet depression that creeps in after arriving"
+    },
+    {
+      "keyword": "therapy for Mexican immigrants with acculturative stress",
+      "slug": "therapy-for-mexican-immigrants-with-acculturative-stress",
+      "angle": "the largest US immigrant community, deep family ties left behind; the exhaustion of adapting to a whole new world"
+    },
+    {
+      "keyword": "therapy for Mexican immigrants with culture shock",
+      "slug": "therapy-for-mexican-immigrants-with-culture-shock",
+      "angle": "the largest US immigrant community, deep family ties left behind; the disorientation of everything being different"
+    },
+    {
+      "keyword": "therapy for Salvadoran immigrants with loneliness",
+      "slug": "therapy-for-salvadoran-immigrants-with-loneliness",
+      "angle": "fleeing violence, sending money home, family separation; the specific isolation of being far from everyone who knows you"
+    },
+    {
+      "keyword": "therapy for Salvadoran immigrants with homesickness",
+      "slug": "therapy-for-salvadoran-immigrants-with-homesickness",
+      "angle": "fleeing violence, sending money home, family separation; missing home so deeply it physically aches"
+    },
+    {
+      "keyword": "therapy for Salvadoran immigrants with anxiety",
+      "slug": "therapy-for-salvadoran-immigrants-with-anxiety",
+      "angle": "fleeing violence, sending money home, family separation; the constant low hum of uncertainty as an immigrant"
+    },
+    {
+      "keyword": "therapy for Salvadoran immigrants with depression",
+      "slug": "therapy-for-salvadoran-immigrants-with-depression",
+      "angle": "fleeing violence, sending money home, family separation; the quiet depression that creeps in after arriving"
+    },
+    {
+      "keyword": "therapy for Salvadoran immigrants with acculturative stress",
+      "slug": "therapy-for-salvadoran-immigrants-with-acculturative-stress",
+      "angle": "fleeing violence, sending money home, family separation; the exhaustion of adapting to a whole new world"
+    },
+    {
+      "keyword": "therapy for Salvadoran immigrants with culture shock",
+      "slug": "therapy-for-salvadoran-immigrants-with-culture-shock",
+      "angle": "fleeing violence, sending money home, family separation; the disorientation of everything being different"
+    },
+    {
+      "keyword": "therapy for Guatemalan immigrants with loneliness",
+      "slug": "therapy-for-guatemalan-immigrants-with-loneliness",
+      "angle": "indigenous roots, language barriers, hard labor; the specific isolation of being far from everyone who knows you"
+    },
+    {
+      "keyword": "therapy for Guatemalan immigrants with homesickness",
+      "slug": "therapy-for-guatemalan-immigrants-with-homesickness",
+      "angle": "indigenous roots, language barriers, hard labor; missing home so deeply it physically aches"
+    },
+    {
+      "keyword": "therapy for Guatemalan immigrants with anxiety",
+      "slug": "therapy-for-guatemalan-immigrants-with-anxiety",
+      "angle": "indigenous roots, language barriers, hard labor; the constant low hum of uncertainty as an immigrant"
+    },
+    {
+      "keyword": "therapy for Guatemalan immigrants with depression",
+      "slug": "therapy-for-guatemalan-immigrants-with-depression",
+      "angle": "indigenous roots, language barriers, hard labor; the quiet depression that creeps in after arriving"
+    },
+    {
+      "keyword": "therapy for Guatemalan immigrants with acculturative stress",
+      "slug": "therapy-for-guatemalan-immigrants-with-acculturative-stress",
+      "angle": "indigenous roots, language barriers, hard labor; the exhaustion of adapting to a whole new world"
+    },
+    {
+      "keyword": "therapy for Guatemalan immigrants with culture shock",
+      "slug": "therapy-for-guatemalan-immigrants-with-culture-shock",
+      "angle": "indigenous roots, language barriers, hard labor; the disorientation of everything being different"
+    },
+    {
+      "keyword": "therapy for Honduran immigrants with loneliness",
+      "slug": "therapy-for-honduran-immigrants-with-loneliness",
+      "angle": "escaping instability, building from nothing; the specific isolation of being far from everyone who knows you"
+    },
+    {
+      "keyword": "therapy for Honduran immigrants with homesickness",
+      "slug": "therapy-for-honduran-immigrants-with-homesickness",
+      "angle": "escaping instability, building from nothing; missing home so deeply it physically aches"
+    },
+    {
+      "keyword": "therapy for Honduran immigrants with anxiety",
+      "slug": "therapy-for-honduran-immigrants-with-anxiety",
+      "angle": "escaping instability, building from nothing; the constant low hum of uncertainty as an immigrant"
+    },
+    {
+      "keyword": "therapy for Honduran immigrants with depression",
+      "slug": "therapy-for-honduran-immigrants-with-depression",
+      "angle": "escaping instability, building from nothing; the quiet depression that creeps in after arriving"
+    },
+    {
+      "keyword": "therapy for Honduran immigrants with acculturative stress",
+      "slug": "therapy-for-honduran-immigrants-with-acculturative-stress",
+      "angle": "escaping instability, building from nothing; the exhaustion of adapting to a whole new world"
+    },
+    {
+      "keyword": "therapy for Honduran immigrants with culture shock",
+      "slug": "therapy-for-honduran-immigrants-with-culture-shock",
+      "angle": "escaping instability, building from nothing; the disorientation of everything being different"
+    },
+    {
+      "keyword": "therapy for Colombian immigrants with loneliness",
+      "slug": "therapy-for-colombian-immigrants-with-loneliness",
+      "angle": "leaving behind a vivid culture, starting over; the specific isolation of being far from everyone who knows you"
+    },
+    {
+      "keyword": "therapy for Colombian immigrants with homesickness",
+      "slug": "therapy-for-colombian-immigrants-with-homesickness",
+      "angle": "leaving behind a vivid culture, starting over; missing home so deeply it physically aches"
+    },
+    {
+      "keyword": "therapy for Colombian immigrants with anxiety",
+      "slug": "therapy-for-colombian-immigrants-with-anxiety",
+      "angle": "leaving behind a vivid culture, starting over; the constant low hum of uncertainty as an immigrant"
+    },
+    {
+      "keyword": "therapy for Colombian immigrants with depression",
+      "slug": "therapy-for-colombian-immigrants-with-depression",
+      "angle": "leaving behind a vivid culture, starting over; the quiet depression that creeps in after arriving"
+    },
+    {
+      "keyword": "therapy for Colombian immigrants with acculturative stress",
+      "slug": "therapy-for-colombian-immigrants-with-acculturative-stress",
+      "angle": "leaving behind a vivid culture, starting over; the exhaustion of adapting to a whole new world"
+    },
+    {
+      "keyword": "therapy for Colombian immigrants with culture shock",
+      "slug": "therapy-for-colombian-immigrants-with-culture-shock",
+      "angle": "leaving behind a vivid culture, starting over; the disorientation of everything being different"
+    },
+    {
+      "keyword": "therapy for Venezuelan immigrants with loneliness",
+      "slug": "therapy-for-venezuelan-immigrants-with-loneliness",
+      "angle": "fleeing collapse, grief for a country that changed; the specific isolation of being far from everyone who knows you"
+    },
+    {
+      "keyword": "therapy for Venezuelan immigrants with homesickness",
+      "slug": "therapy-for-venezuelan-immigrants-with-homesickness",
+      "angle": "fleeing collapse, grief for a country that changed; missing home so deeply it physically aches"
+    },
+    {
+      "keyword": "therapy for Venezuelan immigrants with anxiety",
+      "slug": "therapy-for-venezuelan-immigrants-with-anxiety",
+      "angle": "fleeing collapse, grief for a country that changed; the constant low hum of uncertainty as an immigrant"
+    },
+    {
+      "keyword": "therapy for Venezuelan immigrants with depression",
+      "slug": "therapy-for-venezuelan-immigrants-with-depression",
+      "angle": "fleeing collapse, grief for a country that changed; the quiet depression that creeps in after arriving"
+    },
+    {
+      "keyword": "therapy for Venezuelan immigrants with acculturative stress",
+      "slug": "therapy-for-venezuelan-immigrants-with-acculturative-stress",
+      "angle": "fleeing collapse, grief for a country that changed; the exhaustion of adapting to a whole new world"
+    },
+    {
+      "keyword": "therapy for Venezuelan immigrants with culture shock",
+      "slug": "therapy-for-venezuelan-immigrants-with-culture-shock",
+      "angle": "fleeing collapse, grief for a country that changed; the disorientation of everything being different"
+    },
+    {
+      "keyword": "therapy for Cuban immigrants with loneliness",
+      "slug": "therapy-for-cuban-immigrants-with-loneliness",
+      "angle": "exile, the ache of a homeland you can't easily return to; the specific isolation of being far from everyone who knows you"
+    },
+    {
+      "keyword": "therapy for Cuban immigrants with homesickness",
+      "slug": "therapy-for-cuban-immigrants-with-homesickness",
+      "angle": "exile, the ache of a homeland you can't easily return to; missing home so deeply it physically aches"
+    },
+    {
+      "keyword": "therapy for Cuban immigrants with anxiety",
+      "slug": "therapy-for-cuban-immigrants-with-anxiety",
+      "angle": "exile, the ache of a homeland you can't easily return to; the constant low hum of uncertainty as an immigrant"
+    },
+    {
+      "keyword": "therapy for Cuban immigrants with depression",
+      "slug": "therapy-for-cuban-immigrants-with-depression",
+      "angle": "exile, the ache of a homeland you can't easily return to; the quiet depression that creeps in after arriving"
+    },
+    {
+      "keyword": "therapy for Cuban immigrants with acculturative stress",
+      "slug": "therapy-for-cuban-immigrants-with-acculturative-stress",
+      "angle": "exile, the ache of a homeland you can't easily return to; the exhaustion of adapting to a whole new world"
+    },
+    {
+      "keyword": "therapy for Cuban immigrants with culture shock",
+      "slug": "therapy-for-cuban-immigrants-with-culture-shock",
+      "angle": "exile, the ache of a homeland you can't easily return to; the disorientation of everything being different"
+    },
+    {
+      "keyword": "therapy for Dominican immigrants with loneliness",
+      "slug": "therapy-for-dominican-immigrants-with-loneliness",
+      "angle": "tight community, pressure to provide; the specific isolation of being far from everyone who knows you"
+    },
+    {
+      "keyword": "therapy for Dominican immigrants with homesickness",
+      "slug": "therapy-for-dominican-immigrants-with-homesickness",
+      "angle": "tight community, pressure to provide; missing home so deeply it physically aches"
+    },
+    {
+      "keyword": "therapy for Dominican immigrants with anxiety",
+      "slug": "therapy-for-dominican-immigrants-with-anxiety",
+      "angle": "tight community, pressure to provide; the constant low hum of uncertainty as an immigrant"
+    },
+    {
+      "keyword": "therapy for Dominican immigrants with depression",
+      "slug": "therapy-for-dominican-immigrants-with-depression",
+      "angle": "tight community, pressure to provide; the quiet depression that creeps in after arriving"
+    },
+    {
+      "keyword": "therapy for Dominican immigrants with acculturative stress",
+      "slug": "therapy-for-dominican-immigrants-with-acculturative-stress",
+      "angle": "tight community, pressure to provide; the exhaustion of adapting to a whole new world"
+    },
+    {
+      "keyword": "therapy for Dominican immigrants with culture shock",
+      "slug": "therapy-for-dominican-immigrants-with-culture-shock",
+      "angle": "tight community, pressure to provide; the disorientation of everything being different"
+    },
+    {
+      "keyword": "therapy for Peruvian immigrants with loneliness",
+      "slug": "therapy-for-peruvian-immigrants-with-loneliness",
+      "angle": "leaving family and tradition behind; the specific isolation of being far from everyone who knows you"
+    },
+    {
+      "keyword": "therapy for Peruvian immigrants with homesickness",
+      "slug": "therapy-for-peruvian-immigrants-with-homesickness",
+      "angle": "leaving family and tradition behind; missing home so deeply it physically aches"
+    },
+    {
+      "keyword": "therapy for Peruvian immigrants with anxiety",
+      "slug": "therapy-for-peruvian-immigrants-with-anxiety",
+      "angle": "leaving family and tradition behind; the constant low hum of uncertainty as an immigrant"
+    },
+    {
+      "keyword": "therapy for Peruvian immigrants with depression",
+      "slug": "therapy-for-peruvian-immigrants-with-depression",
+      "angle": "leaving family and tradition behind; the quiet depression that creeps in after arriving"
+    },
+    {
+      "keyword": "therapy for Peruvian immigrants with acculturative stress",
+      "slug": "therapy-for-peruvian-immigrants-with-acculturative-stress",
+      "angle": "leaving family and tradition behind; the exhaustion of adapting to a whole new world"
+    },
+    {
+      "keyword": "therapy for Peruvian immigrants with culture shock",
+      "slug": "therapy-for-peruvian-immigrants-with-culture-shock",
+      "angle": "leaving family and tradition behind; the disorientation of everything being different"
+    },
+    {
+      "keyword": "therapy for Ecuadorian immigrants with loneliness",
+      "slug": "therapy-for-ecuadorian-immigrants-with-loneliness",
+      "angle": "hard work, sending support home, isolation; the specific isolation of being far from everyone who knows you"
+    },
+    {
+      "keyword": "therapy for Ecuadorian immigrants with homesickness",
+      "slug": "therapy-for-ecuadorian-immigrants-with-homesickness",
+      "angle": "hard work, sending support home, isolation; missing home so deeply it physically aches"
+    },
+    {
+      "keyword": "therapy for Ecuadorian immigrants with anxiety",
+      "slug": "therapy-for-ecuadorian-immigrants-with-anxiety",
+      "angle": "hard work, sending support home, isolation; the constant low hum of uncertainty as an immigrant"
+    },
+    {
+      "keyword": "therapy for Ecuadorian immigrants with depression",
+      "slug": "therapy-for-ecuadorian-immigrants-with-depression",
+      "angle": "hard work, sending support home, isolation; the quiet depression that creeps in after arriving"
+    },
+    {
+      "keyword": "therapy for Ecuadorian immigrants with acculturative stress",
+      "slug": "therapy-for-ecuadorian-immigrants-with-acculturative-stress",
+      "angle": "hard work, sending support home, isolation; the exhaustion of adapting to a whole new world"
+    },
+    {
+      "keyword": "therapy for Ecuadorian immigrants with culture shock",
+      "slug": "therapy-for-ecuadorian-immigrants-with-culture-shock",
+      "angle": "hard work, sending support home, isolation; the disorientation of everything being different"
+    },
+    {
+      "keyword": "therapy for Brazilian immigrants with loneliness",
+      "slug": "therapy-for-brazilian-immigrants-with-loneliness",
+      "angle": "language isolation, vibrant culture left behind; the specific isolation of being far from everyone who knows you"
+    },
+    {
+      "keyword": "therapy for Brazilian immigrants with homesickness",
+      "slug": "therapy-for-brazilian-immigrants-with-homesickness",
+      "angle": "language isolation, vibrant culture left behind; missing home so deeply it physically aches"
+    },
+    {
+      "keyword": "therapy for Brazilian immigrants with anxiety",
+      "slug": "therapy-for-brazilian-immigrants-with-anxiety",
+      "angle": "language isolation, vibrant culture left behind; the constant low hum of uncertainty as an immigrant"
+    },
+    {
+      "keyword": "therapy for Brazilian immigrants with depression",
+      "slug": "therapy-for-brazilian-immigrants-with-depression",
+      "angle": "language isolation, vibrant culture left behind; the quiet depression that creeps in after arriving"
+    },
+    {
+      "keyword": "therapy for Brazilian immigrants with acculturative stress",
+      "slug": "therapy-for-brazilian-immigrants-with-acculturative-stress",
+      "angle": "language isolation, vibrant culture left behind; the exhaustion of adapting to a whole new world"
+    },
+    {
+      "keyword": "therapy for Brazilian immigrants with culture shock",
+      "slug": "therapy-for-brazilian-immigrants-with-culture-shock",
+      "angle": "language isolation, vibrant culture left behind; the disorientation of everything being different"
+    },
+    {
+      "keyword": "therapy for Argentine immigrants with loneliness",
+      "slug": "therapy-for-argentine-immigrants-with-loneliness",
+      "angle": "economic flight, cultural adjustment; the specific isolation of being far from everyone who knows you"
+    },
+    {
+      "keyword": "therapy for Argentine immigrants with homesickness",
+      "slug": "therapy-for-argentine-immigrants-with-homesickness",
+      "angle": "economic flight, cultural adjustment; missing home so deeply it physically aches"
+    },
+    {
+      "keyword": "therapy for Argentine immigrants with anxiety",
+      "slug": "therapy-for-argentine-immigrants-with-anxiety",
+      "angle": "economic flight, cultural adjustment; the constant low hum of uncertainty as an immigrant"
+    },
+    {
+      "keyword": "therapy for Argentine immigrants with depression",
+      "slug": "therapy-for-argentine-immigrants-with-depression",
+      "angle": "economic flight, cultural adjustment; the quiet depression that creeps in after arriving"
+    },
+    {
+      "keyword": "therapy for Argentine immigrants with acculturative stress",
+      "slug": "therapy-for-argentine-immigrants-with-acculturative-stress",
+      "angle": "economic flight, cultural adjustment; the exhaustion of adapting to a whole new world"
+    },
+    {
+      "keyword": "therapy for Argentine immigrants with culture shock",
+      "slug": "therapy-for-argentine-immigrants-with-culture-shock",
+      "angle": "economic flight, cultural adjustment; the disorientation of everything being different"
+    },
+    {
+      "keyword": "therapy for Bolivian immigrants with loneliness",
+      "slug": "therapy-for-bolivian-immigrants-with-loneliness",
+      "angle": "indigenous identity, distance from family; the specific isolation of being far from everyone who knows you"
+    },
+    {
+      "keyword": "therapy for Bolivian immigrants with homesickness",
+      "slug": "therapy-for-bolivian-immigrants-with-homesickness",
+      "angle": "indigenous identity, distance from family; missing home so deeply it physically aches"
+    },
+    {
+      "keyword": "therapy for Bolivian immigrants with anxiety",
+      "slug": "therapy-for-bolivian-immigrants-with-anxiety",
+      "angle": "indigenous identity, distance from family; the constant low hum of uncertainty as an immigrant"
+    },
+    {
+      "keyword": "therapy for Bolivian immigrants with depression",
+      "slug": "therapy-for-bolivian-immigrants-with-depression",
+      "angle": "indigenous identity, distance from family; the quiet depression that creeps in after arriving"
+    },
+    {
+      "keyword": "therapy for Bolivian immigrants with acculturative stress",
+      "slug": "therapy-for-bolivian-immigrants-with-acculturative-stress",
+      "angle": "indigenous identity, distance from family; the exhaustion of adapting to a whole new world"
+    },
+    {
+      "keyword": "therapy for Bolivian immigrants with culture shock",
+      "slug": "therapy-for-bolivian-immigrants-with-culture-shock",
+      "angle": "indigenous identity, distance from family; the disorientation of everything being different"
+    },
+    {
+      "keyword": "therapy for Nicaraguan immigrants with loneliness",
+      "slug": "therapy-for-nicaraguan-immigrants-with-loneliness",
+      "angle": "political flight, rebuilding safety; the specific isolation of being far from everyone who knows you"
+    },
+    {
+      "keyword": "therapy for Nicaraguan immigrants with homesickness",
+      "slug": "therapy-for-nicaraguan-immigrants-with-homesickness",
+      "angle": "political flight, rebuilding safety; missing home so deeply it physically aches"
+    },
+    {
+      "keyword": "therapy for Nicaraguan immigrants with anxiety",
+      "slug": "therapy-for-nicaraguan-immigrants-with-anxiety",
+      "angle": "political flight, rebuilding safety; the constant low hum of uncertainty as an immigrant"
+    },
+    {
+      "keyword": "therapy for Nicaraguan immigrants with depression",
+      "slug": "therapy-for-nicaraguan-immigrants-with-depression",
+      "angle": "political flight, rebuilding safety; the quiet depression that creeps in after arriving"
+    },
+    {
+      "keyword": "therapy for Nicaraguan immigrants with acculturative stress",
+      "slug": "therapy-for-nicaraguan-immigrants-with-acculturative-stress",
+      "angle": "political flight, rebuilding safety; the exhaustion of adapting to a whole new world"
+    },
+    {
+      "keyword": "therapy for Nicaraguan immigrants with culture shock",
+      "slug": "therapy-for-nicaraguan-immigrants-with-culture-shock",
+      "angle": "political flight, rebuilding safety; the disorientation of everything being different"
+    },
+    {
+      "keyword": "therapy for Chilean immigrants with loneliness",
+      "slug": "therapy-for-chilean-immigrants-with-loneliness",
+      "angle": "starting fresh far from home; the specific isolation of being far from everyone who knows you"
+    },
+    {
+      "keyword": "therapy for Chilean immigrants with homesickness",
+      "slug": "therapy-for-chilean-immigrants-with-homesickness",
+      "angle": "starting fresh far from home; missing home so deeply it physically aches"
+    },
+    {
+      "keyword": "therapy for Chilean immigrants with anxiety",
+      "slug": "therapy-for-chilean-immigrants-with-anxiety",
+      "angle": "starting fresh far from home; the constant low hum of uncertainty as an immigrant"
+    },
+    {
+      "keyword": "therapy for Chilean immigrants with depression",
+      "slug": "therapy-for-chilean-immigrants-with-depression",
+      "angle": "starting fresh far from home; the quiet depression that creeps in after arriving"
+    },
+    {
+      "keyword": "therapy for Chilean immigrants with acculturative stress",
+      "slug": "therapy-for-chilean-immigrants-with-acculturative-stress",
+      "angle": "starting fresh far from home; the exhaustion of adapting to a whole new world"
+    },
+    {
+      "keyword": "therapy for Chilean immigrants with culture shock",
+      "slug": "therapy-for-chilean-immigrants-with-culture-shock",
+      "angle": "starting fresh far from home; the disorientation of everything being different"
+    },
+    {
+      "keyword": "therapy for Romanian immigrants with loneliness",
+      "slug": "therapy-for-romanian-immigrants-with-loneliness",
+      "angle": "leaving family behind in Europe, building quietly in the US; the specific isolation of being far from everyone who knows you"
+    },
+    {
+      "keyword": "therapy for Romanian immigrants with homesickness",
+      "slug": "therapy-for-romanian-immigrants-with-homesickness",
+      "angle": "leaving family behind in Europe, building quietly in the US; missing home so deeply it physically aches"
+    },
+    {
+      "keyword": "therapy for Romanian immigrants with anxiety",
+      "slug": "therapy-for-romanian-immigrants-with-anxiety",
+      "angle": "leaving family behind in Europe, building quietly in the US; the constant low hum of uncertainty as an immigrant"
+    },
+    {
+      "keyword": "therapy for Romanian immigrants with depression",
+      "slug": "therapy-for-romanian-immigrants-with-depression",
+      "angle": "leaving family behind in Europe, building quietly in the US; the quiet depression that creeps in after arriving"
+    },
+    {
+      "keyword": "therapy for Romanian immigrants with acculturative stress",
+      "slug": "therapy-for-romanian-immigrants-with-acculturative-stress",
+      "angle": "leaving family behind in Europe, building quietly in the US; the exhaustion of adapting to a whole new world"
+    },
+    {
+      "keyword": "therapy for Romanian immigrants with culture shock",
+      "slug": "therapy-for-romanian-immigrants-with-culture-shock",
+      "angle": "leaving family behind in Europe, building quietly in the US; the disorientation of everything being different"
+    },
+    {
+      "keyword": "therapy for Polish immigrants with loneliness",
+      "slug": "therapy-for-polish-immigrants-with-loneliness",
+      "angle": "strong work ethic, tight diaspora, homesickness; the specific isolation of being far from everyone who knows you"
+    },
+    {
+      "keyword": "therapy for Polish immigrants with homesickness",
+      "slug": "therapy-for-polish-immigrants-with-homesickness",
+      "angle": "strong work ethic, tight diaspora, homesickness; missing home so deeply it physically aches"
+    },
+    {
+      "keyword": "therapy for Polish immigrants with anxiety",
+      "slug": "therapy-for-polish-immigrants-with-anxiety",
+      "angle": "strong work ethic, tight diaspora, homesickness; the constant low hum of uncertainty as an immigrant"
+    },
+    {
+      "keyword": "therapy for Polish immigrants with depression",
+      "slug": "therapy-for-polish-immigrants-with-depression",
+      "angle": "strong work ethic, tight diaspora, homesickness; the quiet depression that creeps in after arriving"
+    },
+    {
+      "keyword": "therapy for Polish immigrants with acculturative stress",
+      "slug": "therapy-for-polish-immigrants-with-acculturative-stress",
+      "angle": "strong work ethic, tight diaspora, homesickness; the exhaustion of adapting to a whole new world"
+    },
+    {
+      "keyword": "therapy for Polish immigrants with culture shock",
+      "slug": "therapy-for-polish-immigrants-with-culture-shock",
+      "angle": "strong work ethic, tight diaspora, homesickness; the disorientation of everything being different"
+    },
+    {
+      "keyword": "therapy for Ukrainian immigrants with loneliness",
+      "slug": "therapy-for-ukrainian-immigrants-with-loneliness",
+      "angle": "displacement, war trauma, grief for home; the specific isolation of being far from everyone who knows you"
+    },
+    {
+      "keyword": "therapy for Ukrainian immigrants with homesickness",
+      "slug": "therapy-for-ukrainian-immigrants-with-homesickness",
+      "angle": "displacement, war trauma, grief for home; missing home so deeply it physically aches"
+    },
+    {
+      "keyword": "therapy for Ukrainian immigrants with anxiety",
+      "slug": "therapy-for-ukrainian-immigrants-with-anxiety",
+      "angle": "displacement, war trauma, grief for home; the constant low hum of uncertainty as an immigrant"
+    },
+    {
+      "keyword": "therapy for Ukrainian immigrants with depression",
+      "slug": "therapy-for-ukrainian-immigrants-with-depression",
+      "angle": "displacement, war trauma, grief for home; the quiet depression that creeps in after arriving"
+    },
+    {
+      "keyword": "therapy for Ukrainian immigrants with acculturative stress",
+      "slug": "therapy-for-ukrainian-immigrants-with-acculturative-stress",
+      "angle": "displacement, war trauma, grief for home; the exhaustion of adapting to a whole new world"
+    },
+    {
+      "keyword": "therapy for Ukrainian immigrants with culture shock",
+      "slug": "therapy-for-ukrainian-immigrants-with-culture-shock",
+      "angle": "displacement, war trauma, grief for home; the disorientation of everything being different"
+    },
+    {
+      "keyword": "therapy for Russian immigrants with loneliness",
+      "slug": "therapy-for-russian-immigrants-with-loneliness",
+      "angle": "cultural distance, political complexity; the specific isolation of being far from everyone who knows you"
+    },
+    {
+      "keyword": "therapy for Russian immigrants with homesickness",
+      "slug": "therapy-for-russian-immigrants-with-homesickness",
+      "angle": "cultural distance, political complexity; missing home so deeply it physically aches"
+    },
+    {
+      "keyword": "therapy for Russian immigrants with anxiety",
+      "slug": "therapy-for-russian-immigrants-with-anxiety",
+      "angle": "cultural distance, political complexity; the constant low hum of uncertainty as an immigrant"
+    },
+    {
+      "keyword": "therapy for Russian immigrants with depression",
+      "slug": "therapy-for-russian-immigrants-with-depression",
+      "angle": "cultural distance, political complexity; the quiet depression that creeps in after arriving"
+    },
+    {
+      "keyword": "therapy for Russian immigrants with acculturative stress",
+      "slug": "therapy-for-russian-immigrants-with-acculturative-stress",
+      "angle": "cultural distance, political complexity; the exhaustion of adapting to a whole new world"
+    },
+    {
+      "keyword": "therapy for Russian immigrants with culture shock",
+      "slug": "therapy-for-russian-immigrants-with-culture-shock",
+      "angle": "cultural distance, political complexity; the disorientation of everything being different"
+    },
+    {
+      "keyword": "therapy for Albanian immigrants with loneliness",
+      "slug": "therapy-for-albanian-immigrants-with-loneliness",
+      "angle": "tight family structures, honor and pressure; the specific isolation of being far from everyone who knows you"
+    },
+    {
+      "keyword": "therapy for Albanian immigrants with homesickness",
+      "slug": "therapy-for-albanian-immigrants-with-homesickness",
+      "angle": "tight family structures, honor and pressure; missing home so deeply it physically aches"
+    },
+    {
+      "keyword": "therapy for Albanian immigrants with anxiety",
+      "slug": "therapy-for-albanian-immigrants-with-anxiety",
+      "angle": "tight family structures, honor and pressure; the constant low hum of uncertainty as an immigrant"
+    },
+    {
+      "keyword": "therapy for Albanian immigrants with depression",
+      "slug": "therapy-for-albanian-immigrants-with-depression",
+      "angle": "tight family structures, honor and pressure; the quiet depression that creeps in after arriving"
+    },
+    {
+      "keyword": "therapy for Albanian immigrants with acculturative stress",
+      "slug": "therapy-for-albanian-immigrants-with-acculturative-stress",
+      "angle": "tight family structures, honor and pressure; the exhaustion of adapting to a whole new world"
+    },
+    {
+      "keyword": "therapy for Albanian immigrants with culture shock",
+      "slug": "therapy-for-albanian-immigrants-with-culture-shock",
+      "angle": "tight family structures, honor and pressure; the disorientation of everything being different"
+    },
+    {
+      "keyword": "therapy for Bulgarian immigrants with loneliness",
+      "slug": "therapy-for-bulgarian-immigrants-with-loneliness",
+      "angle": "quiet adjustment, distance from family; the specific isolation of being far from everyone who knows you"
+    },
+    {
+      "keyword": "therapy for Bulgarian immigrants with homesickness",
+      "slug": "therapy-for-bulgarian-immigrants-with-homesickness",
+      "angle": "quiet adjustment, distance from family; missing home so deeply it physically aches"
+    },
+    {
+      "keyword": "therapy for Bulgarian immigrants with anxiety",
+      "slug": "therapy-for-bulgarian-immigrants-with-anxiety",
+      "angle": "quiet adjustment, distance from family; the constant low hum of uncertainty as an immigrant"
+    },
+    {
+      "keyword": "therapy for Bulgarian immigrants with depression",
+      "slug": "therapy-for-bulgarian-immigrants-with-depression",
+      "angle": "quiet adjustment, distance from family; the quiet depression that creeps in after arriving"
+    },
+    {
+      "keyword": "therapy for Bulgarian immigrants with acculturative stress",
+      "slug": "therapy-for-bulgarian-immigrants-with-acculturative-stress",
+      "angle": "quiet adjustment, distance from family; the exhaustion of adapting to a whole new world"
+    },
+    {
+      "keyword": "therapy for Bulgarian immigrants with culture shock",
+      "slug": "therapy-for-bulgarian-immigrants-with-culture-shock",
+      "angle": "quiet adjustment, distance from family; the disorientation of everything being different"
+    },
+    {
+      "keyword": "therapy for Portuguese immigrants with loneliness",
+      "slug": "therapy-for-portuguese-immigrants-with-loneliness",
+      "angle": "close-knit community, generational immigration; the specific isolation of being far from everyone who knows you"
+    },
+    {
+      "keyword": "therapy for Portuguese immigrants with homesickness",
+      "slug": "therapy-for-portuguese-immigrants-with-homesickness",
+      "angle": "close-knit community, generational immigration; missing home so deeply it physically aches"
+    },
+    {
+      "keyword": "therapy for Portuguese immigrants with anxiety",
+      "slug": "therapy-for-portuguese-immigrants-with-anxiety",
+      "angle": "close-knit community, generational immigration; the constant low hum of uncertainty as an immigrant"
+    },
+    {
+      "keyword": "therapy for Portuguese immigrants with depression",
+      "slug": "therapy-for-portuguese-immigrants-with-depression",
+      "angle": "close-knit community, generational immigration; the quiet depression that creeps in after arriving"
+    },
+    {
+      "keyword": "therapy for Portuguese immigrants with acculturative stress",
+      "slug": "therapy-for-portuguese-immigrants-with-acculturative-stress",
+      "angle": "close-knit community, generational immigration; the exhaustion of adapting to a whole new world"
+    },
+    {
+      "keyword": "therapy for Portuguese immigrants with culture shock",
+      "slug": "therapy-for-portuguese-immigrants-with-culture-shock",
+      "angle": "close-knit community, generational immigration; the disorientation of everything being different"
+    },
+    {
+      "keyword": "therapy for Italian immigrants with loneliness",
+      "slug": "therapy-for-italian-immigrants-with-loneliness",
+      "angle": "family-centered culture, identity across generations; the specific isolation of being far from everyone who knows you"
+    },
+    {
+      "keyword": "therapy for Italian immigrants with homesickness",
+      "slug": "therapy-for-italian-immigrants-with-homesickness",
+      "angle": "family-centered culture, identity across generations; missing home so deeply it physically aches"
+    },
+    {
+      "keyword": "therapy for Italian immigrants with anxiety",
+      "slug": "therapy-for-italian-immigrants-with-anxiety",
+      "angle": "family-centered culture, identity across generations; the constant low hum of uncertainty as an immigrant"
+    },
+    {
+      "keyword": "therapy for Italian immigrants with depression",
+      "slug": "therapy-for-italian-immigrants-with-depression",
+      "angle": "family-centered culture, identity across generations; the quiet depression that creeps in after arriving"
+    },
+    {
+      "keyword": "therapy for Italian immigrants with acculturative stress",
+      "slug": "therapy-for-italian-immigrants-with-acculturative-stress",
+      "angle": "family-centered culture, identity across generations; the exhaustion of adapting to a whole new world"
+    },
+    {
+      "keyword": "therapy for Italian immigrants with culture shock",
+      "slug": "therapy-for-italian-immigrants-with-culture-shock",
+      "angle": "family-centered culture, identity across generations; the disorientation of everything being different"
+    },
+    {
+      "keyword": "therapy for Greek immigrants with loneliness",
+      "slug": "therapy-for-greek-immigrants-with-loneliness",
+      "angle": "diaspora pride, distance from homeland; the specific isolation of being far from everyone who knows you"
+    },
+    {
+      "keyword": "therapy for Greek immigrants with homesickness",
+      "slug": "therapy-for-greek-immigrants-with-homesickness",
+      "angle": "diaspora pride, distance from homeland; missing home so deeply it physically aches"
+    },
+    {
+      "keyword": "therapy for Greek immigrants with anxiety",
+      "slug": "therapy-for-greek-immigrants-with-anxiety",
+      "angle": "diaspora pride, distance from homeland; the constant low hum of uncertainty as an immigrant"
+    },
+    {
+      "keyword": "therapy for Greek immigrants with depression",
+      "slug": "therapy-for-greek-immigrants-with-depression",
+      "angle": "diaspora pride, distance from homeland; the quiet depression that creeps in after arriving"
+    },
+    {
+      "keyword": "therapy for Greek immigrants with acculturative stress",
+      "slug": "therapy-for-greek-immigrants-with-acculturative-stress",
+      "angle": "diaspora pride, distance from homeland; the exhaustion of adapting to a whole new world"
+    },
+    {
+      "keyword": "therapy for Greek immigrants with culture shock",
+      "slug": "therapy-for-greek-immigrants-with-culture-shock",
+      "angle": "diaspora pride, distance from homeland; the disorientation of everything being different"
+    },
+    {
+      "keyword": "therapy for Irish immigrants with loneliness",
+      "slug": "therapy-for-irish-immigrants-with-loneliness",
+      "angle": "generational ties, the pull of home; the specific isolation of being far from everyone who knows you"
+    },
+    {
+      "keyword": "therapy for Irish immigrants with homesickness",
+      "slug": "therapy-for-irish-immigrants-with-homesickness",
+      "angle": "generational ties, the pull of home; missing home so deeply it physically aches"
+    },
+    {
+      "keyword": "therapy for Irish immigrants with anxiety",
+      "slug": "therapy-for-irish-immigrants-with-anxiety",
+      "angle": "generational ties, the pull of home; the constant low hum of uncertainty as an immigrant"
+    },
+    {
+      "keyword": "therapy for Irish immigrants with depression",
+      "slug": "therapy-for-irish-immigrants-with-depression",
+      "angle": "generational ties, the pull of home; the quiet depression that creeps in after arriving"
+    },
+    {
+      "keyword": "therapy for Irish immigrants with acculturative stress",
+      "slug": "therapy-for-irish-immigrants-with-acculturative-stress",
+      "angle": "generational ties, the pull of home; the exhaustion of adapting to a whole new world"
+    },
+    {
+      "keyword": "therapy for Irish immigrants with culture shock",
+      "slug": "therapy-for-irish-immigrants-with-culture-shock",
+      "angle": "generational ties, the pull of home; the disorientation of everything being different"
+    },
+    {
+      "keyword": "therapy for German immigrants with loneliness",
+      "slug": "therapy-for-german-immigrants-with-loneliness",
+      "angle": "precision culture meeting American chaos; the specific isolation of being far from everyone who knows you"
+    },
+    {
+      "keyword": "therapy for German immigrants with homesickness",
+      "slug": "therapy-for-german-immigrants-with-homesickness",
+      "angle": "precision culture meeting American chaos; missing home so deeply it physically aches"
+    },
+    {
+      "keyword": "therapy for German immigrants with anxiety",
+      "slug": "therapy-for-german-immigrants-with-anxiety",
+      "angle": "precision culture meeting American chaos; the constant low hum of uncertainty as an immigrant"
+    },
+    {
+      "keyword": "therapy for German immigrants with depression",
+      "slug": "therapy-for-german-immigrants-with-depression",
+      "angle": "precision culture meeting American chaos; the quiet depression that creeps in after arriving"
+    },
+    {
+      "keyword": "therapy for German immigrants with acculturative stress",
+      "slug": "therapy-for-german-immigrants-with-acculturative-stress",
+      "angle": "precision culture meeting American chaos; the exhaustion of adapting to a whole new world"
+    },
+    {
+      "keyword": "therapy for German immigrants with culture shock",
+      "slug": "therapy-for-german-immigrants-with-culture-shock",
+      "angle": "precision culture meeting American chaos; the disorientation of everything being different"
+    },
+    {
+      "keyword": "therapy for French immigrants with loneliness",
+      "slug": "therapy-for-french-immigrants-with-loneliness",
+      "angle": "cultural difference, language and identity; the specific isolation of being far from everyone who knows you"
+    },
+    {
+      "keyword": "therapy for French immigrants with homesickness",
+      "slug": "therapy-for-french-immigrants-with-homesickness",
+      "angle": "cultural difference, language and identity; missing home so deeply it physically aches"
+    },
+    {
+      "keyword": "therapy for French immigrants with anxiety",
+      "slug": "therapy-for-french-immigrants-with-anxiety",
+      "angle": "cultural difference, language and identity; the constant low hum of uncertainty as an immigrant"
+    },
+    {
+      "keyword": "therapy for French immigrants with depression",
+      "slug": "therapy-for-french-immigrants-with-depression",
+      "angle": "cultural difference, language and identity; the quiet depression that creeps in after arriving"
+    },
+    {
+      "keyword": "therapy for French immigrants with acculturative stress",
+      "slug": "therapy-for-french-immigrants-with-acculturative-stress",
+      "angle": "cultural difference, language and identity; the exhaustion of adapting to a whole new world"
+    },
+    {
+      "keyword": "therapy for French immigrants with culture shock",
+      "slug": "therapy-for-french-immigrants-with-culture-shock",
+      "angle": "cultural difference, language and identity; the disorientation of everything being different"
+    },
+    {
+      "keyword": "therapy for Spanish immigrants with loneliness",
+      "slug": "therapy-for-spanish-immigrants-with-loneliness",
+      "angle": "leaving a Mediterranean life behind; the specific isolation of being far from everyone who knows you"
+    },
+    {
+      "keyword": "therapy for Spanish immigrants with homesickness",
+      "slug": "therapy-for-spanish-immigrants-with-homesickness",
+      "angle": "leaving a Mediterranean life behind; missing home so deeply it physically aches"
+    },
+    {
+      "keyword": "therapy for Spanish immigrants with anxiety",
+      "slug": "therapy-for-spanish-immigrants-with-anxiety",
+      "angle": "leaving a Mediterranean life behind; the constant low hum of uncertainty as an immigrant"
+    },
+    {
+      "keyword": "therapy for Spanish immigrants with depression",
+      "slug": "therapy-for-spanish-immigrants-with-depression",
+      "angle": "leaving a Mediterranean life behind; the quiet depression that creeps in after arriving"
+    },
+    {
+      "keyword": "therapy for Spanish immigrants with acculturative stress",
+      "slug": "therapy-for-spanish-immigrants-with-acculturative-stress",
+      "angle": "leaving a Mediterranean life behind; the exhaustion of adapting to a whole new world"
+    },
+    {
+      "keyword": "therapy for Spanish immigrants with culture shock",
+      "slug": "therapy-for-spanish-immigrants-with-culture-shock",
+      "angle": "leaving a Mediterranean life behind; the disorientation of everything being different"
+    },
+    {
+      "keyword": "therapy for Serbian immigrants with loneliness",
+      "slug": "therapy-for-serbian-immigrants-with-loneliness",
+      "angle": "history carried abroad, tight community; the specific isolation of being far from everyone who knows you"
+    },
+    {
+      "keyword": "therapy for Serbian immigrants with homesickness",
+      "slug": "therapy-for-serbian-immigrants-with-homesickness",
+      "angle": "history carried abroad, tight community; missing home so deeply it physically aches"
+    },
+    {
+      "keyword": "therapy for Serbian immigrants with anxiety",
+      "slug": "therapy-for-serbian-immigrants-with-anxiety",
+      "angle": "history carried abroad, tight community; the constant low hum of uncertainty as an immigrant"
+    },
+    {
+      "keyword": "therapy for Serbian immigrants with depression",
+      "slug": "therapy-for-serbian-immigrants-with-depression",
+      "angle": "history carried abroad, tight community; the quiet depression that creeps in after arriving"
+    },
+    {
+      "keyword": "therapy for Serbian immigrants with acculturative stress",
+      "slug": "therapy-for-serbian-immigrants-with-acculturative-stress",
+      "angle": "history carried abroad, tight community; the exhaustion of adapting to a whole new world"
+    },
+    {
+      "keyword": "therapy for Serbian immigrants with culture shock",
+      "slug": "therapy-for-serbian-immigrants-with-culture-shock",
+      "angle": "history carried abroad, tight community; the disorientation of everything being different"
+    },
+    {
+      "keyword": "therapy for Bosnian immigrants with loneliness",
+      "slug": "therapy-for-bosnian-immigrants-with-loneliness",
+      "angle": "war legacy, refugee history, resilience; the specific isolation of being far from everyone who knows you"
+    },
+    {
+      "keyword": "therapy for Bosnian immigrants with homesickness",
+      "slug": "therapy-for-bosnian-immigrants-with-homesickness",
+      "angle": "war legacy, refugee history, resilience; missing home so deeply it physically aches"
+    },
+    {
+      "keyword": "therapy for Bosnian immigrants with anxiety",
+      "slug": "therapy-for-bosnian-immigrants-with-anxiety",
+      "angle": "war legacy, refugee history, resilience; the constant low hum of uncertainty as an immigrant"
+    },
+    {
+      "keyword": "therapy for Bosnian immigrants with depression",
+      "slug": "therapy-for-bosnian-immigrants-with-depression",
+      "angle": "war legacy, refugee history, resilience; the quiet depression that creeps in after arriving"
+    },
+    {
+      "keyword": "therapy for Bosnian immigrants with acculturative stress",
+      "slug": "therapy-for-bosnian-immigrants-with-acculturative-stress",
+      "angle": "war legacy, refugee history, resilience; the exhaustion of adapting to a whole new world"
+    },
+    {
+      "keyword": "therapy for Bosnian immigrants with culture shock",
+      "slug": "therapy-for-bosnian-immigrants-with-culture-shock",
+      "angle": "war legacy, refugee history, resilience; the disorientation of everything being different"
+    },
+    {
+      "keyword": "therapy for Indian immigrants with loneliness",
+      "slug": "therapy-for-indian-immigrants-with-loneliness",
+      "angle": "high-skill migration, H1B stress, family expectation; the specific isolation of being far from everyone who knows you"
+    },
+    {
+      "keyword": "therapy for Indian immigrants with homesickness",
+      "slug": "therapy-for-indian-immigrants-with-homesickness",
+      "angle": "high-skill migration, H1B stress, family expectation; missing home so deeply it physically aches"
+    },
+    {
+      "keyword": "therapy for Indian immigrants with anxiety",
+      "slug": "therapy-for-indian-immigrants-with-anxiety",
+      "angle": "high-skill migration, H1B stress, family expectation; the constant low hum of uncertainty as an immigrant"
+    },
+    {
+      "keyword": "therapy for Indian immigrants with depression",
+      "slug": "therapy-for-indian-immigrants-with-depression",
+      "angle": "high-skill migration, H1B stress, family expectation; the quiet depression that creeps in after arriving"
+    },
+    {
+      "keyword": "therapy for Indian immigrants with acculturative stress",
+      "slug": "therapy-for-indian-immigrants-with-acculturative-stress",
+      "angle": "high-skill migration, H1B stress, family expectation; the exhaustion of adapting to a whole new world"
+    },
+    {
+      "keyword": "therapy for Indian immigrants with culture shock",
+      "slug": "therapy-for-indian-immigrants-with-culture-shock",
+      "angle": "high-skill migration, H1B stress, family expectation; the disorientation of everything being different"
+    },
+    {
+      "keyword": "therapy for Filipino immigrants with loneliness",
+      "slug": "therapy-for-filipino-immigrants-with-loneliness",
+      "angle": "caregiving and nursing, sending money home, sacrifice; the specific isolation of being far from everyone who knows you"
+    },
+    {
+      "keyword": "therapy for Filipino immigrants with homesickness",
+      "slug": "therapy-for-filipino-immigrants-with-homesickness",
+      "angle": "caregiving and nursing, sending money home, sacrifice; missing home so deeply it physically aches"
+    },
+    {
+      "keyword": "therapy for Filipino immigrants with anxiety",
+      "slug": "therapy-for-filipino-immigrants-with-anxiety",
+      "angle": "caregiving and nursing, sending money home, sacrifice; the constant low hum of uncertainty as an immigrant"
+    },
+    {
+      "keyword": "therapy for Filipino immigrants with depression",
+      "slug": "therapy-for-filipino-immigrants-with-depression",
+      "angle": "caregiving and nursing, sending money home, sacrifice; the quiet depression that creeps in after arriving"
+    },
+    {
+      "keyword": "therapy for Filipino immigrants with acculturative stress",
+      "slug": "therapy-for-filipino-immigrants-with-acculturative-stress",
+      "angle": "caregiving and nursing, sending money home, sacrifice; the exhaustion of adapting to a whole new world"
+    },
+    {
+      "keyword": "therapy for Filipino immigrants with culture shock",
+      "slug": "therapy-for-filipino-immigrants-with-culture-shock",
+      "angle": "caregiving and nursing, sending money home, sacrifice; the disorientation of everything being different"
+    },
+    {
+      "keyword": "therapy for Chinese immigrants with loneliness",
+      "slug": "therapy-for-chinese-immigrants-with-loneliness",
+      "angle": "academic and family pressure, cultural distance; the specific isolation of being far from everyone who knows you"
+    },
+    {
+      "keyword": "therapy for Chinese immigrants with homesickness",
+      "slug": "therapy-for-chinese-immigrants-with-homesickness",
+      "angle": "academic and family pressure, cultural distance; missing home so deeply it physically aches"
+    },
+    {
+      "keyword": "therapy for Chinese immigrants with anxiety",
+      "slug": "therapy-for-chinese-immigrants-with-anxiety",
+      "angle": "academic and family pressure, cultural distance; the constant low hum of uncertainty as an immigrant"
+    },
+    {
+      "keyword": "therapy for Chinese immigrants with depression",
+      "slug": "therapy-for-chinese-immigrants-with-depression",
+      "angle": "academic and family pressure, cultural distance; the quiet depression that creeps in after arriving"
+    },
+    {
+      "keyword": "therapy for Chinese immigrants with acculturative stress",
+      "slug": "therapy-for-chinese-immigrants-with-acculturative-stress",
+      "angle": "academic and family pressure, cultural distance; the exhaustion of adapting to a whole new world"
+    },
+    {
+      "keyword": "therapy for Chinese immigrants with culture shock",
+      "slug": "therapy-for-chinese-immigrants-with-culture-shock",
+      "angle": "academic and family pressure, cultural distance; the disorientation of everything being different"
+    },
+    {
+      "keyword": "therapy for Vietnamese immigrants with loneliness",
+      "slug": "therapy-for-vietnamese-immigrants-with-loneliness",
+      "angle": "refugee legacy, generational expectation; the specific isolation of being far from everyone who knows you"
+    },
+    {
+      "keyword": "therapy for Vietnamese immigrants with homesickness",
+      "slug": "therapy-for-vietnamese-immigrants-with-homesickness",
+      "angle": "refugee legacy, generational expectation; missing home so deeply it physically aches"
+    },
+    {
+      "keyword": "therapy for Vietnamese immigrants with anxiety",
+      "slug": "therapy-for-vietnamese-immigrants-with-anxiety",
+      "angle": "refugee legacy, generational expectation; the constant low hum of uncertainty as an immigrant"
+    },
+    {
+      "keyword": "therapy for Vietnamese immigrants with depression",
+      "slug": "therapy-for-vietnamese-immigrants-with-depression",
+      "angle": "refugee legacy, generational expectation; the quiet depression that creeps in after arriving"
+    },
+    {
+      "keyword": "therapy for Vietnamese immigrants with acculturative stress",
+      "slug": "therapy-for-vietnamese-immigrants-with-acculturative-stress",
+      "angle": "refugee legacy, generational expectation; the exhaustion of adapting to a whole new world"
+    },
+    {
+      "keyword": "therapy for Vietnamese immigrants with culture shock",
+      "slug": "therapy-for-vietnamese-immigrants-with-culture-shock",
+      "angle": "refugee legacy, generational expectation; the disorientation of everything being different"
+    },
+    {
+      "keyword": "therapy for Korean immigrants with loneliness",
+      "slug": "therapy-for-korean-immigrants-with-loneliness",
+      "angle": "intense pressure to succeed, church community; the specific isolation of being far from everyone who knows you"
+    },
+    {
+      "keyword": "therapy for Korean immigrants with homesickness",
+      "slug": "therapy-for-korean-immigrants-with-homesickness",
+      "angle": "intense pressure to succeed, church community; missing home so deeply it physically aches"
+    },
+    {
+      "keyword": "therapy for Korean immigrants with anxiety",
+      "slug": "therapy-for-korean-immigrants-with-anxiety",
+      "angle": "intense pressure to succeed, church community; the constant low hum of uncertainty as an immigrant"
+    },
+    {
+      "keyword": "therapy for Korean immigrants with depression",
+      "slug": "therapy-for-korean-immigrants-with-depression",
+      "angle": "intense pressure to succeed, church community; the quiet depression that creeps in after arriving"
+    },
+    {
+      "keyword": "therapy for Korean immigrants with acculturative stress",
+      "slug": "therapy-for-korean-immigrants-with-acculturative-stress",
+      "angle": "intense pressure to succeed, church community; the exhaustion of adapting to a whole new world"
+    },
+    {
+      "keyword": "therapy for Korean immigrants with culture shock",
+      "slug": "therapy-for-korean-immigrants-with-culture-shock",
+      "angle": "intense pressure to succeed, church community; the disorientation of everything being different"
+    },
+    {
+      "keyword": "therapy for Pakistani immigrants with loneliness",
+      "slug": "therapy-for-pakistani-immigrants-with-loneliness",
+      "angle": "faith, family honor, identity navigation; the specific isolation of being far from everyone who knows you"
+    },
+    {
+      "keyword": "therapy for Pakistani immigrants with homesickness",
+      "slug": "therapy-for-pakistani-immigrants-with-homesickness",
+      "angle": "faith, family honor, identity navigation; missing home so deeply it physically aches"
+    },
+    {
+      "keyword": "therapy for Pakistani immigrants with anxiety",
+      "slug": "therapy-for-pakistani-immigrants-with-anxiety",
+      "angle": "faith, family honor, identity navigation; the constant low hum of uncertainty as an immigrant"
+    },
+    {
+      "keyword": "therapy for Pakistani immigrants with depression",
+      "slug": "therapy-for-pakistani-immigrants-with-depression",
+      "angle": "faith, family honor, identity navigation; the quiet depression that creeps in after arriving"
+    },
+    {
+      "keyword": "therapy for Pakistani immigrants with acculturative stress",
+      "slug": "therapy-for-pakistani-immigrants-with-acculturative-stress",
+      "angle": "faith, family honor, identity navigation; the exhaustion of adapting to a whole new world"
+    },
+    {
+      "keyword": "therapy for Pakistani immigrants with culture shock",
+      "slug": "therapy-for-pakistani-immigrants-with-culture-shock",
+      "angle": "faith, family honor, identity navigation; the disorientation of everything being different"
+    },
+    {
+      "keyword": "therapy for Bangladeshi immigrants with loneliness",
+      "slug": "therapy-for-bangladeshi-immigrants-with-loneliness",
+      "angle": "hard labor, sending support home; the specific isolation of being far from everyone who knows you"
+    },
+    {
+      "keyword": "therapy for Bangladeshi immigrants with homesickness",
+      "slug": "therapy-for-bangladeshi-immigrants-with-homesickness",
+      "angle": "hard labor, sending support home; missing home so deeply it physically aches"
+    },
+    {
+      "keyword": "therapy for Bangladeshi immigrants with anxiety",
+      "slug": "therapy-for-bangladeshi-immigrants-with-anxiety",
+      "angle": "hard labor, sending support home; the constant low hum of uncertainty as an immigrant"
+    },
+    {
+      "keyword": "therapy for Bangladeshi immigrants with depression",
+      "slug": "therapy-for-bangladeshi-immigrants-with-depression",
+      "angle": "hard labor, sending support home; the quiet depression that creeps in after arriving"
+    },
+    {
+      "keyword": "therapy for Bangladeshi immigrants with acculturative stress",
+      "slug": "therapy-for-bangladeshi-immigrants-with-acculturative-stress",
+      "angle": "hard labor, sending support home; the exhaustion of adapting to a whole new world"
+    },
+    {
+      "keyword": "therapy for Bangladeshi immigrants with culture shock",
+      "slug": "therapy-for-bangladeshi-immigrants-with-culture-shock",
+      "angle": "hard labor, sending support home; the disorientation of everything being different"
+    },
+    {
+      "keyword": "therapy for Indonesian immigrants with loneliness",
+      "slug": "therapy-for-indonesian-immigrants-with-loneliness",
+      "angle": "religious community, cultural adjustment; the specific isolation of being far from everyone who knows you"
+    },
+    {
+      "keyword": "therapy for Indonesian immigrants with homesickness",
+      "slug": "therapy-for-indonesian-immigrants-with-homesickness",
+      "angle": "religious community, cultural adjustment; missing home so deeply it physically aches"
+    },
+    {
+      "keyword": "therapy for Indonesian immigrants with anxiety",
+      "slug": "therapy-for-indonesian-immigrants-with-anxiety",
+      "angle": "religious community, cultural adjustment; the constant low hum of uncertainty as an immigrant"
+    },
+    {
+      "keyword": "therapy for Indonesian immigrants with depression",
+      "slug": "therapy-for-indonesian-immigrants-with-depression",
+      "angle": "religious community, cultural adjustment; the quiet depression that creeps in after arriving"
+    },
+    {
+      "keyword": "therapy for Indonesian immigrants with acculturative stress",
+      "slug": "therapy-for-indonesian-immigrants-with-acculturative-stress",
+      "angle": "religious community, cultural adjustment; the exhaustion of adapting to a whole new world"
+    },
+    {
+      "keyword": "therapy for Indonesian immigrants with culture shock",
+      "slug": "therapy-for-indonesian-immigrants-with-culture-shock",
+      "angle": "religious community, cultural adjustment; the disorientation of everything being different"
+    },
+    {
+      "keyword": "therapy for Japanese immigrants with loneliness",
+      "slug": "therapy-for-japanese-immigrants-with-loneliness",
+      "angle": "precision and restraint meeting a loud culture; the specific isolation of being far from everyone who knows you"
+    },
+    {
+      "keyword": "therapy for Japanese immigrants with homesickness",
+      "slug": "therapy-for-japanese-immigrants-with-homesickness",
+      "angle": "precision and restraint meeting a loud culture; missing home so deeply it physically aches"
+    },
+    {
+      "keyword": "therapy for Japanese immigrants with anxiety",
+      "slug": "therapy-for-japanese-immigrants-with-anxiety",
+      "angle": "precision and restraint meeting a loud culture; the constant low hum of uncertainty as an immigrant"
+    },
+    {
+      "keyword": "therapy for Japanese immigrants with depression",
+      "slug": "therapy-for-japanese-immigrants-with-depression",
+      "angle": "precision and restraint meeting a loud culture; the quiet depression that creeps in after arriving"
+    },
+    {
+      "keyword": "therapy for Japanese immigrants with acculturative stress",
+      "slug": "therapy-for-japanese-immigrants-with-acculturative-stress",
+      "angle": "precision and restraint meeting a loud culture; the exhaustion of adapting to a whole new world"
+    },
+    {
+      "keyword": "therapy for Japanese immigrants with culture shock",
+      "slug": "therapy-for-japanese-immigrants-with-culture-shock",
+      "angle": "precision and restraint meeting a loud culture; the disorientation of everything being different"
+    },
+    {
+      "keyword": "therapy for Sri Lankan immigrants with loneliness",
+      "slug": "therapy-for-sri-lankan-immigrants-with-loneliness",
+      "angle": "distance from family, professional migration; the specific isolation of being far from everyone who knows you"
+    },
+    {
+      "keyword": "therapy for Sri Lankan immigrants with homesickness",
+      "slug": "therapy-for-sri-lankan-immigrants-with-homesickness",
+      "angle": "distance from family, professional migration; missing home so deeply it physically aches"
+    },
+    {
+      "keyword": "therapy for Sri Lankan immigrants with anxiety",
+      "slug": "therapy-for-sri-lankan-immigrants-with-anxiety",
+      "angle": "distance from family, professional migration; the constant low hum of uncertainty as an immigrant"
+    },
+    {
+      "keyword": "therapy for Sri Lankan immigrants with depression",
+      "slug": "therapy-for-sri-lankan-immigrants-with-depression",
+      "angle": "distance from family, professional migration; the quiet depression that creeps in after arriving"
+    },
+    {
+      "keyword": "therapy for Sri Lankan immigrants with acculturative stress",
+      "slug": "therapy-for-sri-lankan-immigrants-with-acculturative-stress",
+      "angle": "distance from family, professional migration; the exhaustion of adapting to a whole new world"
+    },
+    {
+      "keyword": "therapy for Sri Lankan immigrants with culture shock",
+      "slug": "therapy-for-sri-lankan-immigrants-with-culture-shock",
+      "angle": "distance from family, professional migration; the disorientation of everything being different"
+    },
+    {
+      "keyword": "therapy for Nepali immigrants with loneliness",
+      "slug": "therapy-for-nepali-immigrants-with-loneliness",
+      "angle": "recent growth community, hard work, isolation; the specific isolation of being far from everyone who knows you"
+    },
+    {
+      "keyword": "therapy for Nepali immigrants with homesickness",
+      "slug": "therapy-for-nepali-immigrants-with-homesickness",
+      "angle": "recent growth community, hard work, isolation; missing home so deeply it physically aches"
+    },
+    {
+      "keyword": "therapy for Nepali immigrants with anxiety",
+      "slug": "therapy-for-nepali-immigrants-with-anxiety",
+      "angle": "recent growth community, hard work, isolation; the constant low hum of uncertainty as an immigrant"
+    },
+    {
+      "keyword": "therapy for Nepali immigrants with depression",
+      "slug": "therapy-for-nepali-immigrants-with-depression",
+      "angle": "recent growth community, hard work, isolation; the quiet depression that creeps in after arriving"
+    },
+    {
+      "keyword": "therapy for Nepali immigrants with acculturative stress",
+      "slug": "therapy-for-nepali-immigrants-with-acculturative-stress",
+      "angle": "recent growth community, hard work, isolation; the exhaustion of adapting to a whole new world"
+    },
+    {
+      "keyword": "therapy for Nepali immigrants with culture shock",
+      "slug": "therapy-for-nepali-immigrants-with-culture-shock",
+      "angle": "recent growth community, hard work, isolation; the disorientation of everything being different"
+    },
+    {
+      "keyword": "therapy for Thai immigrants with loneliness",
+      "slug": "therapy-for-thai-immigrants-with-loneliness",
+      "angle": "small tight community, cultural distance; the specific isolation of being far from everyone who knows you"
+    },
+    {
+      "keyword": "therapy for Thai immigrants with homesickness",
+      "slug": "therapy-for-thai-immigrants-with-homesickness",
+      "angle": "small tight community, cultural distance; missing home so deeply it physically aches"
+    },
+    {
+      "keyword": "therapy for Thai immigrants with anxiety",
+      "slug": "therapy-for-thai-immigrants-with-anxiety",
+      "angle": "small tight community, cultural distance; the constant low hum of uncertainty as an immigrant"
+    },
+    {
+      "keyword": "therapy for Thai immigrants with depression",
+      "slug": "therapy-for-thai-immigrants-with-depression",
+      "angle": "small tight community, cultural distance; the quiet depression that creeps in after arriving"
+    },
+    {
+      "keyword": "therapy for Thai immigrants with acculturative stress",
+      "slug": "therapy-for-thai-immigrants-with-acculturative-stress",
+      "angle": "small tight community, cultural distance; the exhaustion of adapting to a whole new world"
+    },
+    {
+      "keyword": "therapy for Thai immigrants with culture shock",
+      "slug": "therapy-for-thai-immigrants-with-culture-shock",
+      "angle": "small tight community, cultural distance; the disorientation of everything being different"
+    },
+    {
+      "keyword": "therapy for Cambodian immigrants with loneliness",
+      "slug": "therapy-for-cambodian-immigrants-with-loneliness",
+      "angle": "refugee legacy, intergenerational trauma; the specific isolation of being far from everyone who knows you"
+    },
+    {
+      "keyword": "therapy for Cambodian immigrants with homesickness",
+      "slug": "therapy-for-cambodian-immigrants-with-homesickness",
+      "angle": "refugee legacy, intergenerational trauma; missing home so deeply it physically aches"
+    },
+    {
+      "keyword": "therapy for Cambodian immigrants with anxiety",
+      "slug": "therapy-for-cambodian-immigrants-with-anxiety",
+      "angle": "refugee legacy, intergenerational trauma; the constant low hum of uncertainty as an immigrant"
+    },
+    {
+      "keyword": "therapy for Cambodian immigrants with depression",
+      "slug": "therapy-for-cambodian-immigrants-with-depression",
+      "angle": "refugee legacy, intergenerational trauma; the quiet depression that creeps in after arriving"
+    },
+    {
+      "keyword": "therapy for Cambodian immigrants with acculturative stress",
+      "slug": "therapy-for-cambodian-immigrants-with-acculturative-stress",
+      "angle": "refugee legacy, intergenerational trauma; the exhaustion of adapting to a whole new world"
+    },
+    {
+      "keyword": "therapy for Cambodian immigrants with culture shock",
+      "slug": "therapy-for-cambodian-immigrants-with-culture-shock",
+      "angle": "refugee legacy, intergenerational trauma; the disorientation of everything being different"
+    },
+    {
+      "keyword": "therapy for Nigerian immigrants with loneliness",
+      "slug": "therapy-for-nigerian-immigrants-with-loneliness",
+      "angle": "high achievement pressure, vibrant diaspora; the specific isolation of being far from everyone who knows you"
+    },
+    {
+      "keyword": "therapy for Nigerian immigrants with homesickness",
+      "slug": "therapy-for-nigerian-immigrants-with-homesickness",
+      "angle": "high achievement pressure, vibrant diaspora; missing home so deeply it physically aches"
+    },
+    {
+      "keyword": "therapy for Nigerian immigrants with anxiety",
+      "slug": "therapy-for-nigerian-immigrants-with-anxiety",
+      "angle": "high achievement pressure, vibrant diaspora; the constant low hum of uncertainty as an immigrant"
+    },
+    {
+      "keyword": "therapy for Nigerian immigrants with depression",
+      "slug": "therapy-for-nigerian-immigrants-with-depression",
+      "angle": "high achievement pressure, vibrant diaspora; the quiet depression that creeps in after arriving"
+    },
+    {
+      "keyword": "therapy for Nigerian immigrants with acculturative stress",
+      "slug": "therapy-for-nigerian-immigrants-with-acculturative-stress",
+      "angle": "high achievement pressure, vibrant diaspora; the exhaustion of adapting to a whole new world"
+    },
+    {
+      "keyword": "therapy for Nigerian immigrants with culture shock",
+      "slug": "therapy-for-nigerian-immigrants-with-culture-shock",
+      "angle": "high achievement pressure, vibrant diaspora; the disorientation of everything being different"
+    },
+    {
+      "keyword": "therapy for Ghanaian immigrants with loneliness",
+      "slug": "therapy-for-ghanaian-immigrants-with-loneliness",
+      "angle": "family expectation, tight community; the specific isolation of being far from everyone who knows you"
+    },
+    {
+      "keyword": "therapy for Ghanaian immigrants with homesickness",
+      "slug": "therapy-for-ghanaian-immigrants-with-homesickness",
+      "angle": "family expectation, tight community; missing home so deeply it physically aches"
+    },
+    {
+      "keyword": "therapy for Ghanaian immigrants with anxiety",
+      "slug": "therapy-for-ghanaian-immigrants-with-anxiety",
+      "angle": "family expectation, tight community; the constant low hum of uncertainty as an immigrant"
+    },
+    {
+      "keyword": "therapy for Ghanaian immigrants with depression",
+      "slug": "therapy-for-ghanaian-immigrants-with-depression",
+      "angle": "family expectation, tight community; the quiet depression that creeps in after arriving"
+    },
+    {
+      "keyword": "therapy for Ghanaian immigrants with acculturative stress",
+      "slug": "therapy-for-ghanaian-immigrants-with-acculturative-stress",
+      "angle": "family expectation, tight community; the exhaustion of adapting to a whole new world"
+    },
+    {
+      "keyword": "therapy for Ghanaian immigrants with culture shock",
+      "slug": "therapy-for-ghanaian-immigrants-with-culture-shock",
+      "angle": "family expectation, tight community; the disorientation of everything being different"
+    },
+    {
+      "keyword": "therapy for Ethiopian immigrants with loneliness",
+      "slug": "therapy-for-ethiopian-immigrants-with-loneliness",
+      "angle": "refugee and migration history, strong community; the specific isolation of being far from everyone who knows you"
+    },
+    {
+      "keyword": "therapy for Ethiopian immigrants with homesickness",
+      "slug": "therapy-for-ethiopian-immigrants-with-homesickness",
+      "angle": "refugee and migration history, strong community; missing home so deeply it physically aches"
+    },
+    {
+      "keyword": "therapy for Ethiopian immigrants with anxiety",
+      "slug": "therapy-for-ethiopian-immigrants-with-anxiety",
+      "angle": "refugee and migration history, strong community; the constant low hum of uncertainty as an immigrant"
+    },
+    {
+      "keyword": "therapy for Ethiopian immigrants with depression",
+      "slug": "therapy-for-ethiopian-immigrants-with-depression",
+      "angle": "refugee and migration history, strong community; the quiet depression that creeps in after arriving"
+    },
+    {
+      "keyword": "therapy for Ethiopian immigrants with acculturative stress",
+      "slug": "therapy-for-ethiopian-immigrants-with-acculturative-stress",
+      "angle": "refugee and migration history, strong community; the exhaustion of adapting to a whole new world"
+    },
+    {
+      "keyword": "therapy for Ethiopian immigrants with culture shock",
+      "slug": "therapy-for-ethiopian-immigrants-with-culture-shock",
+      "angle": "refugee and migration history, strong community; the disorientation of everything being different"
+    },
+    {
+      "keyword": "therapy for Somali immigrants with loneliness",
+      "slug": "therapy-for-somali-immigrants-with-loneliness",
+      "angle": "refugee resettlement, faith, displacement; the specific isolation of being far from everyone who knows you"
+    },
+    {
+      "keyword": "therapy for Somali immigrants with homesickness",
+      "slug": "therapy-for-somali-immigrants-with-homesickness",
+      "angle": "refugee resettlement, faith, displacement; missing home so deeply it physically aches"
+    },
+    {
+      "keyword": "therapy for Somali immigrants with anxiety",
+      "slug": "therapy-for-somali-immigrants-with-anxiety",
+      "angle": "refugee resettlement, faith, displacement; the constant low hum of uncertainty as an immigrant"
+    },
+    {
+      "keyword": "therapy for Somali immigrants with depression",
+      "slug": "therapy-for-somali-immigrants-with-depression",
+      "angle": "refugee resettlement, faith, displacement; the quiet depression that creeps in after arriving"
+    },
+    {
+      "keyword": "therapy for Somali immigrants with acculturative stress",
+      "slug": "therapy-for-somali-immigrants-with-acculturative-stress",
+      "angle": "refugee resettlement, faith, displacement; the exhaustion of adapting to a whole new world"
+    },
+    {
+      "keyword": "therapy for Somali immigrants with culture shock",
+      "slug": "therapy-for-somali-immigrants-with-culture-shock",
+      "angle": "refugee resettlement, faith, displacement; the disorientation of everything being different"
+    },
+    {
+      "keyword": "therapy for Kenyan immigrants with loneliness",
+      "slug": "therapy-for-kenyan-immigrants-with-loneliness",
+      "angle": "professional migration, family back home; the specific isolation of being far from everyone who knows you"
+    },
+    {
+      "keyword": "therapy for Kenyan immigrants with homesickness",
+      "slug": "therapy-for-kenyan-immigrants-with-homesickness",
+      "angle": "professional migration, family back home; missing home so deeply it physically aches"
+    },
+    {
+      "keyword": "therapy for Kenyan immigrants with anxiety",
+      "slug": "therapy-for-kenyan-immigrants-with-anxiety",
+      "angle": "professional migration, family back home; the constant low hum of uncertainty as an immigrant"
+    },
+    {
+      "keyword": "therapy for Kenyan immigrants with depression",
+      "slug": "therapy-for-kenyan-immigrants-with-depression",
+      "angle": "professional migration, family back home; the quiet depression that creeps in after arriving"
+    },
+    {
+      "keyword": "therapy for Kenyan immigrants with acculturative stress",
+      "slug": "therapy-for-kenyan-immigrants-with-acculturative-stress",
+      "angle": "professional migration, family back home; the exhaustion of adapting to a whole new world"
+    },
+    {
+      "keyword": "therapy for Kenyan immigrants with culture shock",
+      "slug": "therapy-for-kenyan-immigrants-with-culture-shock",
+      "angle": "professional migration, family back home; the disorientation of everything being different"
+    },
+    {
+      "keyword": "therapy for Egyptian immigrants with loneliness",
+      "slug": "therapy-for-egyptian-immigrants-with-loneliness",
+      "angle": "faith and culture, identity navigation; the specific isolation of being far from everyone who knows you"
+    },
+    {
+      "keyword": "therapy for Egyptian immigrants with homesickness",
+      "slug": "therapy-for-egyptian-immigrants-with-homesickness",
+      "angle": "faith and culture, identity navigation; missing home so deeply it physically aches"
+    },
+    {
+      "keyword": "therapy for Egyptian immigrants with anxiety",
+      "slug": "therapy-for-egyptian-immigrants-with-anxiety",
+      "angle": "faith and culture, identity navigation; the constant low hum of uncertainty as an immigrant"
+    },
+    {
+      "keyword": "therapy for Egyptian immigrants with depression",
+      "slug": "therapy-for-egyptian-immigrants-with-depression",
+      "angle": "faith and culture, identity navigation; the quiet depression that creeps in after arriving"
+    },
+    {
+      "keyword": "therapy for Egyptian immigrants with acculturative stress",
+      "slug": "therapy-for-egyptian-immigrants-with-acculturative-stress",
+      "angle": "faith and culture, identity navigation; the exhaustion of adapting to a whole new world"
+    },
+    {
+      "keyword": "therapy for Egyptian immigrants with culture shock",
+      "slug": "therapy-for-egyptian-immigrants-with-culture-shock",
+      "angle": "faith and culture, identity navigation; the disorientation of everything being different"
+    },
+    {
+      "keyword": "therapy for Moroccan immigrants with loneliness",
+      "slug": "therapy-for-moroccan-immigrants-with-loneliness",
+      "angle": "language and faith, distance from family; the specific isolation of being far from everyone who knows you"
+    },
+    {
+      "keyword": "therapy for Moroccan immigrants with homesickness",
+      "slug": "therapy-for-moroccan-immigrants-with-homesickness",
+      "angle": "language and faith, distance from family; missing home so deeply it physically aches"
+    },
+    {
+      "keyword": "therapy for Moroccan immigrants with anxiety",
+      "slug": "therapy-for-moroccan-immigrants-with-anxiety",
+      "angle": "language and faith, distance from family; the constant low hum of uncertainty as an immigrant"
+    },
+    {
+      "keyword": "therapy for Moroccan immigrants with depression",
+      "slug": "therapy-for-moroccan-immigrants-with-depression",
+      "angle": "language and faith, distance from family; the quiet depression that creeps in after arriving"
+    },
+    {
+      "keyword": "therapy for Moroccan immigrants with acculturative stress",
+      "slug": "therapy-for-moroccan-immigrants-with-acculturative-stress",
+      "angle": "language and faith, distance from family; the exhaustion of adapting to a whole new world"
+    },
+    {
+      "keyword": "therapy for Moroccan immigrants with culture shock",
+      "slug": "therapy-for-moroccan-immigrants-with-culture-shock",
+      "angle": "language and faith, distance from family; the disorientation of everything being different"
+    },
+    {
+      "keyword": "therapy for Lebanese immigrants with loneliness",
+      "slug": "therapy-for-lebanese-immigrants-with-loneliness",
+      "angle": "diaspora resilience, war legacy; the specific isolation of being far from everyone who knows you"
+    },
+    {
+      "keyword": "therapy for Lebanese immigrants with homesickness",
+      "slug": "therapy-for-lebanese-immigrants-with-homesickness",
+      "angle": "diaspora resilience, war legacy; missing home so deeply it physically aches"
+    },
+    {
+      "keyword": "therapy for Lebanese immigrants with anxiety",
+      "slug": "therapy-for-lebanese-immigrants-with-anxiety",
+      "angle": "diaspora resilience, war legacy; the constant low hum of uncertainty as an immigrant"
+    },
+    {
+      "keyword": "therapy for Lebanese immigrants with depression",
+      "slug": "therapy-for-lebanese-immigrants-with-depression",
+      "angle": "diaspora resilience, war legacy; the quiet depression that creeps in after arriving"
+    },
+    {
+      "keyword": "therapy for Lebanese immigrants with acculturative stress",
+      "slug": "therapy-for-lebanese-immigrants-with-acculturative-stress",
+      "angle": "diaspora resilience, war legacy; the exhaustion of adapting to a whole new world"
+    },
+    {
+      "keyword": "therapy for Lebanese immigrants with culture shock",
+      "slug": "therapy-for-lebanese-immigrants-with-culture-shock",
+      "angle": "diaspora resilience, war legacy; the disorientation of everything being different"
+    },
+    {
+      "keyword": "therapy for Iranian immigrants with loneliness",
+      "slug": "therapy-for-iranian-immigrants-with-loneliness",
+      "angle": "exile, political complexity, cultural pride; the specific isolation of being far from everyone who knows you"
+    },
+    {
+      "keyword": "therapy for Iranian immigrants with homesickness",
+      "slug": "therapy-for-iranian-immigrants-with-homesickness",
+      "angle": "exile, political complexity, cultural pride; missing home so deeply it physically aches"
+    },
+    {
+      "keyword": "therapy for Iranian immigrants with anxiety",
+      "slug": "therapy-for-iranian-immigrants-with-anxiety",
+      "angle": "exile, political complexity, cultural pride; the constant low hum of uncertainty as an immigrant"
+    },
+    {
+      "keyword": "therapy for Iranian immigrants with depression",
+      "slug": "therapy-for-iranian-immigrants-with-depression",
+      "angle": "exile, political complexity, cultural pride; the quiet depression that creeps in after arriving"
+    },
+    {
+      "keyword": "therapy for Iranian immigrants with acculturative stress",
+      "slug": "therapy-for-iranian-immigrants-with-acculturative-stress",
+      "angle": "exile, political complexity, cultural pride; the exhaustion of adapting to a whole new world"
+    },
+    {
+      "keyword": "therapy for Iranian immigrants with culture shock",
+      "slug": "therapy-for-iranian-immigrants-with-culture-shock",
+      "angle": "exile, political complexity, cultural pride; the disorientation of everything being different"
+    },
+    {
+      "keyword": "therapy for Syrian immigrants with loneliness",
+      "slug": "therapy-for-syrian-immigrants-with-loneliness",
+      "angle": "war trauma, refugee experience, profound loss; the specific isolation of being far from everyone who knows you"
+    },
+    {
+      "keyword": "therapy for Syrian immigrants with homesickness",
+      "slug": "therapy-for-syrian-immigrants-with-homesickness",
+      "angle": "war trauma, refugee experience, profound loss; missing home so deeply it physically aches"
+    },
+    {
+      "keyword": "therapy for Syrian immigrants with anxiety",
+      "slug": "therapy-for-syrian-immigrants-with-anxiety",
+      "angle": "war trauma, refugee experience, profound loss; the constant low hum of uncertainty as an immigrant"
+    },
+    {
+      "keyword": "therapy for Syrian immigrants with depression",
+      "slug": "therapy-for-syrian-immigrants-with-depression",
+      "angle": "war trauma, refugee experience, profound loss; the quiet depression that creeps in after arriving"
+    },
+    {
+      "keyword": "therapy for Syrian immigrants with acculturative stress",
+      "slug": "therapy-for-syrian-immigrants-with-acculturative-stress",
+      "angle": "war trauma, refugee experience, profound loss; the exhaustion of adapting to a whole new world"
+    },
+    {
+      "keyword": "therapy for Syrian immigrants with culture shock",
+      "slug": "therapy-for-syrian-immigrants-with-culture-shock",
+      "angle": "war trauma, refugee experience, profound loss; the disorientation of everything being different"
+    },
+    {
+      "keyword": "therapy for Iraqi immigrants with loneliness",
+      "slug": "therapy-for-iraqi-immigrants-with-loneliness",
+      "angle": "displacement, trauma, rebuilding safety; the specific isolation of being far from everyone who knows you"
+    },
+    {
+      "keyword": "therapy for Iraqi immigrants with homesickness",
+      "slug": "therapy-for-iraqi-immigrants-with-homesickness",
+      "angle": "displacement, trauma, rebuilding safety; missing home so deeply it physically aches"
+    },
+    {
+      "keyword": "therapy for Iraqi immigrants with anxiety",
+      "slug": "therapy-for-iraqi-immigrants-with-anxiety",
+      "angle": "displacement, trauma, rebuilding safety; the constant low hum of uncertainty as an immigrant"
+    },
+    {
+      "keyword": "therapy for Iraqi immigrants with depression",
+      "slug": "therapy-for-iraqi-immigrants-with-depression",
+      "angle": "displacement, trauma, rebuilding safety; the quiet depression that creeps in after arriving"
+    },
+    {
+      "keyword": "therapy for Iraqi immigrants with acculturative stress",
+      "slug": "therapy-for-iraqi-immigrants-with-acculturative-stress",
+      "angle": "displacement, trauma, rebuilding safety; the exhaustion of adapting to a whole new world"
+    },
+    {
+      "keyword": "therapy for Iraqi immigrants with culture shock",
+      "slug": "therapy-for-iraqi-immigrants-with-culture-shock",
+      "angle": "displacement, trauma, rebuilding safety; the disorientation of everything being different"
+    },
+    {
+      "keyword": "therapy for Afghan immigrants with loneliness",
+      "slug": "therapy-for-afghan-immigrants-with-loneliness",
+      "angle": "refugee flight, trauma, starting over; the specific isolation of being far from everyone who knows you"
+    },
+    {
+      "keyword": "therapy for Afghan immigrants with homesickness",
+      "slug": "therapy-for-afghan-immigrants-with-homesickness",
+      "angle": "refugee flight, trauma, starting over; missing home so deeply it physically aches"
+    },
+    {
+      "keyword": "therapy for Afghan immigrants with anxiety",
+      "slug": "therapy-for-afghan-immigrants-with-anxiety",
+      "angle": "refugee flight, trauma, starting over; the constant low hum of uncertainty as an immigrant"
+    },
+    {
+      "keyword": "therapy for Afghan immigrants with depression",
+      "slug": "therapy-for-afghan-immigrants-with-depression",
+      "angle": "refugee flight, trauma, starting over; the quiet depression that creeps in after arriving"
+    },
+    {
+      "keyword": "therapy for Afghan immigrants with acculturative stress",
+      "slug": "therapy-for-afghan-immigrants-with-acculturative-stress",
+      "angle": "refugee flight, trauma, starting over; the exhaustion of adapting to a whole new world"
+    },
+    {
+      "keyword": "therapy for Afghan immigrants with culture shock",
+      "slug": "therapy-for-afghan-immigrants-with-culture-shock",
+      "angle": "refugee flight, trauma, starting over; the disorientation of everything being different"
+    },
+    {
+      "keyword": "therapy for Haitian immigrants with loneliness",
+      "slug": "therapy-for-haitian-immigrants-with-loneliness",
+      "angle": "hardship, language barriers, resilience; the specific isolation of being far from everyone who knows you"
+    },
+    {
+      "keyword": "therapy for Haitian immigrants with homesickness",
+      "slug": "therapy-for-haitian-immigrants-with-homesickness",
+      "angle": "hardship, language barriers, resilience; missing home so deeply it physically aches"
+    },
+    {
+      "keyword": "therapy for Haitian immigrants with anxiety",
+      "slug": "therapy-for-haitian-immigrants-with-anxiety",
+      "angle": "hardship, language barriers, resilience; the constant low hum of uncertainty as an immigrant"
+    },
+    {
+      "keyword": "therapy for Haitian immigrants with depression",
+      "slug": "therapy-for-haitian-immigrants-with-depression",
+      "angle": "hardship, language barriers, resilience; the quiet depression that creeps in after arriving"
+    },
+    {
+      "keyword": "therapy for Haitian immigrants with acculturative stress",
+      "slug": "therapy-for-haitian-immigrants-with-acculturative-stress",
+      "angle": "hardship, language barriers, resilience; the exhaustion of adapting to a whole new world"
+    },
+    {
+      "keyword": "therapy for Haitian immigrants with culture shock",
+      "slug": "therapy-for-haitian-immigrants-with-culture-shock",
+      "angle": "hardship, language barriers, resilience; the disorientation of everything being different"
+    },
+    {
+      "keyword": "therapy for Jamaican immigrants with loneliness",
+      "slug": "therapy-for-jamaican-immigrants-with-loneliness",
+      "angle": "vibrant culture, family back home; the specific isolation of being far from everyone who knows you"
+    },
+    {
+      "keyword": "therapy for Jamaican immigrants with homesickness",
+      "slug": "therapy-for-jamaican-immigrants-with-homesickness",
+      "angle": "vibrant culture, family back home; missing home so deeply it physically aches"
+    },
+    {
+      "keyword": "therapy for Jamaican immigrants with anxiety",
+      "slug": "therapy-for-jamaican-immigrants-with-anxiety",
+      "angle": "vibrant culture, family back home; the constant low hum of uncertainty as an immigrant"
+    },
+    {
+      "keyword": "therapy for Jamaican immigrants with depression",
+      "slug": "therapy-for-jamaican-immigrants-with-depression",
+      "angle": "vibrant culture, family back home; the quiet depression that creeps in after arriving"
+    },
+    {
+      "keyword": "therapy for Jamaican immigrants with acculturative stress",
+      "slug": "therapy-for-jamaican-immigrants-with-acculturative-stress",
+      "angle": "vibrant culture, family back home; the exhaustion of adapting to a whole new world"
+    },
+    {
+      "keyword": "therapy for Jamaican immigrants with culture shock",
+      "slug": "therapy-for-jamaican-immigrants-with-culture-shock",
+      "angle": "vibrant culture, family back home; the disorientation of everything being different"
+    },
+    {
+      "keyword": "therapy for Trinidadian immigrants with loneliness",
+      "slug": "therapy-for-trinidadian-immigrants-with-loneliness",
+      "angle": "tight diaspora, cultural pride; the specific isolation of being far from everyone who knows you"
+    },
+    {
+      "keyword": "therapy for Trinidadian immigrants with homesickness",
+      "slug": "therapy-for-trinidadian-immigrants-with-homesickness",
+      "angle": "tight diaspora, cultural pride; missing home so deeply it physically aches"
+    },
+    {
+      "keyword": "therapy for Trinidadian immigrants with anxiety",
+      "slug": "therapy-for-trinidadian-immigrants-with-anxiety",
+      "angle": "tight diaspora, cultural pride; the constant low hum of uncertainty as an immigrant"
+    },
+    {
+      "keyword": "therapy for Trinidadian immigrants with depression",
+      "slug": "therapy-for-trinidadian-immigrants-with-depression",
+      "angle": "tight diaspora, cultural pride; the quiet depression that creeps in after arriving"
+    },
+    {
+      "keyword": "therapy for Trinidadian immigrants with acculturative stress",
+      "slug": "therapy-for-trinidadian-immigrants-with-acculturative-stress",
+      "angle": "tight diaspora, cultural pride; the exhaustion of adapting to a whole new world"
+    },
+    {
+      "keyword": "therapy for Trinidadian immigrants with culture shock",
+      "slug": "therapy-for-trinidadian-immigrants-with-culture-shock",
+      "angle": "tight diaspora, cultural pride; the disorientation of everything being different"
+    },
+    {
+      "keyword": "therapy for immigrant nurses",
+      "slug": "therapy-for-immigrant-nurses",
+      "angle": "frontline caregiving far from home, emotional exhaustion"
+    },
+    {
+      "keyword": "therapy for immigrant doctors",
+      "slug": "therapy-for-immigrant-doctors",
+      "angle": "high pressure, re-credentialing, isolation"
+    },
+    {
+      "keyword": "therapy for immigrant caregivers",
+      "slug": "therapy-for-immigrant-caregivers",
+      "angle": "caring for others while carrying your own grief"
+    },
+    {
+      "keyword": "therapy for immigrant engineers",
+      "slug": "therapy-for-immigrant-engineers",
+      "angle": "H1B and visa pressure, performance expectation"
+    },
+    {
+      "keyword": "therapy for immigrant construction workers",
+      "slug": "therapy-for-immigrant-construction-workers",
+      "angle": "hard physical labor, isolation, sending money home"
+    },
+    {
+      "keyword": "therapy for immigrant delivery drivers",
+      "slug": "therapy-for-immigrant-delivery-drivers",
+      "angle": "long hours, isolation, invisible work"
+    },
+    {
+      "keyword": "therapy for immigrant truck drivers",
+      "slug": "therapy-for-immigrant-truck-drivers",
+      "angle": "isolation of the road, distance from family"
+    },
+    {
+      "keyword": "therapy for immigrant restaurant workers",
+      "slug": "therapy-for-immigrant-restaurant-workers",
+      "angle": "long shifts, low pay, exhaustion"
+    },
+    {
+      "keyword": "therapy for immigrant cleaners",
+      "slug": "therapy-for-immigrant-cleaners",
+      "angle": "invisible labor, dignity, isolation"
+    },
+    {
+      "keyword": "therapy for immigrant students",
+      "slug": "therapy-for-immigrant-students",
+      "angle": "studying far from home, pressure and loneliness"
+    },
+    {
+      "keyword": "therapy for immigrant IT workers",
+      "slug": "therapy-for-immigrant-it-workers",
+      "angle": "visa stress, performance pressure, isolation"
+    },
+    {
+      "keyword": "therapy for immigrant warehouse workers",
+      "slug": "therapy-for-immigrant-warehouse-workers",
+      "angle": "physical toll, anonymity, long shifts"
+    },
+    {
+      "keyword": "therapy for immigrant domestic workers",
+      "slug": "therapy-for-immigrant-domestic-workers",
+      "angle": "isolation in someone else's home"
+    },
+    {
+      "keyword": "therapy for immigrant taxi drivers",
+      "slug": "therapy-for-immigrant-taxi-drivers",
+      "angle": "long solitary hours, distance from family"
+    }
+  ]
+}

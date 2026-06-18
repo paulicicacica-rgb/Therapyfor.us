@@ -1,0 +1,880 @@
+{
+  "workflow": "lang_russian",
+  "cluster_title": "Russian (Русский) — 97 pages",
+  "language": "russian",
+  "pages": [
+    {
+      "keyword": "терапия на русском",
+      "slug": "russian-therapy-in-russian-for-us-russian-speakers",
+      "angle": "therapy in Russian for US Russian speakers",
+      "lang": "russian",
+      "lang_name": "Russian",
+      "native_name": "Русский",
+      "rtl": false
+    },
+    {
+      "keyword": "онлайн терапия на русском",
+      "slug": "russian-online-russian-therapy",
+      "angle": "online Russian therapy",
+      "lang": "russian",
+      "lang_name": "Russian",
+      "native_name": "Русский",
+      "rtl": false
+    },
+    {
+      "keyword": "терапия от тревоги на русском",
+      "slug": "russian-anxiety-therapy-in-russian",
+      "angle": "anxiety therapy in Russian",
+      "lang": "russian",
+      "lang_name": "Russian",
+      "native_name": "Русский",
+      "rtl": false
+    },
+    {
+      "keyword": "терапия от депрессии на русском",
+      "slug": "russian-depression-therapy-in-russian",
+      "angle": "depression therapy in Russian",
+      "lang": "russian",
+      "lang_name": "Russian",
+      "native_name": "Русский",
+      "rtl": false
+    },
+    {
+      "keyword": "терапия для русских иммигрантов",
+      "slug": "russian-therapy-for-russian-speaking-immigrants",
+      "angle": "therapy for Russian-speaking immigrants",
+      "lang": "russian",
+      "lang_name": "Russian",
+      "native_name": "Русский",
+      "rtl": false
+    },
+    {
+      "keyword": "психолог говорящий по-русски",
+      "slug": "russian-finding-a-russian-speaking-therapist",
+      "angle": "finding a Russian-speaking therapist",
+      "lang": "russian",
+      "lang_name": "Russian",
+      "native_name": "Русский",
+      "rtl": false
+    },
+    {
+      "keyword": "терапия после развода",
+      "slug": "russian-therapy-after-divorce",
+      "angle": "therapy after divorce",
+      "lang": "russian",
+      "lang_name": "Russian",
+      "native_name": "Русский",
+      "rtl": false
+    },
+    {
+      "keyword": "терапия от одиночества иммигранта",
+      "slug": "russian-immigrant-loneliness",
+      "angle": "immigrant loneliness",
+      "lang": "russian",
+      "lang_name": "Russian",
+      "native_name": "Русский",
+      "rtl": false
+    },
+    {
+      "keyword": "почему мне так одиноко в Америке",
+      "slug": "russian-why-do-i-feel-alone-in-america",
+      "angle": "why do I feel alone in America",
+      "lang": "russian",
+      "lang_name": "Russian",
+      "native_name": "Русский",
+      "rtl": false
+    },
+    {
+      "keyword": "терапия от тоски по дому",
+      "slug": "russian-homesickness-therapy",
+      "angle": "homesickness therapy",
+      "lang": "russian",
+      "lang_name": "Russian",
+      "native_name": "Русский",
+      "rtl": false
+    },
+    {
+      "keyword": "терапия для русских мам",
+      "slug": "russian-therapy-for-russian-speaking-mothers",
+      "angle": "therapy for Russian-speaking mothers",
+      "lang": "russian",
+      "lang_name": "Russian",
+      "native_name": "Русский",
+      "rtl": false
+    },
+    {
+      "keyword": "терапия от эмоционального выгорания",
+      "slug": "russian-emotional-burnout",
+      "angle": "emotional burnout",
+      "lang": "russian",
+      "lang_name": "Russian",
+      "native_name": "Русский",
+      "rtl": false
+    },
+    {
+      "keyword": "терапия горя на русском",
+      "slug": "russian-grief-therapy-in-russian",
+      "angle": "grief therapy in Russian",
+      "lang": "russian",
+      "lang_name": "Russian",
+      "native_name": "Русский",
+      "rtl": false
+    },
+    {
+      "keyword": "Russian therapy for anxiety",
+      "slug": "russian-russian-therapy-for-anxiety",
+      "angle": "anxiety, written natively in Russian",
+      "lang": "russian",
+      "lang_name": "Russian",
+      "native_name": "Русский",
+      "rtl": false
+    },
+    {
+      "keyword": "Russian speaking therapist for anxiety",
+      "slug": "russian-russian-speaking-therapist-for-anxiety",
+      "angle": "anxiety; finding a Russian-speaking therapist",
+      "lang": "russian",
+      "lang_name": "Russian",
+      "native_name": "Русский",
+      "rtl": false
+    },
+    {
+      "keyword": "online Russian therapy for anxiety",
+      "slug": "russian-online-russian-therapy-for-anxiety",
+      "angle": "anxiety; online and confidential, in Russian",
+      "lang": "russian",
+      "lang_name": "Russian",
+      "native_name": "Русский",
+      "rtl": false
+    },
+    {
+      "keyword": "Russian therapy for depression",
+      "slug": "russian-russian-therapy-for-depression",
+      "angle": "depression, written natively in Russian",
+      "lang": "russian",
+      "lang_name": "Russian",
+      "native_name": "Русский",
+      "rtl": false
+    },
+    {
+      "keyword": "Russian speaking therapist for depression",
+      "slug": "russian-russian-speaking-therapist-for-depression",
+      "angle": "depression; finding a Russian-speaking therapist",
+      "lang": "russian",
+      "lang_name": "Russian",
+      "native_name": "Русский",
+      "rtl": false
+    },
+    {
+      "keyword": "online Russian therapy for depression",
+      "slug": "russian-online-russian-therapy-for-depression",
+      "angle": "depression; online and confidential, in Russian",
+      "lang": "russian",
+      "lang_name": "Russian",
+      "native_name": "Русский",
+      "rtl": false
+    },
+    {
+      "keyword": "Russian therapy for loneliness",
+      "slug": "russian-russian-therapy-for-loneliness",
+      "angle": "loneliness, written natively in Russian",
+      "lang": "russian",
+      "lang_name": "Russian",
+      "native_name": "Русский",
+      "rtl": false
+    },
+    {
+      "keyword": "Russian speaking therapist for loneliness",
+      "slug": "russian-russian-speaking-therapist-for-loneliness",
+      "angle": "loneliness; finding a Russian-speaking therapist",
+      "lang": "russian",
+      "lang_name": "Russian",
+      "native_name": "Русский",
+      "rtl": false
+    },
+    {
+      "keyword": "online Russian therapy for loneliness",
+      "slug": "russian-online-russian-therapy-for-loneliness",
+      "angle": "loneliness; online and confidential, in Russian",
+      "lang": "russian",
+      "lang_name": "Russian",
+      "native_name": "Русский",
+      "rtl": false
+    },
+    {
+      "keyword": "Russian therapy for homesickness",
+      "slug": "russian-russian-therapy-for-homesickness",
+      "angle": "homesickness, written natively in Russian",
+      "lang": "russian",
+      "lang_name": "Russian",
+      "native_name": "Русский",
+      "rtl": false
+    },
+    {
+      "keyword": "Russian speaking therapist for homesickness",
+      "slug": "russian-russian-speaking-therapist-for-homesickness",
+      "angle": "homesickness; finding a Russian-speaking therapist",
+      "lang": "russian",
+      "lang_name": "Russian",
+      "native_name": "Русский",
+      "rtl": false
+    },
+    {
+      "keyword": "online Russian therapy for homesickness",
+      "slug": "russian-online-russian-therapy-for-homesickness",
+      "angle": "homesickness; online and confidential, in Russian",
+      "lang": "russian",
+      "lang_name": "Russian",
+      "native_name": "Русский",
+      "rtl": false
+    },
+    {
+      "keyword": "Russian therapy for divorce",
+      "slug": "russian-russian-therapy-for-divorce",
+      "angle": "after divorce, written natively in Russian",
+      "lang": "russian",
+      "lang_name": "Russian",
+      "native_name": "Русский",
+      "rtl": false
+    },
+    {
+      "keyword": "Russian speaking therapist for divorce",
+      "slug": "russian-russian-speaking-therapist-for-divorce",
+      "angle": "after divorce; finding a Russian-speaking therapist",
+      "lang": "russian",
+      "lang_name": "Russian",
+      "native_name": "Русский",
+      "rtl": false
+    },
+    {
+      "keyword": "online Russian therapy for divorce",
+      "slug": "russian-online-russian-therapy-for-divorce",
+      "angle": "after divorce; online and confidential, in Russian",
+      "lang": "russian",
+      "lang_name": "Russian",
+      "native_name": "Русский",
+      "rtl": false
+    },
+    {
+      "keyword": "Russian therapy for grief",
+      "slug": "russian-russian-therapy-for-grief",
+      "angle": "grief and loss, written natively in Russian",
+      "lang": "russian",
+      "lang_name": "Russian",
+      "native_name": "Русский",
+      "rtl": false
+    },
+    {
+      "keyword": "Russian speaking therapist for grief",
+      "slug": "russian-russian-speaking-therapist-for-grief",
+      "angle": "grief and loss; finding a Russian-speaking therapist",
+      "lang": "russian",
+      "lang_name": "Russian",
+      "native_name": "Русский",
+      "rtl": false
+    },
+    {
+      "keyword": "online Russian therapy for grief",
+      "slug": "russian-online-russian-therapy-for-grief",
+      "angle": "grief and loss; online and confidential, in Russian",
+      "lang": "russian",
+      "lang_name": "Russian",
+      "native_name": "Русский",
+      "rtl": false
+    },
+    {
+      "keyword": "Russian therapy for burnout",
+      "slug": "russian-russian-therapy-for-burnout",
+      "angle": "emotional burnout, written natively in Russian",
+      "lang": "russian",
+      "lang_name": "Russian",
+      "native_name": "Русский",
+      "rtl": false
+    },
+    {
+      "keyword": "Russian speaking therapist for burnout",
+      "slug": "russian-russian-speaking-therapist-for-burnout",
+      "angle": "emotional burnout; finding a Russian-speaking therapist",
+      "lang": "russian",
+      "lang_name": "Russian",
+      "native_name": "Русский",
+      "rtl": false
+    },
+    {
+      "keyword": "online Russian therapy for burnout",
+      "slug": "russian-online-russian-therapy-for-burnout",
+      "angle": "emotional burnout; online and confidential, in Russian",
+      "lang": "russian",
+      "lang_name": "Russian",
+      "native_name": "Русский",
+      "rtl": false
+    },
+    {
+      "keyword": "Russian therapy for panic attacks",
+      "slug": "russian-russian-therapy-for-panic-attacks",
+      "angle": "panic attacks, written natively in Russian",
+      "lang": "russian",
+      "lang_name": "Russian",
+      "native_name": "Русский",
+      "rtl": false
+    },
+    {
+      "keyword": "Russian speaking therapist for panic attacks",
+      "slug": "russian-russian-speaking-therapist-for-panic-attacks",
+      "angle": "panic attacks; finding a Russian-speaking therapist",
+      "lang": "russian",
+      "lang_name": "Russian",
+      "native_name": "Русский",
+      "rtl": false
+    },
+    {
+      "keyword": "online Russian therapy for panic attacks",
+      "slug": "russian-online-russian-therapy-for-panic-attacks",
+      "angle": "panic attacks; online and confidential, in Russian",
+      "lang": "russian",
+      "lang_name": "Russian",
+      "native_name": "Русский",
+      "rtl": false
+    },
+    {
+      "keyword": "Russian therapy for stress",
+      "slug": "russian-russian-therapy-for-stress",
+      "angle": "chronic stress, written natively in Russian",
+      "lang": "russian",
+      "lang_name": "Russian",
+      "native_name": "Русский",
+      "rtl": false
+    },
+    {
+      "keyword": "Russian speaking therapist for stress",
+      "slug": "russian-russian-speaking-therapist-for-stress",
+      "angle": "chronic stress; finding a Russian-speaking therapist",
+      "lang": "russian",
+      "lang_name": "Russian",
+      "native_name": "Русский",
+      "rtl": false
+    },
+    {
+      "keyword": "online Russian therapy for stress",
+      "slug": "russian-online-russian-therapy-for-stress",
+      "angle": "chronic stress; online and confidential, in Russian",
+      "lang": "russian",
+      "lang_name": "Russian",
+      "native_name": "Русский",
+      "rtl": false
+    },
+    {
+      "keyword": "Russian therapy for trauma",
+      "slug": "russian-russian-therapy-for-trauma",
+      "angle": "trauma, written natively in Russian",
+      "lang": "russian",
+      "lang_name": "Russian",
+      "native_name": "Русский",
+      "rtl": false
+    },
+    {
+      "keyword": "Russian speaking therapist for trauma",
+      "slug": "russian-russian-speaking-therapist-for-trauma",
+      "angle": "trauma; finding a Russian-speaking therapist",
+      "lang": "russian",
+      "lang_name": "Russian",
+      "native_name": "Русский",
+      "rtl": false
+    },
+    {
+      "keyword": "online Russian therapy for trauma",
+      "slug": "russian-online-russian-therapy-for-trauma",
+      "angle": "trauma; online and confidential, in Russian",
+      "lang": "russian",
+      "lang_name": "Russian",
+      "native_name": "Русский",
+      "rtl": false
+    },
+    {
+      "keyword": "Russian therapy for low self esteem",
+      "slug": "russian-russian-therapy-for-low-self-esteem",
+      "angle": "low self-esteem, written natively in Russian",
+      "lang": "russian",
+      "lang_name": "Russian",
+      "native_name": "Русский",
+      "rtl": false
+    },
+    {
+      "keyword": "Russian speaking therapist for low self esteem",
+      "slug": "russian-russian-speaking-therapist-for-low-self-esteem",
+      "angle": "low self-esteem; finding a Russian-speaking therapist",
+      "lang": "russian",
+      "lang_name": "Russian",
+      "native_name": "Русский",
+      "rtl": false
+    },
+    {
+      "keyword": "online Russian therapy for low self esteem",
+      "slug": "russian-online-russian-therapy-for-low-self-esteem",
+      "angle": "low self-esteem; online and confidential, in Russian",
+      "lang": "russian",
+      "lang_name": "Russian",
+      "native_name": "Русский",
+      "rtl": false
+    },
+    {
+      "keyword": "Russian therapy for relationship problems",
+      "slug": "russian-russian-therapy-for-relationship-problems",
+      "angle": "relationship difficulties, written natively in Russian",
+      "lang": "russian",
+      "lang_name": "Russian",
+      "native_name": "Русский",
+      "rtl": false
+    },
+    {
+      "keyword": "Russian speaking therapist for relationship problems",
+      "slug": "russian-russian-speaking-therapist-for-relationship-problems",
+      "angle": "relationship difficulties; finding a Russian-speaking therapist",
+      "lang": "russian",
+      "lang_name": "Russian",
+      "native_name": "Русский",
+      "rtl": false
+    },
+    {
+      "keyword": "online Russian therapy for relationship problems",
+      "slug": "russian-online-russian-therapy-for-relationship-problems",
+      "angle": "relationship difficulties; online and confidential, in Russian",
+      "lang": "russian",
+      "lang_name": "Russian",
+      "native_name": "Русский",
+      "rtl": false
+    },
+    {
+      "keyword": "Russian therapy for parenting stress",
+      "slug": "russian-russian-therapy-for-parenting-stress",
+      "angle": "parenting stress, written natively in Russian",
+      "lang": "russian",
+      "lang_name": "Russian",
+      "native_name": "Русский",
+      "rtl": false
+    },
+    {
+      "keyword": "Russian speaking therapist for parenting stress",
+      "slug": "russian-russian-speaking-therapist-for-parenting-stress",
+      "angle": "parenting stress; finding a Russian-speaking therapist",
+      "lang": "russian",
+      "lang_name": "Russian",
+      "native_name": "Русский",
+      "rtl": false
+    },
+    {
+      "keyword": "online Russian therapy for parenting stress",
+      "slug": "russian-online-russian-therapy-for-parenting-stress",
+      "angle": "parenting stress; online and confidential, in Russian",
+      "lang": "russian",
+      "lang_name": "Russian",
+      "native_name": "Русский",
+      "rtl": false
+    },
+    {
+      "keyword": "Russian therapy for work stress",
+      "slug": "russian-russian-therapy-for-work-stress",
+      "angle": "work stress, written natively in Russian",
+      "lang": "russian",
+      "lang_name": "Russian",
+      "native_name": "Русский",
+      "rtl": false
+    },
+    {
+      "keyword": "Russian speaking therapist for work stress",
+      "slug": "russian-russian-speaking-therapist-for-work-stress",
+      "angle": "work stress; finding a Russian-speaking therapist",
+      "lang": "russian",
+      "lang_name": "Russian",
+      "native_name": "Русский",
+      "rtl": false
+    },
+    {
+      "keyword": "online Russian therapy for work stress",
+      "slug": "russian-online-russian-therapy-for-work-stress",
+      "angle": "work stress; online and confidential, in Russian",
+      "lang": "russian",
+      "lang_name": "Russian",
+      "native_name": "Русский",
+      "rtl": false
+    },
+    {
+      "keyword": "Russian therapy for insomnia",
+      "slug": "russian-russian-therapy-for-insomnia",
+      "angle": "anxiety-driven sleeplessness, written natively in Russian",
+      "lang": "russian",
+      "lang_name": "Russian",
+      "native_name": "Русский",
+      "rtl": false
+    },
+    {
+      "keyword": "Russian speaking therapist for insomnia",
+      "slug": "russian-russian-speaking-therapist-for-insomnia",
+      "angle": "anxiety-driven sleeplessness; finding a Russian-speaking therapist",
+      "lang": "russian",
+      "lang_name": "Russian",
+      "native_name": "Русский",
+      "rtl": false
+    },
+    {
+      "keyword": "online Russian therapy for insomnia",
+      "slug": "russian-online-russian-therapy-for-insomnia",
+      "angle": "anxiety-driven sleeplessness; online and confidential, in Russian",
+      "lang": "russian",
+      "lang_name": "Russian",
+      "native_name": "Русский",
+      "rtl": false
+    },
+    {
+      "keyword": "Russian therapy for identity",
+      "slug": "russian-russian-therapy-for-identity",
+      "angle": "cultural identity struggles, written natively in Russian",
+      "lang": "russian",
+      "lang_name": "Russian",
+      "native_name": "Русский",
+      "rtl": false
+    },
+    {
+      "keyword": "Russian speaking therapist for identity",
+      "slug": "russian-russian-speaking-therapist-for-identity",
+      "angle": "cultural identity struggles; finding a Russian-speaking therapist",
+      "lang": "russian",
+      "lang_name": "Russian",
+      "native_name": "Русский",
+      "rtl": false
+    },
+    {
+      "keyword": "online Russian therapy for identity",
+      "slug": "russian-online-russian-therapy-for-identity",
+      "angle": "cultural identity struggles; online and confidential, in Russian",
+      "lang": "russian",
+      "lang_name": "Russian",
+      "native_name": "Русский",
+      "rtl": false
+    },
+    {
+      "keyword": "Russian therapy for family pressure",
+      "slug": "russian-russian-therapy-for-family-pressure",
+      "angle": "family expectation and pressure, written natively in Russian",
+      "lang": "russian",
+      "lang_name": "Russian",
+      "native_name": "Русский",
+      "rtl": false
+    },
+    {
+      "keyword": "Russian speaking therapist for family pressure",
+      "slug": "russian-russian-speaking-therapist-for-family-pressure",
+      "angle": "family expectation and pressure; finding a Russian-speaking therapist",
+      "lang": "russian",
+      "lang_name": "Russian",
+      "native_name": "Русский",
+      "rtl": false
+    },
+    {
+      "keyword": "online Russian therapy for family pressure",
+      "slug": "russian-online-russian-therapy-for-family-pressure",
+      "angle": "family expectation and pressure; online and confidential, in Russian",
+      "lang": "russian",
+      "lang_name": "Russian",
+      "native_name": "Русский",
+      "rtl": false
+    },
+    {
+      "keyword": "Russian therapy for isolation",
+      "slug": "russian-russian-therapy-for-isolation",
+      "angle": "social isolation, written natively in Russian",
+      "lang": "russian",
+      "lang_name": "Russian",
+      "native_name": "Русский",
+      "rtl": false
+    },
+    {
+      "keyword": "Russian speaking therapist for isolation",
+      "slug": "russian-russian-speaking-therapist-for-isolation",
+      "angle": "social isolation; finding a Russian-speaking therapist",
+      "lang": "russian",
+      "lang_name": "Russian",
+      "native_name": "Русский",
+      "rtl": false
+    },
+    {
+      "keyword": "online Russian therapy for isolation",
+      "slug": "russian-online-russian-therapy-for-isolation",
+      "angle": "social isolation; online and confidential, in Russian",
+      "lang": "russian",
+      "lang_name": "Russian",
+      "native_name": "Русский",
+      "rtl": false
+    },
+    {
+      "keyword": "Russian therapy for breakup",
+      "slug": "russian-russian-therapy-for-breakup",
+      "angle": "after a painful breakup, written natively in Russian",
+      "lang": "russian",
+      "lang_name": "Russian",
+      "native_name": "Русский",
+      "rtl": false
+    },
+    {
+      "keyword": "Russian speaking therapist for breakup",
+      "slug": "russian-russian-speaking-therapist-for-breakup",
+      "angle": "after a painful breakup; finding a Russian-speaking therapist",
+      "lang": "russian",
+      "lang_name": "Russian",
+      "native_name": "Русский",
+      "rtl": false
+    },
+    {
+      "keyword": "online Russian therapy for breakup",
+      "slug": "russian-online-russian-therapy-for-breakup",
+      "angle": "after a painful breakup; online and confidential, in Russian",
+      "lang": "russian",
+      "lang_name": "Russian",
+      "native_name": "Русский",
+      "rtl": false
+    },
+    {
+      "keyword": "Russian therapy for acculturative stress",
+      "slug": "russian-russian-therapy-for-acculturative-stress",
+      "angle": "the exhaustion of adapting to a new country, written natively in Russian",
+      "lang": "russian",
+      "lang_name": "Russian",
+      "native_name": "Русский",
+      "rtl": false
+    },
+    {
+      "keyword": "Russian speaking therapist for acculturative stress",
+      "slug": "russian-russian-speaking-therapist-for-acculturative-stress",
+      "angle": "the exhaustion of adapting to a new country; finding a Russian-speaking therapist",
+      "lang": "russian",
+      "lang_name": "Russian",
+      "native_name": "Русский",
+      "rtl": false
+    },
+    {
+      "keyword": "online Russian therapy for acculturative stress",
+      "slug": "russian-online-russian-therapy-for-acculturative-stress",
+      "angle": "the exhaustion of adapting to a new country; online and confidential, in Russian",
+      "lang": "russian",
+      "lang_name": "Russian",
+      "native_name": "Русский",
+      "rtl": false
+    },
+    {
+      "keyword": "Russian therapy for immigrant guilt",
+      "slug": "russian-russian-therapy-for-immigrant-guilt",
+      "angle": "guilt over family left behind, written natively in Russian",
+      "lang": "russian",
+      "lang_name": "Russian",
+      "native_name": "Русский",
+      "rtl": false
+    },
+    {
+      "keyword": "Russian speaking therapist for immigrant guilt",
+      "slug": "russian-russian-speaking-therapist-for-immigrant-guilt",
+      "angle": "guilt over family left behind; finding a Russian-speaking therapist",
+      "lang": "russian",
+      "lang_name": "Russian",
+      "native_name": "Русский",
+      "rtl": false
+    },
+    {
+      "keyword": "online Russian therapy for immigrant guilt",
+      "slug": "russian-online-russian-therapy-for-immigrant-guilt",
+      "angle": "guilt over family left behind; online and confidential, in Russian",
+      "lang": "russian",
+      "lang_name": "Russian",
+      "native_name": "Русский",
+      "rtl": false
+    },
+    {
+      "keyword": "Russian therapy for postpartum depression",
+      "slug": "russian-russian-therapy-for-postpartum-depression",
+      "angle": "depression after childbirth, written natively in Russian",
+      "lang": "russian",
+      "lang_name": "Russian",
+      "native_name": "Русский",
+      "rtl": false
+    },
+    {
+      "keyword": "Russian speaking therapist for postpartum depression",
+      "slug": "russian-russian-speaking-therapist-for-postpartum-depression",
+      "angle": "depression after childbirth; finding a Russian-speaking therapist",
+      "lang": "russian",
+      "lang_name": "Russian",
+      "native_name": "Русский",
+      "rtl": false
+    },
+    {
+      "keyword": "online Russian therapy for postpartum depression",
+      "slug": "russian-online-russian-therapy-for-postpartum-depression",
+      "angle": "depression after childbirth; online and confidential, in Russian",
+      "lang": "russian",
+      "lang_name": "Russian",
+      "native_name": "Русский",
+      "rtl": false
+    },
+    {
+      "keyword": "Russian therapy for anger",
+      "slug": "russian-russian-therapy-for-anger",
+      "angle": "anger and irritability, written natively in Russian",
+      "lang": "russian",
+      "lang_name": "Russian",
+      "native_name": "Русский",
+      "rtl": false
+    },
+    {
+      "keyword": "Russian speaking therapist for anger",
+      "slug": "russian-russian-speaking-therapist-for-anger",
+      "angle": "anger and irritability; finding a Russian-speaking therapist",
+      "lang": "russian",
+      "lang_name": "Russian",
+      "native_name": "Русский",
+      "rtl": false
+    },
+    {
+      "keyword": "online Russian therapy for anger",
+      "slug": "russian-online-russian-therapy-for-anger",
+      "angle": "anger and irritability; online and confidential, in Russian",
+      "lang": "russian",
+      "lang_name": "Russian",
+      "native_name": "Русский",
+      "rtl": false
+    },
+    {
+      "keyword": "Russian therapy for overthinking",
+      "slug": "russian-russian-therapy-for-overthinking",
+      "angle": "constant overthinking and worry, written natively in Russian",
+      "lang": "russian",
+      "lang_name": "Russian",
+      "native_name": "Русский",
+      "rtl": false
+    },
+    {
+      "keyword": "Russian speaking therapist for overthinking",
+      "slug": "russian-russian-speaking-therapist-for-overthinking",
+      "angle": "constant overthinking and worry; finding a Russian-speaking therapist",
+      "lang": "russian",
+      "lang_name": "Russian",
+      "native_name": "Русский",
+      "rtl": false
+    },
+    {
+      "keyword": "online Russian therapy for overthinking",
+      "slug": "russian-online-russian-therapy-for-overthinking",
+      "angle": "constant overthinking and worry; online and confidential, in Russian",
+      "lang": "russian",
+      "lang_name": "Russian",
+      "native_name": "Русский",
+      "rtl": false
+    },
+    {
+      "keyword": "Russian therapy for perfectionism",
+      "slug": "russian-russian-therapy-for-perfectionism",
+      "angle": "perfectionism and never feeling enough, written natively in Russian",
+      "lang": "russian",
+      "lang_name": "Russian",
+      "native_name": "Русский",
+      "rtl": false
+    },
+    {
+      "keyword": "Russian speaking therapist for perfectionism",
+      "slug": "russian-russian-speaking-therapist-for-perfectionism",
+      "angle": "perfectionism and never feeling enough; finding a Russian-speaking therapist",
+      "lang": "russian",
+      "lang_name": "Russian",
+      "native_name": "Русский",
+      "rtl": false
+    },
+    {
+      "keyword": "online Russian therapy for perfectionism",
+      "slug": "russian-online-russian-therapy-for-perfectionism",
+      "angle": "perfectionism and never feeling enough; online and confidential, in Russian",
+      "lang": "russian",
+      "lang_name": "Russian",
+      "native_name": "Русский",
+      "rtl": false
+    },
+    {
+      "keyword": "Russian therapy for financial stress",
+      "slug": "russian-russian-therapy-for-financial-stress",
+      "angle": "money worries and financial pressure, written natively in Russian",
+      "lang": "russian",
+      "lang_name": "Russian",
+      "native_name": "Русский",
+      "rtl": false
+    },
+    {
+      "keyword": "Russian speaking therapist for financial stress",
+      "slug": "russian-russian-speaking-therapist-for-financial-stress",
+      "angle": "money worries and financial pressure; finding a Russian-speaking therapist",
+      "lang": "russian",
+      "lang_name": "Russian",
+      "native_name": "Русский",
+      "rtl": false
+    },
+    {
+      "keyword": "online Russian therapy for financial stress",
+      "slug": "russian-online-russian-therapy-for-financial-stress",
+      "angle": "money worries and financial pressure; online and confidential, in Russian",
+      "lang": "russian",
+      "lang_name": "Russian",
+      "native_name": "Русский",
+      "rtl": false
+    },
+    {
+      "keyword": "Russian therapy for social anxiety",
+      "slug": "russian-russian-therapy-for-social-anxiety",
+      "angle": "social anxiety and fear of judgment, written natively in Russian",
+      "lang": "russian",
+      "lang_name": "Russian",
+      "native_name": "Русский",
+      "rtl": false
+    },
+    {
+      "keyword": "Russian speaking therapist for social anxiety",
+      "slug": "russian-russian-speaking-therapist-for-social-anxiety",
+      "angle": "social anxiety and fear of judgment; finding a Russian-speaking therapist",
+      "lang": "russian",
+      "lang_name": "Russian",
+      "native_name": "Русский",
+      "rtl": false
+    },
+    {
+      "keyword": "online Russian therapy for social anxiety",
+      "slug": "russian-online-russian-therapy-for-social-anxiety",
+      "angle": "social anxiety and fear of judgment; online and confidential, in Russian",
+      "lang": "russian",
+      "lang_name": "Russian",
+      "native_name": "Русский",
+      "rtl": false
+    },
+    {
+      "keyword": "Russian therapy for emotional numbness",
+      "slug": "russian-russian-therapy-for-emotional-numbness",
+      "angle": "feeling numb and disconnected, written natively in Russian",
+      "lang": "russian",
+      "lang_name": "Russian",
+      "native_name": "Русский",
+      "rtl": false
+    },
+    {
+      "keyword": "Russian speaking therapist for emotional numbness",
+      "slug": "russian-russian-speaking-therapist-for-emotional-numbness",
+      "angle": "feeling numb and disconnected; finding a Russian-speaking therapist",
+      "lang": "russian",
+      "lang_name": "Russian",
+      "native_name": "Русский",
+      "rtl": false
+    },
+    {
+      "keyword": "online Russian therapy for emotional numbness",
+      "slug": "russian-online-russian-therapy-for-emotional-numbness",
+      "angle": "feeling numb and disconnected; online and confidential, in Russian",
+      "lang": "russian",
+      "lang_name": "Russian",
+      "native_name": "Русский",
+      "rtl": false
+    }
+  ]
+}

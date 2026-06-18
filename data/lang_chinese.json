@@ -1,0 +1,880 @@
+{
+  "workflow": "lang_chinese",
+  "cluster_title": "Chinese (中文) — 97 pages",
+  "language": "chinese",
+  "pages": [
+    {
+      "keyword": "中文心理咨询",
+      "slug": "chinese-therapy-in-chinese-for-us-chinese-speakers",
+      "angle": "therapy in Chinese for US Chinese speakers",
+      "lang": "chinese",
+      "lang_name": "Chinese",
+      "native_name": "中文",
+      "rtl": false
+    },
+    {
+      "keyword": "在线中文心理治疗",
+      "slug": "chinese-online-chinese-therapy",
+      "angle": "online Chinese therapy",
+      "lang": "chinese",
+      "lang_name": "Chinese",
+      "native_name": "中文",
+      "rtl": false
+    },
+    {
+      "keyword": "中文焦虑症治疗",
+      "slug": "chinese-anxiety-therapy-in-chinese",
+      "angle": "anxiety therapy in Chinese",
+      "lang": "chinese",
+      "lang_name": "Chinese",
+      "native_name": "中文",
+      "rtl": false
+    },
+    {
+      "keyword": "中文抑郁症治疗",
+      "slug": "chinese-depression-therapy-in-chinese",
+      "angle": "depression therapy in Chinese",
+      "lang": "chinese",
+      "lang_name": "Chinese",
+      "native_name": "中文",
+      "rtl": false
+    },
+    {
+      "keyword": "华人移民心理咨询",
+      "slug": "chinese-therapy-for-chinese-immigrants",
+      "angle": "therapy for Chinese immigrants",
+      "lang": "chinese",
+      "lang_name": "Chinese",
+      "native_name": "中文",
+      "rtl": false
+    },
+    {
+      "keyword": "会说中文的心理医生",
+      "slug": "chinese-finding-a-chinese-speaking-therapist",
+      "angle": "finding a Chinese-speaking therapist",
+      "lang": "chinese",
+      "lang_name": "Chinese",
+      "native_name": "中文",
+      "rtl": false
+    },
+    {
+      "keyword": "离婚后的心理咨询",
+      "slug": "chinese-therapy-after-divorce",
+      "angle": "therapy after divorce",
+      "lang": "chinese",
+      "lang_name": "Chinese",
+      "native_name": "中文",
+      "rtl": false
+    },
+    {
+      "keyword": "移民孤独感心理咨询",
+      "slug": "chinese-immigrant-loneliness",
+      "angle": "immigrant loneliness",
+      "lang": "chinese",
+      "lang_name": "Chinese",
+      "native_name": "中文",
+      "rtl": false
+    },
+    {
+      "keyword": "为什么我在美国感到孤独",
+      "slug": "chinese-why-do-i-feel-alone-in-america",
+      "angle": "why do I feel alone in America",
+      "lang": "chinese",
+      "lang_name": "Chinese",
+      "native_name": "中文",
+      "rtl": false
+    },
+    {
+      "keyword": "思乡之情的心理治疗",
+      "slug": "chinese-homesickness-therapy",
+      "angle": "homesickness therapy",
+      "lang": "chinese",
+      "lang_name": "Chinese",
+      "native_name": "中文",
+      "rtl": false
+    },
+    {
+      "keyword": "华人母亲心理咨询",
+      "slug": "chinese-therapy-for-chinese-mothers",
+      "angle": "therapy for Chinese mothers",
+      "lang": "chinese",
+      "lang_name": "Chinese",
+      "native_name": "中文",
+      "rtl": false
+    },
+    {
+      "keyword": "情绪倦怠心理治疗",
+      "slug": "chinese-emotional-burnout",
+      "angle": "emotional burnout",
+      "lang": "chinese",
+      "lang_name": "Chinese",
+      "native_name": "中文",
+      "rtl": false
+    },
+    {
+      "keyword": "中文哀伤辅导",
+      "slug": "chinese-grief-therapy-in-chinese",
+      "angle": "grief therapy in Chinese",
+      "lang": "chinese",
+      "lang_name": "Chinese",
+      "native_name": "中文",
+      "rtl": false
+    },
+    {
+      "keyword": "Chinese therapy for anxiety",
+      "slug": "chinese-chinese-therapy-for-anxiety",
+      "angle": "anxiety, written natively in Chinese",
+      "lang": "chinese",
+      "lang_name": "Chinese",
+      "native_name": "中文",
+      "rtl": false
+    },
+    {
+      "keyword": "Chinese speaking therapist for anxiety",
+      "slug": "chinese-chinese-speaking-therapist-for-anxiety",
+      "angle": "anxiety; finding a Chinese-speaking therapist",
+      "lang": "chinese",
+      "lang_name": "Chinese",
+      "native_name": "中文",
+      "rtl": false
+    },
+    {
+      "keyword": "online Chinese therapy for anxiety",
+      "slug": "chinese-online-chinese-therapy-for-anxiety",
+      "angle": "anxiety; online and confidential, in Chinese",
+      "lang": "chinese",
+      "lang_name": "Chinese",
+      "native_name": "中文",
+      "rtl": false
+    },
+    {
+      "keyword": "Chinese therapy for depression",
+      "slug": "chinese-chinese-therapy-for-depression",
+      "angle": "depression, written natively in Chinese",
+      "lang": "chinese",
+      "lang_name": "Chinese",
+      "native_name": "中文",
+      "rtl": false
+    },
+    {
+      "keyword": "Chinese speaking therapist for depression",
+      "slug": "chinese-chinese-speaking-therapist-for-depression",
+      "angle": "depression; finding a Chinese-speaking therapist",
+      "lang": "chinese",
+      "lang_name": "Chinese",
+      "native_name": "中文",
+      "rtl": false
+    },
+    {
+      "keyword": "online Chinese therapy for depression",
+      "slug": "chinese-online-chinese-therapy-for-depression",
+      "angle": "depression; online and confidential, in Chinese",
+      "lang": "chinese",
+      "lang_name": "Chinese",
+      "native_name": "中文",
+      "rtl": false
+    },
+    {
+      "keyword": "Chinese therapy for loneliness",
+      "slug": "chinese-chinese-therapy-for-loneliness",
+      "angle": "loneliness, written natively in Chinese",
+      "lang": "chinese",
+      "lang_name": "Chinese",
+      "native_name": "中文",
+      "rtl": false
+    },
+    {
+      "keyword": "Chinese speaking therapist for loneliness",
+      "slug": "chinese-chinese-speaking-therapist-for-loneliness",
+      "angle": "loneliness; finding a Chinese-speaking therapist",
+      "lang": "chinese",
+      "lang_name": "Chinese",
+      "native_name": "中文",
+      "rtl": false
+    },
+    {
+      "keyword": "online Chinese therapy for loneliness",
+      "slug": "chinese-online-chinese-therapy-for-loneliness",
+      "angle": "loneliness; online and confidential, in Chinese",
+      "lang": "chinese",
+      "lang_name": "Chinese",
+      "native_name": "中文",
+      "rtl": false
+    },
+    {
+      "keyword": "Chinese therapy for homesickness",
+      "slug": "chinese-chinese-therapy-for-homesickness",
+      "angle": "homesickness, written natively in Chinese",
+      "lang": "chinese",
+      "lang_name": "Chinese",
+      "native_name": "中文",
+      "rtl": false
+    },
+    {
+      "keyword": "Chinese speaking therapist for homesickness",
+      "slug": "chinese-chinese-speaking-therapist-for-homesickness",
+      "angle": "homesickness; finding a Chinese-speaking therapist",
+      "lang": "chinese",
+      "lang_name": "Chinese",
+      "native_name": "中文",
+      "rtl": false
+    },
+    {
+      "keyword": "online Chinese therapy for homesickness",
+      "slug": "chinese-online-chinese-therapy-for-homesickness",
+      "angle": "homesickness; online and confidential, in Chinese",
+      "lang": "chinese",
+      "lang_name": "Chinese",
+      "native_name": "中文",
+      "rtl": false
+    },
+    {
+      "keyword": "Chinese therapy for divorce",
+      "slug": "chinese-chinese-therapy-for-divorce",
+      "angle": "after divorce, written natively in Chinese",
+      "lang": "chinese",
+      "lang_name": "Chinese",
+      "native_name": "中文",
+      "rtl": false
+    },
+    {
+      "keyword": "Chinese speaking therapist for divorce",
+      "slug": "chinese-chinese-speaking-therapist-for-divorce",
+      "angle": "after divorce; finding a Chinese-speaking therapist",
+      "lang": "chinese",
+      "lang_name": "Chinese",
+      "native_name": "中文",
+      "rtl": false
+    },
+    {
+      "keyword": "online Chinese therapy for divorce",
+      "slug": "chinese-online-chinese-therapy-for-divorce",
+      "angle": "after divorce; online and confidential, in Chinese",
+      "lang": "chinese",
+      "lang_name": "Chinese",
+      "native_name": "中文",
+      "rtl": false
+    },
+    {
+      "keyword": "Chinese therapy for grief",
+      "slug": "chinese-chinese-therapy-for-grief",
+      "angle": "grief and loss, written natively in Chinese",
+      "lang": "chinese",
+      "lang_name": "Chinese",
+      "native_name": "中文",
+      "rtl": false
+    },
+    {
+      "keyword": "Chinese speaking therapist for grief",
+      "slug": "chinese-chinese-speaking-therapist-for-grief",
+      "angle": "grief and loss; finding a Chinese-speaking therapist",
+      "lang": "chinese",
+      "lang_name": "Chinese",
+      "native_name": "中文",
+      "rtl": false
+    },
+    {
+      "keyword": "online Chinese therapy for grief",
+      "slug": "chinese-online-chinese-therapy-for-grief",
+      "angle": "grief and loss; online and confidential, in Chinese",
+      "lang": "chinese",
+      "lang_name": "Chinese",
+      "native_name": "中文",
+      "rtl": false
+    },
+    {
+      "keyword": "Chinese therapy for burnout",
+      "slug": "chinese-chinese-therapy-for-burnout",
+      "angle": "emotional burnout, written natively in Chinese",
+      "lang": "chinese",
+      "lang_name": "Chinese",
+      "native_name": "中文",
+      "rtl": false
+    },
+    {
+      "keyword": "Chinese speaking therapist for burnout",
+      "slug": "chinese-chinese-speaking-therapist-for-burnout",
+      "angle": "emotional burnout; finding a Chinese-speaking therapist",
+      "lang": "chinese",
+      "lang_name": "Chinese",
+      "native_name": "中文",
+      "rtl": false
+    },
+    {
+      "keyword": "online Chinese therapy for burnout",
+      "slug": "chinese-online-chinese-therapy-for-burnout",
+      "angle": "emotional burnout; online and confidential, in Chinese",
+      "lang": "chinese",
+      "lang_name": "Chinese",
+      "native_name": "中文",
+      "rtl": false
+    },
+    {
+      "keyword": "Chinese therapy for panic attacks",
+      "slug": "chinese-chinese-therapy-for-panic-attacks",
+      "angle": "panic attacks, written natively in Chinese",
+      "lang": "chinese",
+      "lang_name": "Chinese",
+      "native_name": "中文",
+      "rtl": false
+    },
+    {
+      "keyword": "Chinese speaking therapist for panic attacks",
+      "slug": "chinese-chinese-speaking-therapist-for-panic-attacks",
+      "angle": "panic attacks; finding a Chinese-speaking therapist",
+      "lang": "chinese",
+      "lang_name": "Chinese",
+      "native_name": "中文",
+      "rtl": false
+    },
+    {
+      "keyword": "online Chinese therapy for panic attacks",
+      "slug": "chinese-online-chinese-therapy-for-panic-attacks",
+      "angle": "panic attacks; online and confidential, in Chinese",
+      "lang": "chinese",
+      "lang_name": "Chinese",
+      "native_name": "中文",
+      "rtl": false
+    },
+    {
+      "keyword": "Chinese therapy for stress",
+      "slug": "chinese-chinese-therapy-for-stress",
+      "angle": "chronic stress, written natively in Chinese",
+      "lang": "chinese",
+      "lang_name": "Chinese",
+      "native_name": "中文",
+      "rtl": false
+    },
+    {
+      "keyword": "Chinese speaking therapist for stress",
+      "slug": "chinese-chinese-speaking-therapist-for-stress",
+      "angle": "chronic stress; finding a Chinese-speaking therapist",
+      "lang": "chinese",
+      "lang_name": "Chinese",
+      "native_name": "中文",
+      "rtl": false
+    },
+    {
+      "keyword": "online Chinese therapy for stress",
+      "slug": "chinese-online-chinese-therapy-for-stress",
+      "angle": "chronic stress; online and confidential, in Chinese",
+      "lang": "chinese",
+      "lang_name": "Chinese",
+      "native_name": "中文",
+      "rtl": false
+    },
+    {
+      "keyword": "Chinese therapy for trauma",
+      "slug": "chinese-chinese-therapy-for-trauma",
+      "angle": "trauma, written natively in Chinese",
+      "lang": "chinese",
+      "lang_name": "Chinese",
+      "native_name": "中文",
+      "rtl": false
+    },
+    {
+      "keyword": "Chinese speaking therapist for trauma",
+      "slug": "chinese-chinese-speaking-therapist-for-trauma",
+      "angle": "trauma; finding a Chinese-speaking therapist",
+      "lang": "chinese",
+      "lang_name": "Chinese",
+      "native_name": "中文",
+      "rtl": false
+    },
+    {
+      "keyword": "online Chinese therapy for trauma",
+      "slug": "chinese-online-chinese-therapy-for-trauma",
+      "angle": "trauma; online and confidential, in Chinese",
+      "lang": "chinese",
+      "lang_name": "Chinese",
+      "native_name": "中文",
+      "rtl": false
+    },
+    {
+      "keyword": "Chinese therapy for low self esteem",
+      "slug": "chinese-chinese-therapy-for-low-self-esteem",
+      "angle": "low self-esteem, written natively in Chinese",
+      "lang": "chinese",
+      "lang_name": "Chinese",
+      "native_name": "中文",
+      "rtl": false
+    },
+    {
+      "keyword": "Chinese speaking therapist for low self esteem",
+      "slug": "chinese-chinese-speaking-therapist-for-low-self-esteem",
+      "angle": "low self-esteem; finding a Chinese-speaking therapist",
+      "lang": "chinese",
+      "lang_name": "Chinese",
+      "native_name": "中文",
+      "rtl": false
+    },
+    {
+      "keyword": "online Chinese therapy for low self esteem",
+      "slug": "chinese-online-chinese-therapy-for-low-self-esteem",
+      "angle": "low self-esteem; online and confidential, in Chinese",
+      "lang": "chinese",
+      "lang_name": "Chinese",
+      "native_name": "中文",
+      "rtl": false
+    },
+    {
+      "keyword": "Chinese therapy for relationship problems",
+      "slug": "chinese-chinese-therapy-for-relationship-problems",
+      "angle": "relationship difficulties, written natively in Chinese",
+      "lang": "chinese",
+      "lang_name": "Chinese",
+      "native_name": "中文",
+      "rtl": false
+    },
+    {
+      "keyword": "Chinese speaking therapist for relationship problems",
+      "slug": "chinese-chinese-speaking-therapist-for-relationship-problems",
+      "angle": "relationship difficulties; finding a Chinese-speaking therapist",
+      "lang": "chinese",
+      "lang_name": "Chinese",
+      "native_name": "中文",
+      "rtl": false
+    },
+    {
+      "keyword": "online Chinese therapy for relationship problems",
+      "slug": "chinese-online-chinese-therapy-for-relationship-problems",
+      "angle": "relationship difficulties; online and confidential, in Chinese",
+      "lang": "chinese",
+      "lang_name": "Chinese",
+      "native_name": "中文",
+      "rtl": false
+    },
+    {
+      "keyword": "Chinese therapy for parenting stress",
+      "slug": "chinese-chinese-therapy-for-parenting-stress",
+      "angle": "parenting stress, written natively in Chinese",
+      "lang": "chinese",
+      "lang_name": "Chinese",
+      "native_name": "中文",
+      "rtl": false
+    },
+    {
+      "keyword": "Chinese speaking therapist for parenting stress",
+      "slug": "chinese-chinese-speaking-therapist-for-parenting-stress",
+      "angle": "parenting stress; finding a Chinese-speaking therapist",
+      "lang": "chinese",
+      "lang_name": "Chinese",
+      "native_name": "中文",
+      "rtl": false
+    },
+    {
+      "keyword": "online Chinese therapy for parenting stress",
+      "slug": "chinese-online-chinese-therapy-for-parenting-stress",
+      "angle": "parenting stress; online and confidential, in Chinese",
+      "lang": "chinese",
+      "lang_name": "Chinese",
+      "native_name": "中文",
+      "rtl": false
+    },
+    {
+      "keyword": "Chinese therapy for work stress",
+      "slug": "chinese-chinese-therapy-for-work-stress",
+      "angle": "work stress, written natively in Chinese",
+      "lang": "chinese",
+      "lang_name": "Chinese",
+      "native_name": "中文",
+      "rtl": false
+    },
+    {
+      "keyword": "Chinese speaking therapist for work stress",
+      "slug": "chinese-chinese-speaking-therapist-for-work-stress",
+      "angle": "work stress; finding a Chinese-speaking therapist",
+      "lang": "chinese",
+      "lang_name": "Chinese",
+      "native_name": "中文",
+      "rtl": false
+    },
+    {
+      "keyword": "online Chinese therapy for work stress",
+      "slug": "chinese-online-chinese-therapy-for-work-stress",
+      "angle": "work stress; online and confidential, in Chinese",
+      "lang": "chinese",
+      "lang_name": "Chinese",
+      "native_name": "中文",
+      "rtl": false
+    },
+    {
+      "keyword": "Chinese therapy for insomnia",
+      "slug": "chinese-chinese-therapy-for-insomnia",
+      "angle": "anxiety-driven sleeplessness, written natively in Chinese",
+      "lang": "chinese",
+      "lang_name": "Chinese",
+      "native_name": "中文",
+      "rtl": false
+    },
+    {
+      "keyword": "Chinese speaking therapist for insomnia",
+      "slug": "chinese-chinese-speaking-therapist-for-insomnia",
+      "angle": "anxiety-driven sleeplessness; finding a Chinese-speaking therapist",
+      "lang": "chinese",
+      "lang_name": "Chinese",
+      "native_name": "中文",
+      "rtl": false
+    },
+    {
+      "keyword": "online Chinese therapy for insomnia",
+      "slug": "chinese-online-chinese-therapy-for-insomnia",
+      "angle": "anxiety-driven sleeplessness; online and confidential, in Chinese",
+      "lang": "chinese",
+      "lang_name": "Chinese",
+      "native_name": "中文",
+      "rtl": false
+    },
+    {
+      "keyword": "Chinese therapy for identity",
+      "slug": "chinese-chinese-therapy-for-identity",
+      "angle": "cultural identity struggles, written natively in Chinese",
+      "lang": "chinese",
+      "lang_name": "Chinese",
+      "native_name": "中文",
+      "rtl": false
+    },
+    {
+      "keyword": "Chinese speaking therapist for identity",
+      "slug": "chinese-chinese-speaking-therapist-for-identity",
+      "angle": "cultural identity struggles; finding a Chinese-speaking therapist",
+      "lang": "chinese",
+      "lang_name": "Chinese",
+      "native_name": "中文",
+      "rtl": false
+    },
+    {
+      "keyword": "online Chinese therapy for identity",
+      "slug": "chinese-online-chinese-therapy-for-identity",
+      "angle": "cultural identity struggles; online and confidential, in Chinese",
+      "lang": "chinese",
+      "lang_name": "Chinese",
+      "native_name": "中文",
+      "rtl": false
+    },
+    {
+      "keyword": "Chinese therapy for family pressure",
+      "slug": "chinese-chinese-therapy-for-family-pressure",
+      "angle": "family expectation and pressure, written natively in Chinese",
+      "lang": "chinese",
+      "lang_name": "Chinese",
+      "native_name": "中文",
+      "rtl": false
+    },
+    {
+      "keyword": "Chinese speaking therapist for family pressure",
+      "slug": "chinese-chinese-speaking-therapist-for-family-pressure",
+      "angle": "family expectation and pressure; finding a Chinese-speaking therapist",
+      "lang": "chinese",
+      "lang_name": "Chinese",
+      "native_name": "中文",
+      "rtl": false
+    },
+    {
+      "keyword": "online Chinese therapy for family pressure",
+      "slug": "chinese-online-chinese-therapy-for-family-pressure",
+      "angle": "family expectation and pressure; online and confidential, in Chinese",
+      "lang": "chinese",
+      "lang_name": "Chinese",
+      "native_name": "中文",
+      "rtl": false
+    },
+    {
+      "keyword": "Chinese therapy for isolation",
+      "slug": "chinese-chinese-therapy-for-isolation",
+      "angle": "social isolation, written natively in Chinese",
+      "lang": "chinese",
+      "lang_name": "Chinese",
+      "native_name": "中文",
+      "rtl": false
+    },
+    {
+      "keyword": "Chinese speaking therapist for isolation",
+      "slug": "chinese-chinese-speaking-therapist-for-isolation",
+      "angle": "social isolation; finding a Chinese-speaking therapist",
+      "lang": "chinese",
+      "lang_name": "Chinese",
+      "native_name": "中文",
+      "rtl": false
+    },
+    {
+      "keyword": "online Chinese therapy for isolation",
+      "slug": "chinese-online-chinese-therapy-for-isolation",
+      "angle": "social isolation; online and confidential, in Chinese",
+      "lang": "chinese",
+      "lang_name": "Chinese",
+      "native_name": "中文",
+      "rtl": false
+    },
+    {
+      "keyword": "Chinese therapy for breakup",
+      "slug": "chinese-chinese-therapy-for-breakup",
+      "angle": "after a painful breakup, written natively in Chinese",
+      "lang": "chinese",
+      "lang_name": "Chinese",
+      "native_name": "中文",
+      "rtl": false
+    },
+    {
+      "keyword": "Chinese speaking therapist for breakup",
+      "slug": "chinese-chinese-speaking-therapist-for-breakup",
+      "angle": "after a painful breakup; finding a Chinese-speaking therapist",
+      "lang": "chinese",
+      "lang_name": "Chinese",
+      "native_name": "中文",
+      "rtl": false
+    },
+    {
+      "keyword": "online Chinese therapy for breakup",
+      "slug": "chinese-online-chinese-therapy-for-breakup",
+      "angle": "after a painful breakup; online and confidential, in Chinese",
+      "lang": "chinese",
+      "lang_name": "Chinese",
+      "native_name": "中文",
+      "rtl": false
+    },
+    {
+      "keyword": "Chinese therapy for acculturative stress",
+      "slug": "chinese-chinese-therapy-for-acculturative-stress",
+      "angle": "the exhaustion of adapting to a new country, written natively in Chinese",
+      "lang": "chinese",
+      "lang_name": "Chinese",
+      "native_name": "中文",
+      "rtl": false
+    },
+    {
+      "keyword": "Chinese speaking therapist for acculturative stress",
+      "slug": "chinese-chinese-speaking-therapist-for-acculturative-stress",
+      "angle": "the exhaustion of adapting to a new country; finding a Chinese-speaking therapist",
+      "lang": "chinese",
+      "lang_name": "Chinese",
+      "native_name": "中文",
+      "rtl": false
+    },
+    {
+      "keyword": "online Chinese therapy for acculturative stress",
+      "slug": "chinese-online-chinese-therapy-for-acculturative-stress",
+      "angle": "the exhaustion of adapting to a new country; online and confidential, in Chinese",
+      "lang": "chinese",
+      "lang_name": "Chinese",
+      "native_name": "中文",
+      "rtl": false
+    },
+    {
+      "keyword": "Chinese therapy for immigrant guilt",
+      "slug": "chinese-chinese-therapy-for-immigrant-guilt",
+      "angle": "guilt over family left behind, written natively in Chinese",
+      "lang": "chinese",
+      "lang_name": "Chinese",
+      "native_name": "中文",
+      "rtl": false
+    },
+    {
+      "keyword": "Chinese speaking therapist for immigrant guilt",
+      "slug": "chinese-chinese-speaking-therapist-for-immigrant-guilt",
+      "angle": "guilt over family left behind; finding a Chinese-speaking therapist",
+      "lang": "chinese",
+      "lang_name": "Chinese",
+      "native_name": "中文",
+      "rtl": false
+    },
+    {
+      "keyword": "online Chinese therapy for immigrant guilt",
+      "slug": "chinese-online-chinese-therapy-for-immigrant-guilt",
+      "angle": "guilt over family left behind; online and confidential, in Chinese",
+      "lang": "chinese",
+      "lang_name": "Chinese",
+      "native_name": "中文",
+      "rtl": false
+    },
+    {
+      "keyword": "Chinese therapy for postpartum depression",
+      "slug": "chinese-chinese-therapy-for-postpartum-depression",
+      "angle": "depression after childbirth, written natively in Chinese",
+      "lang": "chinese",
+      "lang_name": "Chinese",
+      "native_name": "中文",
+      "rtl": false
+    },
+    {
+      "keyword": "Chinese speaking therapist for postpartum depression",
+      "slug": "chinese-chinese-speaking-therapist-for-postpartum-depression",
+      "angle": "depression after childbirth; finding a Chinese-speaking therapist",
+      "lang": "chinese",
+      "lang_name": "Chinese",
+      "native_name": "中文",
+      "rtl": false
+    },
+    {
+      "keyword": "online Chinese therapy for postpartum depression",
+      "slug": "chinese-online-chinese-therapy-for-postpartum-depression",
+      "angle": "depression after childbirth; online and confidential, in Chinese",
+      "lang": "chinese",
+      "lang_name": "Chinese",
+      "native_name": "中文",
+      "rtl": false
+    },
+    {
+      "keyword": "Chinese therapy for anger",
+      "slug": "chinese-chinese-therapy-for-anger",
+      "angle": "anger and irritability, written natively in Chinese",
+      "lang": "chinese",
+      "lang_name": "Chinese",
+      "native_name": "中文",
+      "rtl": false
+    },
+    {
+      "keyword": "Chinese speaking therapist for anger",
+      "slug": "chinese-chinese-speaking-therapist-for-anger",
+      "angle": "anger and irritability; finding a Chinese-speaking therapist",
+      "lang": "chinese",
+      "lang_name": "Chinese",
+      "native_name": "中文",
+      "rtl": false
+    },
+    {
+      "keyword": "online Chinese therapy for anger",
+      "slug": "chinese-online-chinese-therapy-for-anger",
+      "angle": "anger and irritability; online and confidential, in Chinese",
+      "lang": "chinese",
+      "lang_name": "Chinese",
+      "native_name": "中文",
+      "rtl": false
+    },
+    {
+      "keyword": "Chinese therapy for overthinking",
+      "slug": "chinese-chinese-therapy-for-overthinking",
+      "angle": "constant overthinking and worry, written natively in Chinese",
+      "lang": "chinese",
+      "lang_name": "Chinese",
+      "native_name": "中文",
+      "rtl": false
+    },
+    {
+      "keyword": "Chinese speaking therapist for overthinking",
+      "slug": "chinese-chinese-speaking-therapist-for-overthinking",
+      "angle": "constant overthinking and worry; finding a Chinese-speaking therapist",
+      "lang": "chinese",
+      "lang_name": "Chinese",
+      "native_name": "中文",
+      "rtl": false
+    },
+    {
+      "keyword": "online Chinese therapy for overthinking",
+      "slug": "chinese-online-chinese-therapy-for-overthinking",
+      "angle": "constant overthinking and worry; online and confidential, in Chinese",
+      "lang": "chinese",
+      "lang_name": "Chinese",
+      "native_name": "中文",
+      "rtl": false
+    },
+    {
+      "keyword": "Chinese therapy for perfectionism",
+      "slug": "chinese-chinese-therapy-for-perfectionism",
+      "angle": "perfectionism and never feeling enough, written natively in Chinese",
+      "lang": "chinese",
+      "lang_name": "Chinese",
+      "native_name": "中文",
+      "rtl": false
+    },
+    {
+      "keyword": "Chinese speaking therapist for perfectionism",
+      "slug": "chinese-chinese-speaking-therapist-for-perfectionism",
+      "angle": "perfectionism and never feeling enough; finding a Chinese-speaking therapist",
+      "lang": "chinese",
+      "lang_name": "Chinese",
+      "native_name": "中文",
+      "rtl": false
+    },
+    {
+      "keyword": "online Chinese therapy for perfectionism",
+      "slug": "chinese-online-chinese-therapy-for-perfectionism",
+      "angle": "perfectionism and never feeling enough; online and confidential, in Chinese",
+      "lang": "chinese",
+      "lang_name": "Chinese",
+      "native_name": "中文",
+      "rtl": false
+    },
+    {
+      "keyword": "Chinese therapy for financial stress",
+      "slug": "chinese-chinese-therapy-for-financial-stress",
+      "angle": "money worries and financial pressure, written natively in Chinese",
+      "lang": "chinese",
+      "lang_name": "Chinese",
+      "native_name": "中文",
+      "rtl": false
+    },
+    {
+      "keyword": "Chinese speaking therapist for financial stress",
+      "slug": "chinese-chinese-speaking-therapist-for-financial-stress",
+      "angle": "money worries and financial pressure; finding a Chinese-speaking therapist",
+      "lang": "chinese",
+      "lang_name": "Chinese",
+      "native_name": "中文",
+      "rtl": false
+    },
+    {
+      "keyword": "online Chinese therapy for financial stress",
+      "slug": "chinese-online-chinese-therapy-for-financial-stress",
+      "angle": "money worries and financial pressure; online and confidential, in Chinese",
+      "lang": "chinese",
+      "lang_name": "Chinese",
+      "native_name": "中文",
+      "rtl": false
+    },
+    {
+      "keyword": "Chinese therapy for social anxiety",
+      "slug": "chinese-chinese-therapy-for-social-anxiety",
+      "angle": "social anxiety and fear of judgment, written natively in Chinese",
+      "lang": "chinese",
+      "lang_name": "Chinese",
+      "native_name": "中文",
+      "rtl": false
+    },
+    {
+      "keyword": "Chinese speaking therapist for social anxiety",
+      "slug": "chinese-chinese-speaking-therapist-for-social-anxiety",
+      "angle": "social anxiety and fear of judgment; finding a Chinese-speaking therapist",
+      "lang": "chinese",
+      "lang_name": "Chinese",
+      "native_name": "中文",
+      "rtl": false
+    },
+    {
+      "keyword": "online Chinese therapy for social anxiety",
+      "slug": "chinese-online-chinese-therapy-for-social-anxiety",
+      "angle": "social anxiety and fear of judgment; online and confidential, in Chinese",
+      "lang": "chinese",
+      "lang_name": "Chinese",
+      "native_name": "中文",
+      "rtl": false
+    },
+    {
+      "keyword": "Chinese therapy for emotional numbness",
+      "slug": "chinese-chinese-therapy-for-emotional-numbness",
+      "angle": "feeling numb and disconnected, written natively in Chinese",
+      "lang": "chinese",
+      "lang_name": "Chinese",
+      "native_name": "中文",
+      "rtl": false
+    },
+    {
+      "keyword": "Chinese speaking therapist for emotional numbness",
+      "slug": "chinese-chinese-speaking-therapist-for-emotional-numbness",
+      "angle": "feeling numb and disconnected; finding a Chinese-speaking therapist",
+      "lang": "chinese",
+      "lang_name": "Chinese",
+      "native_name": "中文",
+      "rtl": false
+    },
+    {
+      "keyword": "online Chinese therapy for emotional numbness",
+      "slug": "chinese-online-chinese-therapy-for-emotional-numbness",
+      "angle": "feeling numb and disconnected; online and confidential, in Chinese",
+      "lang": "chinese",
+      "lang_name": "Chinese",
+      "native_name": "中文",
+      "rtl": false
+    }
+  ]
+}

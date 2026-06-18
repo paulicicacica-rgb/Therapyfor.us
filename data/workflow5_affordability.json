@@ -1,0 +1,32 @@
+{
+  "workflow": "affordability_access",
+  "cluster_title": "Affordability & Access",
+  "pages": [
+    { "keyword": "affordable therapy without insurance", "slug": "affordable-therapy-without-insurance", "angle": "wanting help but convinced you can't afford it" },
+    { "keyword": "online therapy without insurance", "slug": "online-therapy-without-insurance", "angle": "accessing therapy when insurance doesn't cover it" },
+    { "keyword": "therapy when you can't afford it", "slug": "therapy-when-you-cant-afford-it", "angle": "the painful gap between needing help and being able to pay" },
+    { "keyword": "cheap online therapy that actually works", "slug": "cheap-online-therapy-that-works", "angle": "skeptical about budget therapy actually being good" },
+    { "keyword": "therapy options for low income", "slug": "therapy-options-for-low-income", "angle": "finding real mental health help on a tight budget" },
+    { "keyword": "how much does online therapy cost", "slug": "how-much-does-online-therapy-cost", "angle": "the practical cost question before committing" },
+    { "keyword": "is online therapy worth it", "slug": "is-online-therapy-worth-it", "angle": "genuine skepticism — does it actually work or is it a waste" },
+    { "keyword": "online therapy vs in person therapy", "slug": "online-therapy-vs-in-person", "angle": "weighing up the two options before deciding" },
+    { "keyword": "therapy from home", "slug": "therapy-from-home", "angle": "convenience and privacy of doing therapy without going anywhere" },
+    { "keyword": "therapy for busy people with no time", "slug": "therapy-for-busy-people-no-time", "angle": "fitting therapy into a life that has no gaps" },
+    { "keyword": "affordable therapy without insurance in California", "slug": "affordable-therapy-without-insurance-california", "angle": "high cost of living state, specific local angle" },
+    { "keyword": "affordable therapy without insurance in Texas", "slug": "affordable-therapy-without-insurance-texas", "angle": "large uninsured population, rural access issues" },
+    { "keyword": "affordable therapy without insurance in Florida", "slug": "affordable-therapy-without-insurance-florida", "angle": "large diverse population, high demand" },
+    { "keyword": "affordable therapy without insurance in New York", "slug": "affordable-therapy-without-insurance-new-york", "angle": "expensive city, people assuming therapy is out of reach" },
+    { "keyword": "affordable therapy without insurance in Illinois", "slug": "affordable-therapy-without-insurance-illinois", "angle": "Chicago metro and rural gap" },
+    { "keyword": "affordable therapy without insurance in Georgia", "slug": "affordable-therapy-without-insurance-georgia", "angle": "Southern state, mental health stigma + access issues" },
+    { "keyword": "affordable therapy without insurance in Ohio", "slug": "affordable-therapy-without-insurance-ohio", "angle": "midwest working class, affordability focus" },
+    { "keyword": "affordable therapy without insurance in Pennsylvania", "slug": "affordable-therapy-without-insurance-pennsylvania", "angle": "urban rural divide, insurance gaps" },
+    { "keyword": "affordable therapy without insurance in Michigan", "slug": "affordable-therapy-without-insurance-michigan", "angle": "manufacturing heartland, economic stress" },
+    { "keyword": "affordable therapy without insurance in Arizona", "slug": "affordable-therapy-without-insurance-arizona", "angle": "fast growing state, large uninsured population" },
+    { "keyword": "affordable therapy without insurance in North Carolina", "slug": "affordable-therapy-without-insurance-north-carolina", "angle": "diverse state, suburban and rural needs" },
+    { "keyword": "affordable therapy without insurance in Washington", "slug": "affordable-therapy-without-insurance-washington", "angle": "high cost tech state, people earning ok but therapy feels expensive" },
+    { "keyword": "affordable therapy without insurance in Colorado", "slug": "affordable-therapy-without-insurance-colorado", "angle": "high cost of living, wellness culture but therapy still pricey" },
+    { "keyword": "affordable therapy without insurance in Virginia", "slug": "affordable-therapy-without-insurance-virginia", "angle": "DC suburbs and rural split" },
+    { "keyword": "therapy financial aid options", "slug": "therapy-financial-aid-options", "angle": "people who know they need help and are actively looking for a way to pay" },
+    { "keyword": "weekly pay therapy no monthly commitment", "slug": "weekly-pay-therapy-no-commitment", "angle": "the flexibility of not being locked into a monthly plan" }
+  ]
+}

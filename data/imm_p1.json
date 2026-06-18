@@ -1,0 +1,776 @@
+{
+  "workflow": "imm_p1",
+  "cluster_title": "Immigrant P1 — Nationality core + immigrant feelings",
+  "pages": [
+    {
+      "keyword": "therapy for Mexican immigrants",
+      "slug": "therapy-for-mexican-immigrants",
+      "angle": "the largest US immigrant community, deep family ties left behind"
+    },
+    {
+      "keyword": "therapy for Mexican immigrants in America",
+      "slug": "therapy-for-mexican-immigrants-in-america",
+      "angle": "the largest US immigrant community, deep family ties left behind"
+    },
+    {
+      "keyword": "therapy for Salvadoran immigrants",
+      "slug": "therapy-for-salvadoran-immigrants",
+      "angle": "fleeing violence, sending money home, family separation"
+    },
+    {
+      "keyword": "therapy for Salvadoran immigrants in America",
+      "slug": "therapy-for-salvadoran-immigrants-in-america",
+      "angle": "fleeing violence, sending money home, family separation"
+    },
+    {
+      "keyword": "therapy for Guatemalan immigrants",
+      "slug": "therapy-for-guatemalan-immigrants",
+      "angle": "indigenous roots, language barriers, hard labor"
+    },
+    {
+      "keyword": "therapy for Guatemalan immigrants in America",
+      "slug": "therapy-for-guatemalan-immigrants-in-america",
+      "angle": "indigenous roots, language barriers, hard labor"
+    },
+    {
+      "keyword": "therapy for Honduran immigrants",
+      "slug": "therapy-for-honduran-immigrants",
+      "angle": "escaping instability, building from nothing"
+    },
+    {
+      "keyword": "therapy for Honduran immigrants in America",
+      "slug": "therapy-for-honduran-immigrants-in-america",
+      "angle": "escaping instability, building from nothing"
+    },
+    {
+      "keyword": "therapy for Colombian immigrants",
+      "slug": "therapy-for-colombian-immigrants",
+      "angle": "leaving behind a vivid culture, starting over"
+    },
+    {
+      "keyword": "therapy for Colombian immigrants in America",
+      "slug": "therapy-for-colombian-immigrants-in-america",
+      "angle": "leaving behind a vivid culture, starting over"
+    },
+    {
+      "keyword": "therapy for Venezuelan immigrants",
+      "slug": "therapy-for-venezuelan-immigrants",
+      "angle": "fleeing collapse, grief for a country that changed"
+    },
+    {
+      "keyword": "therapy for Venezuelan immigrants in America",
+      "slug": "therapy-for-venezuelan-immigrants-in-america",
+      "angle": "fleeing collapse, grief for a country that changed"
+    },
+    {
+      "keyword": "therapy for Cuban immigrants",
+      "slug": "therapy-for-cuban-immigrants",
+      "angle": "exile, the ache of a homeland you can't easily return to"
+    },
+    {
+      "keyword": "therapy for Cuban immigrants in America",
+      "slug": "therapy-for-cuban-immigrants-in-america",
+      "angle": "exile, the ache of a homeland you can't easily return to"
+    },
+    {
+      "keyword": "therapy for Dominican immigrants",
+      "slug": "therapy-for-dominican-immigrants",
+      "angle": "tight community, pressure to provide"
+    },
+    {
+      "keyword": "therapy for Dominican immigrants in America",
+      "slug": "therapy-for-dominican-immigrants-in-america",
+      "angle": "tight community, pressure to provide"
+    },
+    {
+      "keyword": "therapy for Peruvian immigrants",
+      "slug": "therapy-for-peruvian-immigrants",
+      "angle": "leaving family and tradition behind"
+    },
+    {
+      "keyword": "therapy for Peruvian immigrants in America",
+      "slug": "therapy-for-peruvian-immigrants-in-america",
+      "angle": "leaving family and tradition behind"
+    },
+    {
+      "keyword": "therapy for Ecuadorian immigrants",
+      "slug": "therapy-for-ecuadorian-immigrants",
+      "angle": "hard work, sending support home, isolation"
+    },
+    {
+      "keyword": "therapy for Ecuadorian immigrants in America",
+      "slug": "therapy-for-ecuadorian-immigrants-in-america",
+      "angle": "hard work, sending support home, isolation"
+    },
+    {
+      "keyword": "therapy for Brazilian immigrants",
+      "slug": "therapy-for-brazilian-immigrants",
+      "angle": "language isolation, vibrant culture left behind"
+    },
+    {
+      "keyword": "therapy for Brazilian immigrants in America",
+      "slug": "therapy-for-brazilian-immigrants-in-america",
+      "angle": "language isolation, vibrant culture left behind"
+    },
+    {
+      "keyword": "therapy for Argentine immigrants",
+      "slug": "therapy-for-argentine-immigrants",
+      "angle": "economic flight, cultural adjustment"
+    },
+    {
+      "keyword": "therapy for Argentine immigrants in America",
+      "slug": "therapy-for-argentine-immigrants-in-america",
+      "angle": "economic flight, cultural adjustment"
+    },
+    {
+      "keyword": "therapy for Bolivian immigrants",
+      "slug": "therapy-for-bolivian-immigrants",
+      "angle": "indigenous identity, distance from family"
+    },
+    {
+      "keyword": "therapy for Bolivian immigrants in America",
+      "slug": "therapy-for-bolivian-immigrants-in-america",
+      "angle": "indigenous identity, distance from family"
+    },
+    {
+      "keyword": "therapy for Nicaraguan immigrants",
+      "slug": "therapy-for-nicaraguan-immigrants",
+      "angle": "political flight, rebuilding safety"
+    },
+    {
+      "keyword": "therapy for Nicaraguan immigrants in America",
+      "slug": "therapy-for-nicaraguan-immigrants-in-america",
+      "angle": "political flight, rebuilding safety"
+    },
+    {
+      "keyword": "therapy for Chilean immigrants",
+      "slug": "therapy-for-chilean-immigrants",
+      "angle": "starting fresh far from home"
+    },
+    {
+      "keyword": "therapy for Chilean immigrants in America",
+      "slug": "therapy-for-chilean-immigrants-in-america",
+      "angle": "starting fresh far from home"
+    },
+    {
+      "keyword": "therapy for Romanian immigrants",
+      "slug": "therapy-for-romanian-immigrants",
+      "angle": "leaving family behind in Europe, building quietly in the US"
+    },
+    {
+      "keyword": "therapy for Romanian immigrants in America",
+      "slug": "therapy-for-romanian-immigrants-in-america",
+      "angle": "leaving family behind in Europe, building quietly in the US"
+    },
+    {
+      "keyword": "therapy for Polish immigrants",
+      "slug": "therapy-for-polish-immigrants",
+      "angle": "strong work ethic, tight diaspora, homesickness"
+    },
+    {
+      "keyword": "therapy for Polish immigrants in America",
+      "slug": "therapy-for-polish-immigrants-in-america",
+      "angle": "strong work ethic, tight diaspora, homesickness"
+    },
+    {
+      "keyword": "therapy for Ukrainian immigrants",
+      "slug": "therapy-for-ukrainian-immigrants",
+      "angle": "displacement, war trauma, grief for home"
+    },
+    {
+      "keyword": "therapy for Ukrainian immigrants in America",
+      "slug": "therapy-for-ukrainian-immigrants-in-america",
+      "angle": "displacement, war trauma, grief for home"
+    },
+    {
+      "keyword": "therapy for Russian immigrants",
+      "slug": "therapy-for-russian-immigrants",
+      "angle": "cultural distance, political complexity"
+    },
+    {
+      "keyword": "therapy for Russian immigrants in America",
+      "slug": "therapy-for-russian-immigrants-in-america",
+      "angle": "cultural distance, political complexity"
+    },
+    {
+      "keyword": "therapy for Albanian immigrants",
+      "slug": "therapy-for-albanian-immigrants",
+      "angle": "tight family structures, honor and pressure"
+    },
+    {
+      "keyword": "therapy for Albanian immigrants in America",
+      "slug": "therapy-for-albanian-immigrants-in-america",
+      "angle": "tight family structures, honor and pressure"
+    },
+    {
+      "keyword": "therapy for Bulgarian immigrants",
+      "slug": "therapy-for-bulgarian-immigrants",
+      "angle": "quiet adjustment, distance from family"
+    },
+    {
+      "keyword": "therapy for Bulgarian immigrants in America",
+      "slug": "therapy-for-bulgarian-immigrants-in-america",
+      "angle": "quiet adjustment, distance from family"
+    },
+    {
+      "keyword": "therapy for Portuguese immigrants",
+      "slug": "therapy-for-portuguese-immigrants",
+      "angle": "close-knit community, generational immigration"
+    },
+    {
+      "keyword": "therapy for Portuguese immigrants in America",
+      "slug": "therapy-for-portuguese-immigrants-in-america",
+      "angle": "close-knit community, generational immigration"
+    },
+    {
+      "keyword": "therapy for Italian immigrants",
+      "slug": "therapy-for-italian-immigrants",
+      "angle": "family-centered culture, identity across generations"
+    },
+    {
+      "keyword": "therapy for Italian immigrants in America",
+      "slug": "therapy-for-italian-immigrants-in-america",
+      "angle": "family-centered culture, identity across generations"
+    },
+    {
+      "keyword": "therapy for Greek immigrants",
+      "slug": "therapy-for-greek-immigrants",
+      "angle": "diaspora pride, distance from homeland"
+    },
+    {
+      "keyword": "therapy for Greek immigrants in America",
+      "slug": "therapy-for-greek-immigrants-in-america",
+      "angle": "diaspora pride, distance from homeland"
+    },
+    {
+      "keyword": "therapy for Irish immigrants",
+      "slug": "therapy-for-irish-immigrants",
+      "angle": "generational ties, the pull of home"
+    },
+    {
+      "keyword": "therapy for Irish immigrants in America",
+      "slug": "therapy-for-irish-immigrants-in-america",
+      "angle": "generational ties, the pull of home"
+    },
+    {
+      "keyword": "therapy for German immigrants",
+      "slug": "therapy-for-german-immigrants",
+      "angle": "precision culture meeting American chaos"
+    },
+    {
+      "keyword": "therapy for German immigrants in America",
+      "slug": "therapy-for-german-immigrants-in-america",
+      "angle": "precision culture meeting American chaos"
+    },
+    {
+      "keyword": "therapy for French immigrants",
+      "slug": "therapy-for-french-immigrants",
+      "angle": "cultural difference, language and identity"
+    },
+    {
+      "keyword": "therapy for French immigrants in America",
+      "slug": "therapy-for-french-immigrants-in-america",
+      "angle": "cultural difference, language and identity"
+    },
+    {
+      "keyword": "therapy for Spanish immigrants",
+      "slug": "therapy-for-spanish-immigrants",
+      "angle": "leaving a Mediterranean life behind"
+    },
+    {
+      "keyword": "therapy for Spanish immigrants in America",
+      "slug": "therapy-for-spanish-immigrants-in-america",
+      "angle": "leaving a Mediterranean life behind"
+    },
+    {
+      "keyword": "therapy for Serbian immigrants",
+      "slug": "therapy-for-serbian-immigrants",
+      "angle": "history carried abroad, tight community"
+    },
+    {
+      "keyword": "therapy for Serbian immigrants in America",
+      "slug": "therapy-for-serbian-immigrants-in-america",
+      "angle": "history carried abroad, tight community"
+    },
+    {
+      "keyword": "therapy for Bosnian immigrants",
+      "slug": "therapy-for-bosnian-immigrants",
+      "angle": "war legacy, refugee history, resilience"
+    },
+    {
+      "keyword": "therapy for Bosnian immigrants in America",
+      "slug": "therapy-for-bosnian-immigrants-in-america",
+      "angle": "war legacy, refugee history, resilience"
+    },
+    {
+      "keyword": "therapy for Indian immigrants",
+      "slug": "therapy-for-indian-immigrants",
+      "angle": "high-skill migration, H1B stress, family expectation"
+    },
+    {
+      "keyword": "therapy for Indian immigrants in America",
+      "slug": "therapy-for-indian-immigrants-in-america",
+      "angle": "high-skill migration, H1B stress, family expectation"
+    },
+    {
+      "keyword": "therapy for Filipino immigrants",
+      "slug": "therapy-for-filipino-immigrants",
+      "angle": "caregiving and nursing, sending money home, sacrifice"
+    },
+    {
+      "keyword": "therapy for Filipino immigrants in America",
+      "slug": "therapy-for-filipino-immigrants-in-america",
+      "angle": "caregiving and nursing, sending money home, sacrifice"
+    },
+    {
+      "keyword": "therapy for Chinese immigrants",
+      "slug": "therapy-for-chinese-immigrants",
+      "angle": "academic and family pressure, cultural distance"
+    },
+    {
+      "keyword": "therapy for Chinese immigrants in America",
+      "slug": "therapy-for-chinese-immigrants-in-america",
+      "angle": "academic and family pressure, cultural distance"
+    },
+    {
+      "keyword": "therapy for Vietnamese immigrants",
+      "slug": "therapy-for-vietnamese-immigrants",
+      "angle": "refugee legacy, generational expectation"
+    },
+    {
+      "keyword": "therapy for Vietnamese immigrants in America",
+      "slug": "therapy-for-vietnamese-immigrants-in-america",
+      "angle": "refugee legacy, generational expectation"
+    },
+    {
+      "keyword": "therapy for Korean immigrants",
+      "slug": "therapy-for-korean-immigrants",
+      "angle": "intense pressure to succeed, church community"
+    },
+    {
+      "keyword": "therapy for Korean immigrants in America",
+      "slug": "therapy-for-korean-immigrants-in-america",
+      "angle": "intense pressure to succeed, church community"
+    },
+    {
+      "keyword": "therapy for Pakistani immigrants",
+      "slug": "therapy-for-pakistani-immigrants",
+      "angle": "faith, family honor, identity navigation"
+    },
+    {
+      "keyword": "therapy for Pakistani immigrants in America",
+      "slug": "therapy-for-pakistani-immigrants-in-america",
+      "angle": "faith, family honor, identity navigation"
+    },
+    {
+      "keyword": "therapy for Bangladeshi immigrants",
+      "slug": "therapy-for-bangladeshi-immigrants",
+      "angle": "hard labor, sending support home"
+    },
+    {
+      "keyword": "therapy for Bangladeshi immigrants in America",
+      "slug": "therapy-for-bangladeshi-immigrants-in-america",
+      "angle": "hard labor, sending support home"
+    },
+    {
+      "keyword": "therapy for Indonesian immigrants",
+      "slug": "therapy-for-indonesian-immigrants",
+      "angle": "religious community, cultural adjustment"
+    },
+    {
+      "keyword": "therapy for Indonesian immigrants in America",
+      "slug": "therapy-for-indonesian-immigrants-in-america",
+      "angle": "religious community, cultural adjustment"
+    },
+    {
+      "keyword": "therapy for Japanese immigrants",
+      "slug": "therapy-for-japanese-immigrants",
+      "angle": "precision and restraint meeting a loud culture"
+    },
+    {
+      "keyword": "therapy for Japanese immigrants in America",
+      "slug": "therapy-for-japanese-immigrants-in-america",
+      "angle": "precision and restraint meeting a loud culture"
+    },
+    {
+      "keyword": "therapy for Sri Lankan immigrants",
+      "slug": "therapy-for-sri-lankan-immigrants",
+      "angle": "distance from family, professional migration"
+    },
+    {
+      "keyword": "therapy for Sri Lankan immigrants in America",
+      "slug": "therapy-for-sri-lankan-immigrants-in-america",
+      "angle": "distance from family, professional migration"
+    },
+    {
+      "keyword": "therapy for Nepali immigrants",
+      "slug": "therapy-for-nepali-immigrants",
+      "angle": "recent growth community, hard work, isolation"
+    },
+    {
+      "keyword": "therapy for Nepali immigrants in America",
+      "slug": "therapy-for-nepali-immigrants-in-america",
+      "angle": "recent growth community, hard work, isolation"
+    },
+    {
+      "keyword": "therapy for Thai immigrants",
+      "slug": "therapy-for-thai-immigrants",
+      "angle": "small tight community, cultural distance"
+    },
+    {
+      "keyword": "therapy for Thai immigrants in America",
+      "slug": "therapy-for-thai-immigrants-in-america",
+      "angle": "small tight community, cultural distance"
+    },
+    {
+      "keyword": "therapy for Cambodian immigrants",
+      "slug": "therapy-for-cambodian-immigrants",
+      "angle": "refugee legacy, intergenerational trauma"
+    },
+    {
+      "keyword": "therapy for Cambodian immigrants in America",
+      "slug": "therapy-for-cambodian-immigrants-in-america",
+      "angle": "refugee legacy, intergenerational trauma"
+    },
+    {
+      "keyword": "therapy for Nigerian immigrants",
+      "slug": "therapy-for-nigerian-immigrants",
+      "angle": "high achievement pressure, vibrant diaspora"
+    },
+    {
+      "keyword": "therapy for Nigerian immigrants in America",
+      "slug": "therapy-for-nigerian-immigrants-in-america",
+      "angle": "high achievement pressure, vibrant diaspora"
+    },
+    {
+      "keyword": "therapy for Ghanaian immigrants",
+      "slug": "therapy-for-ghanaian-immigrants",
+      "angle": "family expectation, tight community"
+    },
+    {
+      "keyword": "therapy for Ghanaian immigrants in America",
+      "slug": "therapy-for-ghanaian-immigrants-in-america",
+      "angle": "family expectation, tight community"
+    },
+    {
+      "keyword": "therapy for Ethiopian immigrants",
+      "slug": "therapy-for-ethiopian-immigrants",
+      "angle": "refugee and migration history, strong community"
+    },
+    {
+      "keyword": "therapy for Ethiopian immigrants in America",
+      "slug": "therapy-for-ethiopian-immigrants-in-america",
+      "angle": "refugee and migration history, strong community"
+    },
+    {
+      "keyword": "therapy for Somali immigrants",
+      "slug": "therapy-for-somali-immigrants",
+      "angle": "refugee resettlement, faith, displacement"
+    },
+    {
+      "keyword": "therapy for Somali immigrants in America",
+      "slug": "therapy-for-somali-immigrants-in-america",
+      "angle": "refugee resettlement, faith, displacement"
+    },
+    {
+      "keyword": "therapy for Kenyan immigrants",
+      "slug": "therapy-for-kenyan-immigrants",
+      "angle": "professional migration, family back home"
+    },
+    {
+      "keyword": "therapy for Kenyan immigrants in America",
+      "slug": "therapy-for-kenyan-immigrants-in-america",
+      "angle": "professional migration, family back home"
+    },
+    {
+      "keyword": "therapy for Egyptian immigrants",
+      "slug": "therapy-for-egyptian-immigrants",
+      "angle": "faith and culture, identity navigation"
+    },
+    {
+      "keyword": "therapy for Egyptian immigrants in America",
+      "slug": "therapy-for-egyptian-immigrants-in-america",
+      "angle": "faith and culture, identity navigation"
+    },
+    {
+      "keyword": "therapy for Moroccan immigrants",
+      "slug": "therapy-for-moroccan-immigrants",
+      "angle": "language and faith, distance from family"
+    },
+    {
+      "keyword": "therapy for Moroccan immigrants in America",
+      "slug": "therapy-for-moroccan-immigrants-in-america",
+      "angle": "language and faith, distance from family"
+    },
+    {
+      "keyword": "therapy for Lebanese immigrants",
+      "slug": "therapy-for-lebanese-immigrants",
+      "angle": "diaspora resilience, war legacy"
+    },
+    {
+      "keyword": "therapy for Lebanese immigrants in America",
+      "slug": "therapy-for-lebanese-immigrants-in-america",
+      "angle": "diaspora resilience, war legacy"
+    },
+    {
+      "keyword": "therapy for Iranian immigrants",
+      "slug": "therapy-for-iranian-immigrants",
+      "angle": "exile, political complexity, cultural pride"
+    },
+    {
+      "keyword": "therapy for Iranian immigrants in America",
+      "slug": "therapy-for-iranian-immigrants-in-america",
+      "angle": "exile, political complexity, cultural pride"
+    },
+    {
+      "keyword": "therapy for Syrian immigrants",
+      "slug": "therapy-for-syrian-immigrants",
+      "angle": "war trauma, refugee experience, profound loss"
+    },
+    {
+      "keyword": "therapy for Syrian immigrants in America",
+      "slug": "therapy-for-syrian-immigrants-in-america",
+      "angle": "war trauma, refugee experience, profound loss"
+    },
+    {
+      "keyword": "therapy for Iraqi immigrants",
+      "slug": "therapy-for-iraqi-immigrants",
+      "angle": "displacement, trauma, rebuilding safety"
+    },
+    {
+      "keyword": "therapy for Iraqi immigrants in America",
+      "slug": "therapy-for-iraqi-immigrants-in-america",
+      "angle": "displacement, trauma, rebuilding safety"
+    },
+    {
+      "keyword": "therapy for Afghan immigrants",
+      "slug": "therapy-for-afghan-immigrants",
+      "angle": "refugee flight, trauma, starting over"
+    },
+    {
+      "keyword": "therapy for Afghan immigrants in America",
+      "slug": "therapy-for-afghan-immigrants-in-america",
+      "angle": "refugee flight, trauma, starting over"
+    },
+    {
+      "keyword": "therapy for Haitian immigrants",
+      "slug": "therapy-for-haitian-immigrants",
+      "angle": "hardship, language barriers, resilience"
+    },
+    {
+      "keyword": "therapy for Haitian immigrants in America",
+      "slug": "therapy-for-haitian-immigrants-in-america",
+      "angle": "hardship, language barriers, resilience"
+    },
+    {
+      "keyword": "therapy for Jamaican immigrants",
+      "slug": "therapy-for-jamaican-immigrants",
+      "angle": "vibrant culture, family back home"
+    },
+    {
+      "keyword": "therapy for Jamaican immigrants in America",
+      "slug": "therapy-for-jamaican-immigrants-in-america",
+      "angle": "vibrant culture, family back home"
+    },
+    {
+      "keyword": "therapy for Trinidadian immigrants",
+      "slug": "therapy-for-trinidadian-immigrants",
+      "angle": "tight diaspora, cultural pride"
+    },
+    {
+      "keyword": "therapy for Trinidadian immigrants in America",
+      "slug": "therapy-for-trinidadian-immigrants-in-america",
+      "angle": "tight diaspora, cultural pride"
+    },
+    {
+      "keyword": "why do I feel so lonely after moving to America",
+      "slug": "why-do-i-feel-so-lonely-after-moving-to-america",
+      "angle": "the loneliness nobody warned them about"
+    },
+    {
+      "keyword": "why do I cry when I call home",
+      "slug": "why-do-i-cry-when-i-call-home",
+      "angle": "the ache that surfaces hearing family's voices"
+    },
+    {
+      "keyword": "I feel invisible in America",
+      "slug": "i-feel-invisible-in-america",
+      "angle": "feeling unseen in a new country"
+    },
+    {
+      "keyword": "I feel like I made a mistake moving abroad",
+      "slug": "i-feel-like-i-made-a-mistake-moving-abroad",
+      "angle": "the doubt and regret that creeps in"
+    },
+    {
+      "keyword": "I feel like two different people since I moved",
+      "slug": "i-feel-like-two-different-people-since-i-moved",
+      "angle": "the split identity of living between cultures"
+    },
+    {
+      "keyword": "why do I feel guilty for leaving my country",
+      "slug": "why-do-i-feel-guilty-for-leaving-my-country",
+      "angle": "the guilt of those left behind"
+    },
+    {
+      "keyword": "I miss home so much I can't function",
+      "slug": "i-miss-home-so-much-i-cant-function",
+      "angle": "homesickness that takes over daily life"
+    },
+    {
+      "keyword": "I feel like I don't belong anywhere anymore",
+      "slug": "i-feel-like-i-dont-belong-anywhere-anymore",
+      "angle": "belonging to neither home nor here"
+    },
+    {
+      "keyword": "nobody here understands what I left behind",
+      "slug": "nobody-here-understands-what-i-left-behind",
+      "angle": "carrying an invisible history"
+    },
+    {
+      "keyword": "I feel alone even with people around me",
+      "slug": "i-feel-alone-even-with-people-around-me",
+      "angle": "isolation in a crowd of strangers"
+    },
+    {
+      "keyword": "why is starting over so much harder than I expected",
+      "slug": "why-is-starting-over-so-much-harder-than-i-expected",
+      "angle": "the exhaustion of rebuilding a life"
+    },
+    {
+      "keyword": "I feel ashamed that I'm struggling after moving",
+      "slug": "i-feel-ashamed-that-im-struggling-after-moving",
+      "angle": "the shame of not thriving as expected"
+    },
+    {
+      "keyword": "I can't talk to my family about how hard it is",
+      "slug": "i-cant-talk-to-my-family-about-how-hard-it-is",
+      "angle": "protecting family from your own pain"
+    },
+    {
+      "keyword": "I feel stuck between two worlds",
+      "slug": "i-feel-stuck-between-two-worlds",
+      "angle": "the in-between of immigrant identity"
+    },
+    {
+      "keyword": "therapy for immigrant loneliness",
+      "slug": "therapy-for-immigrant-loneliness",
+      "angle": "the specific isolation of being far from everyone who knows you"
+    },
+    {
+      "keyword": "therapy for immigrants with loneliness",
+      "slug": "therapy-for-immigrants-with-loneliness",
+      "angle": "the specific isolation of being far from everyone who knows you"
+    },
+    {
+      "keyword": "therapy for immigrant homesickness",
+      "slug": "therapy-for-immigrant-homesickness",
+      "angle": "missing home so deeply it physically aches"
+    },
+    {
+      "keyword": "therapy for immigrants with homesickness",
+      "slug": "therapy-for-immigrants-with-homesickness",
+      "angle": "missing home so deeply it physically aches"
+    },
+    {
+      "keyword": "therapy for immigrant anxiety",
+      "slug": "therapy-for-immigrant-anxiety",
+      "angle": "the constant low hum of uncertainty as an immigrant"
+    },
+    {
+      "keyword": "therapy for immigrants with anxiety",
+      "slug": "therapy-for-immigrants-with-anxiety",
+      "angle": "the constant low hum of uncertainty as an immigrant"
+    },
+    {
+      "keyword": "therapy for immigrant depression",
+      "slug": "therapy-for-immigrant-depression",
+      "angle": "the quiet depression that creeps in after arriving"
+    },
+    {
+      "keyword": "therapy for immigrants with depression",
+      "slug": "therapy-for-immigrants-with-depression",
+      "angle": "the quiet depression that creeps in after arriving"
+    },
+    {
+      "keyword": "therapy for immigrant acculturative stress",
+      "slug": "therapy-for-immigrant-acculturative-stress",
+      "angle": "the exhaustion of adapting to a whole new world"
+    },
+    {
+      "keyword": "therapy for immigrants with acculturative stress",
+      "slug": "therapy-for-immigrants-with-acculturative-stress",
+      "angle": "the exhaustion of adapting to a whole new world"
+    },
+    {
+      "keyword": "therapy for immigrant culture shock",
+      "slug": "therapy-for-immigrant-culture-shock",
+      "angle": "the disorientation of everything being different"
+    },
+    {
+      "keyword": "therapy for immigrants with culture shock",
+      "slug": "therapy-for-immigrants-with-culture-shock",
+      "angle": "the disorientation of everything being different"
+    },
+    {
+      "keyword": "therapy for immigrant isolation",
+      "slug": "therapy-for-immigrant-isolation",
+      "angle": "feeling cut off from both home and here"
+    },
+    {
+      "keyword": "therapy for immigrants with isolation",
+      "slug": "therapy-for-immigrants-with-isolation",
+      "angle": "feeling cut off from both home and here"
+    },
+    {
+      "keyword": "therapy for immigrant identity loss",
+      "slug": "therapy-for-immigrant-identity-loss",
+      "angle": "not knowing who you are between two cultures"
+    },
+    {
+      "keyword": "therapy for immigrants with identity loss",
+      "slug": "therapy-for-immigrants-with-identity-loss",
+      "angle": "not knowing who you are between two cultures"
+    },
+    {
+      "keyword": "therapy for immigrant family separation",
+      "slug": "therapy-for-immigrant-family-separation",
+      "angle": "the grief of leaving family across an ocean"
+    },
+    {
+      "keyword": "therapy for immigrants with family separation",
+      "slug": "therapy-for-immigrants-with-family-separation",
+      "angle": "the grief of leaving family across an ocean"
+    },
+    {
+      "keyword": "therapy for immigrant immigration stress",
+      "slug": "therapy-for-immigrant-immigration-stress",
+      "angle": "the weight of visas, status, and uncertainty"
+    },
+    {
+      "keyword": "therapy for immigrants with immigration stress",
+      "slug": "therapy-for-immigrants-with-immigration-stress",
+      "angle": "the weight of visas, status, and uncertainty"
+    },
+    {
+      "keyword": "therapy for immigrant burnout",
+      "slug": "therapy-for-immigrant-burnout",
+      "angle": "working endlessly to build a life with no rest"
+    },
+    {
+      "keyword": "therapy for immigrants with burnout",
+      "slug": "therapy-for-immigrants-with-burnout",
+      "angle": "working endlessly to build a life with no rest"
+    },
+    {
+      "keyword": "therapy for immigrant guilt",
+      "slug": "therapy-for-immigrant-guilt",
+      "angle": "survivor guilt for leaving others behind"
+    },
+    {
+      "keyword": "therapy for immigrants with guilt",
+      "slug": "therapy-for-immigrants-with-guilt",
+      "angle": "survivor guilt for leaving others behind"
+    }
+  ]
+}

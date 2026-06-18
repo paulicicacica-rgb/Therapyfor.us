@@ -1,0 +1,898 @@
+{
+  "workflow": "lang_portuguese",
+  "cluster_title": "Portuguese (Português) — 99 pages",
+  "language": "portuguese",
+  "pages": [
+    {
+      "keyword": "terapia em português",
+      "slug": "portuguese-terapia-em-portugus",
+      "angle": "therapy in Portuguese for Brazilians in the US",
+      "lang": "portuguese",
+      "lang_name": "Portuguese",
+      "native_name": "Português",
+      "rtl": false
+    },
+    {
+      "keyword": "terapia online em português sem seguro",
+      "slug": "portuguese-terapia-online-em-portugus-sem-seguro",
+      "angle": "affordable Portuguese therapy",
+      "lang": "portuguese",
+      "lang_name": "Portuguese",
+      "native_name": "Português",
+      "rtl": false
+    },
+    {
+      "keyword": "terapia para ansiedade em português",
+      "slug": "portuguese-terapia-para-ansiedade-em-portugus",
+      "angle": "anxiety therapy in Portuguese",
+      "lang": "portuguese",
+      "lang_name": "Portuguese",
+      "native_name": "Português",
+      "rtl": false
+    },
+    {
+      "keyword": "terapia para depressão em português",
+      "slug": "portuguese-terapia-para-depresso-em-portugus",
+      "angle": "depression therapy in Portuguese",
+      "lang": "portuguese",
+      "lang_name": "Portuguese",
+      "native_name": "Português",
+      "rtl": false
+    },
+    {
+      "keyword": "terapia para imigrantes brasileiros",
+      "slug": "portuguese-terapia-para-imigrantes-brasileiros",
+      "angle": "therapy for Brazilian immigrants",
+      "lang": "portuguese",
+      "lang_name": "Portuguese",
+      "native_name": "Português",
+      "rtl": false
+    },
+    {
+      "keyword": "terapia para solidão do imigrante",
+      "slug": "portuguese-terapia-para-solido-do-imigrante",
+      "angle": "immigrant loneliness",
+      "lang": "portuguese",
+      "lang_name": "Portuguese",
+      "native_name": "Português",
+      "rtl": false
+    },
+    {
+      "keyword": "psicólogo que fale português",
+      "slug": "portuguese-psiclogo-que-fale-portugus",
+      "angle": "finding a Portuguese-speaking therapist",
+      "lang": "portuguese",
+      "lang_name": "Portuguese",
+      "native_name": "Português",
+      "rtl": false
+    },
+    {
+      "keyword": "terapia depois do divórcio",
+      "slug": "portuguese-terapia-depois-do-divrcio",
+      "angle": "therapy after divorce",
+      "lang": "portuguese",
+      "lang_name": "Portuguese",
+      "native_name": "Português",
+      "rtl": false
+    },
+    {
+      "keyword": "terapia para saudade de casa",
+      "slug": "portuguese-terapia-para-saudade-de-casa",
+      "angle": "homesickness and saudade therapy",
+      "lang": "portuguese",
+      "lang_name": "Portuguese",
+      "native_name": "Português",
+      "rtl": false
+    },
+    {
+      "keyword": "terapia para mães brasileiras",
+      "slug": "portuguese-terapia-para-mes-brasileiras",
+      "angle": "therapy for Brazilian mothers",
+      "lang": "portuguese",
+      "lang_name": "Portuguese",
+      "native_name": "Português",
+      "rtl": false
+    },
+    {
+      "keyword": "por que me sinto sozinho nos Estados Unidos",
+      "slug": "portuguese-por-que-me-sinto-sozinho-nos-estados-unidos",
+      "angle": "why do I feel alone in America",
+      "lang": "portuguese",
+      "lang_name": "Portuguese",
+      "native_name": "Português",
+      "rtl": false
+    },
+    {
+      "keyword": "terapia para o estresse de adaptação",
+      "slug": "portuguese-terapia-para-o-estresse-de-adaptao",
+      "angle": "acculturative stress",
+      "lang": "portuguese",
+      "lang_name": "Portuguese",
+      "native_name": "Português",
+      "rtl": false
+    },
+    {
+      "keyword": "terapia para luto em português",
+      "slug": "portuguese-terapia-para-luto-em-portugus",
+      "angle": "grief therapy in Portuguese",
+      "lang": "portuguese",
+      "lang_name": "Portuguese",
+      "native_name": "Português",
+      "rtl": false
+    },
+    {
+      "keyword": "terapia de casal em português",
+      "slug": "portuguese-terapia-de-casal-em-portugus",
+      "angle": "couples therapy in Portuguese",
+      "lang": "portuguese",
+      "lang_name": "Portuguese",
+      "native_name": "Português",
+      "rtl": false
+    },
+    {
+      "keyword": "terapia para esgotamento emocional",
+      "slug": "portuguese-terapia-para-esgotamento-emocional",
+      "angle": "emotional burnout therapy",
+      "lang": "portuguese",
+      "lang_name": "Portuguese",
+      "native_name": "Português",
+      "rtl": false
+    },
+    {
+      "keyword": "Portuguese therapy for anxiety",
+      "slug": "portuguese-portuguese-therapy-for-anxiety",
+      "angle": "anxiety, written natively in Portuguese",
+      "lang": "portuguese",
+      "lang_name": "Portuguese",
+      "native_name": "Português",
+      "rtl": false
+    },
+    {
+      "keyword": "Portuguese speaking therapist for anxiety",
+      "slug": "portuguese-portuguese-speaking-therapist-for-anxiety",
+      "angle": "anxiety; finding a Portuguese-speaking therapist",
+      "lang": "portuguese",
+      "lang_name": "Portuguese",
+      "native_name": "Português",
+      "rtl": false
+    },
+    {
+      "keyword": "online Portuguese therapy for anxiety",
+      "slug": "portuguese-online-portuguese-therapy-for-anxiety",
+      "angle": "anxiety; online and confidential, in Portuguese",
+      "lang": "portuguese",
+      "lang_name": "Portuguese",
+      "native_name": "Português",
+      "rtl": false
+    },
+    {
+      "keyword": "Portuguese therapy for depression",
+      "slug": "portuguese-portuguese-therapy-for-depression",
+      "angle": "depression, written natively in Portuguese",
+      "lang": "portuguese",
+      "lang_name": "Portuguese",
+      "native_name": "Português",
+      "rtl": false
+    },
+    {
+      "keyword": "Portuguese speaking therapist for depression",
+      "slug": "portuguese-portuguese-speaking-therapist-for-depression",
+      "angle": "depression; finding a Portuguese-speaking therapist",
+      "lang": "portuguese",
+      "lang_name": "Portuguese",
+      "native_name": "Português",
+      "rtl": false
+    },
+    {
+      "keyword": "online Portuguese therapy for depression",
+      "slug": "portuguese-online-portuguese-therapy-for-depression",
+      "angle": "depression; online and confidential, in Portuguese",
+      "lang": "portuguese",
+      "lang_name": "Portuguese",
+      "native_name": "Português",
+      "rtl": false
+    },
+    {
+      "keyword": "Portuguese therapy for loneliness",
+      "slug": "portuguese-portuguese-therapy-for-loneliness",
+      "angle": "loneliness, written natively in Portuguese",
+      "lang": "portuguese",
+      "lang_name": "Portuguese",
+      "native_name": "Português",
+      "rtl": false
+    },
+    {
+      "keyword": "Portuguese speaking therapist for loneliness",
+      "slug": "portuguese-portuguese-speaking-therapist-for-loneliness",
+      "angle": "loneliness; finding a Portuguese-speaking therapist",
+      "lang": "portuguese",
+      "lang_name": "Portuguese",
+      "native_name": "Português",
+      "rtl": false
+    },
+    {
+      "keyword": "online Portuguese therapy for loneliness",
+      "slug": "portuguese-online-portuguese-therapy-for-loneliness",
+      "angle": "loneliness; online and confidential, in Portuguese",
+      "lang": "portuguese",
+      "lang_name": "Portuguese",
+      "native_name": "Português",
+      "rtl": false
+    },
+    {
+      "keyword": "Portuguese therapy for homesickness",
+      "slug": "portuguese-portuguese-therapy-for-homesickness",
+      "angle": "homesickness, written natively in Portuguese",
+      "lang": "portuguese",
+      "lang_name": "Portuguese",
+      "native_name": "Português",
+      "rtl": false
+    },
+    {
+      "keyword": "Portuguese speaking therapist for homesickness",
+      "slug": "portuguese-portuguese-speaking-therapist-for-homesickness",
+      "angle": "homesickness; finding a Portuguese-speaking therapist",
+      "lang": "portuguese",
+      "lang_name": "Portuguese",
+      "native_name": "Português",
+      "rtl": false
+    },
+    {
+      "keyword": "online Portuguese therapy for homesickness",
+      "slug": "portuguese-online-portuguese-therapy-for-homesickness",
+      "angle": "homesickness; online and confidential, in Portuguese",
+      "lang": "portuguese",
+      "lang_name": "Portuguese",
+      "native_name": "Português",
+      "rtl": false
+    },
+    {
+      "keyword": "Portuguese therapy for divorce",
+      "slug": "portuguese-portuguese-therapy-for-divorce",
+      "angle": "after divorce, written natively in Portuguese",
+      "lang": "portuguese",
+      "lang_name": "Portuguese",
+      "native_name": "Português",
+      "rtl": false
+    },
+    {
+      "keyword": "Portuguese speaking therapist for divorce",
+      "slug": "portuguese-portuguese-speaking-therapist-for-divorce",
+      "angle": "after divorce; finding a Portuguese-speaking therapist",
+      "lang": "portuguese",
+      "lang_name": "Portuguese",
+      "native_name": "Português",
+      "rtl": false
+    },
+    {
+      "keyword": "online Portuguese therapy for divorce",
+      "slug": "portuguese-online-portuguese-therapy-for-divorce",
+      "angle": "after divorce; online and confidential, in Portuguese",
+      "lang": "portuguese",
+      "lang_name": "Portuguese",
+      "native_name": "Português",
+      "rtl": false
+    },
+    {
+      "keyword": "Portuguese therapy for grief",
+      "slug": "portuguese-portuguese-therapy-for-grief",
+      "angle": "grief and loss, written natively in Portuguese",
+      "lang": "portuguese",
+      "lang_name": "Portuguese",
+      "native_name": "Português",
+      "rtl": false
+    },
+    {
+      "keyword": "Portuguese speaking therapist for grief",
+      "slug": "portuguese-portuguese-speaking-therapist-for-grief",
+      "angle": "grief and loss; finding a Portuguese-speaking therapist",
+      "lang": "portuguese",
+      "lang_name": "Portuguese",
+      "native_name": "Português",
+      "rtl": false
+    },
+    {
+      "keyword": "online Portuguese therapy for grief",
+      "slug": "portuguese-online-portuguese-therapy-for-grief",
+      "angle": "grief and loss; online and confidential, in Portuguese",
+      "lang": "portuguese",
+      "lang_name": "Portuguese",
+      "native_name": "Português",
+      "rtl": false
+    },
+    {
+      "keyword": "Portuguese therapy for burnout",
+      "slug": "portuguese-portuguese-therapy-for-burnout",
+      "angle": "emotional burnout, written natively in Portuguese",
+      "lang": "portuguese",
+      "lang_name": "Portuguese",
+      "native_name": "Português",
+      "rtl": false
+    },
+    {
+      "keyword": "Portuguese speaking therapist for burnout",
+      "slug": "portuguese-portuguese-speaking-therapist-for-burnout",
+      "angle": "emotional burnout; finding a Portuguese-speaking therapist",
+      "lang": "portuguese",
+      "lang_name": "Portuguese",
+      "native_name": "Português",
+      "rtl": false
+    },
+    {
+      "keyword": "online Portuguese therapy for burnout",
+      "slug": "portuguese-online-portuguese-therapy-for-burnout",
+      "angle": "emotional burnout; online and confidential, in Portuguese",
+      "lang": "portuguese",
+      "lang_name": "Portuguese",
+      "native_name": "Português",
+      "rtl": false
+    },
+    {
+      "keyword": "Portuguese therapy for panic attacks",
+      "slug": "portuguese-portuguese-therapy-for-panic-attacks",
+      "angle": "panic attacks, written natively in Portuguese",
+      "lang": "portuguese",
+      "lang_name": "Portuguese",
+      "native_name": "Português",
+      "rtl": false
+    },
+    {
+      "keyword": "Portuguese speaking therapist for panic attacks",
+      "slug": "portuguese-portuguese-speaking-therapist-for-panic-attacks",
+      "angle": "panic attacks; finding a Portuguese-speaking therapist",
+      "lang": "portuguese",
+      "lang_name": "Portuguese",
+      "native_name": "Português",
+      "rtl": false
+    },
+    {
+      "keyword": "online Portuguese therapy for panic attacks",
+      "slug": "portuguese-online-portuguese-therapy-for-panic-attacks",
+      "angle": "panic attacks; online and confidential, in Portuguese",
+      "lang": "portuguese",
+      "lang_name": "Portuguese",
+      "native_name": "Português",
+      "rtl": false
+    },
+    {
+      "keyword": "Portuguese therapy for stress",
+      "slug": "portuguese-portuguese-therapy-for-stress",
+      "angle": "chronic stress, written natively in Portuguese",
+      "lang": "portuguese",
+      "lang_name": "Portuguese",
+      "native_name": "Português",
+      "rtl": false
+    },
+    {
+      "keyword": "Portuguese speaking therapist for stress",
+      "slug": "portuguese-portuguese-speaking-therapist-for-stress",
+      "angle": "chronic stress; finding a Portuguese-speaking therapist",
+      "lang": "portuguese",
+      "lang_name": "Portuguese",
+      "native_name": "Português",
+      "rtl": false
+    },
+    {
+      "keyword": "online Portuguese therapy for stress",
+      "slug": "portuguese-online-portuguese-therapy-for-stress",
+      "angle": "chronic stress; online and confidential, in Portuguese",
+      "lang": "portuguese",
+      "lang_name": "Portuguese",
+      "native_name": "Português",
+      "rtl": false
+    },
+    {
+      "keyword": "Portuguese therapy for trauma",
+      "slug": "portuguese-portuguese-therapy-for-trauma",
+      "angle": "trauma, written natively in Portuguese",
+      "lang": "portuguese",
+      "lang_name": "Portuguese",
+      "native_name": "Português",
+      "rtl": false
+    },
+    {
+      "keyword": "Portuguese speaking therapist for trauma",
+      "slug": "portuguese-portuguese-speaking-therapist-for-trauma",
+      "angle": "trauma; finding a Portuguese-speaking therapist",
+      "lang": "portuguese",
+      "lang_name": "Portuguese",
+      "native_name": "Português",
+      "rtl": false
+    },
+    {
+      "keyword": "online Portuguese therapy for trauma",
+      "slug": "portuguese-online-portuguese-therapy-for-trauma",
+      "angle": "trauma; online and confidential, in Portuguese",
+      "lang": "portuguese",
+      "lang_name": "Portuguese",
+      "native_name": "Português",
+      "rtl": false
+    },
+    {
+      "keyword": "Portuguese therapy for low self esteem",
+      "slug": "portuguese-portuguese-therapy-for-low-self-esteem",
+      "angle": "low self-esteem, written natively in Portuguese",
+      "lang": "portuguese",
+      "lang_name": "Portuguese",
+      "native_name": "Português",
+      "rtl": false
+    },
+    {
+      "keyword": "Portuguese speaking therapist for low self esteem",
+      "slug": "portuguese-portuguese-speaking-therapist-for-low-self-esteem",
+      "angle": "low self-esteem; finding a Portuguese-speaking therapist",
+      "lang": "portuguese",
+      "lang_name": "Portuguese",
+      "native_name": "Português",
+      "rtl": false
+    },
+    {
+      "keyword": "online Portuguese therapy for low self esteem",
+      "slug": "portuguese-online-portuguese-therapy-for-low-self-esteem",
+      "angle": "low self-esteem; online and confidential, in Portuguese",
+      "lang": "portuguese",
+      "lang_name": "Portuguese",
+      "native_name": "Português",
+      "rtl": false
+    },
+    {
+      "keyword": "Portuguese therapy for relationship problems",
+      "slug": "portuguese-portuguese-therapy-for-relationship-problems",
+      "angle": "relationship difficulties, written natively in Portuguese",
+      "lang": "portuguese",
+      "lang_name": "Portuguese",
+      "native_name": "Português",
+      "rtl": false
+    },
+    {
+      "keyword": "Portuguese speaking therapist for relationship problems",
+      "slug": "portuguese-portuguese-speaking-therapist-for-relationship-problems",
+      "angle": "relationship difficulties; finding a Portuguese-speaking therapist",
+      "lang": "portuguese",
+      "lang_name": "Portuguese",
+      "native_name": "Português",
+      "rtl": false
+    },
+    {
+      "keyword": "online Portuguese therapy for relationship problems",
+      "slug": "portuguese-online-portuguese-therapy-for-relationship-problems",
+      "angle": "relationship difficulties; online and confidential, in Portuguese",
+      "lang": "portuguese",
+      "lang_name": "Portuguese",
+      "native_name": "Português",
+      "rtl": false
+    },
+    {
+      "keyword": "Portuguese therapy for parenting stress",
+      "slug": "portuguese-portuguese-therapy-for-parenting-stress",
+      "angle": "parenting stress, written natively in Portuguese",
+      "lang": "portuguese",
+      "lang_name": "Portuguese",
+      "native_name": "Português",
+      "rtl": false
+    },
+    {
+      "keyword": "Portuguese speaking therapist for parenting stress",
+      "slug": "portuguese-portuguese-speaking-therapist-for-parenting-stress",
+      "angle": "parenting stress; finding a Portuguese-speaking therapist",
+      "lang": "portuguese",
+      "lang_name": "Portuguese",
+      "native_name": "Português",
+      "rtl": false
+    },
+    {
+      "keyword": "online Portuguese therapy for parenting stress",
+      "slug": "portuguese-online-portuguese-therapy-for-parenting-stress",
+      "angle": "parenting stress; online and confidential, in Portuguese",
+      "lang": "portuguese",
+      "lang_name": "Portuguese",
+      "native_name": "Português",
+      "rtl": false
+    },
+    {
+      "keyword": "Portuguese therapy for work stress",
+      "slug": "portuguese-portuguese-therapy-for-work-stress",
+      "angle": "work stress, written natively in Portuguese",
+      "lang": "portuguese",
+      "lang_name": "Portuguese",
+      "native_name": "Português",
+      "rtl": false
+    },
+    {
+      "keyword": "Portuguese speaking therapist for work stress",
+      "slug": "portuguese-portuguese-speaking-therapist-for-work-stress",
+      "angle": "work stress; finding a Portuguese-speaking therapist",
+      "lang": "portuguese",
+      "lang_name": "Portuguese",
+      "native_name": "Português",
+      "rtl": false
+    },
+    {
+      "keyword": "online Portuguese therapy for work stress",
+      "slug": "portuguese-online-portuguese-therapy-for-work-stress",
+      "angle": "work stress; online and confidential, in Portuguese",
+      "lang": "portuguese",
+      "lang_name": "Portuguese",
+      "native_name": "Português",
+      "rtl": false
+    },
+    {
+      "keyword": "Portuguese therapy for insomnia",
+      "slug": "portuguese-portuguese-therapy-for-insomnia",
+      "angle": "anxiety-driven sleeplessness, written natively in Portuguese",
+      "lang": "portuguese",
+      "lang_name": "Portuguese",
+      "native_name": "Português",
+      "rtl": false
+    },
+    {
+      "keyword": "Portuguese speaking therapist for insomnia",
+      "slug": "portuguese-portuguese-speaking-therapist-for-insomnia",
+      "angle": "anxiety-driven sleeplessness; finding a Portuguese-speaking therapist",
+      "lang": "portuguese",
+      "lang_name": "Portuguese",
+      "native_name": "Português",
+      "rtl": false
+    },
+    {
+      "keyword": "online Portuguese therapy for insomnia",
+      "slug": "portuguese-online-portuguese-therapy-for-insomnia",
+      "angle": "anxiety-driven sleeplessness; online and confidential, in Portuguese",
+      "lang": "portuguese",
+      "lang_name": "Portuguese",
+      "native_name": "Português",
+      "rtl": false
+    },
+    {
+      "keyword": "Portuguese therapy for identity",
+      "slug": "portuguese-portuguese-therapy-for-identity",
+      "angle": "cultural identity struggles, written natively in Portuguese",
+      "lang": "portuguese",
+      "lang_name": "Portuguese",
+      "native_name": "Português",
+      "rtl": false
+    },
+    {
+      "keyword": "Portuguese speaking therapist for identity",
+      "slug": "portuguese-portuguese-speaking-therapist-for-identity",
+      "angle": "cultural identity struggles; finding a Portuguese-speaking therapist",
+      "lang": "portuguese",
+      "lang_name": "Portuguese",
+      "native_name": "Português",
+      "rtl": false
+    },
+    {
+      "keyword": "online Portuguese therapy for identity",
+      "slug": "portuguese-online-portuguese-therapy-for-identity",
+      "angle": "cultural identity struggles; online and confidential, in Portuguese",
+      "lang": "portuguese",
+      "lang_name": "Portuguese",
+      "native_name": "Português",
+      "rtl": false
+    },
+    {
+      "keyword": "Portuguese therapy for family pressure",
+      "slug": "portuguese-portuguese-therapy-for-family-pressure",
+      "angle": "family expectation and pressure, written natively in Portuguese",
+      "lang": "portuguese",
+      "lang_name": "Portuguese",
+      "native_name": "Português",
+      "rtl": false
+    },
+    {
+      "keyword": "Portuguese speaking therapist for family pressure",
+      "slug": "portuguese-portuguese-speaking-therapist-for-family-pressure",
+      "angle": "family expectation and pressure; finding a Portuguese-speaking therapist",
+      "lang": "portuguese",
+      "lang_name": "Portuguese",
+      "native_name": "Português",
+      "rtl": false
+    },
+    {
+      "keyword": "online Portuguese therapy for family pressure",
+      "slug": "portuguese-online-portuguese-therapy-for-family-pressure",
+      "angle": "family expectation and pressure; online and confidential, in Portuguese",
+      "lang": "portuguese",
+      "lang_name": "Portuguese",
+      "native_name": "Português",
+      "rtl": false
+    },
+    {
+      "keyword": "Portuguese therapy for isolation",
+      "slug": "portuguese-portuguese-therapy-for-isolation",
+      "angle": "social isolation, written natively in Portuguese",
+      "lang": "portuguese",
+      "lang_name": "Portuguese",
+      "native_name": "Português",
+      "rtl": false
+    },
+    {
+      "keyword": "Portuguese speaking therapist for isolation",
+      "slug": "portuguese-portuguese-speaking-therapist-for-isolation",
+      "angle": "social isolation; finding a Portuguese-speaking therapist",
+      "lang": "portuguese",
+      "lang_name": "Portuguese",
+      "native_name": "Português",
+      "rtl": false
+    },
+    {
+      "keyword": "online Portuguese therapy for isolation",
+      "slug": "portuguese-online-portuguese-therapy-for-isolation",
+      "angle": "social isolation; online and confidential, in Portuguese",
+      "lang": "portuguese",
+      "lang_name": "Portuguese",
+      "native_name": "Português",
+      "rtl": false
+    },
+    {
+      "keyword": "Portuguese therapy for breakup",
+      "slug": "portuguese-portuguese-therapy-for-breakup",
+      "angle": "after a painful breakup, written natively in Portuguese",
+      "lang": "portuguese",
+      "lang_name": "Portuguese",
+      "native_name": "Português",
+      "rtl": false
+    },
+    {
+      "keyword": "Portuguese speaking therapist for breakup",
+      "slug": "portuguese-portuguese-speaking-therapist-for-breakup",
+      "angle": "after a painful breakup; finding a Portuguese-speaking therapist",
+      "lang": "portuguese",
+      "lang_name": "Portuguese",
+      "native_name": "Português",
+      "rtl": false
+    },
+    {
+      "keyword": "online Portuguese therapy for breakup",
+      "slug": "portuguese-online-portuguese-therapy-for-breakup",
+      "angle": "after a painful breakup; online and confidential, in Portuguese",
+      "lang": "portuguese",
+      "lang_name": "Portuguese",
+      "native_name": "Português",
+      "rtl": false
+    },
+    {
+      "keyword": "Portuguese therapy for acculturative stress",
+      "slug": "portuguese-portuguese-therapy-for-acculturative-stress",
+      "angle": "the exhaustion of adapting to a new country, written natively in Portuguese",
+      "lang": "portuguese",
+      "lang_name": "Portuguese",
+      "native_name": "Português",
+      "rtl": false
+    },
+    {
+      "keyword": "Portuguese speaking therapist for acculturative stress",
+      "slug": "portuguese-portuguese-speaking-therapist-for-acculturative-stress",
+      "angle": "the exhaustion of adapting to a new country; finding a Portuguese-speaking therapist",
+      "lang": "portuguese",
+      "lang_name": "Portuguese",
+      "native_name": "Português",
+      "rtl": false
+    },
+    {
+      "keyword": "online Portuguese therapy for acculturative stress",
+      "slug": "portuguese-online-portuguese-therapy-for-acculturative-stress",
+      "angle": "the exhaustion of adapting to a new country; online and confidential, in Portuguese",
+      "lang": "portuguese",
+      "lang_name": "Portuguese",
+      "native_name": "Português",
+      "rtl": false
+    },
+    {
+      "keyword": "Portuguese therapy for immigrant guilt",
+      "slug": "portuguese-portuguese-therapy-for-immigrant-guilt",
+      "angle": "guilt over family left behind, written natively in Portuguese",
+      "lang": "portuguese",
+      "lang_name": "Portuguese",
+      "native_name": "Português",
+      "rtl": false
+    },
+    {
+      "keyword": "Portuguese speaking therapist for immigrant guilt",
+      "slug": "portuguese-portuguese-speaking-therapist-for-immigrant-guilt",
+      "angle": "guilt over family left behind; finding a Portuguese-speaking therapist",
+      "lang": "portuguese",
+      "lang_name": "Portuguese",
+      "native_name": "Português",
+      "rtl": false
+    },
+    {
+      "keyword": "online Portuguese therapy for immigrant guilt",
+      "slug": "portuguese-online-portuguese-therapy-for-immigrant-guilt",
+      "angle": "guilt over family left behind; online and confidential, in Portuguese",
+      "lang": "portuguese",
+      "lang_name": "Portuguese",
+      "native_name": "Português",
+      "rtl": false
+    },
+    {
+      "keyword": "Portuguese therapy for postpartum depression",
+      "slug": "portuguese-portuguese-therapy-for-postpartum-depression",
+      "angle": "depression after childbirth, written natively in Portuguese",
+      "lang": "portuguese",
+      "lang_name": "Portuguese",
+      "native_name": "Português",
+      "rtl": false
+    },
+    {
+      "keyword": "Portuguese speaking therapist for postpartum depression",
+      "slug": "portuguese-portuguese-speaking-therapist-for-postpartum-depression",
+      "angle": "depression after childbirth; finding a Portuguese-speaking therapist",
+      "lang": "portuguese",
+      "lang_name": "Portuguese",
+      "native_name": "Português",
+      "rtl": false
+    },
+    {
+      "keyword": "online Portuguese therapy for postpartum depression",
+      "slug": "portuguese-online-portuguese-therapy-for-postpartum-depression",
+      "angle": "depression after childbirth; online and confidential, in Portuguese",
+      "lang": "portuguese",
+      "lang_name": "Portuguese",
+      "native_name": "Português",
+      "rtl": false
+    },
+    {
+      "keyword": "Portuguese therapy for anger",
+      "slug": "portuguese-portuguese-therapy-for-anger",
+      "angle": "anger and irritability, written natively in Portuguese",
+      "lang": "portuguese",
+      "lang_name": "Portuguese",
+      "native_name": "Português",
+      "rtl": false
+    },
+    {
+      "keyword": "Portuguese speaking therapist for anger",
+      "slug": "portuguese-portuguese-speaking-therapist-for-anger",
+      "angle": "anger and irritability; finding a Portuguese-speaking therapist",
+      "lang": "portuguese",
+      "lang_name": "Portuguese",
+      "native_name": "Português",
+      "rtl": false
+    },
+    {
+      "keyword": "online Portuguese therapy for anger",
+      "slug": "portuguese-online-portuguese-therapy-for-anger",
+      "angle": "anger and irritability; online and confidential, in Portuguese",
+      "lang": "portuguese",
+      "lang_name": "Portuguese",
+      "native_name": "Português",
+      "rtl": false
+    },
+    {
+      "keyword": "Portuguese therapy for overthinking",
+      "slug": "portuguese-portuguese-therapy-for-overthinking",
+      "angle": "constant overthinking and worry, written natively in Portuguese",
+      "lang": "portuguese",
+      "lang_name": "Portuguese",
+      "native_name": "Português",
+      "rtl": false
+    },
+    {
+      "keyword": "Portuguese speaking therapist for overthinking",
+      "slug": "portuguese-portuguese-speaking-therapist-for-overthinking",
+      "angle": "constant overthinking and worry; finding a Portuguese-speaking therapist",
+      "lang": "portuguese",
+      "lang_name": "Portuguese",
+      "native_name": "Português",
+      "rtl": false
+    },
+    {
+      "keyword": "online Portuguese therapy for overthinking",
+      "slug": "portuguese-online-portuguese-therapy-for-overthinking",
+      "angle": "constant overthinking and worry; online and confidential, in Portuguese",
+      "lang": "portuguese",
+      "lang_name": "Portuguese",
+      "native_name": "Português",
+      "rtl": false
+    },
+    {
+      "keyword": "Portuguese therapy for perfectionism",
+      "slug": "portuguese-portuguese-therapy-for-perfectionism",
+      "angle": "perfectionism and never feeling enough, written natively in Portuguese",
+      "lang": "portuguese",
+      "lang_name": "Portuguese",
+      "native_name": "Português",
+      "rtl": false
+    },
+    {
+      "keyword": "Portuguese speaking therapist for perfectionism",
+      "slug": "portuguese-portuguese-speaking-therapist-for-perfectionism",
+      "angle": "perfectionism and never feeling enough; finding a Portuguese-speaking therapist",
+      "lang": "portuguese",
+      "lang_name": "Portuguese",
+      "native_name": "Português",
+      "rtl": false
+    },
+    {
+      "keyword": "online Portuguese therapy for perfectionism",
+      "slug": "portuguese-online-portuguese-therapy-for-perfectionism",
+      "angle": "perfectionism and never feeling enough; online and confidential, in Portuguese",
+      "lang": "portuguese",
+      "lang_name": "Portuguese",
+      "native_name": "Português",
+      "rtl": false
+    },
+    {
+      "keyword": "Portuguese therapy for financial stress",
+      "slug": "portuguese-portuguese-therapy-for-financial-stress",
+      "angle": "money worries and financial pressure, written natively in Portuguese",
+      "lang": "portuguese",
+      "lang_name": "Portuguese",
+      "native_name": "Português",
+      "rtl": false
+    },
+    {
+      "keyword": "Portuguese speaking therapist for financial stress",
+      "slug": "portuguese-portuguese-speaking-therapist-for-financial-stress",
+      "angle": "money worries and financial pressure; finding a Portuguese-speaking therapist",
+      "lang": "portuguese",
+      "lang_name": "Portuguese",
+      "native_name": "Português",
+      "rtl": false
+    },
+    {
+      "keyword": "online Portuguese therapy for financial stress",
+      "slug": "portuguese-online-portuguese-therapy-for-financial-stress",
+      "angle": "money worries and financial pressure; online and confidential, in Portuguese",
+      "lang": "portuguese",
+      "lang_name": "Portuguese",
+      "native_name": "Português",
+      "rtl": false
+    },
+    {
+      "keyword": "Portuguese therapy for social anxiety",
+      "slug": "portuguese-portuguese-therapy-for-social-anxiety",
+      "angle": "social anxiety and fear of judgment, written natively in Portuguese",
+      "lang": "portuguese",
+      "lang_name": "Portuguese",
+      "native_name": "Português",
+      "rtl": false
+    },
+    {
+      "keyword": "Portuguese speaking therapist for social anxiety",
+      "slug": "portuguese-portuguese-speaking-therapist-for-social-anxiety",
+      "angle": "social anxiety and fear of judgment; finding a Portuguese-speaking therapist",
+      "lang": "portuguese",
+      "lang_name": "Portuguese",
+      "native_name": "Português",
+      "rtl": false
+    },
+    {
+      "keyword": "online Portuguese therapy for social anxiety",
+      "slug": "portuguese-online-portuguese-therapy-for-social-anxiety",
+      "angle": "social anxiety and fear of judgment; online and confidential, in Portuguese",
+      "lang": "portuguese",
+      "lang_name": "Portuguese",
+      "native_name": "Português",
+      "rtl": false
+    },
+    {
+      "keyword": "Portuguese therapy for emotional numbness",
+      "slug": "portuguese-portuguese-therapy-for-emotional-numbness",
+      "angle": "feeling numb and disconnected, written natively in Portuguese",
+      "lang": "portuguese",
+      "lang_name": "Portuguese",
+      "native_name": "Português",
+      "rtl": false
+    },
+    {
+      "keyword": "Portuguese speaking therapist for emotional numbness",
+      "slug": "portuguese-portuguese-speaking-therapist-for-emotional-numbness",
+      "angle": "feeling numb and disconnected; finding a Portuguese-speaking therapist",
+      "lang": "portuguese",
+      "lang_name": "Portuguese",
+      "native_name": "Português",
+      "rtl": false
+    },
+    {
+      "keyword": "online Portuguese therapy for emotional numbness",
+      "slug": "portuguese-online-portuguese-therapy-for-emotional-numbness",
+      "angle": "feeling numb and disconnected; online and confidential, in Portuguese",
+      "lang": "portuguese",
+      "lang_name": "Portuguese",
+      "native_name": "Português",
+      "rtl": false
+    }
+  ]
+}
