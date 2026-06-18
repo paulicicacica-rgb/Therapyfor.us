@@ -1,0 +1,1946 @@
+{
+  "workflow": "auto_p3",
+  "cluster_title": "Priority 3 — Scale long-tail",
+  "pages": [
+    {
+      "keyword": "help after divorce",
+      "slug": "help-after-divorce",
+      "angle": "the emotional aftermath of divorce and rebuilding"
+    },
+    {
+      "keyword": "help after a breakup",
+      "slug": "help-after-a-breakup",
+      "angle": "a devastating breakup that still hurts"
+    },
+    {
+      "keyword": "help after being cheated on",
+      "slug": "help-after-being-cheated-on",
+      "angle": "betrayal trauma and rebuilding trust"
+    },
+    {
+      "keyword": "help after separation",
+      "slug": "help-after-separation",
+      "angle": "the limbo before divorce is final"
+    },
+    {
+      "keyword": "help after a toxic relationship",
+      "slug": "help-after-a-toxic-relationship",
+      "angle": "healing from an emotionally draining partner"
+    },
+    {
+      "keyword": "help after losing a parent",
+      "slug": "help-after-losing-a-parent",
+      "angle": "the weight of losing a mother or father"
+    },
+    {
+      "keyword": "help after losing a spouse",
+      "slug": "help-after-losing-a-spouse",
+      "angle": "widowhood and a lost shared future"
+    },
+    {
+      "keyword": "help after a miscarriage",
+      "slug": "help-after-a-miscarriage",
+      "angle": "the often silent grief of pregnancy loss"
+    },
+    {
+      "keyword": "help after losing your job",
+      "slug": "help-after-losing-your-job",
+      "angle": "identity collapse when a career disappears"
+    },
+    {
+      "keyword": "help after a death",
+      "slug": "help-after-a-death",
+      "angle": "raw grief and the search for a way through"
+    },
+    {
+      "keyword": "help for anxiety",
+      "slug": "help-for-anxiety",
+      "angle": "living with constant low-grade anxiety"
+    },
+    {
+      "keyword": "help for depression",
+      "slug": "help-for-depression",
+      "angle": "the heaviness and numbness of depression"
+    },
+    {
+      "keyword": "help for panic attacks",
+      "slug": "help-for-panic-attacks",
+      "angle": "the terror of panic and fear of the next one"
+    },
+    {
+      "keyword": "help for burnout",
+      "slug": "help-for-burnout",
+      "angle": "completely depleted, running on empty"
+    },
+    {
+      "keyword": "help for loneliness",
+      "slug": "help-for-loneliness",
+      "angle": "deep chronic loneliness even around people"
+    },
+    {
+      "keyword": "help for stress",
+      "slug": "help-for-stress",
+      "angle": "chronic stress that never lets up"
+    },
+    {
+      "keyword": "help for grief",
+      "slug": "help-for-grief",
+      "angle": "carrying loss that others underestimate"
+    },
+    {
+      "keyword": "help for trauma",
+      "slug": "help-for-trauma",
+      "angle": "old wounds showing up in present life"
+    },
+    {
+      "keyword": "help for low self esteem",
+      "slug": "help-for-low-self-esteem",
+      "angle": "never feeling like enough"
+    },
+    {
+      "keyword": "help for overthinking",
+      "slug": "help-for-overthinking",
+      "angle": "the racing mind that won't switch off"
+    },
+    {
+      "keyword": "help for social anxiety",
+      "slug": "help-for-social-anxiety",
+      "angle": "the dread of being perceived"
+    },
+    {
+      "keyword": "help for health anxiety",
+      "slug": "help-for-health-anxiety",
+      "angle": "constant fear about the body and illness"
+    },
+    {
+      "keyword": "help for intrusive thoughts",
+      "slug": "help-for-intrusive-thoughts",
+      "angle": "disturbing unwanted thoughts and the shame around them"
+    },
+    {
+      "keyword": "help for perfectionism",
+      "slug": "help-for-perfectionism",
+      "angle": "the exhausting pursuit of perfect"
+    },
+    {
+      "keyword": "help for people pleasing",
+      "slug": "help-for-people-pleasing",
+      "angle": "saying yes to everyone and disappearing"
+    },
+    {
+      "keyword": "help for anger issues",
+      "slug": "help-for-anger-issues",
+      "angle": "anger that's really pain in disguise"
+    },
+    {
+      "keyword": "help for postpartum depression",
+      "slug": "help-for-postpartum-depression",
+      "angle": "the darkness after birth nobody warned about"
+    },
+    {
+      "keyword": "help for empty nest",
+      "slug": "help-for-empty-nest",
+      "angle": "kids leaving and not knowing who you are"
+    },
+    {
+      "keyword": "help for midlife crisis",
+      "slug": "help-for-midlife-crisis",
+      "angle": "questioning everything at 40-50"
+    },
+    {
+      "keyword": "help for codependency",
+      "slug": "help-for-codependency",
+      "angle": "unhealthy reliance and lost boundaries"
+    },
+    {
+      "keyword": "online therapy in California without insurance",
+      "slug": "online-therapy-in-california-without-insurance",
+      "angle": "online therapy options in California"
+    },
+    {
+      "keyword": "online therapy in Texas without insurance",
+      "slug": "online-therapy-in-texas-without-insurance",
+      "angle": "online therapy options in Texas"
+    },
+    {
+      "keyword": "online therapy in Florida without insurance",
+      "slug": "online-therapy-in-florida-without-insurance",
+      "angle": "online therapy options in Florida"
+    },
+    {
+      "keyword": "online therapy in New York without insurance",
+      "slug": "online-therapy-in-new-york-without-insurance",
+      "angle": "online therapy options in New York"
+    },
+    {
+      "keyword": "online therapy in Illinois without insurance",
+      "slug": "online-therapy-in-illinois-without-insurance",
+      "angle": "online therapy options in Illinois"
+    },
+    {
+      "keyword": "online therapy in Pennsylvania without insurance",
+      "slug": "online-therapy-in-pennsylvania-without-insurance",
+      "angle": "online therapy options in Pennsylvania"
+    },
+    {
+      "keyword": "online therapy in Ohio without insurance",
+      "slug": "online-therapy-in-ohio-without-insurance",
+      "angle": "online therapy options in Ohio"
+    },
+    {
+      "keyword": "online therapy in Georgia without insurance",
+      "slug": "online-therapy-in-georgia-without-insurance",
+      "angle": "online therapy options in Georgia"
+    },
+    {
+      "keyword": "online therapy in North Carolina without insurance",
+      "slug": "online-therapy-in-north-carolina-without-insurance",
+      "angle": "online therapy options in North Carolina"
+    },
+    {
+      "keyword": "online therapy in Michigan without insurance",
+      "slug": "online-therapy-in-michigan-without-insurance",
+      "angle": "online therapy options in Michigan"
+    },
+    {
+      "keyword": "online therapy in New Jersey without insurance",
+      "slug": "online-therapy-in-new-jersey-without-insurance",
+      "angle": "online therapy options in New Jersey"
+    },
+    {
+      "keyword": "online therapy in Virginia without insurance",
+      "slug": "online-therapy-in-virginia-without-insurance",
+      "angle": "online therapy options in Virginia"
+    },
+    {
+      "keyword": "online therapy in Washington without insurance",
+      "slug": "online-therapy-in-washington-without-insurance",
+      "angle": "online therapy options in Washington"
+    },
+    {
+      "keyword": "online therapy in Arizona without insurance",
+      "slug": "online-therapy-in-arizona-without-insurance",
+      "angle": "online therapy options in Arizona"
+    },
+    {
+      "keyword": "online therapy in Massachusetts without insurance",
+      "slug": "online-therapy-in-massachusetts-without-insurance",
+      "angle": "online therapy options in Massachusetts"
+    },
+    {
+      "keyword": "online therapy in Tennessee without insurance",
+      "slug": "online-therapy-in-tennessee-without-insurance",
+      "angle": "online therapy options in Tennessee"
+    },
+    {
+      "keyword": "online therapy in Indiana without insurance",
+      "slug": "online-therapy-in-indiana-without-insurance",
+      "angle": "online therapy options in Indiana"
+    },
+    {
+      "keyword": "online therapy in Missouri without insurance",
+      "slug": "online-therapy-in-missouri-without-insurance",
+      "angle": "online therapy options in Missouri"
+    },
+    {
+      "keyword": "online therapy in Maryland without insurance",
+      "slug": "online-therapy-in-maryland-without-insurance",
+      "angle": "online therapy options in Maryland"
+    },
+    {
+      "keyword": "online therapy in Wisconsin without insurance",
+      "slug": "online-therapy-in-wisconsin-without-insurance",
+      "angle": "online therapy options in Wisconsin"
+    },
+    {
+      "keyword": "online therapy in Colorado without insurance",
+      "slug": "online-therapy-in-colorado-without-insurance",
+      "angle": "online therapy options in Colorado"
+    },
+    {
+      "keyword": "online therapy in Minnesota without insurance",
+      "slug": "online-therapy-in-minnesota-without-insurance",
+      "angle": "online therapy options in Minnesota"
+    },
+    {
+      "keyword": "online therapy in South Carolina without insurance",
+      "slug": "online-therapy-in-south-carolina-without-insurance",
+      "angle": "online therapy options in South Carolina"
+    },
+    {
+      "keyword": "online therapy in Alabama without insurance",
+      "slug": "online-therapy-in-alabama-without-insurance",
+      "angle": "online therapy options in Alabama"
+    },
+    {
+      "keyword": "online therapy in Louisiana without insurance",
+      "slug": "online-therapy-in-louisiana-without-insurance",
+      "angle": "online therapy options in Louisiana"
+    },
+    {
+      "keyword": "online therapy in Kentucky without insurance",
+      "slug": "online-therapy-in-kentucky-without-insurance",
+      "angle": "online therapy options in Kentucky"
+    },
+    {
+      "keyword": "online therapy in Oregon without insurance",
+      "slug": "online-therapy-in-oregon-without-insurance",
+      "angle": "online therapy options in Oregon"
+    },
+    {
+      "keyword": "online therapy in Oklahoma without insurance",
+      "slug": "online-therapy-in-oklahoma-without-insurance",
+      "angle": "online therapy options in Oklahoma"
+    },
+    {
+      "keyword": "online therapy in Connecticut without insurance",
+      "slug": "online-therapy-in-connecticut-without-insurance",
+      "angle": "online therapy options in Connecticut"
+    },
+    {
+      "keyword": "online therapy in Nevada without insurance",
+      "slug": "online-therapy-in-nevada-without-insurance",
+      "angle": "online therapy options in Nevada"
+    },
+    {
+      "keyword": "therapy for new moms after divorce",
+      "slug": "therapy-for-new-moms-after-divorce",
+      "angle": "the overwhelm and identity shift of new motherhood; this group navigating divorce"
+    },
+    {
+      "keyword": "therapy for new moms after a breakup",
+      "slug": "therapy-for-new-moms-after-a-breakup",
+      "angle": "the overwhelm and identity shift of new motherhood; this group after a breakup"
+    },
+    {
+      "keyword": "therapy for new moms with low self esteem",
+      "slug": "therapy-for-new-moms-with-low-self-esteem",
+      "angle": "the overwhelm and identity shift of new motherhood; this group struggling with self-worth"
+    },
+    {
+      "keyword": "therapy for new moms who can't sleep",
+      "slug": "therapy-for-new-moms-who-cant-sleep",
+      "angle": "the overwhelm and identity shift of new motherhood; this group with anxiety-driven insomnia"
+    },
+    {
+      "keyword": "therapy for new moms who feel stuck",
+      "slug": "therapy-for-new-moms-who-feel-stuck",
+      "angle": "the overwhelm and identity shift of new motherhood; this group feeling paralyzed"
+    },
+    {
+      "keyword": "therapy for new moms with anger issues",
+      "slug": "therapy-for-new-moms-with-anger-issues",
+      "angle": "the overwhelm and identity shift of new motherhood; this group with anger masking pain"
+    },
+    {
+      "keyword": "therapy for new moms with trauma",
+      "slug": "therapy-for-new-moms-with-trauma",
+      "angle": "the overwhelm and identity shift of new motherhood; this group carrying old wounds"
+    },
+    {
+      "keyword": "therapy for new moms who overthink everything",
+      "slug": "therapy-for-new-moms-who-overthink-everything",
+      "angle": "the overwhelm and identity shift of new motherhood; this group with relentless rumination"
+    },
+    {
+      "keyword": "therapy for single moms after divorce",
+      "slug": "therapy-for-single-moms-after-divorce",
+      "angle": "carrying everything alone with no backup; this group navigating divorce"
+    },
+    {
+      "keyword": "therapy for single moms after a breakup",
+      "slug": "therapy-for-single-moms-after-a-breakup",
+      "angle": "carrying everything alone with no backup; this group after a breakup"
+    },
+    {
+      "keyword": "therapy for single moms with low self esteem",
+      "slug": "therapy-for-single-moms-with-low-self-esteem",
+      "angle": "carrying everything alone with no backup; this group struggling with self-worth"
+    },
+    {
+      "keyword": "therapy for single moms who can't sleep",
+      "slug": "therapy-for-single-moms-who-cant-sleep",
+      "angle": "carrying everything alone with no backup; this group with anxiety-driven insomnia"
+    },
+    {
+      "keyword": "therapy for single moms who feel stuck",
+      "slug": "therapy-for-single-moms-who-feel-stuck",
+      "angle": "carrying everything alone with no backup; this group feeling paralyzed"
+    },
+    {
+      "keyword": "therapy for single moms with anger issues",
+      "slug": "therapy-for-single-moms-with-anger-issues",
+      "angle": "carrying everything alone with no backup; this group with anger masking pain"
+    },
+    {
+      "keyword": "therapy for single moms with trauma",
+      "slug": "therapy-for-single-moms-with-trauma",
+      "angle": "carrying everything alone with no backup; this group carrying old wounds"
+    },
+    {
+      "keyword": "therapy for single moms who overthink everything",
+      "slug": "therapy-for-single-moms-who-overthink-everything",
+      "angle": "carrying everything alone with no backup; this group with relentless rumination"
+    },
+    {
+      "keyword": "therapy for single dads after divorce",
+      "slug": "therapy-for-single-dads-after-divorce",
+      "angle": "fathers raising kids alone, unspoken strain; this group navigating divorce"
+    },
+    {
+      "keyword": "therapy for single dads after a breakup",
+      "slug": "therapy-for-single-dads-after-a-breakup",
+      "angle": "fathers raising kids alone, unspoken strain; this group after a breakup"
+    },
+    {
+      "keyword": "therapy for single dads with low self esteem",
+      "slug": "therapy-for-single-dads-with-low-self-esteem",
+      "angle": "fathers raising kids alone, unspoken strain; this group struggling with self-worth"
+    },
+    {
+      "keyword": "therapy for single dads who can't sleep",
+      "slug": "therapy-for-single-dads-who-cant-sleep",
+      "angle": "fathers raising kids alone, unspoken strain; this group with anxiety-driven insomnia"
+    },
+    {
+      "keyword": "therapy for single dads who feel stuck",
+      "slug": "therapy-for-single-dads-who-feel-stuck",
+      "angle": "fathers raising kids alone, unspoken strain; this group feeling paralyzed"
+    },
+    {
+      "keyword": "therapy for single dads with anger issues",
+      "slug": "therapy-for-single-dads-with-anger-issues",
+      "angle": "fathers raising kids alone, unspoken strain; this group with anger masking pain"
+    },
+    {
+      "keyword": "therapy for single dads with trauma",
+      "slug": "therapy-for-single-dads-with-trauma",
+      "angle": "fathers raising kids alone, unspoken strain; this group carrying old wounds"
+    },
+    {
+      "keyword": "therapy for single dads who overthink everything",
+      "slug": "therapy-for-single-dads-who-overthink-everything",
+      "angle": "fathers raising kids alone, unspoken strain; this group with relentless rumination"
+    },
+    {
+      "keyword": "therapy for men after divorce",
+      "slug": "therapy-for-men-after-divorce",
+      "angle": "men who were never taught to talk about feelings; this group navigating divorce"
+    },
+    {
+      "keyword": "therapy for men after a breakup",
+      "slug": "therapy-for-men-after-a-breakup",
+      "angle": "men who were never taught to talk about feelings; this group after a breakup"
+    },
+    {
+      "keyword": "therapy for men with low self esteem",
+      "slug": "therapy-for-men-with-low-self-esteem",
+      "angle": "men who were never taught to talk about feelings; this group struggling with self-worth"
+    },
+    {
+      "keyword": "therapy for men who can't sleep",
+      "slug": "therapy-for-men-who-cant-sleep",
+      "angle": "men who were never taught to talk about feelings; this group with anxiety-driven insomnia"
+    },
+    {
+      "keyword": "therapy for men who feel stuck",
+      "slug": "therapy-for-men-who-feel-stuck",
+      "angle": "men who were never taught to talk about feelings; this group feeling paralyzed"
+    },
+    {
+      "keyword": "therapy for men with anger issues",
+      "slug": "therapy-for-men-with-anger-issues",
+      "angle": "men who were never taught to talk about feelings; this group with anger masking pain"
+    },
+    {
+      "keyword": "therapy for men with trauma",
+      "slug": "therapy-for-men-with-trauma",
+      "angle": "men who were never taught to talk about feelings; this group carrying old wounds"
+    },
+    {
+      "keyword": "therapy for men who overthink everything",
+      "slug": "therapy-for-men-who-overthink-everything",
+      "angle": "men who were never taught to talk about feelings; this group with relentless rumination"
+    },
+    {
+      "keyword": "therapy for women after divorce",
+      "slug": "therapy-for-women-after-divorce",
+      "angle": "women carrying invisible emotional load; this group navigating divorce"
+    },
+    {
+      "keyword": "therapy for women after a breakup",
+      "slug": "therapy-for-women-after-a-breakup",
+      "angle": "women carrying invisible emotional load; this group after a breakup"
+    },
+    {
+      "keyword": "therapy for women with low self esteem",
+      "slug": "therapy-for-women-with-low-self-esteem",
+      "angle": "women carrying invisible emotional load; this group struggling with self-worth"
+    },
+    {
+      "keyword": "therapy for women who can't sleep",
+      "slug": "therapy-for-women-who-cant-sleep",
+      "angle": "women carrying invisible emotional load; this group with anxiety-driven insomnia"
+    },
+    {
+      "keyword": "therapy for women who feel stuck",
+      "slug": "therapy-for-women-who-feel-stuck",
+      "angle": "women carrying invisible emotional load; this group feeling paralyzed"
+    },
+    {
+      "keyword": "therapy for women with anger issues",
+      "slug": "therapy-for-women-with-anger-issues",
+      "angle": "women carrying invisible emotional load; this group with anger masking pain"
+    },
+    {
+      "keyword": "therapy for women with trauma",
+      "slug": "therapy-for-women-with-trauma",
+      "angle": "women carrying invisible emotional load; this group carrying old wounds"
+    },
+    {
+      "keyword": "therapy for women who overthink everything",
+      "slug": "therapy-for-women-who-overthink-everything",
+      "angle": "women carrying invisible emotional load; this group with relentless rumination"
+    },
+    {
+      "keyword": "therapy for students after divorce",
+      "slug": "therapy-for-students-after-divorce",
+      "angle": "academic pressure, isolation, uncertain futures; this group navigating divorce"
+    },
+    {
+      "keyword": "therapy for students after a breakup",
+      "slug": "therapy-for-students-after-a-breakup",
+      "angle": "academic pressure, isolation, uncertain futures; this group after a breakup"
+    },
+    {
+      "keyword": "therapy for students with low self esteem",
+      "slug": "therapy-for-students-with-low-self-esteem",
+      "angle": "academic pressure, isolation, uncertain futures; this group struggling with self-worth"
+    },
+    {
+      "keyword": "therapy for students who can't sleep",
+      "slug": "therapy-for-students-who-cant-sleep",
+      "angle": "academic pressure, isolation, uncertain futures; this group with anxiety-driven insomnia"
+    },
+    {
+      "keyword": "therapy for students who feel stuck",
+      "slug": "therapy-for-students-who-feel-stuck",
+      "angle": "academic pressure, isolation, uncertain futures; this group feeling paralyzed"
+    },
+    {
+      "keyword": "therapy for students with anger issues",
+      "slug": "therapy-for-students-with-anger-issues",
+      "angle": "academic pressure, isolation, uncertain futures; this group with anger masking pain"
+    },
+    {
+      "keyword": "therapy for students with trauma",
+      "slug": "therapy-for-students-with-trauma",
+      "angle": "academic pressure, isolation, uncertain futures; this group carrying old wounds"
+    },
+    {
+      "keyword": "therapy for students who overthink everything",
+      "slug": "therapy-for-students-who-overthink-everything",
+      "angle": "academic pressure, isolation, uncertain futures; this group with relentless rumination"
+    },
+    {
+      "keyword": "therapy for college students after divorce",
+      "slug": "therapy-for-college-students-after-divorce",
+      "angle": "the mental health crush of college years; this group navigating divorce"
+    },
+    {
+      "keyword": "therapy for college students after a breakup",
+      "slug": "therapy-for-college-students-after-a-breakup",
+      "angle": "the mental health crush of college years; this group after a breakup"
+    },
+    {
+      "keyword": "therapy for college students with low self esteem",
+      "slug": "therapy-for-college-students-with-low-self-esteem",
+      "angle": "the mental health crush of college years; this group struggling with self-worth"
+    },
+    {
+      "keyword": "therapy for college students who can't sleep",
+      "slug": "therapy-for-college-students-who-cant-sleep",
+      "angle": "the mental health crush of college years; this group with anxiety-driven insomnia"
+    },
+    {
+      "keyword": "therapy for college students who feel stuck",
+      "slug": "therapy-for-college-students-who-feel-stuck",
+      "angle": "the mental health crush of college years; this group feeling paralyzed"
+    },
+    {
+      "keyword": "therapy for college students with anger issues",
+      "slug": "therapy-for-college-students-with-anger-issues",
+      "angle": "the mental health crush of college years; this group with anger masking pain"
+    },
+    {
+      "keyword": "therapy for college students with trauma",
+      "slug": "therapy-for-college-students-with-trauma",
+      "angle": "the mental health crush of college years; this group carrying old wounds"
+    },
+    {
+      "keyword": "therapy for college students who overthink everything",
+      "slug": "therapy-for-college-students-who-overthink-everything",
+      "angle": "the mental health crush of college years; this group with relentless rumination"
+    },
+    {
+      "keyword": "therapy for teenagers after divorce",
+      "slug": "therapy-for-teenagers-after-divorce",
+      "angle": "navigating adolescence and overwhelming feelings; this group navigating divorce"
+    },
+    {
+      "keyword": "therapy for teenagers after a breakup",
+      "slug": "therapy-for-teenagers-after-a-breakup",
+      "angle": "navigating adolescence and overwhelming feelings; this group after a breakup"
+    },
+    {
+      "keyword": "therapy for teenagers with low self esteem",
+      "slug": "therapy-for-teenagers-with-low-self-esteem",
+      "angle": "navigating adolescence and overwhelming feelings; this group struggling with self-worth"
+    },
+    {
+      "keyword": "therapy for teenagers who can't sleep",
+      "slug": "therapy-for-teenagers-who-cant-sleep",
+      "angle": "navigating adolescence and overwhelming feelings; this group with anxiety-driven insomnia"
+    },
+    {
+      "keyword": "therapy for teenagers who feel stuck",
+      "slug": "therapy-for-teenagers-who-feel-stuck",
+      "angle": "navigating adolescence and overwhelming feelings; this group feeling paralyzed"
+    },
+    {
+      "keyword": "therapy for teenagers with anger issues",
+      "slug": "therapy-for-teenagers-with-anger-issues",
+      "angle": "navigating adolescence and overwhelming feelings; this group with anger masking pain"
+    },
+    {
+      "keyword": "therapy for teenagers with trauma",
+      "slug": "therapy-for-teenagers-with-trauma",
+      "angle": "navigating adolescence and overwhelming feelings; this group carrying old wounds"
+    },
+    {
+      "keyword": "therapy for teenagers who overthink everything",
+      "slug": "therapy-for-teenagers-who-overthink-everything",
+      "angle": "navigating adolescence and overwhelming feelings; this group with relentless rumination"
+    },
+    {
+      "keyword": "therapy for young adults after divorce",
+      "slug": "therapy-for-young-adults-after-divorce",
+      "angle": "the quarter-life crisis and pressure to have it together; this group navigating divorce"
+    },
+    {
+      "keyword": "therapy for young adults after a breakup",
+      "slug": "therapy-for-young-adults-after-a-breakup",
+      "angle": "the quarter-life crisis and pressure to have it together; this group after a breakup"
+    },
+    {
+      "keyword": "therapy for young adults with low self esteem",
+      "slug": "therapy-for-young-adults-with-low-self-esteem",
+      "angle": "the quarter-life crisis and pressure to have it together; this group struggling with self-worth"
+    },
+    {
+      "keyword": "therapy for young adults who can't sleep",
+      "slug": "therapy-for-young-adults-who-cant-sleep",
+      "angle": "the quarter-life crisis and pressure to have it together; this group with anxiety-driven insomnia"
+    },
+    {
+      "keyword": "therapy for young adults who feel stuck",
+      "slug": "therapy-for-young-adults-who-feel-stuck",
+      "angle": "the quarter-life crisis and pressure to have it together; this group feeling paralyzed"
+    },
+    {
+      "keyword": "therapy for young adults with anger issues",
+      "slug": "therapy-for-young-adults-with-anger-issues",
+      "angle": "the quarter-life crisis and pressure to have it together; this group with anger masking pain"
+    },
+    {
+      "keyword": "therapy for young adults with trauma",
+      "slug": "therapy-for-young-adults-with-trauma",
+      "angle": "the quarter-life crisis and pressure to have it together; this group carrying old wounds"
+    },
+    {
+      "keyword": "therapy for young adults who overthink everything",
+      "slug": "therapy-for-young-adults-who-overthink-everything",
+      "angle": "the quarter-life crisis and pressure to have it together; this group with relentless rumination"
+    },
+    {
+      "keyword": "therapy for seniors after divorce",
+      "slug": "therapy-for-seniors-after-divorce",
+      "angle": "isolation, loss, and change in later life; this group navigating divorce"
+    },
+    {
+      "keyword": "therapy for seniors after a breakup",
+      "slug": "therapy-for-seniors-after-a-breakup",
+      "angle": "isolation, loss, and change in later life; this group after a breakup"
+    },
+    {
+      "keyword": "therapy for seniors with low self esteem",
+      "slug": "therapy-for-seniors-with-low-self-esteem",
+      "angle": "isolation, loss, and change in later life; this group struggling with self-worth"
+    },
+    {
+      "keyword": "therapy for seniors who can't sleep",
+      "slug": "therapy-for-seniors-who-cant-sleep",
+      "angle": "isolation, loss, and change in later life; this group with anxiety-driven insomnia"
+    },
+    {
+      "keyword": "therapy for seniors who feel stuck",
+      "slug": "therapy-for-seniors-who-feel-stuck",
+      "angle": "isolation, loss, and change in later life; this group feeling paralyzed"
+    },
+    {
+      "keyword": "therapy for seniors with anger issues",
+      "slug": "therapy-for-seniors-with-anger-issues",
+      "angle": "isolation, loss, and change in later life; this group with anger masking pain"
+    },
+    {
+      "keyword": "therapy for seniors with trauma",
+      "slug": "therapy-for-seniors-with-trauma",
+      "angle": "isolation, loss, and change in later life; this group carrying old wounds"
+    },
+    {
+      "keyword": "therapy for seniors who overthink everything",
+      "slug": "therapy-for-seniors-who-overthink-everything",
+      "angle": "isolation, loss, and change in later life; this group with relentless rumination"
+    },
+    {
+      "keyword": "therapy for couples after divorce",
+      "slug": "therapy-for-couples-after-divorce",
+      "angle": "relationship strain and communication breakdown; this group navigating divorce"
+    },
+    {
+      "keyword": "therapy for couples after a breakup",
+      "slug": "therapy-for-couples-after-a-breakup",
+      "angle": "relationship strain and communication breakdown; this group after a breakup"
+    },
+    {
+      "keyword": "therapy for couples with low self esteem",
+      "slug": "therapy-for-couples-with-low-self-esteem",
+      "angle": "relationship strain and communication breakdown; this group struggling with self-worth"
+    },
+    {
+      "keyword": "therapy for couples who can't sleep",
+      "slug": "therapy-for-couples-who-cant-sleep",
+      "angle": "relationship strain and communication breakdown; this group with anxiety-driven insomnia"
+    },
+    {
+      "keyword": "therapy for couples who feel stuck",
+      "slug": "therapy-for-couples-who-feel-stuck",
+      "angle": "relationship strain and communication breakdown; this group feeling paralyzed"
+    },
+    {
+      "keyword": "therapy for couples with anger issues",
+      "slug": "therapy-for-couples-with-anger-issues",
+      "angle": "relationship strain and communication breakdown; this group with anger masking pain"
+    },
+    {
+      "keyword": "therapy for couples with trauma",
+      "slug": "therapy-for-couples-with-trauma",
+      "angle": "relationship strain and communication breakdown; this group carrying old wounds"
+    },
+    {
+      "keyword": "therapy for couples who overthink everything",
+      "slug": "therapy-for-couples-who-overthink-everything",
+      "angle": "relationship strain and communication breakdown; this group with relentless rumination"
+    },
+    {
+      "keyword": "therapy for parents after divorce",
+      "slug": "therapy-for-parents-after-divorce",
+      "angle": "the relentless pressure of raising kids; this group navigating divorce"
+    },
+    {
+      "keyword": "therapy for parents after a breakup",
+      "slug": "therapy-for-parents-after-a-breakup",
+      "angle": "the relentless pressure of raising kids; this group after a breakup"
+    },
+    {
+      "keyword": "therapy for parents with low self esteem",
+      "slug": "therapy-for-parents-with-low-self-esteem",
+      "angle": "the relentless pressure of raising kids; this group struggling with self-worth"
+    },
+    {
+      "keyword": "therapy for parents who can't sleep",
+      "slug": "therapy-for-parents-who-cant-sleep",
+      "angle": "the relentless pressure of raising kids; this group with anxiety-driven insomnia"
+    },
+    {
+      "keyword": "therapy for parents who feel stuck",
+      "slug": "therapy-for-parents-who-feel-stuck",
+      "angle": "the relentless pressure of raising kids; this group feeling paralyzed"
+    },
+    {
+      "keyword": "therapy for parents with anger issues",
+      "slug": "therapy-for-parents-with-anger-issues",
+      "angle": "the relentless pressure of raising kids; this group with anger masking pain"
+    },
+    {
+      "keyword": "therapy for parents with trauma",
+      "slug": "therapy-for-parents-with-trauma",
+      "angle": "the relentless pressure of raising kids; this group carrying old wounds"
+    },
+    {
+      "keyword": "therapy for parents who overthink everything",
+      "slug": "therapy-for-parents-who-overthink-everything",
+      "angle": "the relentless pressure of raising kids; this group with relentless rumination"
+    },
+    {
+      "keyword": "therapy for nurses after divorce",
+      "slug": "therapy-for-nurses-after-divorce",
+      "angle": "frontline burnout and emotional exhaustion; this group navigating divorce"
+    },
+    {
+      "keyword": "therapy for nurses after a breakup",
+      "slug": "therapy-for-nurses-after-a-breakup",
+      "angle": "frontline burnout and emotional exhaustion; this group after a breakup"
+    },
+    {
+      "keyword": "therapy for nurses with low self esteem",
+      "slug": "therapy-for-nurses-with-low-self-esteem",
+      "angle": "frontline burnout and emotional exhaustion; this group struggling with self-worth"
+    },
+    {
+      "keyword": "therapy for nurses who can't sleep",
+      "slug": "therapy-for-nurses-who-cant-sleep",
+      "angle": "frontline burnout and emotional exhaustion; this group with anxiety-driven insomnia"
+    },
+    {
+      "keyword": "therapy for nurses who feel stuck",
+      "slug": "therapy-for-nurses-who-feel-stuck",
+      "angle": "frontline burnout and emotional exhaustion; this group feeling paralyzed"
+    },
+    {
+      "keyword": "therapy for nurses with anger issues",
+      "slug": "therapy-for-nurses-with-anger-issues",
+      "angle": "frontline burnout and emotional exhaustion; this group with anger masking pain"
+    },
+    {
+      "keyword": "therapy for nurses with trauma",
+      "slug": "therapy-for-nurses-with-trauma",
+      "angle": "frontline burnout and emotional exhaustion; this group carrying old wounds"
+    },
+    {
+      "keyword": "therapy for nurses who overthink everything",
+      "slug": "therapy-for-nurses-who-overthink-everything",
+      "angle": "frontline burnout and emotional exhaustion; this group with relentless rumination"
+    },
+    {
+      "keyword": "therapy for teachers after divorce",
+      "slug": "therapy-for-teachers-after-divorce",
+      "angle": "underpaid, overstretched, emotionally drained; this group navigating divorce"
+    },
+    {
+      "keyword": "therapy for teachers after a breakup",
+      "slug": "therapy-for-teachers-after-a-breakup",
+      "angle": "underpaid, overstretched, emotionally drained; this group after a breakup"
+    },
+    {
+      "keyword": "therapy for teachers with low self esteem",
+      "slug": "therapy-for-teachers-with-low-self-esteem",
+      "angle": "underpaid, overstretched, emotionally drained; this group struggling with self-worth"
+    },
+    {
+      "keyword": "therapy for teachers who can't sleep",
+      "slug": "therapy-for-teachers-who-cant-sleep",
+      "angle": "underpaid, overstretched, emotionally drained; this group with anxiety-driven insomnia"
+    },
+    {
+      "keyword": "therapy for teachers who feel stuck",
+      "slug": "therapy-for-teachers-who-feel-stuck",
+      "angle": "underpaid, overstretched, emotionally drained; this group feeling paralyzed"
+    },
+    {
+      "keyword": "therapy for teachers with anger issues",
+      "slug": "therapy-for-teachers-with-anger-issues",
+      "angle": "underpaid, overstretched, emotionally drained; this group with anger masking pain"
+    },
+    {
+      "keyword": "therapy for teachers with trauma",
+      "slug": "therapy-for-teachers-with-trauma",
+      "angle": "underpaid, overstretched, emotionally drained; this group carrying old wounds"
+    },
+    {
+      "keyword": "therapy for teachers who overthink everything",
+      "slug": "therapy-for-teachers-who-overthink-everything",
+      "angle": "underpaid, overstretched, emotionally drained; this group with relentless rumination"
+    },
+    {
+      "keyword": "therapy for first responders after divorce",
+      "slug": "therapy-for-first-responders-after-divorce",
+      "angle": "trauma exposure and the cost of the job; this group navigating divorce"
+    },
+    {
+      "keyword": "therapy for first responders after a breakup",
+      "slug": "therapy-for-first-responders-after-a-breakup",
+      "angle": "trauma exposure and the cost of the job; this group after a breakup"
+    },
+    {
+      "keyword": "therapy for first responders with low self esteem",
+      "slug": "therapy-for-first-responders-with-low-self-esteem",
+      "angle": "trauma exposure and the cost of the job; this group struggling with self-worth"
+    },
+    {
+      "keyword": "therapy for first responders who can't sleep",
+      "slug": "therapy-for-first-responders-who-cant-sleep",
+      "angle": "trauma exposure and the cost of the job; this group with anxiety-driven insomnia"
+    },
+    {
+      "keyword": "therapy for first responders who feel stuck",
+      "slug": "therapy-for-first-responders-who-feel-stuck",
+      "angle": "trauma exposure and the cost of the job; this group feeling paralyzed"
+    },
+    {
+      "keyword": "therapy for first responders with anger issues",
+      "slug": "therapy-for-first-responders-with-anger-issues",
+      "angle": "trauma exposure and the cost of the job; this group with anger masking pain"
+    },
+    {
+      "keyword": "therapy for first responders with trauma",
+      "slug": "therapy-for-first-responders-with-trauma",
+      "angle": "trauma exposure and the cost of the job; this group carrying old wounds"
+    },
+    {
+      "keyword": "therapy for first responders who overthink everything",
+      "slug": "therapy-for-first-responders-who-overthink-everything",
+      "angle": "trauma exposure and the cost of the job; this group with relentless rumination"
+    },
+    {
+      "keyword": "therapy for entrepreneurs after divorce",
+      "slug": "therapy-for-entrepreneurs-after-divorce",
+      "angle": "the isolation and pressure of building something; this group navigating divorce"
+    },
+    {
+      "keyword": "therapy for entrepreneurs after a breakup",
+      "slug": "therapy-for-entrepreneurs-after-a-breakup",
+      "angle": "the isolation and pressure of building something; this group after a breakup"
+    },
+    {
+      "keyword": "therapy for entrepreneurs with low self esteem",
+      "slug": "therapy-for-entrepreneurs-with-low-self-esteem",
+      "angle": "the isolation and pressure of building something; this group struggling with self-worth"
+    },
+    {
+      "keyword": "therapy for entrepreneurs who can't sleep",
+      "slug": "therapy-for-entrepreneurs-who-cant-sleep",
+      "angle": "the isolation and pressure of building something; this group with anxiety-driven insomnia"
+    },
+    {
+      "keyword": "therapy for entrepreneurs who feel stuck",
+      "slug": "therapy-for-entrepreneurs-who-feel-stuck",
+      "angle": "the isolation and pressure of building something; this group feeling paralyzed"
+    },
+    {
+      "keyword": "therapy for entrepreneurs with anger issues",
+      "slug": "therapy-for-entrepreneurs-with-anger-issues",
+      "angle": "the isolation and pressure of building something; this group with anger masking pain"
+    },
+    {
+      "keyword": "therapy for entrepreneurs with trauma",
+      "slug": "therapy-for-entrepreneurs-with-trauma",
+      "angle": "the isolation and pressure of building something; this group carrying old wounds"
+    },
+    {
+      "keyword": "therapy for entrepreneurs who overthink everything",
+      "slug": "therapy-for-entrepreneurs-who-overthink-everything",
+      "angle": "the isolation and pressure of building something; this group with relentless rumination"
+    },
+    {
+      "keyword": "therapy for remote workers after divorce",
+      "slug": "therapy-for-remote-workers-after-divorce",
+      "angle": "isolation and blurred boundaries working from home; this group navigating divorce"
+    },
+    {
+      "keyword": "therapy for remote workers after a breakup",
+      "slug": "therapy-for-remote-workers-after-a-breakup",
+      "angle": "isolation and blurred boundaries working from home; this group after a breakup"
+    },
+    {
+      "keyword": "therapy for remote workers with low self esteem",
+      "slug": "therapy-for-remote-workers-with-low-self-esteem",
+      "angle": "isolation and blurred boundaries working from home; this group struggling with self-worth"
+    },
+    {
+      "keyword": "therapy for remote workers who can't sleep",
+      "slug": "therapy-for-remote-workers-who-cant-sleep",
+      "angle": "isolation and blurred boundaries working from home; this group with anxiety-driven insomnia"
+    },
+    {
+      "keyword": "therapy for remote workers who feel stuck",
+      "slug": "therapy-for-remote-workers-who-feel-stuck",
+      "angle": "isolation and blurred boundaries working from home; this group feeling paralyzed"
+    },
+    {
+      "keyword": "therapy for remote workers with anger issues",
+      "slug": "therapy-for-remote-workers-with-anger-issues",
+      "angle": "isolation and blurred boundaries working from home; this group with anger masking pain"
+    },
+    {
+      "keyword": "therapy for remote workers with trauma",
+      "slug": "therapy-for-remote-workers-with-trauma",
+      "angle": "isolation and blurred boundaries working from home; this group carrying old wounds"
+    },
+    {
+      "keyword": "therapy for remote workers who overthink everything",
+      "slug": "therapy-for-remote-workers-who-overthink-everything",
+      "angle": "isolation and blurred boundaries working from home; this group with relentless rumination"
+    },
+    {
+      "keyword": "therapy for healthcare workers after divorce",
+      "slug": "therapy-for-healthcare-workers-after-divorce",
+      "angle": "compassion fatigue and burnout; this group navigating divorce"
+    },
+    {
+      "keyword": "therapy for healthcare workers after a breakup",
+      "slug": "therapy-for-healthcare-workers-after-a-breakup",
+      "angle": "compassion fatigue and burnout; this group after a breakup"
+    },
+    {
+      "keyword": "therapy for healthcare workers with low self esteem",
+      "slug": "therapy-for-healthcare-workers-with-low-self-esteem",
+      "angle": "compassion fatigue and burnout; this group struggling with self-worth"
+    },
+    {
+      "keyword": "therapy for healthcare workers who can't sleep",
+      "slug": "therapy-for-healthcare-workers-who-cant-sleep",
+      "angle": "compassion fatigue and burnout; this group with anxiety-driven insomnia"
+    },
+    {
+      "keyword": "therapy for healthcare workers who feel stuck",
+      "slug": "therapy-for-healthcare-workers-who-feel-stuck",
+      "angle": "compassion fatigue and burnout; this group feeling paralyzed"
+    },
+    {
+      "keyword": "therapy for healthcare workers with anger issues",
+      "slug": "therapy-for-healthcare-workers-with-anger-issues",
+      "angle": "compassion fatigue and burnout; this group with anger masking pain"
+    },
+    {
+      "keyword": "therapy for healthcare workers with trauma",
+      "slug": "therapy-for-healthcare-workers-with-trauma",
+      "angle": "compassion fatigue and burnout; this group carrying old wounds"
+    },
+    {
+      "keyword": "therapy for healthcare workers who overthink everything",
+      "slug": "therapy-for-healthcare-workers-who-overthink-everything",
+      "angle": "compassion fatigue and burnout; this group with relentless rumination"
+    },
+    {
+      "keyword": "therapy for veterans after divorce",
+      "slug": "therapy-for-veterans-after-divorce",
+      "angle": "carrying service experiences into civilian life; this group navigating divorce"
+    },
+    {
+      "keyword": "therapy for veterans after a breakup",
+      "slug": "therapy-for-veterans-after-a-breakup",
+      "angle": "carrying service experiences into civilian life; this group after a breakup"
+    },
+    {
+      "keyword": "therapy for veterans with low self esteem",
+      "slug": "therapy-for-veterans-with-low-self-esteem",
+      "angle": "carrying service experiences into civilian life; this group struggling with self-worth"
+    },
+    {
+      "keyword": "therapy for veterans who can't sleep",
+      "slug": "therapy-for-veterans-who-cant-sleep",
+      "angle": "carrying service experiences into civilian life; this group with anxiety-driven insomnia"
+    },
+    {
+      "keyword": "therapy for veterans who feel stuck",
+      "slug": "therapy-for-veterans-who-feel-stuck",
+      "angle": "carrying service experiences into civilian life; this group feeling paralyzed"
+    },
+    {
+      "keyword": "therapy for veterans with anger issues",
+      "slug": "therapy-for-veterans-with-anger-issues",
+      "angle": "carrying service experiences into civilian life; this group with anger masking pain"
+    },
+    {
+      "keyword": "therapy for veterans with trauma",
+      "slug": "therapy-for-veterans-with-trauma",
+      "angle": "carrying service experiences into civilian life; this group carrying old wounds"
+    },
+    {
+      "keyword": "therapy for veterans who overthink everything",
+      "slug": "therapy-for-veterans-who-overthink-everything",
+      "angle": "carrying service experiences into civilian life; this group with relentless rumination"
+    },
+    {
+      "keyword": "therapy for caregivers after divorce",
+      "slug": "therapy-for-caregivers-after-divorce",
+      "angle": "the burnout of caring for others endlessly; this group navigating divorce"
+    },
+    {
+      "keyword": "therapy for caregivers after a breakup",
+      "slug": "therapy-for-caregivers-after-a-breakup",
+      "angle": "the burnout of caring for others endlessly; this group after a breakup"
+    },
+    {
+      "keyword": "therapy for caregivers with low self esteem",
+      "slug": "therapy-for-caregivers-with-low-self-esteem",
+      "angle": "the burnout of caring for others endlessly; this group struggling with self-worth"
+    },
+    {
+      "keyword": "therapy for caregivers who can't sleep",
+      "slug": "therapy-for-caregivers-who-cant-sleep",
+      "angle": "the burnout of caring for others endlessly; this group with anxiety-driven insomnia"
+    },
+    {
+      "keyword": "therapy for caregivers who feel stuck",
+      "slug": "therapy-for-caregivers-who-feel-stuck",
+      "angle": "the burnout of caring for others endlessly; this group feeling paralyzed"
+    },
+    {
+      "keyword": "therapy for caregivers with anger issues",
+      "slug": "therapy-for-caregivers-with-anger-issues",
+      "angle": "the burnout of caring for others endlessly; this group with anger masking pain"
+    },
+    {
+      "keyword": "therapy for caregivers with trauma",
+      "slug": "therapy-for-caregivers-with-trauma",
+      "angle": "the burnout of caring for others endlessly; this group carrying old wounds"
+    },
+    {
+      "keyword": "therapy for caregivers who overthink everything",
+      "slug": "therapy-for-caregivers-who-overthink-everything",
+      "angle": "the burnout of caring for others endlessly; this group with relentless rumination"
+    },
+    {
+      "keyword": "therapy for introverts after divorce",
+      "slug": "therapy-for-introverts-after-divorce",
+      "angle": "navigating a world built for extroverts; this group navigating divorce"
+    },
+    {
+      "keyword": "therapy for introverts after a breakup",
+      "slug": "therapy-for-introverts-after-a-breakup",
+      "angle": "navigating a world built for extroverts; this group after a breakup"
+    },
+    {
+      "keyword": "therapy for introverts with low self esteem",
+      "slug": "therapy-for-introverts-with-low-self-esteem",
+      "angle": "navigating a world built for extroverts; this group struggling with self-worth"
+    },
+    {
+      "keyword": "therapy for introverts who can't sleep",
+      "slug": "therapy-for-introverts-who-cant-sleep",
+      "angle": "navigating a world built for extroverts; this group with anxiety-driven insomnia"
+    },
+    {
+      "keyword": "therapy for introverts who feel stuck",
+      "slug": "therapy-for-introverts-who-feel-stuck",
+      "angle": "navigating a world built for extroverts; this group feeling paralyzed"
+    },
+    {
+      "keyword": "therapy for introverts with anger issues",
+      "slug": "therapy-for-introverts-with-anger-issues",
+      "angle": "navigating a world built for extroverts; this group with anger masking pain"
+    },
+    {
+      "keyword": "therapy for introverts with trauma",
+      "slug": "therapy-for-introverts-with-trauma",
+      "angle": "navigating a world built for extroverts; this group carrying old wounds"
+    },
+    {
+      "keyword": "therapy for introverts who overthink everything",
+      "slug": "therapy-for-introverts-who-overthink-everything",
+      "angle": "navigating a world built for extroverts; this group with relentless rumination"
+    },
+    {
+      "keyword": "therapy for perfectionists after divorce",
+      "slug": "therapy-for-perfectionists-after-divorce",
+      "angle": "never resting, never satisfied; this group navigating divorce"
+    },
+    {
+      "keyword": "therapy for perfectionists after a breakup",
+      "slug": "therapy-for-perfectionists-after-a-breakup",
+      "angle": "never resting, never satisfied; this group after a breakup"
+    },
+    {
+      "keyword": "therapy for perfectionists with low self esteem",
+      "slug": "therapy-for-perfectionists-with-low-self-esteem",
+      "angle": "never resting, never satisfied; this group struggling with self-worth"
+    },
+    {
+      "keyword": "therapy for perfectionists who can't sleep",
+      "slug": "therapy-for-perfectionists-who-cant-sleep",
+      "angle": "never resting, never satisfied; this group with anxiety-driven insomnia"
+    },
+    {
+      "keyword": "therapy for perfectionists who feel stuck",
+      "slug": "therapy-for-perfectionists-who-feel-stuck",
+      "angle": "never resting, never satisfied; this group feeling paralyzed"
+    },
+    {
+      "keyword": "therapy for perfectionists with anger issues",
+      "slug": "therapy-for-perfectionists-with-anger-issues",
+      "angle": "never resting, never satisfied; this group with anger masking pain"
+    },
+    {
+      "keyword": "therapy for perfectionists with trauma",
+      "slug": "therapy-for-perfectionists-with-trauma",
+      "angle": "never resting, never satisfied; this group carrying old wounds"
+    },
+    {
+      "keyword": "therapy for perfectionists who overthink everything",
+      "slug": "therapy-for-perfectionists-who-overthink-everything",
+      "angle": "never resting, never satisfied; this group with relentless rumination"
+    },
+    {
+      "keyword": "therapy for overthinkers after divorce",
+      "slug": "therapy-for-overthinkers-after-divorce",
+      "angle": "a mind that won't stop running; this group navigating divorce"
+    },
+    {
+      "keyword": "therapy for overthinkers after a breakup",
+      "slug": "therapy-for-overthinkers-after-a-breakup",
+      "angle": "a mind that won't stop running; this group after a breakup"
+    },
+    {
+      "keyword": "therapy for overthinkers with low self esteem",
+      "slug": "therapy-for-overthinkers-with-low-self-esteem",
+      "angle": "a mind that won't stop running; this group struggling with self-worth"
+    },
+    {
+      "keyword": "therapy for overthinkers who can't sleep",
+      "slug": "therapy-for-overthinkers-who-cant-sleep",
+      "angle": "a mind that won't stop running; this group with anxiety-driven insomnia"
+    },
+    {
+      "keyword": "therapy for overthinkers who feel stuck",
+      "slug": "therapy-for-overthinkers-who-feel-stuck",
+      "angle": "a mind that won't stop running; this group feeling paralyzed"
+    },
+    {
+      "keyword": "therapy for overthinkers with anger issues",
+      "slug": "therapy-for-overthinkers-with-anger-issues",
+      "angle": "a mind that won't stop running; this group with anger masking pain"
+    },
+    {
+      "keyword": "therapy for overthinkers with trauma",
+      "slug": "therapy-for-overthinkers-with-trauma",
+      "angle": "a mind that won't stop running; this group carrying old wounds"
+    },
+    {
+      "keyword": "therapy for overthinkers who overthink everything",
+      "slug": "therapy-for-overthinkers-who-overthink-everything",
+      "angle": "a mind that won't stop running; this group with relentless rumination"
+    },
+    {
+      "keyword": "therapy for adult children of narcissists after divorce",
+      "slug": "therapy-for-adult-children-of-narcissists-after-divorce",
+      "angle": "unraveling a childhood around someone else's needs; this group navigating divorce"
+    },
+    {
+      "keyword": "therapy for adult children of narcissists after a breakup",
+      "slug": "therapy-for-adult-children-of-narcissists-after-a-breakup",
+      "angle": "unraveling a childhood around someone else's needs; this group after a breakup"
+    },
+    {
+      "keyword": "therapy for adult children of narcissists with low self esteem",
+      "slug": "therapy-for-adult-children-of-narcissists-with-low-self-esteem",
+      "angle": "unraveling a childhood around someone else's needs; this group struggling with self-worth"
+    },
+    {
+      "keyword": "therapy for adult children of narcissists who can't sleep",
+      "slug": "therapy-for-adult-children-of-narcissists-who-cant-sleep",
+      "angle": "unraveling a childhood around someone else's needs; this group with anxiety-driven insomnia"
+    },
+    {
+      "keyword": "therapy for adult children of narcissists who feel stuck",
+      "slug": "therapy-for-adult-children-of-narcissists-who-feel-stuck",
+      "angle": "unraveling a childhood around someone else's needs; this group feeling paralyzed"
+    },
+    {
+      "keyword": "therapy for adult children of narcissists with anger issues",
+      "slug": "therapy-for-adult-children-of-narcissists-with-anger-issues",
+      "angle": "unraveling a childhood around someone else's needs; this group with anger masking pain"
+    },
+    {
+      "keyword": "therapy for adult children of narcissists with trauma",
+      "slug": "therapy-for-adult-children-of-narcissists-with-trauma",
+      "angle": "unraveling a childhood around someone else's needs; this group carrying old wounds"
+    },
+    {
+      "keyword": "therapy for adult children of narcissists who overthink everything",
+      "slug": "therapy-for-adult-children-of-narcissists-who-overthink-everything",
+      "angle": "unraveling a childhood around someone else's needs; this group with relentless rumination"
+    },
+    {
+      "keyword": "therapy for people pleasers after divorce",
+      "slug": "therapy-for-people-pleasers-after-divorce",
+      "angle": "losing yourself in everyone else's needs; this group navigating divorce"
+    },
+    {
+      "keyword": "therapy for people pleasers after a breakup",
+      "slug": "therapy-for-people-pleasers-after-a-breakup",
+      "angle": "losing yourself in everyone else's needs; this group after a breakup"
+    },
+    {
+      "keyword": "therapy for people pleasers with low self esteem",
+      "slug": "therapy-for-people-pleasers-with-low-self-esteem",
+      "angle": "losing yourself in everyone else's needs; this group struggling with self-worth"
+    },
+    {
+      "keyword": "therapy for people pleasers who can't sleep",
+      "slug": "therapy-for-people-pleasers-who-cant-sleep",
+      "angle": "losing yourself in everyone else's needs; this group with anxiety-driven insomnia"
+    },
+    {
+      "keyword": "therapy for people pleasers who feel stuck",
+      "slug": "therapy-for-people-pleasers-who-feel-stuck",
+      "angle": "losing yourself in everyone else's needs; this group feeling paralyzed"
+    },
+    {
+      "keyword": "therapy for people pleasers with anger issues",
+      "slug": "therapy-for-people-pleasers-with-anger-issues",
+      "angle": "losing yourself in everyone else's needs; this group with anger masking pain"
+    },
+    {
+      "keyword": "therapy for people pleasers with trauma",
+      "slug": "therapy-for-people-pleasers-with-trauma",
+      "angle": "losing yourself in everyone else's needs; this group carrying old wounds"
+    },
+    {
+      "keyword": "therapy for people pleasers who overthink everything",
+      "slug": "therapy-for-people-pleasers-who-overthink-everything",
+      "angle": "losing yourself in everyone else's needs; this group with relentless rumination"
+    },
+    {
+      "keyword": "therapy for workaholics after divorce",
+      "slug": "therapy-for-workaholics-after-divorce",
+      "angle": "using work to avoid feeling; this group navigating divorce"
+    },
+    {
+      "keyword": "therapy for workaholics after a breakup",
+      "slug": "therapy-for-workaholics-after-a-breakup",
+      "angle": "using work to avoid feeling; this group after a breakup"
+    },
+    {
+      "keyword": "therapy for workaholics with low self esteem",
+      "slug": "therapy-for-workaholics-with-low-self-esteem",
+      "angle": "using work to avoid feeling; this group struggling with self-worth"
+    },
+    {
+      "keyword": "therapy for workaholics who can't sleep",
+      "slug": "therapy-for-workaholics-who-cant-sleep",
+      "angle": "using work to avoid feeling; this group with anxiety-driven insomnia"
+    },
+    {
+      "keyword": "therapy for workaholics who feel stuck",
+      "slug": "therapy-for-workaholics-who-feel-stuck",
+      "angle": "using work to avoid feeling; this group feeling paralyzed"
+    },
+    {
+      "keyword": "therapy for workaholics with anger issues",
+      "slug": "therapy-for-workaholics-with-anger-issues",
+      "angle": "using work to avoid feeling; this group with anger masking pain"
+    },
+    {
+      "keyword": "therapy for workaholics with trauma",
+      "slug": "therapy-for-workaholics-with-trauma",
+      "angle": "using work to avoid feeling; this group carrying old wounds"
+    },
+    {
+      "keyword": "therapy for workaholics who overthink everything",
+      "slug": "therapy-for-workaholics-who-overthink-everything",
+      "angle": "using work to avoid feeling; this group with relentless rumination"
+    },
+    {
+      "keyword": "therapy for highly sensitive people after divorce",
+      "slug": "therapy-for-highly-sensitive-people-after-divorce",
+      "angle": "feeling everything more intensely; this group navigating divorce"
+    },
+    {
+      "keyword": "therapy for highly sensitive people after a breakup",
+      "slug": "therapy-for-highly-sensitive-people-after-a-breakup",
+      "angle": "feeling everything more intensely; this group after a breakup"
+    },
+    {
+      "keyword": "therapy for highly sensitive people with low self esteem",
+      "slug": "therapy-for-highly-sensitive-people-with-low-self-esteem",
+      "angle": "feeling everything more intensely; this group struggling with self-worth"
+    },
+    {
+      "keyword": "therapy for highly sensitive people who can't sleep",
+      "slug": "therapy-for-highly-sensitive-people-who-cant-sleep",
+      "angle": "feeling everything more intensely; this group with anxiety-driven insomnia"
+    },
+    {
+      "keyword": "therapy for highly sensitive people who feel stuck",
+      "slug": "therapy-for-highly-sensitive-people-who-feel-stuck",
+      "angle": "feeling everything more intensely; this group feeling paralyzed"
+    },
+    {
+      "keyword": "therapy for highly sensitive people with anger issues",
+      "slug": "therapy-for-highly-sensitive-people-with-anger-issues",
+      "angle": "feeling everything more intensely; this group with anger masking pain"
+    },
+    {
+      "keyword": "therapy for highly sensitive people with trauma",
+      "slug": "therapy-for-highly-sensitive-people-with-trauma",
+      "angle": "feeling everything more intensely; this group carrying old wounds"
+    },
+    {
+      "keyword": "therapy for highly sensitive people who overthink everything",
+      "slug": "therapy-for-highly-sensitive-people-who-overthink-everything",
+      "angle": "feeling everything more intensely; this group with relentless rumination"
+    },
+    {
+      "keyword": "therapy for immigrants after divorce",
+      "slug": "therapy-for-immigrants-after-divorce",
+      "angle": "the loneliness and stress of building a life in a new country; this group navigating divorce"
+    },
+    {
+      "keyword": "therapy for immigrants after a breakup",
+      "slug": "therapy-for-immigrants-after-a-breakup",
+      "angle": "the loneliness and stress of building a life in a new country; this group after a breakup"
+    },
+    {
+      "keyword": "therapy for immigrants with low self esteem",
+      "slug": "therapy-for-immigrants-with-low-self-esteem",
+      "angle": "the loneliness and stress of building a life in a new country; this group struggling with self-worth"
+    },
+    {
+      "keyword": "therapy for immigrants who can't sleep",
+      "slug": "therapy-for-immigrants-who-cant-sleep",
+      "angle": "the loneliness and stress of building a life in a new country; this group with anxiety-driven insomnia"
+    },
+    {
+      "keyword": "therapy for immigrants who feel stuck",
+      "slug": "therapy-for-immigrants-who-feel-stuck",
+      "angle": "the loneliness and stress of building a life in a new country; this group feeling paralyzed"
+    },
+    {
+      "keyword": "therapy for immigrants with anger issues",
+      "slug": "therapy-for-immigrants-with-anger-issues",
+      "angle": "the loneliness and stress of building a life in a new country; this group with anger masking pain"
+    },
+    {
+      "keyword": "therapy for immigrants with trauma",
+      "slug": "therapy-for-immigrants-with-trauma",
+      "angle": "the loneliness and stress of building a life in a new country; this group carrying old wounds"
+    },
+    {
+      "keyword": "therapy for immigrants who overthink everything",
+      "slug": "therapy-for-immigrants-who-overthink-everything",
+      "angle": "the loneliness and stress of building a life in a new country; this group with relentless rumination"
+    },
+    {
+      "keyword": "therapy for expats after divorce",
+      "slug": "therapy-for-expats-after-divorce",
+      "angle": "isolation and identity strain living abroad; this group navigating divorce"
+    },
+    {
+      "keyword": "therapy for expats after a breakup",
+      "slug": "therapy-for-expats-after-a-breakup",
+      "angle": "isolation and identity strain living abroad; this group after a breakup"
+    },
+    {
+      "keyword": "therapy for expats with low self esteem",
+      "slug": "therapy-for-expats-with-low-self-esteem",
+      "angle": "isolation and identity strain living abroad; this group struggling with self-worth"
+    },
+    {
+      "keyword": "therapy for expats who can't sleep",
+      "slug": "therapy-for-expats-who-cant-sleep",
+      "angle": "isolation and identity strain living abroad; this group with anxiety-driven insomnia"
+    },
+    {
+      "keyword": "therapy for expats who feel stuck",
+      "slug": "therapy-for-expats-who-feel-stuck",
+      "angle": "isolation and identity strain living abroad; this group feeling paralyzed"
+    },
+    {
+      "keyword": "therapy for expats with anger issues",
+      "slug": "therapy-for-expats-with-anger-issues",
+      "angle": "isolation and identity strain living abroad; this group with anger masking pain"
+    },
+    {
+      "keyword": "therapy for expats with trauma",
+      "slug": "therapy-for-expats-with-trauma",
+      "angle": "isolation and identity strain living abroad; this group carrying old wounds"
+    },
+    {
+      "keyword": "therapy for expats who overthink everything",
+      "slug": "therapy-for-expats-who-overthink-everything",
+      "angle": "isolation and identity strain living abroad; this group with relentless rumination"
+    },
+    {
+      "keyword": "therapy for freelancers after divorce",
+      "slug": "therapy-for-freelancers-after-divorce",
+      "angle": "income uncertainty and isolation of self-employment; this group navigating divorce"
+    },
+    {
+      "keyword": "therapy for freelancers after a breakup",
+      "slug": "therapy-for-freelancers-after-a-breakup",
+      "angle": "income uncertainty and isolation of self-employment; this group after a breakup"
+    },
+    {
+      "keyword": "therapy for freelancers with low self esteem",
+      "slug": "therapy-for-freelancers-with-low-self-esteem",
+      "angle": "income uncertainty and isolation of self-employment; this group struggling with self-worth"
+    },
+    {
+      "keyword": "therapy for freelancers who can't sleep",
+      "slug": "therapy-for-freelancers-who-cant-sleep",
+      "angle": "income uncertainty and isolation of self-employment; this group with anxiety-driven insomnia"
+    },
+    {
+      "keyword": "therapy for freelancers who feel stuck",
+      "slug": "therapy-for-freelancers-who-feel-stuck",
+      "angle": "income uncertainty and isolation of self-employment; this group feeling paralyzed"
+    },
+    {
+      "keyword": "therapy for freelancers with anger issues",
+      "slug": "therapy-for-freelancers-with-anger-issues",
+      "angle": "income uncertainty and isolation of self-employment; this group with anger masking pain"
+    },
+    {
+      "keyword": "therapy for freelancers with trauma",
+      "slug": "therapy-for-freelancers-with-trauma",
+      "angle": "income uncertainty and isolation of self-employment; this group carrying old wounds"
+    },
+    {
+      "keyword": "therapy for freelancers who overthink everything",
+      "slug": "therapy-for-freelancers-who-overthink-everything",
+      "angle": "income uncertainty and isolation of self-employment; this group with relentless rumination"
+    },
+    {
+      "keyword": "therapy for shift workers after divorce",
+      "slug": "therapy-for-shift-workers-after-divorce",
+      "angle": "disrupted sleep and life out of sync with everyone; this group navigating divorce"
+    },
+    {
+      "keyword": "therapy for shift workers after a breakup",
+      "slug": "therapy-for-shift-workers-after-a-breakup",
+      "angle": "disrupted sleep and life out of sync with everyone; this group after a breakup"
+    },
+    {
+      "keyword": "therapy for shift workers with low self esteem",
+      "slug": "therapy-for-shift-workers-with-low-self-esteem",
+      "angle": "disrupted sleep and life out of sync with everyone; this group struggling with self-worth"
+    },
+    {
+      "keyword": "therapy for shift workers who can't sleep",
+      "slug": "therapy-for-shift-workers-who-cant-sleep",
+      "angle": "disrupted sleep and life out of sync with everyone; this group with anxiety-driven insomnia"
+    },
+    {
+      "keyword": "therapy for shift workers who feel stuck",
+      "slug": "therapy-for-shift-workers-who-feel-stuck",
+      "angle": "disrupted sleep and life out of sync with everyone; this group feeling paralyzed"
+    },
+    {
+      "keyword": "therapy for shift workers with anger issues",
+      "slug": "therapy-for-shift-workers-with-anger-issues",
+      "angle": "disrupted sleep and life out of sync with everyone; this group with anger masking pain"
+    },
+    {
+      "keyword": "therapy for shift workers with trauma",
+      "slug": "therapy-for-shift-workers-with-trauma",
+      "angle": "disrupted sleep and life out of sync with everyone; this group carrying old wounds"
+    },
+    {
+      "keyword": "therapy for shift workers who overthink everything",
+      "slug": "therapy-for-shift-workers-who-overthink-everything",
+      "angle": "disrupted sleep and life out of sync with everyone; this group with relentless rumination"
+    },
+    {
+      "keyword": "therapy for truck drivers after divorce",
+      "slug": "therapy-for-truck-drivers-after-divorce",
+      "angle": "isolation and stress of long-haul life; this group navigating divorce"
+    },
+    {
+      "keyword": "therapy for truck drivers after a breakup",
+      "slug": "therapy-for-truck-drivers-after-a-breakup",
+      "angle": "isolation and stress of long-haul life; this group after a breakup"
+    },
+    {
+      "keyword": "therapy for truck drivers with low self esteem",
+      "slug": "therapy-for-truck-drivers-with-low-self-esteem",
+      "angle": "isolation and stress of long-haul life; this group struggling with self-worth"
+    },
+    {
+      "keyword": "therapy for truck drivers who can't sleep",
+      "slug": "therapy-for-truck-drivers-who-cant-sleep",
+      "angle": "isolation and stress of long-haul life; this group with anxiety-driven insomnia"
+    },
+    {
+      "keyword": "therapy for truck drivers who feel stuck",
+      "slug": "therapy-for-truck-drivers-who-feel-stuck",
+      "angle": "isolation and stress of long-haul life; this group feeling paralyzed"
+    },
+    {
+      "keyword": "therapy for truck drivers with anger issues",
+      "slug": "therapy-for-truck-drivers-with-anger-issues",
+      "angle": "isolation and stress of long-haul life; this group with anger masking pain"
+    },
+    {
+      "keyword": "therapy for truck drivers with trauma",
+      "slug": "therapy-for-truck-drivers-with-trauma",
+      "angle": "isolation and stress of long-haul life; this group carrying old wounds"
+    },
+    {
+      "keyword": "therapy for truck drivers who overthink everything",
+      "slug": "therapy-for-truck-drivers-who-overthink-everything",
+      "angle": "isolation and stress of long-haul life; this group with relentless rumination"
+    },
+    {
+      "keyword": "therapy for lawyers after divorce",
+      "slug": "therapy-for-lawyers-after-divorce",
+      "angle": "high-pressure profession and burnout; this group navigating divorce"
+    },
+    {
+      "keyword": "therapy for lawyers after a breakup",
+      "slug": "therapy-for-lawyers-after-a-breakup",
+      "angle": "high-pressure profession and burnout; this group after a breakup"
+    },
+    {
+      "keyword": "therapy for lawyers with low self esteem",
+      "slug": "therapy-for-lawyers-with-low-self-esteem",
+      "angle": "high-pressure profession and burnout; this group struggling with self-worth"
+    },
+    {
+      "keyword": "therapy for lawyers who can't sleep",
+      "slug": "therapy-for-lawyers-who-cant-sleep",
+      "angle": "high-pressure profession and burnout; this group with anxiety-driven insomnia"
+    },
+    {
+      "keyword": "therapy for lawyers who feel stuck",
+      "slug": "therapy-for-lawyers-who-feel-stuck",
+      "angle": "high-pressure profession and burnout; this group feeling paralyzed"
+    },
+    {
+      "keyword": "therapy for lawyers with anger issues",
+      "slug": "therapy-for-lawyers-with-anger-issues",
+      "angle": "high-pressure profession and burnout; this group with anger masking pain"
+    },
+    {
+      "keyword": "therapy for lawyers with trauma",
+      "slug": "therapy-for-lawyers-with-trauma",
+      "angle": "high-pressure profession and burnout; this group carrying old wounds"
+    },
+    {
+      "keyword": "therapy for lawyers who overthink everything",
+      "slug": "therapy-for-lawyers-who-overthink-everything",
+      "angle": "high-pressure profession and burnout; this group with relentless rumination"
+    },
+    {
+      "keyword": "therapy for doctors after divorce",
+      "slug": "therapy-for-doctors-after-divorce",
+      "angle": "the emotional toll and exhaustion of medicine; this group navigating divorce"
+    },
+    {
+      "keyword": "therapy for doctors after a breakup",
+      "slug": "therapy-for-doctors-after-a-breakup",
+      "angle": "the emotional toll and exhaustion of medicine; this group after a breakup"
+    },
+    {
+      "keyword": "therapy for doctors with low self esteem",
+      "slug": "therapy-for-doctors-with-low-self-esteem",
+      "angle": "the emotional toll and exhaustion of medicine; this group struggling with self-worth"
+    },
+    {
+      "keyword": "therapy for doctors who can't sleep",
+      "slug": "therapy-for-doctors-who-cant-sleep",
+      "angle": "the emotional toll and exhaustion of medicine; this group with anxiety-driven insomnia"
+    },
+    {
+      "keyword": "therapy for doctors who feel stuck",
+      "slug": "therapy-for-doctors-who-feel-stuck",
+      "angle": "the emotional toll and exhaustion of medicine; this group feeling paralyzed"
+    },
+    {
+      "keyword": "therapy for doctors with anger issues",
+      "slug": "therapy-for-doctors-with-anger-issues",
+      "angle": "the emotional toll and exhaustion of medicine; this group with anger masking pain"
+    },
+    {
+      "keyword": "therapy for doctors with trauma",
+      "slug": "therapy-for-doctors-with-trauma",
+      "angle": "the emotional toll and exhaustion of medicine; this group carrying old wounds"
+    },
+    {
+      "keyword": "therapy for doctors who overthink everything",
+      "slug": "therapy-for-doctors-who-overthink-everything",
+      "angle": "the emotional toll and exhaustion of medicine; this group with relentless rumination"
+    },
+    {
+      "keyword": "therapy for small business owners after divorce",
+      "slug": "therapy-for-small-business-owners-after-divorce",
+      "angle": "carrying the weight of a business alone; this group navigating divorce"
+    },
+    {
+      "keyword": "therapy for small business owners after a breakup",
+      "slug": "therapy-for-small-business-owners-after-a-breakup",
+      "angle": "carrying the weight of a business alone; this group after a breakup"
+    },
+    {
+      "keyword": "therapy for small business owners with low self esteem",
+      "slug": "therapy-for-small-business-owners-with-low-self-esteem",
+      "angle": "carrying the weight of a business alone; this group struggling with self-worth"
+    },
+    {
+      "keyword": "therapy for small business owners who can't sleep",
+      "slug": "therapy-for-small-business-owners-who-cant-sleep",
+      "angle": "carrying the weight of a business alone; this group with anxiety-driven insomnia"
+    },
+    {
+      "keyword": "therapy for small business owners who feel stuck",
+      "slug": "therapy-for-small-business-owners-who-feel-stuck",
+      "angle": "carrying the weight of a business alone; this group feeling paralyzed"
+    },
+    {
+      "keyword": "therapy for small business owners with anger issues",
+      "slug": "therapy-for-small-business-owners-with-anger-issues",
+      "angle": "carrying the weight of a business alone; this group with anger masking pain"
+    },
+    {
+      "keyword": "therapy for small business owners with trauma",
+      "slug": "therapy-for-small-business-owners-with-trauma",
+      "angle": "carrying the weight of a business alone; this group carrying old wounds"
+    },
+    {
+      "keyword": "therapy for small business owners who overthink everything",
+      "slug": "therapy-for-small-business-owners-who-overthink-everything",
+      "angle": "carrying the weight of a business alone; this group with relentless rumination"
+    },
+    {
+      "keyword": "therapy for retirees after divorce",
+      "slug": "therapy-for-retirees-after-divorce",
+      "angle": "loss of purpose and structure after work ends; this group navigating divorce"
+    },
+    {
+      "keyword": "therapy for retirees after a breakup",
+      "slug": "therapy-for-retirees-after-a-breakup",
+      "angle": "loss of purpose and structure after work ends; this group after a breakup"
+    },
+    {
+      "keyword": "therapy for retirees with low self esteem",
+      "slug": "therapy-for-retirees-with-low-self-esteem",
+      "angle": "loss of purpose and structure after work ends; this group struggling with self-worth"
+    },
+    {
+      "keyword": "therapy for retirees who can't sleep",
+      "slug": "therapy-for-retirees-who-cant-sleep",
+      "angle": "loss of purpose and structure after work ends; this group with anxiety-driven insomnia"
+    },
+    {
+      "keyword": "therapy for retirees who feel stuck",
+      "slug": "therapy-for-retirees-who-feel-stuck",
+      "angle": "loss of purpose and structure after work ends; this group feeling paralyzed"
+    },
+    {
+      "keyword": "therapy for retirees with anger issues",
+      "slug": "therapy-for-retirees-with-anger-issues",
+      "angle": "loss of purpose and structure after work ends; this group with anger masking pain"
+    },
+    {
+      "keyword": "therapy for retirees with trauma",
+      "slug": "therapy-for-retirees-with-trauma",
+      "angle": "loss of purpose and structure after work ends; this group carrying old wounds"
+    },
+    {
+      "keyword": "therapy for retirees who overthink everything",
+      "slug": "therapy-for-retirees-who-overthink-everything",
+      "angle": "loss of purpose and structure after work ends; this group with relentless rumination"
+    },
+    {
+      "keyword": "therapy for divorced dads after divorce",
+      "slug": "therapy-for-divorced-dads-after-divorce",
+      "angle": "fathers grieving reduced access to their kids; this group navigating divorce"
+    },
+    {
+      "keyword": "therapy for divorced dads after a breakup",
+      "slug": "therapy-for-divorced-dads-after-a-breakup",
+      "angle": "fathers grieving reduced access to their kids; this group after a breakup"
+    },
+    {
+      "keyword": "therapy for divorced dads with low self esteem",
+      "slug": "therapy-for-divorced-dads-with-low-self-esteem",
+      "angle": "fathers grieving reduced access to their kids; this group struggling with self-worth"
+    },
+    {
+      "keyword": "therapy for divorced dads who can't sleep",
+      "slug": "therapy-for-divorced-dads-who-cant-sleep",
+      "angle": "fathers grieving reduced access to their kids; this group with anxiety-driven insomnia"
+    },
+    {
+      "keyword": "therapy for divorced dads who feel stuck",
+      "slug": "therapy-for-divorced-dads-who-feel-stuck",
+      "angle": "fathers grieving reduced access to their kids; this group feeling paralyzed"
+    },
+    {
+      "keyword": "therapy for divorced dads with anger issues",
+      "slug": "therapy-for-divorced-dads-with-anger-issues",
+      "angle": "fathers grieving reduced access to their kids; this group with anger masking pain"
+    },
+    {
+      "keyword": "therapy for divorced dads with trauma",
+      "slug": "therapy-for-divorced-dads-with-trauma",
+      "angle": "fathers grieving reduced access to their kids; this group carrying old wounds"
+    },
+    {
+      "keyword": "therapy for divorced dads who overthink everything",
+      "slug": "therapy-for-divorced-dads-who-overthink-everything",
+      "angle": "fathers grieving reduced access to their kids; this group with relentless rumination"
+    },
+    {
+      "keyword": "therapy for widows after divorce",
+      "slug": "therapy-for-widows-after-divorce",
+      "angle": "rebuilding after losing a spouse; this group navigating divorce"
+    },
+    {
+      "keyword": "therapy for widows after a breakup",
+      "slug": "therapy-for-widows-after-a-breakup",
+      "angle": "rebuilding after losing a spouse; this group after a breakup"
+    },
+    {
+      "keyword": "therapy for widows with low self esteem",
+      "slug": "therapy-for-widows-with-low-self-esteem",
+      "angle": "rebuilding after losing a spouse; this group struggling with self-worth"
+    },
+    {
+      "keyword": "therapy for widows who can't sleep",
+      "slug": "therapy-for-widows-who-cant-sleep",
+      "angle": "rebuilding after losing a spouse; this group with anxiety-driven insomnia"
+    },
+    {
+      "keyword": "therapy for widows who feel stuck",
+      "slug": "therapy-for-widows-who-feel-stuck",
+      "angle": "rebuilding after losing a spouse; this group feeling paralyzed"
+    },
+    {
+      "keyword": "therapy for widows with anger issues",
+      "slug": "therapy-for-widows-with-anger-issues",
+      "angle": "rebuilding after losing a spouse; this group with anger masking pain"
+    },
+    {
+      "keyword": "therapy for widows with trauma",
+      "slug": "therapy-for-widows-with-trauma",
+      "angle": "rebuilding after losing a spouse; this group carrying old wounds"
+    },
+    {
+      "keyword": "therapy for widows who overthink everything",
+      "slug": "therapy-for-widows-who-overthink-everything",
+      "angle": "rebuilding after losing a spouse; this group with relentless rumination"
+    },
+    {
+      "keyword": "therapy for empty nesters after divorce",
+      "slug": "therapy-for-empty-nesters-after-divorce",
+      "angle": "the quiet house and lost identity; this group navigating divorce"
+    },
+    {
+      "keyword": "therapy for empty nesters after a breakup",
+      "slug": "therapy-for-empty-nesters-after-a-breakup",
+      "angle": "the quiet house and lost identity; this group after a breakup"
+    },
+    {
+      "keyword": "therapy for empty nesters with low self esteem",
+      "slug": "therapy-for-empty-nesters-with-low-self-esteem",
+      "angle": "the quiet house and lost identity; this group struggling with self-worth"
+    },
+    {
+      "keyword": "therapy for empty nesters who can't sleep",
+      "slug": "therapy-for-empty-nesters-who-cant-sleep",
+      "angle": "the quiet house and lost identity; this group with anxiety-driven insomnia"
+    },
+    {
+      "keyword": "therapy for empty nesters who feel stuck",
+      "slug": "therapy-for-empty-nesters-who-feel-stuck",
+      "angle": "the quiet house and lost identity; this group feeling paralyzed"
+    },
+    {
+      "keyword": "therapy for empty nesters with anger issues",
+      "slug": "therapy-for-empty-nesters-with-anger-issues",
+      "angle": "the quiet house and lost identity; this group with anger masking pain"
+    },
+    {
+      "keyword": "therapy for empty nesters with trauma",
+      "slug": "therapy-for-empty-nesters-with-trauma",
+      "angle": "the quiet house and lost identity; this group carrying old wounds"
+    },
+    {
+      "keyword": "therapy for empty nesters who overthink everything",
+      "slug": "therapy-for-empty-nesters-who-overthink-everything",
+      "angle": "the quiet house and lost identity; this group with relentless rumination"
+    },
+    {
+      "keyword": "therapy for grad students after divorce",
+      "slug": "therapy-for-grad-students-after-divorce",
+      "angle": "academic pressure and uncertain futures; this group navigating divorce"
+    },
+    {
+      "keyword": "therapy for grad students after a breakup",
+      "slug": "therapy-for-grad-students-after-a-breakup",
+      "angle": "academic pressure and uncertain futures; this group after a breakup"
+    },
+    {
+      "keyword": "therapy for grad students with low self esteem",
+      "slug": "therapy-for-grad-students-with-low-self-esteem",
+      "angle": "academic pressure and uncertain futures; this group struggling with self-worth"
+    },
+    {
+      "keyword": "therapy for grad students who can't sleep",
+      "slug": "therapy-for-grad-students-who-cant-sleep",
+      "angle": "academic pressure and uncertain futures; this group with anxiety-driven insomnia"
+    },
+    {
+      "keyword": "therapy for grad students who feel stuck",
+      "slug": "therapy-for-grad-students-who-feel-stuck",
+      "angle": "academic pressure and uncertain futures; this group feeling paralyzed"
+    },
+    {
+      "keyword": "therapy for grad students with anger issues",
+      "slug": "therapy-for-grad-students-with-anger-issues",
+      "angle": "academic pressure and uncertain futures; this group with anger masking pain"
+    },
+    {
+      "keyword": "therapy for grad students with trauma",
+      "slug": "therapy-for-grad-students-with-trauma",
+      "angle": "academic pressure and uncertain futures; this group carrying old wounds"
+    },
+    {
+      "keyword": "therapy for grad students who overthink everything",
+      "slug": "therapy-for-grad-students-who-overthink-everything",
+      "angle": "academic pressure and uncertain futures; this group with relentless rumination"
+    },
+    {
+      "keyword": "therapy for athletes after divorce",
+      "slug": "therapy-for-athletes-after-divorce",
+      "angle": "performance pressure and identity tied to results; this group navigating divorce"
+    },
+    {
+      "keyword": "therapy for athletes after a breakup",
+      "slug": "therapy-for-athletes-after-a-breakup",
+      "angle": "performance pressure and identity tied to results; this group after a breakup"
+    },
+    {
+      "keyword": "therapy for athletes with low self esteem",
+      "slug": "therapy-for-athletes-with-low-self-esteem",
+      "angle": "performance pressure and identity tied to results; this group struggling with self-worth"
+    },
+    {
+      "keyword": "therapy for athletes who can't sleep",
+      "slug": "therapy-for-athletes-who-cant-sleep",
+      "angle": "performance pressure and identity tied to results; this group with anxiety-driven insomnia"
+    },
+    {
+      "keyword": "therapy for athletes who feel stuck",
+      "slug": "therapy-for-athletes-who-feel-stuck",
+      "angle": "performance pressure and identity tied to results; this group feeling paralyzed"
+    },
+    {
+      "keyword": "therapy for athletes with anger issues",
+      "slug": "therapy-for-athletes-with-anger-issues",
+      "angle": "performance pressure and identity tied to results; this group with anger masking pain"
+    },
+    {
+      "keyword": "therapy for athletes with trauma",
+      "slug": "therapy-for-athletes-with-trauma",
+      "angle": "performance pressure and identity tied to results; this group carrying old wounds"
+    },
+    {
+      "keyword": "therapy for athletes who overthink everything",
+      "slug": "therapy-for-athletes-who-overthink-everything",
+      "angle": "performance pressure and identity tied to results; this group with relentless rumination"
+    }
+  ]
+}

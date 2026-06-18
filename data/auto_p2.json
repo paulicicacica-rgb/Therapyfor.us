@@ -1,0 +1,661 @@
+{
+  "workflow": "auto_p2",
+  "cluster_title": "Priority 2 — Strong long-tail",
+  "pages": [
+    {
+      "keyword": "counseling after divorce",
+      "slug": "counseling-after-divorce",
+      "angle": "the emotional aftermath of divorce and rebuilding"
+    },
+    {
+      "keyword": "counseling after a breakup",
+      "slug": "counseling-after-a-breakup",
+      "angle": "a devastating breakup that still hurts"
+    },
+    {
+      "keyword": "counseling after being cheated on",
+      "slug": "counseling-after-being-cheated-on",
+      "angle": "betrayal trauma and rebuilding trust"
+    },
+    {
+      "keyword": "counseling after separation",
+      "slug": "counseling-after-separation",
+      "angle": "the limbo before divorce is final"
+    },
+    {
+      "keyword": "counseling after a toxic relationship",
+      "slug": "counseling-after-a-toxic-relationship",
+      "angle": "healing from an emotionally draining partner"
+    },
+    {
+      "keyword": "counseling after losing a parent",
+      "slug": "counseling-after-losing-a-parent",
+      "angle": "the weight of losing a mother or father"
+    },
+    {
+      "keyword": "counseling after losing a spouse",
+      "slug": "counseling-after-losing-a-spouse",
+      "angle": "widowhood and a lost shared future"
+    },
+    {
+      "keyword": "counseling after a miscarriage",
+      "slug": "counseling-after-a-miscarriage",
+      "angle": "the often silent grief of pregnancy loss"
+    },
+    {
+      "keyword": "counseling after losing your job",
+      "slug": "counseling-after-losing-your-job",
+      "angle": "identity collapse when a career disappears"
+    },
+    {
+      "keyword": "counseling after a death",
+      "slug": "counseling-after-a-death",
+      "angle": "raw grief and the search for a way through"
+    },
+    {
+      "keyword": "counseling for anxiety",
+      "slug": "counseling-for-anxiety",
+      "angle": "living with constant low-grade anxiety"
+    },
+    {
+      "keyword": "counseling for depression",
+      "slug": "counseling-for-depression",
+      "angle": "the heaviness and numbness of depression"
+    },
+    {
+      "keyword": "counseling for panic attacks",
+      "slug": "counseling-for-panic-attacks",
+      "angle": "the terror of panic and fear of the next one"
+    },
+    {
+      "keyword": "counseling for burnout",
+      "slug": "counseling-for-burnout",
+      "angle": "completely depleted, running on empty"
+    },
+    {
+      "keyword": "counseling for loneliness",
+      "slug": "counseling-for-loneliness",
+      "angle": "deep chronic loneliness even around people"
+    },
+    {
+      "keyword": "counseling for stress",
+      "slug": "counseling-for-stress",
+      "angle": "chronic stress that never lets up"
+    },
+    {
+      "keyword": "counseling for grief",
+      "slug": "counseling-for-grief",
+      "angle": "carrying loss that others underestimate"
+    },
+    {
+      "keyword": "counseling for trauma",
+      "slug": "counseling-for-trauma",
+      "angle": "old wounds showing up in present life"
+    },
+    {
+      "keyword": "counseling for low self esteem",
+      "slug": "counseling-for-low-self-esteem",
+      "angle": "never feeling like enough"
+    },
+    {
+      "keyword": "counseling for overthinking",
+      "slug": "counseling-for-overthinking",
+      "angle": "the racing mind that won't switch off"
+    },
+    {
+      "keyword": "counseling for social anxiety",
+      "slug": "counseling-for-social-anxiety",
+      "angle": "the dread of being perceived"
+    },
+    {
+      "keyword": "counseling for health anxiety",
+      "slug": "counseling-for-health-anxiety",
+      "angle": "constant fear about the body and illness"
+    },
+    {
+      "keyword": "counseling for intrusive thoughts",
+      "slug": "counseling-for-intrusive-thoughts",
+      "angle": "disturbing unwanted thoughts and the shame around them"
+    },
+    {
+      "keyword": "counseling for perfectionism",
+      "slug": "counseling-for-perfectionism",
+      "angle": "the exhausting pursuit of perfect"
+    },
+    {
+      "keyword": "counseling for people pleasing",
+      "slug": "counseling-for-people-pleasing",
+      "angle": "saying yes to everyone and disappearing"
+    },
+    {
+      "keyword": "counseling for anger issues",
+      "slug": "counseling-for-anger-issues",
+      "angle": "anger that's really pain in disguise"
+    },
+    {
+      "keyword": "counseling for postpartum depression",
+      "slug": "counseling-for-postpartum-depression",
+      "angle": "the darkness after birth nobody warned about"
+    },
+    {
+      "keyword": "counseling for empty nest",
+      "slug": "counseling-for-empty-nest",
+      "angle": "kids leaving and not knowing who you are"
+    },
+    {
+      "keyword": "counseling for midlife crisis",
+      "slug": "counseling-for-midlife-crisis",
+      "angle": "questioning everything at 40-50"
+    },
+    {
+      "keyword": "counseling for codependency",
+      "slug": "counseling-for-codependency",
+      "angle": "unhealthy reliance and lost boundaries"
+    },
+    {
+      "keyword": "online therapy after divorce",
+      "slug": "online-therapy-after-divorce",
+      "angle": "the emotional aftermath of divorce and rebuilding"
+    },
+    {
+      "keyword": "online therapy after a breakup",
+      "slug": "online-therapy-after-a-breakup",
+      "angle": "a devastating breakup that still hurts"
+    },
+    {
+      "keyword": "online therapy after being cheated on",
+      "slug": "online-therapy-after-being-cheated-on",
+      "angle": "betrayal trauma and rebuilding trust"
+    },
+    {
+      "keyword": "online therapy after separation",
+      "slug": "online-therapy-after-separation",
+      "angle": "the limbo before divorce is final"
+    },
+    {
+      "keyword": "online therapy after a toxic relationship",
+      "slug": "online-therapy-after-a-toxic-relationship",
+      "angle": "healing from an emotionally draining partner"
+    },
+    {
+      "keyword": "online therapy after losing a parent",
+      "slug": "online-therapy-after-losing-a-parent",
+      "angle": "the weight of losing a mother or father"
+    },
+    {
+      "keyword": "online therapy after losing a spouse",
+      "slug": "online-therapy-after-losing-a-spouse",
+      "angle": "widowhood and a lost shared future"
+    },
+    {
+      "keyword": "online therapy after a miscarriage",
+      "slug": "online-therapy-after-a-miscarriage",
+      "angle": "the often silent grief of pregnancy loss"
+    },
+    {
+      "keyword": "online therapy after losing your job",
+      "slug": "online-therapy-after-losing-your-job",
+      "angle": "identity collapse when a career disappears"
+    },
+    {
+      "keyword": "online therapy after a death",
+      "slug": "online-therapy-after-a-death",
+      "angle": "raw grief and the search for a way through"
+    },
+    {
+      "keyword": "online therapy for anxiety",
+      "slug": "online-therapy-for-anxiety",
+      "angle": "living with constant low-grade anxiety"
+    },
+    {
+      "keyword": "online therapy for depression",
+      "slug": "online-therapy-for-depression",
+      "angle": "the heaviness and numbness of depression"
+    },
+    {
+      "keyword": "online therapy for panic attacks",
+      "slug": "online-therapy-for-panic-attacks",
+      "angle": "the terror of panic and fear of the next one"
+    },
+    {
+      "keyword": "online therapy for burnout",
+      "slug": "online-therapy-for-burnout",
+      "angle": "completely depleted, running on empty"
+    },
+    {
+      "keyword": "online therapy for loneliness",
+      "slug": "online-therapy-for-loneliness",
+      "angle": "deep chronic loneliness even around people"
+    },
+    {
+      "keyword": "online therapy for stress",
+      "slug": "online-therapy-for-stress",
+      "angle": "chronic stress that never lets up"
+    },
+    {
+      "keyword": "online therapy for grief",
+      "slug": "online-therapy-for-grief",
+      "angle": "carrying loss that others underestimate"
+    },
+    {
+      "keyword": "online therapy for trauma",
+      "slug": "online-therapy-for-trauma",
+      "angle": "old wounds showing up in present life"
+    },
+    {
+      "keyword": "online therapy for low self esteem",
+      "slug": "online-therapy-for-low-self-esteem",
+      "angle": "never feeling like enough"
+    },
+    {
+      "keyword": "online therapy for overthinking",
+      "slug": "online-therapy-for-overthinking",
+      "angle": "the racing mind that won't switch off"
+    },
+    {
+      "keyword": "online therapy for social anxiety",
+      "slug": "online-therapy-for-social-anxiety",
+      "angle": "the dread of being perceived"
+    },
+    {
+      "keyword": "online therapy for health anxiety",
+      "slug": "online-therapy-for-health-anxiety",
+      "angle": "constant fear about the body and illness"
+    },
+    {
+      "keyword": "online therapy for intrusive thoughts",
+      "slug": "online-therapy-for-intrusive-thoughts",
+      "angle": "disturbing unwanted thoughts and the shame around them"
+    },
+    {
+      "keyword": "online therapy for perfectionism",
+      "slug": "online-therapy-for-perfectionism",
+      "angle": "the exhausting pursuit of perfect"
+    },
+    {
+      "keyword": "online therapy for people pleasing",
+      "slug": "online-therapy-for-people-pleasing",
+      "angle": "saying yes to everyone and disappearing"
+    },
+    {
+      "keyword": "online therapy for anger issues",
+      "slug": "online-therapy-for-anger-issues",
+      "angle": "anger that's really pain in disguise"
+    },
+    {
+      "keyword": "online therapy for postpartum depression",
+      "slug": "online-therapy-for-postpartum-depression",
+      "angle": "the darkness after birth nobody warned about"
+    },
+    {
+      "keyword": "online therapy for empty nest",
+      "slug": "online-therapy-for-empty-nest",
+      "angle": "kids leaving and not knowing who you are"
+    },
+    {
+      "keyword": "online therapy for midlife crisis",
+      "slug": "online-therapy-for-midlife-crisis",
+      "angle": "questioning everything at 40-50"
+    },
+    {
+      "keyword": "online therapy for codependency",
+      "slug": "online-therapy-for-codependency",
+      "angle": "unhealthy reliance and lost boundaries"
+    },
+    {
+      "keyword": "therapy for new moms",
+      "slug": "therapy-for-new-moms",
+      "angle": "the overwhelm and identity shift of new motherhood"
+    },
+    {
+      "keyword": "therapy for single moms",
+      "slug": "therapy-for-single-moms",
+      "angle": "carrying everything alone with no backup"
+    },
+    {
+      "keyword": "therapy for single dads",
+      "slug": "therapy-for-single-dads",
+      "angle": "fathers raising kids alone, unspoken strain"
+    },
+    {
+      "keyword": "therapy for men",
+      "slug": "therapy-for-men",
+      "angle": "men who were never taught to talk about feelings"
+    },
+    {
+      "keyword": "therapy for women",
+      "slug": "therapy-for-women",
+      "angle": "women carrying invisible emotional load"
+    },
+    {
+      "keyword": "therapy for students",
+      "slug": "therapy-for-students",
+      "angle": "academic pressure, isolation, uncertain futures"
+    },
+    {
+      "keyword": "therapy for college students",
+      "slug": "therapy-for-college-students",
+      "angle": "the mental health crush of college years"
+    },
+    {
+      "keyword": "therapy for teenagers",
+      "slug": "therapy-for-teenagers",
+      "angle": "navigating adolescence and overwhelming feelings"
+    },
+    {
+      "keyword": "therapy for young adults",
+      "slug": "therapy-for-young-adults",
+      "angle": "the quarter-life crisis and pressure to have it together"
+    },
+    {
+      "keyword": "therapy for seniors",
+      "slug": "therapy-for-seniors",
+      "angle": "isolation, loss, and change in later life"
+    },
+    {
+      "keyword": "therapy for couples",
+      "slug": "therapy-for-couples",
+      "angle": "relationship strain and communication breakdown"
+    },
+    {
+      "keyword": "therapy for parents",
+      "slug": "therapy-for-parents",
+      "angle": "the relentless pressure of raising kids"
+    },
+    {
+      "keyword": "therapy for nurses",
+      "slug": "therapy-for-nurses",
+      "angle": "frontline burnout and emotional exhaustion"
+    },
+    {
+      "keyword": "therapy for teachers",
+      "slug": "therapy-for-teachers",
+      "angle": "underpaid, overstretched, emotionally drained"
+    },
+    {
+      "keyword": "therapy for first responders",
+      "slug": "therapy-for-first-responders",
+      "angle": "trauma exposure and the cost of the job"
+    },
+    {
+      "keyword": "therapy for entrepreneurs",
+      "slug": "therapy-for-entrepreneurs",
+      "angle": "the isolation and pressure of building something"
+    },
+    {
+      "keyword": "therapy for remote workers",
+      "slug": "therapy-for-remote-workers",
+      "angle": "isolation and blurred boundaries working from home"
+    },
+    {
+      "keyword": "therapy for healthcare workers",
+      "slug": "therapy-for-healthcare-workers",
+      "angle": "compassion fatigue and burnout"
+    },
+    {
+      "keyword": "therapy for veterans",
+      "slug": "therapy-for-veterans",
+      "angle": "carrying service experiences into civilian life"
+    },
+    {
+      "keyword": "therapy for caregivers",
+      "slug": "therapy-for-caregivers",
+      "angle": "the burnout of caring for others endlessly"
+    },
+    {
+      "keyword": "therapy for introverts",
+      "slug": "therapy-for-introverts",
+      "angle": "navigating a world built for extroverts"
+    },
+    {
+      "keyword": "therapy for perfectionists",
+      "slug": "therapy-for-perfectionists",
+      "angle": "never resting, never satisfied"
+    },
+    {
+      "keyword": "therapy for overthinkers",
+      "slug": "therapy-for-overthinkers",
+      "angle": "a mind that won't stop running"
+    },
+    {
+      "keyword": "therapy for adult children of narcissists",
+      "slug": "therapy-for-adult-children-of-narcissists",
+      "angle": "unraveling a childhood around someone else's needs"
+    },
+    {
+      "keyword": "therapy for people pleasers",
+      "slug": "therapy-for-people-pleasers",
+      "angle": "losing yourself in everyone else's needs"
+    },
+    {
+      "keyword": "therapy for workaholics",
+      "slug": "therapy-for-workaholics",
+      "angle": "using work to avoid feeling"
+    },
+    {
+      "keyword": "therapy for highly sensitive people",
+      "slug": "therapy-for-highly-sensitive-people",
+      "angle": "feeling everything more intensely"
+    },
+    {
+      "keyword": "therapy for immigrants",
+      "slug": "therapy-for-immigrants",
+      "angle": "the loneliness and stress of building a life in a new country"
+    },
+    {
+      "keyword": "therapy for expats",
+      "slug": "therapy-for-expats",
+      "angle": "isolation and identity strain living abroad"
+    },
+    {
+      "keyword": "therapy for freelancers",
+      "slug": "therapy-for-freelancers",
+      "angle": "income uncertainty and isolation of self-employment"
+    },
+    {
+      "keyword": "therapy for shift workers",
+      "slug": "therapy-for-shift-workers",
+      "angle": "disrupted sleep and life out of sync with everyone"
+    },
+    {
+      "keyword": "therapy for truck drivers",
+      "slug": "therapy-for-truck-drivers",
+      "angle": "isolation and stress of long-haul life"
+    },
+    {
+      "keyword": "therapy for lawyers",
+      "slug": "therapy-for-lawyers",
+      "angle": "high-pressure profession and burnout"
+    },
+    {
+      "keyword": "therapy for doctors",
+      "slug": "therapy-for-doctors",
+      "angle": "the emotional toll and exhaustion of medicine"
+    },
+    {
+      "keyword": "therapy for small business owners",
+      "slug": "therapy-for-small-business-owners",
+      "angle": "carrying the weight of a business alone"
+    },
+    {
+      "keyword": "therapy for retirees",
+      "slug": "therapy-for-retirees",
+      "angle": "loss of purpose and structure after work ends"
+    },
+    {
+      "keyword": "therapy for divorced dads",
+      "slug": "therapy-for-divorced-dads",
+      "angle": "fathers grieving reduced access to their kids"
+    },
+    {
+      "keyword": "therapy for widows",
+      "slug": "therapy-for-widows",
+      "angle": "rebuilding after losing a spouse"
+    },
+    {
+      "keyword": "therapy for empty nesters",
+      "slug": "therapy-for-empty-nesters",
+      "angle": "the quiet house and lost identity"
+    },
+    {
+      "keyword": "therapy for grad students",
+      "slug": "therapy-for-grad-students",
+      "angle": "academic pressure and uncertain futures"
+    },
+    {
+      "keyword": "therapy for athletes",
+      "slug": "therapy-for-athletes",
+      "angle": "performance pressure and identity tied to results"
+    },
+    {
+      "keyword": "affordable therapy without insurance in California",
+      "slug": "affordable-therapy-without-insurance-in-california",
+      "angle": "accessing affordable therapy in California without insurance"
+    },
+    {
+      "keyword": "affordable therapy without insurance in Texas",
+      "slug": "affordable-therapy-without-insurance-in-texas",
+      "angle": "accessing affordable therapy in Texas without insurance"
+    },
+    {
+      "keyword": "affordable therapy without insurance in Florida",
+      "slug": "affordable-therapy-without-insurance-in-florida",
+      "angle": "accessing affordable therapy in Florida without insurance"
+    },
+    {
+      "keyword": "affordable therapy without insurance in New York",
+      "slug": "affordable-therapy-without-insurance-in-new-york",
+      "angle": "accessing affordable therapy in New York without insurance"
+    },
+    {
+      "keyword": "affordable therapy without insurance in Illinois",
+      "slug": "affordable-therapy-without-insurance-in-illinois",
+      "angle": "accessing affordable therapy in Illinois without insurance"
+    },
+    {
+      "keyword": "affordable therapy without insurance in Pennsylvania",
+      "slug": "affordable-therapy-without-insurance-in-pennsylvania",
+      "angle": "accessing affordable therapy in Pennsylvania without insurance"
+    },
+    {
+      "keyword": "affordable therapy without insurance in Ohio",
+      "slug": "affordable-therapy-without-insurance-in-ohio",
+      "angle": "accessing affordable therapy in Ohio without insurance"
+    },
+    {
+      "keyword": "affordable therapy without insurance in Georgia",
+      "slug": "affordable-therapy-without-insurance-in-georgia",
+      "angle": "accessing affordable therapy in Georgia without insurance"
+    },
+    {
+      "keyword": "affordable therapy without insurance in North Carolina",
+      "slug": "affordable-therapy-without-insurance-in-north-carolina",
+      "angle": "accessing affordable therapy in North Carolina without insurance"
+    },
+    {
+      "keyword": "affordable therapy without insurance in Michigan",
+      "slug": "affordable-therapy-without-insurance-in-michigan",
+      "angle": "accessing affordable therapy in Michigan without insurance"
+    },
+    {
+      "keyword": "affordable therapy without insurance in New Jersey",
+      "slug": "affordable-therapy-without-insurance-in-new-jersey",
+      "angle": "accessing affordable therapy in New Jersey without insurance"
+    },
+    {
+      "keyword": "affordable therapy without insurance in Virginia",
+      "slug": "affordable-therapy-without-insurance-in-virginia",
+      "angle": "accessing affordable therapy in Virginia without insurance"
+    },
+    {
+      "keyword": "affordable therapy without insurance in Washington",
+      "slug": "affordable-therapy-without-insurance-in-washington",
+      "angle": "accessing affordable therapy in Washington without insurance"
+    },
+    {
+      "keyword": "affordable therapy without insurance in Arizona",
+      "slug": "affordable-therapy-without-insurance-in-arizona",
+      "angle": "accessing affordable therapy in Arizona without insurance"
+    },
+    {
+      "keyword": "affordable therapy without insurance in Massachusetts",
+      "slug": "affordable-therapy-without-insurance-in-massachusetts",
+      "angle": "accessing affordable therapy in Massachusetts without insurance"
+    },
+    {
+      "keyword": "affordable therapy without insurance in Tennessee",
+      "slug": "affordable-therapy-without-insurance-in-tennessee",
+      "angle": "accessing affordable therapy in Tennessee without insurance"
+    },
+    {
+      "keyword": "affordable therapy without insurance in Indiana",
+      "slug": "affordable-therapy-without-insurance-in-indiana",
+      "angle": "accessing affordable therapy in Indiana without insurance"
+    },
+    {
+      "keyword": "affordable therapy without insurance in Missouri",
+      "slug": "affordable-therapy-without-insurance-in-missouri",
+      "angle": "accessing affordable therapy in Missouri without insurance"
+    },
+    {
+      "keyword": "affordable therapy without insurance in Maryland",
+      "slug": "affordable-therapy-without-insurance-in-maryland",
+      "angle": "accessing affordable therapy in Maryland without insurance"
+    },
+    {
+      "keyword": "affordable therapy without insurance in Wisconsin",
+      "slug": "affordable-therapy-without-insurance-in-wisconsin",
+      "angle": "accessing affordable therapy in Wisconsin without insurance"
+    },
+    {
+      "keyword": "affordable therapy without insurance in Colorado",
+      "slug": "affordable-therapy-without-insurance-in-colorado",
+      "angle": "accessing affordable therapy in Colorado without insurance"
+    },
+    {
+      "keyword": "affordable therapy without insurance in Minnesota",
+      "slug": "affordable-therapy-without-insurance-in-minnesota",
+      "angle": "accessing affordable therapy in Minnesota without insurance"
+    },
+    {
+      "keyword": "affordable therapy without insurance in South Carolina",
+      "slug": "affordable-therapy-without-insurance-in-south-carolina",
+      "angle": "accessing affordable therapy in South Carolina without insurance"
+    },
+    {
+      "keyword": "affordable therapy without insurance in Alabama",
+      "slug": "affordable-therapy-without-insurance-in-alabama",
+      "angle": "accessing affordable therapy in Alabama without insurance"
+    },
+    {
+      "keyword": "affordable therapy without insurance in Louisiana",
+      "slug": "affordable-therapy-without-insurance-in-louisiana",
+      "angle": "accessing affordable therapy in Louisiana without insurance"
+    },
+    {
+      "keyword": "affordable therapy without insurance in Kentucky",
+      "slug": "affordable-therapy-without-insurance-in-kentucky",
+      "angle": "accessing affordable therapy in Kentucky without insurance"
+    },
+    {
+      "keyword": "affordable therapy without insurance in Oregon",
+      "slug": "affordable-therapy-without-insurance-in-oregon",
+      "angle": "accessing affordable therapy in Oregon without insurance"
+    },
+    {
+      "keyword": "affordable therapy without insurance in Oklahoma",
+      "slug": "affordable-therapy-without-insurance-in-oklahoma",
+      "angle": "accessing affordable therapy in Oklahoma without insurance"
+    },
+    {
+      "keyword": "affordable therapy without insurance in Connecticut",
+      "slug": "affordable-therapy-without-insurance-in-connecticut",
+      "angle": "accessing affordable therapy in Connecticut without insurance"
+    },
+    {
+      "keyword": "affordable therapy without insurance in Nevada",
+      "slug": "affordable-therapy-without-insurance-in-nevada",
+      "angle": "accessing affordable therapy in Nevada without insurance"
+    }
+  ]
+}

@@ -1,0 +1,1576 @@
+{
+  "workflow": "auto_p1",
+  "cluster_title": "Priority 1 — Highest-value money terms",
+  "pages": [
+    {
+      "keyword": "therapy after divorce",
+      "slug": "therapy-after-divorce",
+      "angle": "the emotional aftermath of divorce and rebuilding"
+    },
+    {
+      "keyword": "therapy after a breakup",
+      "slug": "therapy-after-a-breakup",
+      "angle": "a devastating breakup that still hurts"
+    },
+    {
+      "keyword": "therapy after being cheated on",
+      "slug": "therapy-after-being-cheated-on",
+      "angle": "betrayal trauma and rebuilding trust"
+    },
+    {
+      "keyword": "therapy after separation",
+      "slug": "therapy-after-separation",
+      "angle": "the limbo before divorce is final"
+    },
+    {
+      "keyword": "therapy after a toxic relationship",
+      "slug": "therapy-after-a-toxic-relationship",
+      "angle": "healing from an emotionally draining partner"
+    },
+    {
+      "keyword": "therapy after losing a parent",
+      "slug": "therapy-after-losing-a-parent",
+      "angle": "the weight of losing a mother or father"
+    },
+    {
+      "keyword": "therapy after losing a spouse",
+      "slug": "therapy-after-losing-a-spouse",
+      "angle": "widowhood and a lost shared future"
+    },
+    {
+      "keyword": "therapy after a miscarriage",
+      "slug": "therapy-after-a-miscarriage",
+      "angle": "the often silent grief of pregnancy loss"
+    },
+    {
+      "keyword": "therapy after losing your job",
+      "slug": "therapy-after-losing-your-job",
+      "angle": "identity collapse when a career disappears"
+    },
+    {
+      "keyword": "therapy after a death",
+      "slug": "therapy-after-a-death",
+      "angle": "raw grief and the search for a way through"
+    },
+    {
+      "keyword": "therapy for anxiety",
+      "slug": "therapy-for-anxiety",
+      "angle": "living with constant low-grade anxiety"
+    },
+    {
+      "keyword": "therapy for depression",
+      "slug": "therapy-for-depression",
+      "angle": "the heaviness and numbness of depression"
+    },
+    {
+      "keyword": "therapy for panic attacks",
+      "slug": "therapy-for-panic-attacks",
+      "angle": "the terror of panic and fear of the next one"
+    },
+    {
+      "keyword": "therapy for burnout",
+      "slug": "therapy-for-burnout",
+      "angle": "completely depleted, running on empty"
+    },
+    {
+      "keyword": "therapy for loneliness",
+      "slug": "therapy-for-loneliness",
+      "angle": "deep chronic loneliness even around people"
+    },
+    {
+      "keyword": "therapy for stress",
+      "slug": "therapy-for-stress",
+      "angle": "chronic stress that never lets up"
+    },
+    {
+      "keyword": "therapy for grief",
+      "slug": "therapy-for-grief",
+      "angle": "carrying loss that others underestimate"
+    },
+    {
+      "keyword": "therapy for trauma",
+      "slug": "therapy-for-trauma",
+      "angle": "old wounds showing up in present life"
+    },
+    {
+      "keyword": "therapy for low self esteem",
+      "slug": "therapy-for-low-self-esteem",
+      "angle": "never feeling like enough"
+    },
+    {
+      "keyword": "therapy for overthinking",
+      "slug": "therapy-for-overthinking",
+      "angle": "the racing mind that won't switch off"
+    },
+    {
+      "keyword": "therapy for social anxiety",
+      "slug": "therapy-for-social-anxiety",
+      "angle": "the dread of being perceived"
+    },
+    {
+      "keyword": "therapy for health anxiety",
+      "slug": "therapy-for-health-anxiety",
+      "angle": "constant fear about the body and illness"
+    },
+    {
+      "keyword": "therapy for intrusive thoughts",
+      "slug": "therapy-for-intrusive-thoughts",
+      "angle": "disturbing unwanted thoughts and the shame around them"
+    },
+    {
+      "keyword": "therapy for perfectionism",
+      "slug": "therapy-for-perfectionism",
+      "angle": "the exhausting pursuit of perfect"
+    },
+    {
+      "keyword": "therapy for people pleasing",
+      "slug": "therapy-for-people-pleasing",
+      "angle": "saying yes to everyone and disappearing"
+    },
+    {
+      "keyword": "therapy for anger issues",
+      "slug": "therapy-for-anger-issues",
+      "angle": "anger that's really pain in disguise"
+    },
+    {
+      "keyword": "therapy for postpartum depression",
+      "slug": "therapy-for-postpartum-depression",
+      "angle": "the darkness after birth nobody warned about"
+    },
+    {
+      "keyword": "therapy for empty nest",
+      "slug": "therapy-for-empty-nest",
+      "angle": "kids leaving and not knowing who you are"
+    },
+    {
+      "keyword": "therapy for midlife crisis",
+      "slug": "therapy-for-midlife-crisis",
+      "angle": "questioning everything at 40-50"
+    },
+    {
+      "keyword": "therapy for codependency",
+      "slug": "therapy-for-codependency",
+      "angle": "unhealthy reliance and lost boundaries"
+    },
+    {
+      "keyword": "why do I feel anxious all the time",
+      "slug": "why-do-i-feel-anxious-all-the-time",
+      "angle": "constant unexplained anxiety"
+    },
+    {
+      "keyword": "why do I cry for no reason",
+      "slug": "why-do-i-cry-for-no-reason",
+      "angle": "unexplained tears and emotional overflow"
+    },
+    {
+      "keyword": "why do I feel empty inside",
+      "slug": "why-do-i-feel-empty-inside",
+      "angle": "emotional emptiness and numbness"
+    },
+    {
+      "keyword": "why can't I stop overthinking",
+      "slug": "why-cant-i-stop-overthinking",
+      "angle": "the mind that won't switch off"
+    },
+    {
+      "keyword": "why do I feel disconnected from everyone",
+      "slug": "why-do-i-feel-disconnected-from-everyone",
+      "angle": "feeling alone even around people"
+    },
+    {
+      "keyword": "why do I feel worse at night",
+      "slug": "why-do-i-feel-worse-at-night",
+      "angle": "how low mood intensifies after dark"
+    },
+    {
+      "keyword": "why am I so tired all the time emotionally",
+      "slug": "why-am-i-so-tired-all-the-time-emotionally",
+      "angle": "emotional exhaustion and depletion"
+    },
+    {
+      "keyword": "why do I feel like a failure",
+      "slug": "why-do-i-feel-like-a-failure",
+      "angle": "the crushing sense of falling behind"
+    },
+    {
+      "keyword": "why am I so angry all the time",
+      "slug": "why-am-i-so-angry-all-the-time",
+      "angle": "irritability masking deeper pain"
+    },
+    {
+      "keyword": "why do I feel numb",
+      "slug": "why-do-i-feel-numb",
+      "angle": "emotional flatness, feeling nothing"
+    },
+    {
+      "keyword": "I feel like I'm failing at life",
+      "slug": "i-feel-like-im-failing-at-life",
+      "angle": "the sense of falling behind everyone"
+    },
+    {
+      "keyword": "I can't get out of bed lately",
+      "slug": "i-cant-get-out-of-bed-lately",
+      "angle": "the heaviness of depression"
+    },
+    {
+      "keyword": "everything feels pointless lately",
+      "slug": "everything-feels-pointless-lately",
+      "angle": "loss of meaning and motivation"
+    },
+    {
+      "keyword": "I feel like a burden to everyone",
+      "slug": "i-feel-like-a-burden-to-everyone",
+      "angle": "the painful belief you weigh others down"
+    },
+    {
+      "keyword": "I don't feel like myself anymore",
+      "slug": "i-dont-feel-like-myself-anymore",
+      "angle": "the loss of identity"
+    },
+    {
+      "keyword": "I feel alone even when I'm with people",
+      "slug": "i-feel-alone-even-when-im-with-people",
+      "angle": "isolation in a crowd"
+    },
+    {
+      "keyword": "I can't stop worrying about everything",
+      "slug": "i-cant-stop-worrying-about-everything",
+      "angle": "chronic relentless worry"
+    },
+    {
+      "keyword": "I feel stuck and I don't know why",
+      "slug": "i-feel-stuck-and-i-dont-know-why",
+      "angle": "paralysis and lack of momentum"
+    },
+    {
+      "keyword": "I feel sad for no reason",
+      "slug": "i-feel-sad-for-no-reason",
+      "angle": "low mood without an obvious cause"
+    },
+    {
+      "keyword": "I can't switch my brain off at night",
+      "slug": "i-cant-switch-my-brain-off-at-night",
+      "angle": "racing thoughts and sleeplessness"
+    },
+    {
+      "keyword": "affordable therapy without insurance",
+      "slug": "affordable-therapy-without-insurance",
+      "angle": "wanting help but fearing the cost"
+    },
+    {
+      "keyword": "online therapy without insurance",
+      "slug": "online-therapy-without-insurance",
+      "angle": "therapy when insurance won't cover it"
+    },
+    {
+      "keyword": "therapy when you can't afford it",
+      "slug": "therapy-when-you-cant-afford-it",
+      "angle": "the gap between needing and affording help"
+    },
+    {
+      "keyword": "cheap online therapy that actually works",
+      "slug": "cheap-online-therapy-that-actually-works",
+      "angle": "skepticism about budget therapy quality"
+    },
+    {
+      "keyword": "how much does online therapy cost",
+      "slug": "how-much-does-online-therapy-cost",
+      "angle": "the practical cost question"
+    },
+    {
+      "keyword": "is online therapy worth it",
+      "slug": "is-online-therapy-worth-it",
+      "angle": "does it actually work or waste money"
+    },
+    {
+      "keyword": "online therapy vs in person",
+      "slug": "online-therapy-vs-in-person",
+      "angle": "weighing the two options"
+    },
+    {
+      "keyword": "therapy from home",
+      "slug": "therapy-from-home",
+      "angle": "privacy and convenience of remote therapy"
+    },
+    {
+      "keyword": "therapy for busy people with no time",
+      "slug": "therapy-for-busy-people-with-no-time",
+      "angle": "fitting therapy into a packed life"
+    },
+    {
+      "keyword": "weekly pay therapy no monthly commitment",
+      "slug": "weekly-pay-therapy-no-monthly-commitment",
+      "angle": "flexibility without being locked in"
+    },
+    {
+      "keyword": "online therapy complete guide",
+      "slug": "online-therapy-complete-guide",
+      "angle": "master hub — everything before starting"
+    },
+    {
+      "keyword": "how online therapy works",
+      "slug": "how-online-therapy-works",
+      "angle": "explainer for first-timers"
+    },
+    {
+      "keyword": "signs you need therapy",
+      "slug": "signs-you-need-therapy",
+      "angle": "gentle checklist for the unsure"
+    },
+    {
+      "keyword": "how to find the right therapist",
+      "slug": "how-to-find-the-right-therapist",
+      "angle": "practical guide to matching"
+    },
+    {
+      "keyword": "what to expect from your first therapy session",
+      "slug": "what-to-expect-from-your-first-therapy-session",
+      "angle": "demystifying the first appointment"
+    },
+    {
+      "keyword": "BetterHelp review honest",
+      "slug": "betterhelp-review-honest",
+      "angle": "balanced review — pros, cons, cost, fit"
+    },
+    {
+      "keyword": "benefits of talking to a therapist",
+      "slug": "benefits-of-talking-to-a-therapist",
+      "angle": "what therapy actually does for you"
+    },
+    {
+      "keyword": "how to start therapy when you're scared",
+      "slug": "how-to-start-therapy-when-youre-scared",
+      "angle": "overcoming the fear of the first step"
+    },
+    {
+      "keyword": "therapy for new moms with anxiety",
+      "slug": "therapy-for-new-moms-with-anxiety",
+      "angle": "the overwhelm and identity shift of new motherhood; carrying anxiety while holding everything together"
+    },
+    {
+      "keyword": "therapy for new moms with depression",
+      "slug": "therapy-for-new-moms-with-depression",
+      "angle": "the overwhelm and identity shift of new motherhood; depression beneath a functioning surface"
+    },
+    {
+      "keyword": "therapy for new moms with burnout",
+      "slug": "therapy-for-new-moms-with-burnout",
+      "angle": "the overwhelm and identity shift of new motherhood; depleted past exhaustion"
+    },
+    {
+      "keyword": "therapy for new moms who feel overwhelmed",
+      "slug": "therapy-for-new-moms-who-feel-overwhelmed",
+      "angle": "the overwhelm and identity shift of new motherhood; drowning in responsibility"
+    },
+    {
+      "keyword": "therapy for new moms who feel alone",
+      "slug": "therapy-for-new-moms-who-feel-alone",
+      "angle": "the overwhelm and identity shift of new motherhood; isolation specific to this group"
+    },
+    {
+      "keyword": "therapy for new moms with stress",
+      "slug": "therapy-for-new-moms-with-stress",
+      "angle": "the overwhelm and identity shift of new motherhood; chronic stress wearing this group down"
+    },
+    {
+      "keyword": "therapy for single moms with anxiety",
+      "slug": "therapy-for-single-moms-with-anxiety",
+      "angle": "carrying everything alone with no backup; carrying anxiety while holding everything together"
+    },
+    {
+      "keyword": "therapy for single moms with depression",
+      "slug": "therapy-for-single-moms-with-depression",
+      "angle": "carrying everything alone with no backup; depression beneath a functioning surface"
+    },
+    {
+      "keyword": "therapy for single moms with burnout",
+      "slug": "therapy-for-single-moms-with-burnout",
+      "angle": "carrying everything alone with no backup; depleted past exhaustion"
+    },
+    {
+      "keyword": "therapy for single moms who feel overwhelmed",
+      "slug": "therapy-for-single-moms-who-feel-overwhelmed",
+      "angle": "carrying everything alone with no backup; drowning in responsibility"
+    },
+    {
+      "keyword": "therapy for single moms who feel alone",
+      "slug": "therapy-for-single-moms-who-feel-alone",
+      "angle": "carrying everything alone with no backup; isolation specific to this group"
+    },
+    {
+      "keyword": "therapy for single moms with stress",
+      "slug": "therapy-for-single-moms-with-stress",
+      "angle": "carrying everything alone with no backup; chronic stress wearing this group down"
+    },
+    {
+      "keyword": "therapy for single dads with anxiety",
+      "slug": "therapy-for-single-dads-with-anxiety",
+      "angle": "fathers raising kids alone, unspoken strain; carrying anxiety while holding everything together"
+    },
+    {
+      "keyword": "therapy for single dads with depression",
+      "slug": "therapy-for-single-dads-with-depression",
+      "angle": "fathers raising kids alone, unspoken strain; depression beneath a functioning surface"
+    },
+    {
+      "keyword": "therapy for single dads with burnout",
+      "slug": "therapy-for-single-dads-with-burnout",
+      "angle": "fathers raising kids alone, unspoken strain; depleted past exhaustion"
+    },
+    {
+      "keyword": "therapy for single dads who feel overwhelmed",
+      "slug": "therapy-for-single-dads-who-feel-overwhelmed",
+      "angle": "fathers raising kids alone, unspoken strain; drowning in responsibility"
+    },
+    {
+      "keyword": "therapy for single dads who feel alone",
+      "slug": "therapy-for-single-dads-who-feel-alone",
+      "angle": "fathers raising kids alone, unspoken strain; isolation specific to this group"
+    },
+    {
+      "keyword": "therapy for single dads with stress",
+      "slug": "therapy-for-single-dads-with-stress",
+      "angle": "fathers raising kids alone, unspoken strain; chronic stress wearing this group down"
+    },
+    {
+      "keyword": "therapy for men with anxiety",
+      "slug": "therapy-for-men-with-anxiety",
+      "angle": "men who were never taught to talk about feelings; carrying anxiety while holding everything together"
+    },
+    {
+      "keyword": "therapy for men with depression",
+      "slug": "therapy-for-men-with-depression",
+      "angle": "men who were never taught to talk about feelings; depression beneath a functioning surface"
+    },
+    {
+      "keyword": "therapy for men with burnout",
+      "slug": "therapy-for-men-with-burnout",
+      "angle": "men who were never taught to talk about feelings; depleted past exhaustion"
+    },
+    {
+      "keyword": "therapy for men who feel overwhelmed",
+      "slug": "therapy-for-men-who-feel-overwhelmed",
+      "angle": "men who were never taught to talk about feelings; drowning in responsibility"
+    },
+    {
+      "keyword": "therapy for men who feel alone",
+      "slug": "therapy-for-men-who-feel-alone",
+      "angle": "men who were never taught to talk about feelings; isolation specific to this group"
+    },
+    {
+      "keyword": "therapy for men with stress",
+      "slug": "therapy-for-men-with-stress",
+      "angle": "men who were never taught to talk about feelings; chronic stress wearing this group down"
+    },
+    {
+      "keyword": "therapy for women with anxiety",
+      "slug": "therapy-for-women-with-anxiety",
+      "angle": "women carrying invisible emotional load; carrying anxiety while holding everything together"
+    },
+    {
+      "keyword": "therapy for women with depression",
+      "slug": "therapy-for-women-with-depression",
+      "angle": "women carrying invisible emotional load; depression beneath a functioning surface"
+    },
+    {
+      "keyword": "therapy for women with burnout",
+      "slug": "therapy-for-women-with-burnout",
+      "angle": "women carrying invisible emotional load; depleted past exhaustion"
+    },
+    {
+      "keyword": "therapy for women who feel overwhelmed",
+      "slug": "therapy-for-women-who-feel-overwhelmed",
+      "angle": "women carrying invisible emotional load; drowning in responsibility"
+    },
+    {
+      "keyword": "therapy for women who feel alone",
+      "slug": "therapy-for-women-who-feel-alone",
+      "angle": "women carrying invisible emotional load; isolation specific to this group"
+    },
+    {
+      "keyword": "therapy for women with stress",
+      "slug": "therapy-for-women-with-stress",
+      "angle": "women carrying invisible emotional load; chronic stress wearing this group down"
+    },
+    {
+      "keyword": "therapy for students with anxiety",
+      "slug": "therapy-for-students-with-anxiety",
+      "angle": "academic pressure, isolation, uncertain futures; carrying anxiety while holding everything together"
+    },
+    {
+      "keyword": "therapy for students with depression",
+      "slug": "therapy-for-students-with-depression",
+      "angle": "academic pressure, isolation, uncertain futures; depression beneath a functioning surface"
+    },
+    {
+      "keyword": "therapy for students with burnout",
+      "slug": "therapy-for-students-with-burnout",
+      "angle": "academic pressure, isolation, uncertain futures; depleted past exhaustion"
+    },
+    {
+      "keyword": "therapy for students who feel overwhelmed",
+      "slug": "therapy-for-students-who-feel-overwhelmed",
+      "angle": "academic pressure, isolation, uncertain futures; drowning in responsibility"
+    },
+    {
+      "keyword": "therapy for students who feel alone",
+      "slug": "therapy-for-students-who-feel-alone",
+      "angle": "academic pressure, isolation, uncertain futures; isolation specific to this group"
+    },
+    {
+      "keyword": "therapy for students with stress",
+      "slug": "therapy-for-students-with-stress",
+      "angle": "academic pressure, isolation, uncertain futures; chronic stress wearing this group down"
+    },
+    {
+      "keyword": "therapy for college students with anxiety",
+      "slug": "therapy-for-college-students-with-anxiety",
+      "angle": "the mental health crush of college years; carrying anxiety while holding everything together"
+    },
+    {
+      "keyword": "therapy for college students with depression",
+      "slug": "therapy-for-college-students-with-depression",
+      "angle": "the mental health crush of college years; depression beneath a functioning surface"
+    },
+    {
+      "keyword": "therapy for college students with burnout",
+      "slug": "therapy-for-college-students-with-burnout",
+      "angle": "the mental health crush of college years; depleted past exhaustion"
+    },
+    {
+      "keyword": "therapy for college students who feel overwhelmed",
+      "slug": "therapy-for-college-students-who-feel-overwhelmed",
+      "angle": "the mental health crush of college years; drowning in responsibility"
+    },
+    {
+      "keyword": "therapy for college students who feel alone",
+      "slug": "therapy-for-college-students-who-feel-alone",
+      "angle": "the mental health crush of college years; isolation specific to this group"
+    },
+    {
+      "keyword": "therapy for college students with stress",
+      "slug": "therapy-for-college-students-with-stress",
+      "angle": "the mental health crush of college years; chronic stress wearing this group down"
+    },
+    {
+      "keyword": "therapy for teenagers with anxiety",
+      "slug": "therapy-for-teenagers-with-anxiety",
+      "angle": "navigating adolescence and overwhelming feelings; carrying anxiety while holding everything together"
+    },
+    {
+      "keyword": "therapy for teenagers with depression",
+      "slug": "therapy-for-teenagers-with-depression",
+      "angle": "navigating adolescence and overwhelming feelings; depression beneath a functioning surface"
+    },
+    {
+      "keyword": "therapy for teenagers with burnout",
+      "slug": "therapy-for-teenagers-with-burnout",
+      "angle": "navigating adolescence and overwhelming feelings; depleted past exhaustion"
+    },
+    {
+      "keyword": "therapy for teenagers who feel overwhelmed",
+      "slug": "therapy-for-teenagers-who-feel-overwhelmed",
+      "angle": "navigating adolescence and overwhelming feelings; drowning in responsibility"
+    },
+    {
+      "keyword": "therapy for teenagers who feel alone",
+      "slug": "therapy-for-teenagers-who-feel-alone",
+      "angle": "navigating adolescence and overwhelming feelings; isolation specific to this group"
+    },
+    {
+      "keyword": "therapy for teenagers with stress",
+      "slug": "therapy-for-teenagers-with-stress",
+      "angle": "navigating adolescence and overwhelming feelings; chronic stress wearing this group down"
+    },
+    {
+      "keyword": "therapy for young adults with anxiety",
+      "slug": "therapy-for-young-adults-with-anxiety",
+      "angle": "the quarter-life crisis and pressure to have it together; carrying anxiety while holding everything together"
+    },
+    {
+      "keyword": "therapy for young adults with depression",
+      "slug": "therapy-for-young-adults-with-depression",
+      "angle": "the quarter-life crisis and pressure to have it together; depression beneath a functioning surface"
+    },
+    {
+      "keyword": "therapy for young adults with burnout",
+      "slug": "therapy-for-young-adults-with-burnout",
+      "angle": "the quarter-life crisis and pressure to have it together; depleted past exhaustion"
+    },
+    {
+      "keyword": "therapy for young adults who feel overwhelmed",
+      "slug": "therapy-for-young-adults-who-feel-overwhelmed",
+      "angle": "the quarter-life crisis and pressure to have it together; drowning in responsibility"
+    },
+    {
+      "keyword": "therapy for young adults who feel alone",
+      "slug": "therapy-for-young-adults-who-feel-alone",
+      "angle": "the quarter-life crisis and pressure to have it together; isolation specific to this group"
+    },
+    {
+      "keyword": "therapy for young adults with stress",
+      "slug": "therapy-for-young-adults-with-stress",
+      "angle": "the quarter-life crisis and pressure to have it together; chronic stress wearing this group down"
+    },
+    {
+      "keyword": "therapy for seniors with anxiety",
+      "slug": "therapy-for-seniors-with-anxiety",
+      "angle": "isolation, loss, and change in later life; carrying anxiety while holding everything together"
+    },
+    {
+      "keyword": "therapy for seniors with depression",
+      "slug": "therapy-for-seniors-with-depression",
+      "angle": "isolation, loss, and change in later life; depression beneath a functioning surface"
+    },
+    {
+      "keyword": "therapy for seniors with burnout",
+      "slug": "therapy-for-seniors-with-burnout",
+      "angle": "isolation, loss, and change in later life; depleted past exhaustion"
+    },
+    {
+      "keyword": "therapy for seniors who feel overwhelmed",
+      "slug": "therapy-for-seniors-who-feel-overwhelmed",
+      "angle": "isolation, loss, and change in later life; drowning in responsibility"
+    },
+    {
+      "keyword": "therapy for seniors who feel alone",
+      "slug": "therapy-for-seniors-who-feel-alone",
+      "angle": "isolation, loss, and change in later life; isolation specific to this group"
+    },
+    {
+      "keyword": "therapy for seniors with stress",
+      "slug": "therapy-for-seniors-with-stress",
+      "angle": "isolation, loss, and change in later life; chronic stress wearing this group down"
+    },
+    {
+      "keyword": "therapy for couples with anxiety",
+      "slug": "therapy-for-couples-with-anxiety",
+      "angle": "relationship strain and communication breakdown; carrying anxiety while holding everything together"
+    },
+    {
+      "keyword": "therapy for couples with depression",
+      "slug": "therapy-for-couples-with-depression",
+      "angle": "relationship strain and communication breakdown; depression beneath a functioning surface"
+    },
+    {
+      "keyword": "therapy for couples with burnout",
+      "slug": "therapy-for-couples-with-burnout",
+      "angle": "relationship strain and communication breakdown; depleted past exhaustion"
+    },
+    {
+      "keyword": "therapy for couples who feel overwhelmed",
+      "slug": "therapy-for-couples-who-feel-overwhelmed",
+      "angle": "relationship strain and communication breakdown; drowning in responsibility"
+    },
+    {
+      "keyword": "therapy for couples who feel alone",
+      "slug": "therapy-for-couples-who-feel-alone",
+      "angle": "relationship strain and communication breakdown; isolation specific to this group"
+    },
+    {
+      "keyword": "therapy for couples with stress",
+      "slug": "therapy-for-couples-with-stress",
+      "angle": "relationship strain and communication breakdown; chronic stress wearing this group down"
+    },
+    {
+      "keyword": "therapy for parents with anxiety",
+      "slug": "therapy-for-parents-with-anxiety",
+      "angle": "the relentless pressure of raising kids; carrying anxiety while holding everything together"
+    },
+    {
+      "keyword": "therapy for parents with depression",
+      "slug": "therapy-for-parents-with-depression",
+      "angle": "the relentless pressure of raising kids; depression beneath a functioning surface"
+    },
+    {
+      "keyword": "therapy for parents with burnout",
+      "slug": "therapy-for-parents-with-burnout",
+      "angle": "the relentless pressure of raising kids; depleted past exhaustion"
+    },
+    {
+      "keyword": "therapy for parents who feel overwhelmed",
+      "slug": "therapy-for-parents-who-feel-overwhelmed",
+      "angle": "the relentless pressure of raising kids; drowning in responsibility"
+    },
+    {
+      "keyword": "therapy for parents who feel alone",
+      "slug": "therapy-for-parents-who-feel-alone",
+      "angle": "the relentless pressure of raising kids; isolation specific to this group"
+    },
+    {
+      "keyword": "therapy for parents with stress",
+      "slug": "therapy-for-parents-with-stress",
+      "angle": "the relentless pressure of raising kids; chronic stress wearing this group down"
+    },
+    {
+      "keyword": "therapy for nurses with anxiety",
+      "slug": "therapy-for-nurses-with-anxiety",
+      "angle": "frontline burnout and emotional exhaustion; carrying anxiety while holding everything together"
+    },
+    {
+      "keyword": "therapy for nurses with depression",
+      "slug": "therapy-for-nurses-with-depression",
+      "angle": "frontline burnout and emotional exhaustion; depression beneath a functioning surface"
+    },
+    {
+      "keyword": "therapy for nurses with burnout",
+      "slug": "therapy-for-nurses-with-burnout",
+      "angle": "frontline burnout and emotional exhaustion; depleted past exhaustion"
+    },
+    {
+      "keyword": "therapy for nurses who feel overwhelmed",
+      "slug": "therapy-for-nurses-who-feel-overwhelmed",
+      "angle": "frontline burnout and emotional exhaustion; drowning in responsibility"
+    },
+    {
+      "keyword": "therapy for nurses who feel alone",
+      "slug": "therapy-for-nurses-who-feel-alone",
+      "angle": "frontline burnout and emotional exhaustion; isolation specific to this group"
+    },
+    {
+      "keyword": "therapy for nurses with stress",
+      "slug": "therapy-for-nurses-with-stress",
+      "angle": "frontline burnout and emotional exhaustion; chronic stress wearing this group down"
+    },
+    {
+      "keyword": "therapy for teachers with anxiety",
+      "slug": "therapy-for-teachers-with-anxiety",
+      "angle": "underpaid, overstretched, emotionally drained; carrying anxiety while holding everything together"
+    },
+    {
+      "keyword": "therapy for teachers with depression",
+      "slug": "therapy-for-teachers-with-depression",
+      "angle": "underpaid, overstretched, emotionally drained; depression beneath a functioning surface"
+    },
+    {
+      "keyword": "therapy for teachers with burnout",
+      "slug": "therapy-for-teachers-with-burnout",
+      "angle": "underpaid, overstretched, emotionally drained; depleted past exhaustion"
+    },
+    {
+      "keyword": "therapy for teachers who feel overwhelmed",
+      "slug": "therapy-for-teachers-who-feel-overwhelmed",
+      "angle": "underpaid, overstretched, emotionally drained; drowning in responsibility"
+    },
+    {
+      "keyword": "therapy for teachers who feel alone",
+      "slug": "therapy-for-teachers-who-feel-alone",
+      "angle": "underpaid, overstretched, emotionally drained; isolation specific to this group"
+    },
+    {
+      "keyword": "therapy for teachers with stress",
+      "slug": "therapy-for-teachers-with-stress",
+      "angle": "underpaid, overstretched, emotionally drained; chronic stress wearing this group down"
+    },
+    {
+      "keyword": "therapy for first responders with anxiety",
+      "slug": "therapy-for-first-responders-with-anxiety",
+      "angle": "trauma exposure and the cost of the job; carrying anxiety while holding everything together"
+    },
+    {
+      "keyword": "therapy for first responders with depression",
+      "slug": "therapy-for-first-responders-with-depression",
+      "angle": "trauma exposure and the cost of the job; depression beneath a functioning surface"
+    },
+    {
+      "keyword": "therapy for first responders with burnout",
+      "slug": "therapy-for-first-responders-with-burnout",
+      "angle": "trauma exposure and the cost of the job; depleted past exhaustion"
+    },
+    {
+      "keyword": "therapy for first responders who feel overwhelmed",
+      "slug": "therapy-for-first-responders-who-feel-overwhelmed",
+      "angle": "trauma exposure and the cost of the job; drowning in responsibility"
+    },
+    {
+      "keyword": "therapy for first responders who feel alone",
+      "slug": "therapy-for-first-responders-who-feel-alone",
+      "angle": "trauma exposure and the cost of the job; isolation specific to this group"
+    },
+    {
+      "keyword": "therapy for first responders with stress",
+      "slug": "therapy-for-first-responders-with-stress",
+      "angle": "trauma exposure and the cost of the job; chronic stress wearing this group down"
+    },
+    {
+      "keyword": "therapy for entrepreneurs with anxiety",
+      "slug": "therapy-for-entrepreneurs-with-anxiety",
+      "angle": "the isolation and pressure of building something; carrying anxiety while holding everything together"
+    },
+    {
+      "keyword": "therapy for entrepreneurs with depression",
+      "slug": "therapy-for-entrepreneurs-with-depression",
+      "angle": "the isolation and pressure of building something; depression beneath a functioning surface"
+    },
+    {
+      "keyword": "therapy for entrepreneurs with burnout",
+      "slug": "therapy-for-entrepreneurs-with-burnout",
+      "angle": "the isolation and pressure of building something; depleted past exhaustion"
+    },
+    {
+      "keyword": "therapy for entrepreneurs who feel overwhelmed",
+      "slug": "therapy-for-entrepreneurs-who-feel-overwhelmed",
+      "angle": "the isolation and pressure of building something; drowning in responsibility"
+    },
+    {
+      "keyword": "therapy for entrepreneurs who feel alone",
+      "slug": "therapy-for-entrepreneurs-who-feel-alone",
+      "angle": "the isolation and pressure of building something; isolation specific to this group"
+    },
+    {
+      "keyword": "therapy for entrepreneurs with stress",
+      "slug": "therapy-for-entrepreneurs-with-stress",
+      "angle": "the isolation and pressure of building something; chronic stress wearing this group down"
+    },
+    {
+      "keyword": "therapy for remote workers with anxiety",
+      "slug": "therapy-for-remote-workers-with-anxiety",
+      "angle": "isolation and blurred boundaries working from home; carrying anxiety while holding everything together"
+    },
+    {
+      "keyword": "therapy for remote workers with depression",
+      "slug": "therapy-for-remote-workers-with-depression",
+      "angle": "isolation and blurred boundaries working from home; depression beneath a functioning surface"
+    },
+    {
+      "keyword": "therapy for remote workers with burnout",
+      "slug": "therapy-for-remote-workers-with-burnout",
+      "angle": "isolation and blurred boundaries working from home; depleted past exhaustion"
+    },
+    {
+      "keyword": "therapy for remote workers who feel overwhelmed",
+      "slug": "therapy-for-remote-workers-who-feel-overwhelmed",
+      "angle": "isolation and blurred boundaries working from home; drowning in responsibility"
+    },
+    {
+      "keyword": "therapy for remote workers who feel alone",
+      "slug": "therapy-for-remote-workers-who-feel-alone",
+      "angle": "isolation and blurred boundaries working from home; isolation specific to this group"
+    },
+    {
+      "keyword": "therapy for remote workers with stress",
+      "slug": "therapy-for-remote-workers-with-stress",
+      "angle": "isolation and blurred boundaries working from home; chronic stress wearing this group down"
+    },
+    {
+      "keyword": "therapy for healthcare workers with anxiety",
+      "slug": "therapy-for-healthcare-workers-with-anxiety",
+      "angle": "compassion fatigue and burnout; carrying anxiety while holding everything together"
+    },
+    {
+      "keyword": "therapy for healthcare workers with depression",
+      "slug": "therapy-for-healthcare-workers-with-depression",
+      "angle": "compassion fatigue and burnout; depression beneath a functioning surface"
+    },
+    {
+      "keyword": "therapy for healthcare workers with burnout",
+      "slug": "therapy-for-healthcare-workers-with-burnout",
+      "angle": "compassion fatigue and burnout; depleted past exhaustion"
+    },
+    {
+      "keyword": "therapy for healthcare workers who feel overwhelmed",
+      "slug": "therapy-for-healthcare-workers-who-feel-overwhelmed",
+      "angle": "compassion fatigue and burnout; drowning in responsibility"
+    },
+    {
+      "keyword": "therapy for healthcare workers who feel alone",
+      "slug": "therapy-for-healthcare-workers-who-feel-alone",
+      "angle": "compassion fatigue and burnout; isolation specific to this group"
+    },
+    {
+      "keyword": "therapy for healthcare workers with stress",
+      "slug": "therapy-for-healthcare-workers-with-stress",
+      "angle": "compassion fatigue and burnout; chronic stress wearing this group down"
+    },
+    {
+      "keyword": "therapy for veterans with anxiety",
+      "slug": "therapy-for-veterans-with-anxiety",
+      "angle": "carrying service experiences into civilian life; carrying anxiety while holding everything together"
+    },
+    {
+      "keyword": "therapy for veterans with depression",
+      "slug": "therapy-for-veterans-with-depression",
+      "angle": "carrying service experiences into civilian life; depression beneath a functioning surface"
+    },
+    {
+      "keyword": "therapy for veterans with burnout",
+      "slug": "therapy-for-veterans-with-burnout",
+      "angle": "carrying service experiences into civilian life; depleted past exhaustion"
+    },
+    {
+      "keyword": "therapy for veterans who feel overwhelmed",
+      "slug": "therapy-for-veterans-who-feel-overwhelmed",
+      "angle": "carrying service experiences into civilian life; drowning in responsibility"
+    },
+    {
+      "keyword": "therapy for veterans who feel alone",
+      "slug": "therapy-for-veterans-who-feel-alone",
+      "angle": "carrying service experiences into civilian life; isolation specific to this group"
+    },
+    {
+      "keyword": "therapy for veterans with stress",
+      "slug": "therapy-for-veterans-with-stress",
+      "angle": "carrying service experiences into civilian life; chronic stress wearing this group down"
+    },
+    {
+      "keyword": "therapy for caregivers with anxiety",
+      "slug": "therapy-for-caregivers-with-anxiety",
+      "angle": "the burnout of caring for others endlessly; carrying anxiety while holding everything together"
+    },
+    {
+      "keyword": "therapy for caregivers with depression",
+      "slug": "therapy-for-caregivers-with-depression",
+      "angle": "the burnout of caring for others endlessly; depression beneath a functioning surface"
+    },
+    {
+      "keyword": "therapy for caregivers with burnout",
+      "slug": "therapy-for-caregivers-with-burnout",
+      "angle": "the burnout of caring for others endlessly; depleted past exhaustion"
+    },
+    {
+      "keyword": "therapy for caregivers who feel overwhelmed",
+      "slug": "therapy-for-caregivers-who-feel-overwhelmed",
+      "angle": "the burnout of caring for others endlessly; drowning in responsibility"
+    },
+    {
+      "keyword": "therapy for caregivers who feel alone",
+      "slug": "therapy-for-caregivers-who-feel-alone",
+      "angle": "the burnout of caring for others endlessly; isolation specific to this group"
+    },
+    {
+      "keyword": "therapy for caregivers with stress",
+      "slug": "therapy-for-caregivers-with-stress",
+      "angle": "the burnout of caring for others endlessly; chronic stress wearing this group down"
+    },
+    {
+      "keyword": "therapy for introverts with anxiety",
+      "slug": "therapy-for-introverts-with-anxiety",
+      "angle": "navigating a world built for extroverts; carrying anxiety while holding everything together"
+    },
+    {
+      "keyword": "therapy for introverts with depression",
+      "slug": "therapy-for-introverts-with-depression",
+      "angle": "navigating a world built for extroverts; depression beneath a functioning surface"
+    },
+    {
+      "keyword": "therapy for introverts with burnout",
+      "slug": "therapy-for-introverts-with-burnout",
+      "angle": "navigating a world built for extroverts; depleted past exhaustion"
+    },
+    {
+      "keyword": "therapy for introverts who feel overwhelmed",
+      "slug": "therapy-for-introverts-who-feel-overwhelmed",
+      "angle": "navigating a world built for extroverts; drowning in responsibility"
+    },
+    {
+      "keyword": "therapy for introverts who feel alone",
+      "slug": "therapy-for-introverts-who-feel-alone",
+      "angle": "navigating a world built for extroverts; isolation specific to this group"
+    },
+    {
+      "keyword": "therapy for introverts with stress",
+      "slug": "therapy-for-introverts-with-stress",
+      "angle": "navigating a world built for extroverts; chronic stress wearing this group down"
+    },
+    {
+      "keyword": "therapy for perfectionists with anxiety",
+      "slug": "therapy-for-perfectionists-with-anxiety",
+      "angle": "never resting, never satisfied; carrying anxiety while holding everything together"
+    },
+    {
+      "keyword": "therapy for perfectionists with depression",
+      "slug": "therapy-for-perfectionists-with-depression",
+      "angle": "never resting, never satisfied; depression beneath a functioning surface"
+    },
+    {
+      "keyword": "therapy for perfectionists with burnout",
+      "slug": "therapy-for-perfectionists-with-burnout",
+      "angle": "never resting, never satisfied; depleted past exhaustion"
+    },
+    {
+      "keyword": "therapy for perfectionists who feel overwhelmed",
+      "slug": "therapy-for-perfectionists-who-feel-overwhelmed",
+      "angle": "never resting, never satisfied; drowning in responsibility"
+    },
+    {
+      "keyword": "therapy for perfectionists who feel alone",
+      "slug": "therapy-for-perfectionists-who-feel-alone",
+      "angle": "never resting, never satisfied; isolation specific to this group"
+    },
+    {
+      "keyword": "therapy for perfectionists with stress",
+      "slug": "therapy-for-perfectionists-with-stress",
+      "angle": "never resting, never satisfied; chronic stress wearing this group down"
+    },
+    {
+      "keyword": "therapy for overthinkers with anxiety",
+      "slug": "therapy-for-overthinkers-with-anxiety",
+      "angle": "a mind that won't stop running; carrying anxiety while holding everything together"
+    },
+    {
+      "keyword": "therapy for overthinkers with depression",
+      "slug": "therapy-for-overthinkers-with-depression",
+      "angle": "a mind that won't stop running; depression beneath a functioning surface"
+    },
+    {
+      "keyword": "therapy for overthinkers with burnout",
+      "slug": "therapy-for-overthinkers-with-burnout",
+      "angle": "a mind that won't stop running; depleted past exhaustion"
+    },
+    {
+      "keyword": "therapy for overthinkers who feel overwhelmed",
+      "slug": "therapy-for-overthinkers-who-feel-overwhelmed",
+      "angle": "a mind that won't stop running; drowning in responsibility"
+    },
+    {
+      "keyword": "therapy for overthinkers who feel alone",
+      "slug": "therapy-for-overthinkers-who-feel-alone",
+      "angle": "a mind that won't stop running; isolation specific to this group"
+    },
+    {
+      "keyword": "therapy for overthinkers with stress",
+      "slug": "therapy-for-overthinkers-with-stress",
+      "angle": "a mind that won't stop running; chronic stress wearing this group down"
+    },
+    {
+      "keyword": "therapy for adult children of narcissists with anxiety",
+      "slug": "therapy-for-adult-children-of-narcissists-with-anxiety",
+      "angle": "unraveling a childhood around someone else's needs; carrying anxiety while holding everything together"
+    },
+    {
+      "keyword": "therapy for adult children of narcissists with depression",
+      "slug": "therapy-for-adult-children-of-narcissists-with-depression",
+      "angle": "unraveling a childhood around someone else's needs; depression beneath a functioning surface"
+    },
+    {
+      "keyword": "therapy for adult children of narcissists with burnout",
+      "slug": "therapy-for-adult-children-of-narcissists-with-burnout",
+      "angle": "unraveling a childhood around someone else's needs; depleted past exhaustion"
+    },
+    {
+      "keyword": "therapy for adult children of narcissists who feel overwhelmed",
+      "slug": "therapy-for-adult-children-of-narcissists-who-feel-overwhelmed",
+      "angle": "unraveling a childhood around someone else's needs; drowning in responsibility"
+    },
+    {
+      "keyword": "therapy for adult children of narcissists who feel alone",
+      "slug": "therapy-for-adult-children-of-narcissists-who-feel-alone",
+      "angle": "unraveling a childhood around someone else's needs; isolation specific to this group"
+    },
+    {
+      "keyword": "therapy for adult children of narcissists with stress",
+      "slug": "therapy-for-adult-children-of-narcissists-with-stress",
+      "angle": "unraveling a childhood around someone else's needs; chronic stress wearing this group down"
+    },
+    {
+      "keyword": "therapy for people pleasers with anxiety",
+      "slug": "therapy-for-people-pleasers-with-anxiety",
+      "angle": "losing yourself in everyone else's needs; carrying anxiety while holding everything together"
+    },
+    {
+      "keyword": "therapy for people pleasers with depression",
+      "slug": "therapy-for-people-pleasers-with-depression",
+      "angle": "losing yourself in everyone else's needs; depression beneath a functioning surface"
+    },
+    {
+      "keyword": "therapy for people pleasers with burnout",
+      "slug": "therapy-for-people-pleasers-with-burnout",
+      "angle": "losing yourself in everyone else's needs; depleted past exhaustion"
+    },
+    {
+      "keyword": "therapy for people pleasers who feel overwhelmed",
+      "slug": "therapy-for-people-pleasers-who-feel-overwhelmed",
+      "angle": "losing yourself in everyone else's needs; drowning in responsibility"
+    },
+    {
+      "keyword": "therapy for people pleasers who feel alone",
+      "slug": "therapy-for-people-pleasers-who-feel-alone",
+      "angle": "losing yourself in everyone else's needs; isolation specific to this group"
+    },
+    {
+      "keyword": "therapy for people pleasers with stress",
+      "slug": "therapy-for-people-pleasers-with-stress",
+      "angle": "losing yourself in everyone else's needs; chronic stress wearing this group down"
+    },
+    {
+      "keyword": "therapy for workaholics with anxiety",
+      "slug": "therapy-for-workaholics-with-anxiety",
+      "angle": "using work to avoid feeling; carrying anxiety while holding everything together"
+    },
+    {
+      "keyword": "therapy for workaholics with depression",
+      "slug": "therapy-for-workaholics-with-depression",
+      "angle": "using work to avoid feeling; depression beneath a functioning surface"
+    },
+    {
+      "keyword": "therapy for workaholics with burnout",
+      "slug": "therapy-for-workaholics-with-burnout",
+      "angle": "using work to avoid feeling; depleted past exhaustion"
+    },
+    {
+      "keyword": "therapy for workaholics who feel overwhelmed",
+      "slug": "therapy-for-workaholics-who-feel-overwhelmed",
+      "angle": "using work to avoid feeling; drowning in responsibility"
+    },
+    {
+      "keyword": "therapy for workaholics who feel alone",
+      "slug": "therapy-for-workaholics-who-feel-alone",
+      "angle": "using work to avoid feeling; isolation specific to this group"
+    },
+    {
+      "keyword": "therapy for workaholics with stress",
+      "slug": "therapy-for-workaholics-with-stress",
+      "angle": "using work to avoid feeling; chronic stress wearing this group down"
+    },
+    {
+      "keyword": "therapy for highly sensitive people with anxiety",
+      "slug": "therapy-for-highly-sensitive-people-with-anxiety",
+      "angle": "feeling everything more intensely; carrying anxiety while holding everything together"
+    },
+    {
+      "keyword": "therapy for highly sensitive people with depression",
+      "slug": "therapy-for-highly-sensitive-people-with-depression",
+      "angle": "feeling everything more intensely; depression beneath a functioning surface"
+    },
+    {
+      "keyword": "therapy for highly sensitive people with burnout",
+      "slug": "therapy-for-highly-sensitive-people-with-burnout",
+      "angle": "feeling everything more intensely; depleted past exhaustion"
+    },
+    {
+      "keyword": "therapy for highly sensitive people who feel overwhelmed",
+      "slug": "therapy-for-highly-sensitive-people-who-feel-overwhelmed",
+      "angle": "feeling everything more intensely; drowning in responsibility"
+    },
+    {
+      "keyword": "therapy for highly sensitive people who feel alone",
+      "slug": "therapy-for-highly-sensitive-people-who-feel-alone",
+      "angle": "feeling everything more intensely; isolation specific to this group"
+    },
+    {
+      "keyword": "therapy for highly sensitive people with stress",
+      "slug": "therapy-for-highly-sensitive-people-with-stress",
+      "angle": "feeling everything more intensely; chronic stress wearing this group down"
+    },
+    {
+      "keyword": "therapy for immigrants with anxiety",
+      "slug": "therapy-for-immigrants-with-anxiety",
+      "angle": "the loneliness and stress of building a life in a new country; carrying anxiety while holding everything together"
+    },
+    {
+      "keyword": "therapy for immigrants with depression",
+      "slug": "therapy-for-immigrants-with-depression",
+      "angle": "the loneliness and stress of building a life in a new country; depression beneath a functioning surface"
+    },
+    {
+      "keyword": "therapy for immigrants with burnout",
+      "slug": "therapy-for-immigrants-with-burnout",
+      "angle": "the loneliness and stress of building a life in a new country; depleted past exhaustion"
+    },
+    {
+      "keyword": "therapy for immigrants who feel overwhelmed",
+      "slug": "therapy-for-immigrants-who-feel-overwhelmed",
+      "angle": "the loneliness and stress of building a life in a new country; drowning in responsibility"
+    },
+    {
+      "keyword": "therapy for immigrants who feel alone",
+      "slug": "therapy-for-immigrants-who-feel-alone",
+      "angle": "the loneliness and stress of building a life in a new country; isolation specific to this group"
+    },
+    {
+      "keyword": "therapy for immigrants with stress",
+      "slug": "therapy-for-immigrants-with-stress",
+      "angle": "the loneliness and stress of building a life in a new country; chronic stress wearing this group down"
+    },
+    {
+      "keyword": "therapy for expats with anxiety",
+      "slug": "therapy-for-expats-with-anxiety",
+      "angle": "isolation and identity strain living abroad; carrying anxiety while holding everything together"
+    },
+    {
+      "keyword": "therapy for expats with depression",
+      "slug": "therapy-for-expats-with-depression",
+      "angle": "isolation and identity strain living abroad; depression beneath a functioning surface"
+    },
+    {
+      "keyword": "therapy for expats with burnout",
+      "slug": "therapy-for-expats-with-burnout",
+      "angle": "isolation and identity strain living abroad; depleted past exhaustion"
+    },
+    {
+      "keyword": "therapy for expats who feel overwhelmed",
+      "slug": "therapy-for-expats-who-feel-overwhelmed",
+      "angle": "isolation and identity strain living abroad; drowning in responsibility"
+    },
+    {
+      "keyword": "therapy for expats who feel alone",
+      "slug": "therapy-for-expats-who-feel-alone",
+      "angle": "isolation and identity strain living abroad; isolation specific to this group"
+    },
+    {
+      "keyword": "therapy for expats with stress",
+      "slug": "therapy-for-expats-with-stress",
+      "angle": "isolation and identity strain living abroad; chronic stress wearing this group down"
+    },
+    {
+      "keyword": "therapy for freelancers with anxiety",
+      "slug": "therapy-for-freelancers-with-anxiety",
+      "angle": "income uncertainty and isolation of self-employment; carrying anxiety while holding everything together"
+    },
+    {
+      "keyword": "therapy for freelancers with depression",
+      "slug": "therapy-for-freelancers-with-depression",
+      "angle": "income uncertainty and isolation of self-employment; depression beneath a functioning surface"
+    },
+    {
+      "keyword": "therapy for freelancers with burnout",
+      "slug": "therapy-for-freelancers-with-burnout",
+      "angle": "income uncertainty and isolation of self-employment; depleted past exhaustion"
+    },
+    {
+      "keyword": "therapy for freelancers who feel overwhelmed",
+      "slug": "therapy-for-freelancers-who-feel-overwhelmed",
+      "angle": "income uncertainty and isolation of self-employment; drowning in responsibility"
+    },
+    {
+      "keyword": "therapy for freelancers who feel alone",
+      "slug": "therapy-for-freelancers-who-feel-alone",
+      "angle": "income uncertainty and isolation of self-employment; isolation specific to this group"
+    },
+    {
+      "keyword": "therapy for freelancers with stress",
+      "slug": "therapy-for-freelancers-with-stress",
+      "angle": "income uncertainty and isolation of self-employment; chronic stress wearing this group down"
+    },
+    {
+      "keyword": "therapy for shift workers with anxiety",
+      "slug": "therapy-for-shift-workers-with-anxiety",
+      "angle": "disrupted sleep and life out of sync with everyone; carrying anxiety while holding everything together"
+    },
+    {
+      "keyword": "therapy for shift workers with depression",
+      "slug": "therapy-for-shift-workers-with-depression",
+      "angle": "disrupted sleep and life out of sync with everyone; depression beneath a functioning surface"
+    },
+    {
+      "keyword": "therapy for shift workers with burnout",
+      "slug": "therapy-for-shift-workers-with-burnout",
+      "angle": "disrupted sleep and life out of sync with everyone; depleted past exhaustion"
+    },
+    {
+      "keyword": "therapy for shift workers who feel overwhelmed",
+      "slug": "therapy-for-shift-workers-who-feel-overwhelmed",
+      "angle": "disrupted sleep and life out of sync with everyone; drowning in responsibility"
+    },
+    {
+      "keyword": "therapy for shift workers who feel alone",
+      "slug": "therapy-for-shift-workers-who-feel-alone",
+      "angle": "disrupted sleep and life out of sync with everyone; isolation specific to this group"
+    },
+    {
+      "keyword": "therapy for shift workers with stress",
+      "slug": "therapy-for-shift-workers-with-stress",
+      "angle": "disrupted sleep and life out of sync with everyone; chronic stress wearing this group down"
+    },
+    {
+      "keyword": "therapy for truck drivers with anxiety",
+      "slug": "therapy-for-truck-drivers-with-anxiety",
+      "angle": "isolation and stress of long-haul life; carrying anxiety while holding everything together"
+    },
+    {
+      "keyword": "therapy for truck drivers with depression",
+      "slug": "therapy-for-truck-drivers-with-depression",
+      "angle": "isolation and stress of long-haul life; depression beneath a functioning surface"
+    },
+    {
+      "keyword": "therapy for truck drivers with burnout",
+      "slug": "therapy-for-truck-drivers-with-burnout",
+      "angle": "isolation and stress of long-haul life; depleted past exhaustion"
+    },
+    {
+      "keyword": "therapy for truck drivers who feel overwhelmed",
+      "slug": "therapy-for-truck-drivers-who-feel-overwhelmed",
+      "angle": "isolation and stress of long-haul life; drowning in responsibility"
+    },
+    {
+      "keyword": "therapy for truck drivers who feel alone",
+      "slug": "therapy-for-truck-drivers-who-feel-alone",
+      "angle": "isolation and stress of long-haul life; isolation specific to this group"
+    },
+    {
+      "keyword": "therapy for truck drivers with stress",
+      "slug": "therapy-for-truck-drivers-with-stress",
+      "angle": "isolation and stress of long-haul life; chronic stress wearing this group down"
+    },
+    {
+      "keyword": "therapy for lawyers with anxiety",
+      "slug": "therapy-for-lawyers-with-anxiety",
+      "angle": "high-pressure profession and burnout; carrying anxiety while holding everything together"
+    },
+    {
+      "keyword": "therapy for lawyers with depression",
+      "slug": "therapy-for-lawyers-with-depression",
+      "angle": "high-pressure profession and burnout; depression beneath a functioning surface"
+    },
+    {
+      "keyword": "therapy for lawyers with burnout",
+      "slug": "therapy-for-lawyers-with-burnout",
+      "angle": "high-pressure profession and burnout; depleted past exhaustion"
+    },
+    {
+      "keyword": "therapy for lawyers who feel overwhelmed",
+      "slug": "therapy-for-lawyers-who-feel-overwhelmed",
+      "angle": "high-pressure profession and burnout; drowning in responsibility"
+    },
+    {
+      "keyword": "therapy for lawyers who feel alone",
+      "slug": "therapy-for-lawyers-who-feel-alone",
+      "angle": "high-pressure profession and burnout; isolation specific to this group"
+    },
+    {
+      "keyword": "therapy for lawyers with stress",
+      "slug": "therapy-for-lawyers-with-stress",
+      "angle": "high-pressure profession and burnout; chronic stress wearing this group down"
+    },
+    {
+      "keyword": "therapy for doctors with anxiety",
+      "slug": "therapy-for-doctors-with-anxiety",
+      "angle": "the emotional toll and exhaustion of medicine; carrying anxiety while holding everything together"
+    },
+    {
+      "keyword": "therapy for doctors with depression",
+      "slug": "therapy-for-doctors-with-depression",
+      "angle": "the emotional toll and exhaustion of medicine; depression beneath a functioning surface"
+    },
+    {
+      "keyword": "therapy for doctors with burnout",
+      "slug": "therapy-for-doctors-with-burnout",
+      "angle": "the emotional toll and exhaustion of medicine; depleted past exhaustion"
+    },
+    {
+      "keyword": "therapy for doctors who feel overwhelmed",
+      "slug": "therapy-for-doctors-who-feel-overwhelmed",
+      "angle": "the emotional toll and exhaustion of medicine; drowning in responsibility"
+    },
+    {
+      "keyword": "therapy for doctors who feel alone",
+      "slug": "therapy-for-doctors-who-feel-alone",
+      "angle": "the emotional toll and exhaustion of medicine; isolation specific to this group"
+    },
+    {
+      "keyword": "therapy for doctors with stress",
+      "slug": "therapy-for-doctors-with-stress",
+      "angle": "the emotional toll and exhaustion of medicine; chronic stress wearing this group down"
+    },
+    {
+      "keyword": "therapy for small business owners with anxiety",
+      "slug": "therapy-for-small-business-owners-with-anxiety",
+      "angle": "carrying the weight of a business alone; carrying anxiety while holding everything together"
+    },
+    {
+      "keyword": "therapy for small business owners with depression",
+      "slug": "therapy-for-small-business-owners-with-depression",
+      "angle": "carrying the weight of a business alone; depression beneath a functioning surface"
+    },
+    {
+      "keyword": "therapy for small business owners with burnout",
+      "slug": "therapy-for-small-business-owners-with-burnout",
+      "angle": "carrying the weight of a business alone; depleted past exhaustion"
+    },
+    {
+      "keyword": "therapy for small business owners who feel overwhelmed",
+      "slug": "therapy-for-small-business-owners-who-feel-overwhelmed",
+      "angle": "carrying the weight of a business alone; drowning in responsibility"
+    },
+    {
+      "keyword": "therapy for small business owners who feel alone",
+      "slug": "therapy-for-small-business-owners-who-feel-alone",
+      "angle": "carrying the weight of a business alone; isolation specific to this group"
+    },
+    {
+      "keyword": "therapy for small business owners with stress",
+      "slug": "therapy-for-small-business-owners-with-stress",
+      "angle": "carrying the weight of a business alone; chronic stress wearing this group down"
+    },
+    {
+      "keyword": "therapy for retirees with anxiety",
+      "slug": "therapy-for-retirees-with-anxiety",
+      "angle": "loss of purpose and structure after work ends; carrying anxiety while holding everything together"
+    },
+    {
+      "keyword": "therapy for retirees with depression",
+      "slug": "therapy-for-retirees-with-depression",
+      "angle": "loss of purpose and structure after work ends; depression beneath a functioning surface"
+    },
+    {
+      "keyword": "therapy for retirees with burnout",
+      "slug": "therapy-for-retirees-with-burnout",
+      "angle": "loss of purpose and structure after work ends; depleted past exhaustion"
+    },
+    {
+      "keyword": "therapy for retirees who feel overwhelmed",
+      "slug": "therapy-for-retirees-who-feel-overwhelmed",
+      "angle": "loss of purpose and structure after work ends; drowning in responsibility"
+    },
+    {
+      "keyword": "therapy for retirees who feel alone",
+      "slug": "therapy-for-retirees-who-feel-alone",
+      "angle": "loss of purpose and structure after work ends; isolation specific to this group"
+    },
+    {
+      "keyword": "therapy for retirees with stress",
+      "slug": "therapy-for-retirees-with-stress",
+      "angle": "loss of purpose and structure after work ends; chronic stress wearing this group down"
+    },
+    {
+      "keyword": "therapy for divorced dads with anxiety",
+      "slug": "therapy-for-divorced-dads-with-anxiety",
+      "angle": "fathers grieving reduced access to their kids; carrying anxiety while holding everything together"
+    },
+    {
+      "keyword": "therapy for divorced dads with depression",
+      "slug": "therapy-for-divorced-dads-with-depression",
+      "angle": "fathers grieving reduced access to their kids; depression beneath a functioning surface"
+    },
+    {
+      "keyword": "therapy for divorced dads with burnout",
+      "slug": "therapy-for-divorced-dads-with-burnout",
+      "angle": "fathers grieving reduced access to their kids; depleted past exhaustion"
+    },
+    {
+      "keyword": "therapy for divorced dads who feel overwhelmed",
+      "slug": "therapy-for-divorced-dads-who-feel-overwhelmed",
+      "angle": "fathers grieving reduced access to their kids; drowning in responsibility"
+    },
+    {
+      "keyword": "therapy for divorced dads who feel alone",
+      "slug": "therapy-for-divorced-dads-who-feel-alone",
+      "angle": "fathers grieving reduced access to their kids; isolation specific to this group"
+    },
+    {
+      "keyword": "therapy for divorced dads with stress",
+      "slug": "therapy-for-divorced-dads-with-stress",
+      "angle": "fathers grieving reduced access to their kids; chronic stress wearing this group down"
+    },
+    {
+      "keyword": "therapy for widows with anxiety",
+      "slug": "therapy-for-widows-with-anxiety",
+      "angle": "rebuilding after losing a spouse; carrying anxiety while holding everything together"
+    },
+    {
+      "keyword": "therapy for widows with depression",
+      "slug": "therapy-for-widows-with-depression",
+      "angle": "rebuilding after losing a spouse; depression beneath a functioning surface"
+    },
+    {
+      "keyword": "therapy for widows with burnout",
+      "slug": "therapy-for-widows-with-burnout",
+      "angle": "rebuilding after losing a spouse; depleted past exhaustion"
+    },
+    {
+      "keyword": "therapy for widows who feel overwhelmed",
+      "slug": "therapy-for-widows-who-feel-overwhelmed",
+      "angle": "rebuilding after losing a spouse; drowning in responsibility"
+    },
+    {
+      "keyword": "therapy for widows who feel alone",
+      "slug": "therapy-for-widows-who-feel-alone",
+      "angle": "rebuilding after losing a spouse; isolation specific to this group"
+    },
+    {
+      "keyword": "therapy for widows with stress",
+      "slug": "therapy-for-widows-with-stress",
+      "angle": "rebuilding after losing a spouse; chronic stress wearing this group down"
+    },
+    {
+      "keyword": "therapy for empty nesters with anxiety",
+      "slug": "therapy-for-empty-nesters-with-anxiety",
+      "angle": "the quiet house and lost identity; carrying anxiety while holding everything together"
+    },
+    {
+      "keyword": "therapy for empty nesters with depression",
+      "slug": "therapy-for-empty-nesters-with-depression",
+      "angle": "the quiet house and lost identity; depression beneath a functioning surface"
+    },
+    {
+      "keyword": "therapy for empty nesters with burnout",
+      "slug": "therapy-for-empty-nesters-with-burnout",
+      "angle": "the quiet house and lost identity; depleted past exhaustion"
+    },
+    {
+      "keyword": "therapy for empty nesters who feel overwhelmed",
+      "slug": "therapy-for-empty-nesters-who-feel-overwhelmed",
+      "angle": "the quiet house and lost identity; drowning in responsibility"
+    },
+    {
+      "keyword": "therapy for empty nesters who feel alone",
+      "slug": "therapy-for-empty-nesters-who-feel-alone",
+      "angle": "the quiet house and lost identity; isolation specific to this group"
+    },
+    {
+      "keyword": "therapy for empty nesters with stress",
+      "slug": "therapy-for-empty-nesters-with-stress",
+      "angle": "the quiet house and lost identity; chronic stress wearing this group down"
+    },
+    {
+      "keyword": "therapy for grad students with anxiety",
+      "slug": "therapy-for-grad-students-with-anxiety",
+      "angle": "academic pressure and uncertain futures; carrying anxiety while holding everything together"
+    },
+    {
+      "keyword": "therapy for grad students with depression",
+      "slug": "therapy-for-grad-students-with-depression",
+      "angle": "academic pressure and uncertain futures; depression beneath a functioning surface"
+    },
+    {
+      "keyword": "therapy for grad students with burnout",
+      "slug": "therapy-for-grad-students-with-burnout",
+      "angle": "academic pressure and uncertain futures; depleted past exhaustion"
+    },
+    {
+      "keyword": "therapy for grad students who feel overwhelmed",
+      "slug": "therapy-for-grad-students-who-feel-overwhelmed",
+      "angle": "academic pressure and uncertain futures; drowning in responsibility"
+    },
+    {
+      "keyword": "therapy for grad students who feel alone",
+      "slug": "therapy-for-grad-students-who-feel-alone",
+      "angle": "academic pressure and uncertain futures; isolation specific to this group"
+    },
+    {
+      "keyword": "therapy for grad students with stress",
+      "slug": "therapy-for-grad-students-with-stress",
+      "angle": "academic pressure and uncertain futures; chronic stress wearing this group down"
+    },
+    {
+      "keyword": "therapy for athletes with anxiety",
+      "slug": "therapy-for-athletes-with-anxiety",
+      "angle": "performance pressure and identity tied to results; carrying anxiety while holding everything together"
+    },
+    {
+      "keyword": "therapy for athletes with depression",
+      "slug": "therapy-for-athletes-with-depression",
+      "angle": "performance pressure and identity tied to results; depression beneath a functioning surface"
+    },
+    {
+      "keyword": "therapy for athletes with burnout",
+      "slug": "therapy-for-athletes-with-burnout",
+      "angle": "performance pressure and identity tied to results; depleted past exhaustion"
+    },
+    {
+      "keyword": "therapy for athletes who feel overwhelmed",
+      "slug": "therapy-for-athletes-who-feel-overwhelmed",
+      "angle": "performance pressure and identity tied to results; drowning in responsibility"
+    },
+    {
+      "keyword": "therapy for athletes who feel alone",
+      "slug": "therapy-for-athletes-who-feel-alone",
+      "angle": "performance pressure and identity tied to results; isolation specific to this group"
+    },
+    {
+      "keyword": "therapy for athletes with stress",
+      "slug": "therapy-for-athletes-with-stress",
+      "angle": "performance pressure and identity tied to results; chronic stress wearing this group down"
+    }
+  ]
+}
