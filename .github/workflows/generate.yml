@@ -55,6 +55,7 @@ jobs:
           else
             python generate.py "data/${{ github.event.inputs.cluster }}.json"
           fi
+          python build_hubs.py
           python build_sitemap.py
 
       - name: Commit and push generated pages

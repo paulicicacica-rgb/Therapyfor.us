@@ -1,0 +1,49 @@
+name: Generate Immigrant Pages
+
+# Generates the immigrant-focused clusters (English content).
+# Run from Actions tab, pick a tier, click Run.
+
+on:
+  workflow_dispatch:
+    inputs:
+      cluster:
+        description: "Which immigrant cluster to generate"
+        required: true
+        type: choice
+        default: "imm_p1"
+        options:
+          - imm_p1
+          - imm_p2
+          - imm_p3
+          - all_immigrant
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Generate
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          if [ "${{ github.event.inputs.cluster }}" = "all_immigrant" ]; then
+            for f in data/imm_*.json; do
+              echo "=== $f ==="
+              python generate.py "$f"
+            done
+          else
+            python generate.py "data/${{ github.event.inputs.cluster }}.json"
+          fi
+          python build_hubs.py
+          python build_sitemap.py
+      - name: Commit
+        run: |
+          git config user.name "page-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add output/
+          git commit -m "Generate immigrant pages: ${{ github.event.inputs.cluster }}" || echo "No changes"
+          git push
