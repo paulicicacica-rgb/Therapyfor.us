@@ -187,6 +187,13 @@ def generate_one(template, page_def):
     keyword = page_def["keyword"]
     slug = page_def["slug"]
     angle = page_def.get("angle", "")
+    out_path = os.path.join(OUTPUT_DIR, f"{slug}.html")
+
+    # Resume support: if this page already exists, skip it.
+    # Lets a timed-out run be re-run to finish the rest.
+    if os.path.exists(out_path):
+        return ("skip", slug)
+
     try:
         # two calls in parallel
         with ThreadPoolExecutor(max_workers=2) as ex:
@@ -196,7 +203,6 @@ def generate_one(template, page_def):
             seo = f_seo.result()
 
         html = render_page(template, content, seo, slug)
-        out_path = os.path.join(OUTPUT_DIR, f"{slug}.html")
         with open(out_path, "w", encoding="utf-8") as fh:
             fh.write(html)
         return ("ok", slug)
@@ -220,7 +226,7 @@ def main():
     pages = data["pages"]
     print(f"Generating {len(pages)} pages for cluster: {data['cluster_title']}\n")
 
-    ok, err = 0, 0
+    ok, err, skip = 0, 0, 0
     futures = []
     with ThreadPoolExecutor(max_workers=MAX_WORKERS) as pool:
         for p in pages:
@@ -230,12 +236,15 @@ def main():
             status, info = fut.result()
             if status == "ok":
                 ok += 1
-                print(f"  [OK]  {info}")
+                print(f"  [OK]   {info}")
+            elif status == "skip":
+                skip += 1
+                print(f"  [SKIP] {info} (already exists)")
             else:
                 err += 1
-                print(f"  [ERR] {info}")
+                print(f"  [ERR]  {info}")
 
-    print(f"\nDone. {ok} pages generated, {err} errors.")
+    print(f"\nDone. {ok} generated, {skip} skipped, {err} errors.")
     print(f"Output: {os.path.abspath(OUTPUT_DIR)}/")
 
 
