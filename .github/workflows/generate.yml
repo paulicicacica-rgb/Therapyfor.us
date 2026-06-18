@@ -17,9 +17,15 @@ on:
         type: choice
         default: "workflow1_divorce"
         options:
+          - auto_p1
+          - auto_p2
+          - auto_p3
           - workflow1_divorce
           - workflow2_grief
           - workflow3_anxiety
+          - workflow4_lifestage
+          - workflow5_affordability
+          - workflow6_stories
           - all
 
 jobs:
