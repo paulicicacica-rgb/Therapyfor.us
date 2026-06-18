@@ -19,10 +19,7 @@ import glob
 import collections
 from taxonomy import hub_for, HUBS, DEFAULT_HUB
 import sitestructure
-
-OUTPUT_DIR = "output"
-SITE_URL = "https://therapyfor.us"
-AFFILIATE_LINK = "https://betterhelp.com/YOUR_AFFILIATE_LINK"  # swap
+from config import AFFILIATE_LINK, SITE_URL
 
 # ── shared head/style (mirrors the page template, lighter) ──
 HEAD = """<!DOCTYPE html>

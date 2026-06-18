@@ -18,11 +18,12 @@ import time
 import re
 from concurrent.futures import ThreadPoolExecutor
 from anthropic import Anthropic
+import taxonomy
+import sitestructure
+from config import AFFILIATE_LINK, SITE_URL
 
 # ─── CONFIG ──────────────────────────────────────────────
 MODEL = "claude-haiku-4-5-20251001"
-SITE_URL = "https://therapyfor.us"
-AFFILIATE_LINK = "https://betterhelp.com/YOUR_AFFILIATE_LINK"  # <-- swap this
 TEMPLATE_PATH = "templates/page_template.html"
 OUTPUT_DIR = "output"
 MAX_WORKERS = 4          # concurrent pages; keep low to respect rate limits
@@ -150,10 +151,14 @@ def build_faq_html(faqs):
     return "\n".join(out)
 
 
-def render_page(template, content, seo, slug):
-    canonical = f"{SITE_URL}/{slug}"
+def render_page(template, content, seo, slug, hub, sub):
+    url_path = sitestructure.page_url(slug, hub, sub)
+    canonical = f"{SITE_URL}{url_path}"
     schema = build_schema(seo["meta_title"], seo["meta_description"], canonical, content["faqs"])
     faq_html = build_faq_html(content["faqs"])
+    breadcrumb = sitestructure.breadcrumb_html(hub, sub, content["h1"].replace("<em>", "").replace("</em>", ""))
+    related = sitestructure.related_links_html(slug, hub["slug"])
+    hub_link = sitestructure.hub_link_html(hub)
 
     replacements = {
         "{{META_TITLE}}": seo["meta_title"],
@@ -162,6 +167,7 @@ def render_page(template, content, seo, slug):
         "{{SCHEMA_JSON}}": schema,
         "{{AFFILIATE_LINK}}": AFFILIATE_LINK,
         "{{EYEBROW}}": seo["eyebrow"],
+        "{{BREADCRUMB}}": breadcrumb,
         "{{H1}}": content["h1"],
         "{{HERO_SUB}}": content["hero_sub"],
         "{{STAT1_NUM}}": content["stat1_num"],
@@ -179,6 +185,8 @@ def render_page(template, content, seo, slug):
         "{{STORY_NAME}}": content["story_name"],
         "{{STORY_META}}": content["story_meta"],
         "{{FAQ_ITEMS}}": faq_html,
+        "{{RELATED_LINKS}}": related,
+        "{{HUB_LINK}}": hub_link,
     }
     page = template
     for k, v in replacements.items():
@@ -190,22 +198,21 @@ def generate_one(template, page_def):
     keyword = page_def["keyword"]
     slug = page_def["slug"]
     angle = page_def.get("angle", "")
-    out_path = os.path.join(OUTPUT_DIR, f"{slug}.html")
+    hub, sub = taxonomy.hub_for(page_def)
+    out_path = sitestructure.output_path(OUTPUT_DIR, slug, hub, sub)
 
     # Resume support: if this page already exists, skip it.
-    # Lets a timed-out run be re-run to finish the rest.
     if os.path.exists(out_path):
         return ("skip", slug)
 
     try:
-        # two calls in parallel
         with ThreadPoolExecutor(max_workers=2) as ex:
             f_content = ex.submit(call_content, keyword, angle)
             f_seo = ex.submit(call_seo, keyword)
             content = f_content.result()
             seo = f_seo.result()
 
-        html = render_page(template, content, seo, slug)
+        html = render_page(template, content, seo, slug, hub, sub)
         with open(out_path, "w", encoding="utf-8") as fh:
             fh.write(html)
         return ("ok", slug)

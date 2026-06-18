@@ -16,8 +16,7 @@ import json
 import glob
 import random
 from taxonomy import hub_for, HUBS, DEFAULT_HUB
-
-SITE_URL = "https://therapyfor.us"
+from config import SITE_URL
 
 # Build a global index of every page -> its url + hub, once, lazily.
 _INDEX = None

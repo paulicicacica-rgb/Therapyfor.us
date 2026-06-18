@@ -18,10 +18,11 @@ import time
 import re
 from concurrent.futures import ThreadPoolExecutor
 from anthropic import Anthropic
+import taxonomy
+import sitestructure
+from config import AFFILIATE_LINK, SITE_URL
 
 MODEL = "claude-haiku-4-5-20251001"
-SITE_URL = "https://therapyfor.us"
-AFFILIATE_LINK = "https://betterhelp.com/YOUR_AFFILIATE_LINK"  # <-- swap this
 TEMPLATE_PATH = "templates/page_template.html"
 OUTPUT_DIR = "output"
 MAX_WORKERS = 4
@@ -126,15 +127,20 @@ def build_faq_html(faqs):
     return "\n".join(f'<div class="faq-item"><div class="faq-q">{f["q"]}</div><div class="faq-a">{f["a"]}</div></div>' for f in faqs)
 
 
-def render_page(template, content, seo, slug, lang_code, rtl):
-    canonical = f"{SITE_URL}/{slug}"
+def render_page(template, content, seo, slug, lang_code, rtl, hub, sub):
+    url_path = sitestructure.page_url(slug, hub, sub)
+    canonical = f"{SITE_URL}{url_path}"
     schema = build_schema(seo["meta_title"], seo["meta_description"], canonical, content["faqs"])
     faq_html = build_faq_html(content["faqs"])
+    breadcrumb = sitestructure.breadcrumb_html(hub, sub, content["h1"].replace("<em>", "").replace("</em>", ""))
+    related = sitestructure.related_links_html(slug, hub["slug"])
+    hub_link = sitestructure.hub_link_html(hub)
 
     repl = {
         "{{META_TITLE}}": seo["meta_title"], "{{META_DESCRIPTION}}": seo["meta_description"],
         "{{CANONICAL_URL}}": canonical, "{{SCHEMA_JSON}}": schema, "{{AFFILIATE_LINK}}": AFFILIATE_LINK,
-        "{{EYEBROW}}": seo["eyebrow"], "{{H1}}": content["h1"], "{{HERO_SUB}}": content["hero_sub"],
+        "{{EYEBROW}}": seo["eyebrow"], "{{BREADCRUMB}}": breadcrumb,
+        "{{H1}}": content["h1"], "{{HERO_SUB}}": content["hero_sub"],
         "{{STAT1_NUM}}": content["stat1_num"], "{{STAT1_LABEL}}": content["stat1_label"],
         "{{STAT2_NUM}}": content["stat2_num"], "{{STAT2_LABEL}}": content["stat2_label"],
         "{{SECTION1_H2}}": content["section1_h2"], "{{SECTION1_BODY}}": content["section1_body"],
@@ -142,18 +148,17 @@ def render_page(template, content, seo, slug, lang_code, rtl):
         "{{SECTION2_H2}}": content["section2_h2"], "{{SECTION2_BODY}}": content["section2_body"],
         "{{INFO_BOX}}": content["info_box"], "{{STORY_TEXT}}": content["story_text"],
         "{{STORY_NAME}}": content["story_name"], "{{STORY_META}}": content["story_meta"],
-        "{{FAQ_ITEMS}}": faq_html,
+        "{{FAQ_ITEMS}}": faq_html, "{{RELATED_LINKS}}": related, "{{HUB_LINK}}": hub_link,
     }
     page = template
     for k, v in repl.items():
         page = page.replace(k, str(v))
 
     # set lang + dir on <html>
-    lang_attr = lang_code
     if rtl:
-        page = page.replace('<html lang="en">', f'<html lang="{lang_attr}" dir="rtl">')
+        page = page.replace('<html lang="en">', f'<html lang="{lang_code}" dir="rtl">')
     else:
-        page = page.replace('<html lang="en">', f'<html lang="{lang_attr}">')
+        page = page.replace('<html lang="en">', f'<html lang="{lang_code}">')
     return page
 
 
@@ -164,7 +169,8 @@ def generate_one(template, page_def):
     lang_code = page_def.get("lang", "en")
     lang_name = page_def.get("lang_name", "English")
     rtl = page_def.get("rtl", False) or lang_code in RTL_LANGS
-    out_path = os.path.join(OUTPUT_DIR, f"{slug}.html")
+    hub, sub = taxonomy.hub_for(page_def)
+    out_path = sitestructure.output_path(OUTPUT_DIR, slug, hub, sub)
 
     if os.path.exists(out_path):
         return ("skip", slug)
@@ -175,7 +181,7 @@ def generate_one(template, page_def):
             f_s = ex.submit(call_seo, keyword, lang_name)
             content = f_c.result()
             seo = f_s.result()
-        html = render_page(template, content, seo, slug, lang_code, rtl)
+        html = render_page(template, content, seo, slug, lang_code, rtl, hub, sub)
         with open(out_path, "w", encoding="utf-8") as fh:
             fh.write(html)
         return ("ok", slug)
