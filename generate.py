@@ -28,7 +28,10 @@ OUTPUT_DIR = "output"
 MAX_WORKERS = 4          # concurrent pages; keep low to respect rate limits
 PScript_DELAY = 0.4      # seconds between page submissions
 
-client = Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
+_api_key = os.environ.get("ANTHROPIC_API_KEY")
+if not _api_key:
+    raise SystemExit("ERROR: ANTHROPIC_API_KEY is not set. Add it as a GitHub secret / env var.")
+client = Anthropic(api_key=_api_key)
 
 # ─── CALL 1: PAGE CONTENT ────────────────────────────────
 CONTENT_SYSTEM = """You are an expert mental health content writer for TherapyFor.us, a site that helps people find online therapy through BetterHelp. You write with deep empathy and emotional intelligence — never clinical, never salesy, never preachy.
