@@ -29,8 +29,15 @@
  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:12px;margin-bottom:40px;}
  .grid a{display:block;padding:16px 18px;background:var(--navy2);border:1px solid var(--rule);border-radius:8px;color:var(--text);text-decoration:none;font-size:14px;transition:all .2s;}
  .grid a:hover{border-color:var(--green);color:var(--white);}
- .subhubs{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:36px;}
+ .subhubs{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:32px;}
  .subhubs a{padding:8px 16px;background:var(--navy3);border:1px solid var(--rule);border-radius:20px;color:var(--green-bright);text-decoration:none;font-size:13px;font-weight:500;}
+ .filter-box{width:100%;padding:14px 18px;background:var(--navy2);border:1px solid var(--rule);border-radius:10px;color:var(--white);font-size:15px;font-family:'Inter',sans-serif;margin-bottom:28px;outline:none;}
+ .filter-box:focus{border-color:var(--green);}
+ .filter-box::placeholder{color:var(--text-muted);}
+ .section-title{font-family:'Inter',sans-serif;font-size:15px;font-weight:700;color:var(--green-bright);text-transform:uppercase;letter-spacing:0.06em;margin:36px 0 16px;display:flex;align-items:center;gap:10px;}
+ .section-title:first-of-type{margin-top:8px;}
+ .count-pill{background:var(--navy3);color:var(--text-muted);font-size:11px;font-weight:600;padding:2px 9px;border-radius:10px;letter-spacing:0;text-transform:none;}
+ .no-results{color:var(--text-muted);font-size:14px;padding:24px 0;}
  footer{background:var(--navy2);border-top:1px solid var(--rule);padding:36px 48px;font-size:13px;color:var(--text-muted);line-height:1.8;margin-top:40px;}
  footer a{color:var(--text-muted);text-decoration:underline;}
  @media(max-width:640px){nav,.hero,.wrap,.breadcrumb,footer{padding-left:20px;padding-right:20px;}}
@@ -47,8 +54,9 @@
   <a href="https://betterhelp.com/YOUR_AFFILIATE_LINK" class="btn-main">Talk to Someone Today</a>
 </div>
 <div class="wrap">
+  <input type="text" id="filterBox" class="filter-box" placeholder="Search 12 resources by keyword..." onkeyup="filterCards()">
   
-  <h2>All guides to online therapy resources</h2>
+  <div id="resultsWrap">
   <div class="grid">
     <a href="/guides/benefits-of-talking-to-a-therapist">Benefits of talking to a therapist</a>
     <a href="/guides/how-online-therapy-works">How online therapy works</a>
@@ -63,7 +71,29 @@
     <a href="/guides/what-to-expect-from-your-first-therapy-session">What to expect from your first therapy session</a>
     <a href="/guides/what-to-expect-first-therapy-session">What to expect from your first therapy session</a>
   </div>
+  </div>
+  <p id="noResults" class="no-results" style="display:none;">No resources match your search. Try a different word.</p>
 </div>
+<script>
+function filterCards() {
+  const q = document.getElementById('filterBox').value.toLowerCase();
+  const cards = document.querySelectorAll('#resultsWrap .grid a');
+  const sections = document.querySelectorAll('#resultsWrap h3');
+  let anyVisible = false;
+  cards.forEach(c => {
+    const match = c.textContent.toLowerCase().includes(q);
+    c.style.display = match ? 'block' : 'none';
+    if (match) anyVisible = true;
+  });
+  sections.forEach(h => {
+    const grid = h.nextElementSibling;
+    const visibleInGrid = grid ? Array.from(grid.querySelectorAll('a')).some(a => a.style.display !== 'none') : false;
+    h.style.display = visibleInGrid ? 'block' : 'none';
+    if (grid) grid.style.display = visibleInGrid ? 'grid' : 'none';
+  });
+  document.getElementById('noResults').style.display = anyVisible ? 'none' : 'block';
+}
+</script>
 <footer>
 TherapyFor.us &nbsp;·&nbsp; Helping people access mental health support<br>
 We may earn a commission if you sign up through our links, at no extra cost to you.<br>

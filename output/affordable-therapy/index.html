@@ -29,8 +29,15 @@
  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:12px;margin-bottom:40px;}
  .grid a{display:block;padding:16px 18px;background:var(--navy2);border:1px solid var(--rule);border-radius:8px;color:var(--text);text-decoration:none;font-size:14px;transition:all .2s;}
  .grid a:hover{border-color:var(--green);color:var(--white);}
- .subhubs{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:36px;}
+ .subhubs{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:32px;}
  .subhubs a{padding:8px 16px;background:var(--navy3);border:1px solid var(--rule);border-radius:20px;color:var(--green-bright);text-decoration:none;font-size:13px;font-weight:500;}
+ .filter-box{width:100%;padding:14px 18px;background:var(--navy2);border:1px solid var(--rule);border-radius:10px;color:var(--white);font-size:15px;font-family:'Inter',sans-serif;margin-bottom:28px;outline:none;}
+ .filter-box:focus{border-color:var(--green);}
+ .filter-box::placeholder{color:var(--text-muted);}
+ .section-title{font-family:'Inter',sans-serif;font-size:15px;font-weight:700;color:var(--green-bright);text-transform:uppercase;letter-spacing:0.06em;margin:36px 0 16px;display:flex;align-items:center;gap:10px;}
+ .section-title:first-of-type{margin-top:8px;}
+ .count-pill{background:var(--navy3);color:var(--text-muted);font-size:11px;font-weight:600;padding:2px 9px;border-radius:10px;letter-spacing:0;text-transform:none;}
+ .no-results{color:var(--text-muted);font-size:14px;padding:24px 0;}
  footer{background:var(--navy2);border-top:1px solid var(--rule);padding:36px 48px;font-size:13px;color:var(--text-muted);line-height:1.8;margin-top:40px;}
  footer a{color:var(--text-muted);text-decoration:underline;}
  @media(max-width:640px){nav,.hero,.wrap,.breadcrumb,footer{padding-left:20px;padding-right:20px;}}
@@ -47,109 +54,145 @@
   <a href="https://betterhelp.com/YOUR_AFFILIATE_LINK" class="btn-main">Talk to Someone Today</a>
 </div>
 <div class="wrap">
+  <input type="text" id="filterBox" class="filter-box" placeholder="Search 98 resources by keyword..." onkeyup="filterCards()">
+  <div class="subhubs"><a href="#sec-by-state">By State (73)</a><a href="#sec-cost-questions">Cost Questions (9)</a><a href="#sec-general">General (16)</a></div>
+  <div id="resultsWrap">
   
-  <h2>All affordable therapy & access resources</h2>
+  <h3 id="sec-by-state" class="section-title">By State <span class="count-pill">73</span></h3>
   <div class="grid">
-    <a href="/affordable-therapy/betterhelp-review-honest">BetterHelp review honest</a>
-    <a href="/affordable-therapy/betterhelp-review">BetterHelp review honest</a>
-    <a href="/affordable-therapy/affordable-therapy-options-us">Affordable therapy options in the US</a>
-    <a href="/affordable-therapy/affordable-therapy-without-insurance">Affordable therapy without insurance</a>
-    <a href="/affordable-therapy/affordable-therapy-without-insurance">Affordable therapy without insurance</a>
-    <a href="/affordable-therapy/affordable-therapy-without-insurance-in-alabama">Affordable therapy without insurance in Alabama</a>
-    <a href="/affordable-therapy/affordable-therapy-without-insurance-in-arizona">Affordable therapy without insurance in Arizona</a>
-    <a href="/affordable-therapy/affordable-therapy-without-insurance-arizona">Affordable therapy without insurance in Arizona</a>
-    <a href="/affordable-therapy/affordable-therapy-without-insurance-in-california">Affordable therapy without insurance in California</a>
-    <a href="/affordable-therapy/affordable-therapy-without-insurance-california">Affordable therapy without insurance in California</a>
-    <a href="/affordable-therapy/affordable-therapy-without-insurance-in-colorado">Affordable therapy without insurance in Colorado</a>
-    <a href="/affordable-therapy/affordable-therapy-without-insurance-colorado">Affordable therapy without insurance in Colorado</a>
-    <a href="/affordable-therapy/affordable-therapy-without-insurance-in-connecticut">Affordable therapy without insurance in Connecticut</a>
-    <a href="/affordable-therapy/affordable-therapy-without-insurance-in-florida">Affordable therapy without insurance in Florida</a>
-    <a href="/affordable-therapy/affordable-therapy-without-insurance-florida">Affordable therapy without insurance in Florida</a>
-    <a href="/affordable-therapy/affordable-therapy-without-insurance-in-georgia">Affordable therapy without insurance in Georgia</a>
-    <a href="/affordable-therapy/affordable-therapy-without-insurance-georgia">Affordable therapy without insurance in Georgia</a>
-    <a href="/affordable-therapy/affordable-therapy-without-insurance-in-illinois">Affordable therapy without insurance in Illinois</a>
-    <a href="/affordable-therapy/affordable-therapy-without-insurance-illinois">Affordable therapy without insurance in Illinois</a>
-    <a href="/affordable-therapy/affordable-therapy-without-insurance-in-indiana">Affordable therapy without insurance in Indiana</a>
-    <a href="/affordable-therapy/affordable-therapy-without-insurance-in-kentucky">Affordable therapy without insurance in Kentucky</a>
-    <a href="/affordable-therapy/affordable-therapy-without-insurance-in-louisiana">Affordable therapy without insurance in Louisiana</a>
-    <a href="/affordable-therapy/affordable-therapy-without-insurance-in-maryland">Affordable therapy without insurance in Maryland</a>
-    <a href="/affordable-therapy/affordable-therapy-without-insurance-in-massachusetts">Affordable therapy without insurance in Massachusetts</a>
-    <a href="/affordable-therapy/affordable-therapy-without-insurance-in-michigan">Affordable therapy without insurance in Michigan</a>
-    <a href="/affordable-therapy/affordable-therapy-without-insurance-in-minnesota">Affordable therapy without insurance in Minnesota</a>
-    <a href="/affordable-therapy/affordable-therapy-without-insurance-in-missouri">Affordable therapy without insurance in Missouri</a>
-    <a href="/affordable-therapy/affordable-therapy-without-insurance-in-nevada">Affordable therapy without insurance in Nevada</a>
-    <a href="/affordable-therapy/affordable-therapy-without-insurance-in-new-jersey">Affordable therapy without insurance in New Jersey</a>
-    <a href="/affordable-therapy/affordable-therapy-without-insurance-in-new-york">Affordable therapy without insurance in New York</a>
-    <a href="/affordable-therapy/affordable-therapy-without-insurance-new-york">Affordable therapy without insurance in New York</a>
-    <a href="/affordable-therapy/affordable-therapy-without-insurance-in-north-carolina">Affordable therapy without insurance in North Carolina</a>
-    <a href="/affordable-therapy/affordable-therapy-without-insurance-north-carolina">Affordable therapy without insurance in North Carolina</a>
-    <a href="/affordable-therapy/affordable-therapy-without-insurance-in-ohio">Affordable therapy without insurance in Ohio</a>
-    <a href="/affordable-therapy/affordable-therapy-without-insurance-ohio">Affordable therapy without insurance in Ohio</a>
-    <a href="/affordable-therapy/affordable-therapy-without-insurance-in-oklahoma">Affordable therapy without insurance in Oklahoma</a>
-    <a href="/affordable-therapy/affordable-therapy-without-insurance-in-oregon">Affordable therapy without insurance in Oregon</a>
-    <a href="/affordable-therapy/affordable-therapy-without-insurance-in-pennsylvania">Affordable therapy without insurance in Pennsylvania</a>
-    <a href="/affordable-therapy/affordable-therapy-without-insurance-pennsylvania">Affordable therapy without insurance in Pennsylvania</a>
-    <a href="/affordable-therapy/affordable-therapy-without-insurance-in-south-carolina">Affordable therapy without insurance in South Carolina</a>
-    <a href="/affordable-therapy/affordable-therapy-without-insurance-in-tennessee">Affordable therapy without insurance in Tennessee</a>
-    <a href="/affordable-therapy/affordable-therapy-without-insurance-in-texas">Affordable therapy without insurance in Texas</a>
-    <a href="/affordable-therapy/affordable-therapy-without-insurance-texas">Affordable therapy without insurance in Texas</a>
-    <a href="/affordable-therapy/affordable-therapy-without-insurance-in-virginia">Affordable therapy without insurance in Virginia</a>
-    <a href="/affordable-therapy/affordable-therapy-without-insurance-virginia">Affordable therapy without insurance in Virginia</a>
-    <a href="/affordable-therapy/affordable-therapy-without-insurance-in-washington">Affordable therapy without insurance in Washington</a>
-    <a href="/affordable-therapy/affordable-therapy-without-insurance-washington">Affordable therapy without insurance in Washington</a>
-    <a href="/affordable-therapy/affordable-therapy-without-insurance-in-wisconsin">Affordable therapy without insurance in Wisconsin</a>
-    <a href="/affordable-therapy/cheap-online-therapy-that-actually-works">Cheap online therapy that actually works</a>
-    <a href="/affordable-therapy/cheap-online-therapy-that-works">Cheap online therapy that actually works</a>
-    <a href="/affordable-therapy/how-much-does-online-therapy-cost">How much does online therapy cost</a>
-    <a href="/affordable-therapy/how-much-does-online-therapy-cost">How much does online therapy cost</a>
-    <a href="/affordable-therapy/is-online-therapy-worth-it">Is online therapy worth it</a>
-    <a href="/affordable-therapy/is-online-therapy-worth-it">Is online therapy worth it</a>
-    <a href="/affordable-therapy/online-therapy-in-alabama-without-insurance">Online therapy in Alabama without insurance</a>
-    <a href="/affordable-therapy/online-therapy-in-arizona-without-insurance">Online therapy in Arizona without insurance</a>
-    <a href="/affordable-therapy/online-therapy-in-california-without-insurance">Online therapy in California without insurance</a>
-    <a href="/affordable-therapy/online-therapy-in-colorado-without-insurance">Online therapy in Colorado without insurance</a>
-    <a href="/affordable-therapy/online-therapy-in-connecticut-without-insurance">Online therapy in Connecticut without insurance</a>
-    <a href="/affordable-therapy/online-therapy-in-florida-without-insurance">Online therapy in Florida without insurance</a>
-    <a href="/affordable-therapy/online-therapy-in-georgia-without-insurance">Online therapy in Georgia without insurance</a>
-    <a href="/affordable-therapy/online-therapy-in-illinois-without-insurance">Online therapy in Illinois without insurance</a>
-    <a href="/affordable-therapy/online-therapy-in-indiana-without-insurance">Online therapy in Indiana without insurance</a>
-    <a href="/affordable-therapy/online-therapy-in-kentucky-without-insurance">Online therapy in Kentucky without insurance</a>
-    <a href="/affordable-therapy/online-therapy-in-louisiana-without-insurance">Online therapy in Louisiana without insurance</a>
-    <a href="/affordable-therapy/online-therapy-in-maryland-without-insurance">Online therapy in Maryland without insurance</a>
-    <a href="/affordable-therapy/online-therapy-in-massachusetts-without-insurance">Online therapy in Massachusetts without insurance</a>
-    <a href="/affordable-therapy/online-therapy-in-michigan-without-insurance">Online therapy in Michigan without insurance</a>
-    <a href="/affordable-therapy/online-therapy-in-minnesota-without-insurance">Online therapy in Minnesota without insurance</a>
-    <a href="/affordable-therapy/online-therapy-in-missouri-without-insurance">Online therapy in Missouri without insurance</a>
-    <a href="/affordable-therapy/online-therapy-in-nevada-without-insurance">Online therapy in Nevada without insurance</a>
-    <a href="/affordable-therapy/online-therapy-in-new-jersey-without-insurance">Online therapy in New Jersey without insurance</a>
-    <a href="/affordable-therapy/online-therapy-in-new-york-without-insurance">Online therapy in New York without insurance</a>
-    <a href="/affordable-therapy/online-therapy-in-north-carolina-without-insurance">Online therapy in North Carolina without insurance</a>
-    <a href="/affordable-therapy/online-therapy-in-ohio-without-insurance">Online therapy in Ohio without insurance</a>
-    <a href="/affordable-therapy/online-therapy-in-oklahoma-without-insurance">Online therapy in Oklahoma without insurance</a>
-    <a href="/affordable-therapy/online-therapy-in-oregon-without-insurance">Online therapy in Oregon without insurance</a>
-    <a href="/affordable-therapy/online-therapy-in-pennsylvania-without-insurance">Online therapy in Pennsylvania without insurance</a>
-    <a href="/affordable-therapy/online-therapy-in-south-carolina-without-insurance">Online therapy in South Carolina without insurance</a>
-    <a href="/affordable-therapy/online-therapy-in-tennessee-without-insurance">Online therapy in Tennessee without insurance</a>
-    <a href="/affordable-therapy/online-therapy-in-texas-without-insurance">Online therapy in Texas without insurance</a>
-    <a href="/affordable-therapy/online-therapy-in-virginia-without-insurance">Online therapy in Virginia without insurance</a>
-    <a href="/affordable-therapy/online-therapy-in-washington-without-insurance">Online therapy in Washington without insurance</a>
-    <a href="/affordable-therapy/online-therapy-in-wisconsin-without-insurance">Online therapy in Wisconsin without insurance</a>
-    <a href="/affordable-therapy/online-therapy-vs-in-person">Online therapy vs in person</a>
-    <a href="/affordable-therapy/online-therapy-vs-in-person">Online therapy vs in person therapy</a>
-    <a href="/affordable-therapy/online-therapy-without-insurance">Online therapy without insurance</a>
-    <a href="/affordable-therapy/online-therapy-without-insurance">Online therapy without insurance</a>
-    <a href="/affordable-therapy/therapy-financial-aid-options">Therapy financial aid options</a>
-    <a href="/affordable-therapy/therapy-for-busy-people-with-no-time">Therapy for busy people with no time</a>
-    <a href="/affordable-therapy/therapy-for-busy-people-no-time">Therapy for busy people with no time</a>
-    <a href="/affordable-therapy/therapy-from-home">Therapy from home</a>
-    <a href="/affordable-therapy/therapy-from-home">Therapy from home</a>
-    <a href="/affordable-therapy/therapy-options-for-low-income">Therapy options for low income</a>
-    <a href="/affordable-therapy/therapy-when-you-cant-afford-it">Therapy when you can't afford it</a>
-    <a href="/affordable-therapy/therapy-when-you-cant-afford-it">Therapy when you can't afford it</a>
-    <a href="/affordable-therapy/weekly-pay-therapy-no-monthly-commitment">Weekly pay therapy no monthly commitment</a>
-    <a href="/affordable-therapy/weekly-pay-therapy-no-commitment">Weekly pay therapy no monthly commitment</a>
+    <a href="/affordable-therapy/by-state/affordable-therapy-without-insurance-in-alabama">Affordable therapy without insurance in Alabama</a>
+    <a href="/affordable-therapy/by-state/affordable-therapy-without-insurance-in-arizona">Affordable therapy without insurance in Arizona</a>
+    <a href="/affordable-therapy/by-state/affordable-therapy-without-insurance-arizona">Affordable therapy without insurance in Arizona</a>
+    <a href="/affordable-therapy/by-state/affordable-therapy-without-insurance-in-california">Affordable therapy without insurance in California</a>
+    <a href="/affordable-therapy/by-state/affordable-therapy-without-insurance-california">Affordable therapy without insurance in California</a>
+    <a href="/affordable-therapy/by-state/affordable-therapy-without-insurance-in-colorado">Affordable therapy without insurance in Colorado</a>
+    <a href="/affordable-therapy/by-state/affordable-therapy-without-insurance-colorado">Affordable therapy without insurance in Colorado</a>
+    <a href="/affordable-therapy/by-state/affordable-therapy-without-insurance-in-connecticut">Affordable therapy without insurance in Connecticut</a>
+    <a href="/affordable-therapy/by-state/affordable-therapy-without-insurance-in-florida">Affordable therapy without insurance in Florida</a>
+    <a href="/affordable-therapy/by-state/affordable-therapy-without-insurance-florida">Affordable therapy without insurance in Florida</a>
+    <a href="/affordable-therapy/by-state/affordable-therapy-without-insurance-in-georgia">Affordable therapy without insurance in Georgia</a>
+    <a href="/affordable-therapy/by-state/affordable-therapy-without-insurance-georgia">Affordable therapy without insurance in Georgia</a>
+    <a href="/affordable-therapy/by-state/affordable-therapy-without-insurance-in-illinois">Affordable therapy without insurance in Illinois</a>
+    <a href="/affordable-therapy/by-state/affordable-therapy-without-insurance-illinois">Affordable therapy without insurance in Illinois</a>
+    <a href="/affordable-therapy/by-state/affordable-therapy-without-insurance-in-indiana">Affordable therapy without insurance in Indiana</a>
+    <a href="/affordable-therapy/by-state/affordable-therapy-without-insurance-in-kentucky">Affordable therapy without insurance in Kentucky</a>
+    <a href="/affordable-therapy/by-state/affordable-therapy-without-insurance-in-louisiana">Affordable therapy without insurance in Louisiana</a>
+    <a href="/affordable-therapy/by-state/affordable-therapy-without-insurance-in-maryland">Affordable therapy without insurance in Maryland</a>
+    <a href="/affordable-therapy/by-state/affordable-therapy-without-insurance-in-massachusetts">Affordable therapy without insurance in Massachusetts</a>
+    <a href="/affordable-therapy/by-state/affordable-therapy-without-insurance-in-michigan">Affordable therapy without insurance in Michigan</a>
+    <a href="/affordable-therapy/by-state/affordable-therapy-without-insurance-in-minnesota">Affordable therapy without insurance in Minnesota</a>
+    <a href="/affordable-therapy/by-state/affordable-therapy-without-insurance-in-missouri">Affordable therapy without insurance in Missouri</a>
+    <a href="/affordable-therapy/by-state/affordable-therapy-without-insurance-in-nevada">Affordable therapy without insurance in Nevada</a>
+    <a href="/affordable-therapy/by-state/affordable-therapy-without-insurance-in-new-jersey">Affordable therapy without insurance in New Jersey</a>
+    <a href="/affordable-therapy/by-state/affordable-therapy-without-insurance-in-new-york">Affordable therapy without insurance in New York</a>
+    <a href="/affordable-therapy/by-state/affordable-therapy-without-insurance-new-york">Affordable therapy without insurance in New York</a>
+    <a href="/affordable-therapy/by-state/affordable-therapy-without-insurance-in-north-carolina">Affordable therapy without insurance in North Carolina</a>
+    <a href="/affordable-therapy/by-state/affordable-therapy-without-insurance-north-carolina">Affordable therapy without insurance in North Carolina</a>
+    <a href="/affordable-therapy/by-state/affordable-therapy-without-insurance-in-ohio">Affordable therapy without insurance in Ohio</a>
+    <a href="/affordable-therapy/by-state/affordable-therapy-without-insurance-ohio">Affordable therapy without insurance in Ohio</a>
+    <a href="/affordable-therapy/by-state/affordable-therapy-without-insurance-in-oklahoma">Affordable therapy without insurance in Oklahoma</a>
+    <a href="/affordable-therapy/by-state/affordable-therapy-without-insurance-in-oregon">Affordable therapy without insurance in Oregon</a>
+    <a href="/affordable-therapy/by-state/affordable-therapy-without-insurance-in-pennsylvania">Affordable therapy without insurance in Pennsylvania</a>
+    <a href="/affordable-therapy/by-state/affordable-therapy-without-insurance-pennsylvania">Affordable therapy without insurance in Pennsylvania</a>
+    <a href="/affordable-therapy/by-state/affordable-therapy-without-insurance-in-south-carolina">Affordable therapy without insurance in South Carolina</a>
+    <a href="/affordable-therapy/by-state/affordable-therapy-without-insurance-in-tennessee">Affordable therapy without insurance in Tennessee</a>
+    <a href="/affordable-therapy/by-state/affordable-therapy-without-insurance-in-texas">Affordable therapy without insurance in Texas</a>
+    <a href="/affordable-therapy/by-state/affordable-therapy-without-insurance-texas">Affordable therapy without insurance in Texas</a>
+    <a href="/affordable-therapy/by-state/affordable-therapy-without-insurance-in-virginia">Affordable therapy without insurance in Virginia</a>
+    <a href="/affordable-therapy/by-state/affordable-therapy-without-insurance-virginia">Affordable therapy without insurance in Virginia</a>
+    <a href="/affordable-therapy/by-state/affordable-therapy-without-insurance-in-washington">Affordable therapy without insurance in Washington</a>
+    <a href="/affordable-therapy/by-state/affordable-therapy-without-insurance-washington">Affordable therapy without insurance in Washington</a>
+    <a href="/affordable-therapy/by-state/affordable-therapy-without-insurance-in-wisconsin">Affordable therapy without insurance in Wisconsin</a>
+    <a href="/affordable-therapy/by-state/online-therapy-in-alabama-without-insurance">Online therapy in Alabama without insurance</a>
+    <a href="/affordable-therapy/by-state/online-therapy-in-arizona-without-insurance">Online therapy in Arizona without insurance</a>
+    <a href="/affordable-therapy/by-state/online-therapy-in-california-without-insurance">Online therapy in California without insurance</a>
+    <a href="/affordable-therapy/by-state/online-therapy-in-colorado-without-insurance">Online therapy in Colorado without insurance</a>
+    <a href="/affordable-therapy/by-state/online-therapy-in-connecticut-without-insurance">Online therapy in Connecticut without insurance</a>
+    <a href="/affordable-therapy/by-state/online-therapy-in-florida-without-insurance">Online therapy in Florida without insurance</a>
+    <a href="/affordable-therapy/by-state/online-therapy-in-georgia-without-insurance">Online therapy in Georgia without insurance</a>
+    <a href="/affordable-therapy/by-state/online-therapy-in-illinois-without-insurance">Online therapy in Illinois without insurance</a>
+    <a href="/affordable-therapy/by-state/online-therapy-in-indiana-without-insurance">Online therapy in Indiana without insurance</a>
+    <a href="/affordable-therapy/by-state/online-therapy-in-kentucky-without-insurance">Online therapy in Kentucky without insurance</a>
+    <a href="/affordable-therapy/by-state/online-therapy-in-louisiana-without-insurance">Online therapy in Louisiana without insurance</a>
+    <a href="/affordable-therapy/by-state/online-therapy-in-maryland-without-insurance">Online therapy in Maryland without insurance</a>
+    <a href="/affordable-therapy/by-state/online-therapy-in-massachusetts-without-insurance">Online therapy in Massachusetts without insurance</a>
+    <a href="/affordable-therapy/by-state/online-therapy-in-michigan-without-insurance">Online therapy in Michigan without insurance</a>
+    <a href="/affordable-therapy/by-state/online-therapy-in-minnesota-without-insurance">Online therapy in Minnesota without insurance</a>
+    <a href="/affordable-therapy/by-state/online-therapy-in-missouri-without-insurance">Online therapy in Missouri without insurance</a>
+    <a href="/affordable-therapy/by-state/online-therapy-in-nevada-without-insurance">Online therapy in Nevada without insurance</a>
+    <a href="/affordable-therapy/by-state/online-therapy-in-new-jersey-without-insurance">Online therapy in New Jersey without insurance</a>
+    <a href="/affordable-therapy/by-state/online-therapy-in-new-york-without-insurance">Online therapy in New York without insurance</a>
+    <a href="/affordable-therapy/by-state/online-therapy-in-north-carolina-without-insurance">Online therapy in North Carolina without insurance</a>
+    <a href="/affordable-therapy/by-state/online-therapy-in-ohio-without-insurance">Online therapy in Ohio without insurance</a>
+    <a href="/affordable-therapy/by-state/online-therapy-in-oklahoma-without-insurance">Online therapy in Oklahoma without insurance</a>
+    <a href="/affordable-therapy/by-state/online-therapy-in-oregon-without-insurance">Online therapy in Oregon without insurance</a>
+    <a href="/affordable-therapy/by-state/online-therapy-in-pennsylvania-without-insurance">Online therapy in Pennsylvania without insurance</a>
+    <a href="/affordable-therapy/by-state/online-therapy-in-south-carolina-without-insurance">Online therapy in South Carolina without insurance</a>
+    <a href="/affordable-therapy/by-state/online-therapy-in-tennessee-without-insurance">Online therapy in Tennessee without insurance</a>
+    <a href="/affordable-therapy/by-state/online-therapy-in-texas-without-insurance">Online therapy in Texas without insurance</a>
+    <a href="/affordable-therapy/by-state/online-therapy-in-virginia-without-insurance">Online therapy in Virginia without insurance</a>
+    <a href="/affordable-therapy/by-state/online-therapy-in-washington-without-insurance">Online therapy in Washington without insurance</a>
+    <a href="/affordable-therapy/by-state/online-therapy-in-wisconsin-without-insurance">Online therapy in Wisconsin without insurance</a>
   </div>
+
+
+  <h3 id="sec-cost-questions" class="section-title">Cost Questions <span class="count-pill">9</span></h3>
+  <div class="grid">
+    <a href="/affordable-therapy/cost-questions/betterhelp-review-honest">BetterHelp review honest</a>
+    <a href="/affordable-therapy/cost-questions/betterhelp-review">BetterHelp review honest</a>
+    <a href="/affordable-therapy/cost-questions/affordable-therapy-without-insurance">Affordable therapy without insurance</a>
+    <a href="/affordable-therapy/cost-questions/how-much-does-online-therapy-cost">How much does online therapy cost</a>
+    <a href="/affordable-therapy/cost-questions/how-much-does-online-therapy-cost">How much does online therapy cost</a>
+    <a href="/affordable-therapy/cost-questions/is-online-therapy-worth-it">Is online therapy worth it</a>
+    <a href="/affordable-therapy/cost-questions/is-online-therapy-worth-it">Is online therapy worth it</a>
+    <a href="/affordable-therapy/cost-questions/online-therapy-vs-in-person">Online therapy vs in person</a>
+    <a href="/affordable-therapy/cost-questions/online-therapy-vs-in-person">Online therapy vs in person therapy</a>
+  </div>
+
+
+  <h3 id="sec-general" class="section-title">General <span class="count-pill">16</span></h3>
+  <div class="grid">
+    <a href="/affordable-therapy/general/affordable-therapy-options-us">Affordable therapy options in the US</a>
+    <a href="/affordable-therapy/general/affordable-therapy-without-insurance">Affordable therapy without insurance</a>
+    <a href="/affordable-therapy/general/cheap-online-therapy-that-actually-works">Cheap online therapy that actually works</a>
+    <a href="/affordable-therapy/general/cheap-online-therapy-that-works">Cheap online therapy that actually works</a>
+    <a href="/affordable-therapy/general/online-therapy-without-insurance">Online therapy without insurance</a>
+    <a href="/affordable-therapy/general/online-therapy-without-insurance">Online therapy without insurance</a>
+    <a href="/affordable-therapy/general/therapy-financial-aid-options">Therapy financial aid options</a>
+    <a href="/affordable-therapy/general/therapy-for-busy-people-with-no-time">Therapy for busy people with no time</a>
+    <a href="/affordable-therapy/general/therapy-for-busy-people-no-time">Therapy for busy people with no time</a>
+    <a href="/affordable-therapy/general/therapy-from-home">Therapy from home</a>
+    <a href="/affordable-therapy/general/therapy-from-home">Therapy from home</a>
+    <a href="/affordable-therapy/general/therapy-options-for-low-income">Therapy options for low income</a>
+    <a href="/affordable-therapy/general/therapy-when-you-cant-afford-it">Therapy when you can't afford it</a>
+    <a href="/affordable-therapy/general/therapy-when-you-cant-afford-it">Therapy when you can't afford it</a>
+    <a href="/affordable-therapy/general/weekly-pay-therapy-no-monthly-commitment">Weekly pay therapy no monthly commitment</a>
+    <a href="/affordable-therapy/general/weekly-pay-therapy-no-commitment">Weekly pay therapy no monthly commitment</a>
+  </div>
+
+  </div>
+  <p id="noResults" class="no-results" style="display:none;">No resources match your search. Try a different word.</p>
 </div>
+<script>
+function filterCards() {
+  const q = document.getElementById('filterBox').value.toLowerCase();
+  const cards = document.querySelectorAll('#resultsWrap .grid a');
+  const sections = document.querySelectorAll('#resultsWrap h3');
+  let anyVisible = false;
+  cards.forEach(c => {
+    const match = c.textContent.toLowerCase().includes(q);
+    c.style.display = match ? 'block' : 'none';
+    if (match) anyVisible = true;
+  });
+  sections.forEach(h => {
+    const grid = h.nextElementSibling;
+    const visibleInGrid = grid ? Array.from(grid.querySelectorAll('a')).some(a => a.style.display !== 'none') : false;
+    h.style.display = visibleInGrid ? 'block' : 'none';
+    if (grid) grid.style.display = visibleInGrid ? 'grid' : 'none';
+  });
+  document.getElementById('noResults').style.display = anyVisible ? 'none' : 'block';
+}
+</script>
 <footer>
 TherapyFor.us &nbsp;·&nbsp; Helping people access mental health support<br>
 We may earn a commission if you sign up through our links, at no extra cost to you.<br>

@@ -29,8 +29,15 @@
  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:12px;margin-bottom:40px;}
  .grid a{display:block;padding:16px 18px;background:var(--navy2);border:1px solid var(--rule);border-radius:8px;color:var(--text);text-decoration:none;font-size:14px;transition:all .2s;}
  .grid a:hover{border-color:var(--green);color:var(--white);}
- .subhubs{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:36px;}
+ .subhubs{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:32px;}
  .subhubs a{padding:8px 16px;background:var(--navy3);border:1px solid var(--rule);border-radius:20px;color:var(--green-bright);text-decoration:none;font-size:13px;font-weight:500;}
+ .filter-box{width:100%;padding:14px 18px;background:var(--navy2);border:1px solid var(--rule);border-radius:10px;color:var(--white);font-size:15px;font-family:'Inter',sans-serif;margin-bottom:28px;outline:none;}
+ .filter-box:focus{border-color:var(--green);}
+ .filter-box::placeholder{color:var(--text-muted);}
+ .section-title{font-family:'Inter',sans-serif;font-size:15px;font-weight:700;color:var(--green-bright);text-transform:uppercase;letter-spacing:0.06em;margin:36px 0 16px;display:flex;align-items:center;gap:10px;}
+ .section-title:first-of-type{margin-top:8px;}
+ .count-pill{background:var(--navy3);color:var(--text-muted);font-size:11px;font-weight:600;padding:2px 9px;border-radius:10px;letter-spacing:0;text-transform:none;}
+ .no-results{color:var(--text-muted);font-size:14px;padding:24px 0;}
  footer{background:var(--navy2);border-top:1px solid var(--rule);padding:36px 48px;font-size:13px;color:var(--text-muted);line-height:1.8;margin-top:40px;}
  footer a{color:var(--text-muted);text-decoration:underline;}
  @media(max-width:640px){nav,.hero,.wrap,.breadcrumb,footer{padding-left:20px;padding-right:20px;}}
@@ -47,108 +54,159 @@
   <a href="https://betterhelp.com/YOUR_AFFILIATE_LINK" class="btn-main">Talk to Someone Today</a>
 </div>
 <div class="wrap">
-  <div class="subhubs"><a href="/zhongwen/general/">General</a><a href="/zhongwen/ansiedad/">Ansiedad</a><a href="/zhongwen/depresion/">Depresion</a><a href="/zhongwen/inmigrantes/">Inmigrantes</a><a href="/zhongwen/relaciones/">Relaciones</a><a href="/zhongwen/duelo/">Duelo</a></div>
-  <h2>All 中文心理咨询 resources</h2>
+  <input type="text" id="filterBox" class="filter-box" placeholder="Search 97 resources by keyword..." onkeyup="filterCards()">
+  <div class="subhubs"><a href="#sec-general">General (64)</a><a href="#sec-ansiedad">Ansiedad (13)</a><a href="#sec-depresion">Depresion (7)</a><a href="#sec-inmigrantes">Inmigrantes (5)</a><a href="#sec-relaciones">Relaciones (4)</a><a href="#sec-duelo">Duelo (4)</a></div>
+  <div id="resultsWrap">
+  
+  <h3 id="sec-ansiedad" class="section-title">Ansiedad <span class="count-pill">13</span></h3>
+  <div class="grid">
+    <a href="/zhongwen/ansiedad/chinese-chinese-speaking-therapist-for-anxiety">Chinese speaking therapist for anxiety</a>
+    <a href="/zhongwen/ansiedad/chinese-chinese-speaking-therapist-for-insomnia">Chinese speaking therapist for insomnia</a>
+    <a href="/zhongwen/ansiedad/chinese-chinese-speaking-therapist-for-panic-attacks">Chinese speaking therapist for panic attacks</a>
+    <a href="/zhongwen/ansiedad/chinese-chinese-speaking-therapist-for-social-anxiety">Chinese speaking therapist for social anxiety</a>
+    <a href="/zhongwen/ansiedad/chinese-chinese-therapy-for-anxiety">Chinese therapy for anxiety</a>
+    <a href="/zhongwen/ansiedad/chinese-chinese-therapy-for-insomnia">Chinese therapy for insomnia</a>
+    <a href="/zhongwen/ansiedad/chinese-chinese-therapy-for-panic-attacks">Chinese therapy for panic attacks</a>
+    <a href="/zhongwen/ansiedad/chinese-chinese-therapy-for-social-anxiety">Chinese therapy for social anxiety</a>
+    <a href="/zhongwen/ansiedad/chinese-online-chinese-therapy-for-anxiety">Online Chinese therapy for anxiety</a>
+    <a href="/zhongwen/ansiedad/chinese-online-chinese-therapy-for-insomnia">Online Chinese therapy for insomnia</a>
+    <a href="/zhongwen/ansiedad/chinese-online-chinese-therapy-for-panic-attacks">Online Chinese therapy for panic attacks</a>
+    <a href="/zhongwen/ansiedad/chinese-online-chinese-therapy-for-social-anxiety">Online Chinese therapy for social anxiety</a>
+    <a href="/zhongwen/ansiedad/chinese-anxiety-therapy-in-chinese">中文焦虑症治疗</a>
+  </div>
+
+
+  <h3 id="sec-depresion" class="section-title">Depresion <span class="count-pill">7</span></h3>
+  <div class="grid">
+    <a href="/zhongwen/depresion/chinese-chinese-speaking-therapist-for-depression">Chinese speaking therapist for depression</a>
+    <a href="/zhongwen/depresion/chinese-chinese-speaking-therapist-for-postpartum-depression">Chinese speaking therapist for postpartum depression</a>
+    <a href="/zhongwen/depresion/chinese-chinese-therapy-for-depression">Chinese therapy for depression</a>
+    <a href="/zhongwen/depresion/chinese-chinese-therapy-for-postpartum-depression">Chinese therapy for postpartum depression</a>
+    <a href="/zhongwen/depresion/chinese-online-chinese-therapy-for-depression">Online Chinese therapy for depression</a>
+    <a href="/zhongwen/depresion/chinese-online-chinese-therapy-for-postpartum-depression">Online Chinese therapy for postpartum depression</a>
+    <a href="/zhongwen/depresion/chinese-depression-therapy-in-chinese">中文抑郁症治疗</a>
+  </div>
+
+
+  <h3 id="sec-duelo" class="section-title">Duelo <span class="count-pill">4</span></h3>
+  <div class="grid">
+    <a href="/zhongwen/duelo/chinese-chinese-speaking-therapist-for-grief">Chinese speaking therapist for grief</a>
+    <a href="/zhongwen/duelo/chinese-chinese-therapy-for-grief">Chinese therapy for grief</a>
+    <a href="/zhongwen/duelo/chinese-online-chinese-therapy-for-grief">Online Chinese therapy for grief</a>
+    <a href="/zhongwen/duelo/chinese-grief-therapy-in-chinese">中文哀伤辅导</a>
+  </div>
+
+
+  <h3 id="sec-inmigrantes" class="section-title">Inmigrantes <span class="count-pill">5</span></h3>
+  <div class="grid">
+    <a href="/zhongwen/inmigrantes/chinese-chinese-speaking-therapist-for-immigrant-guilt">Chinese speaking therapist for immigrant guilt</a>
+    <a href="/zhongwen/inmigrantes/chinese-chinese-therapy-for-immigrant-guilt">Chinese therapy for immigrant guilt</a>
+    <a href="/zhongwen/inmigrantes/chinese-online-chinese-therapy-for-immigrant-guilt">Online Chinese therapy for immigrant guilt</a>
+    <a href="/zhongwen/inmigrantes/chinese-therapy-for-chinese-immigrants">华人移民心理咨询</a>
+    <a href="/zhongwen/inmigrantes/chinese-immigrant-loneliness">移民孤独感心理咨询</a>
+  </div>
+
+
+  <h3 id="sec-relaciones" class="section-title">Relaciones <span class="count-pill">4</span></h3>
+  <div class="grid">
+    <a href="/zhongwen/relaciones/chinese-chinese-speaking-therapist-for-divorce">Chinese speaking therapist for divorce</a>
+    <a href="/zhongwen/relaciones/chinese-chinese-therapy-for-divorce">Chinese therapy for divorce</a>
+    <a href="/zhongwen/relaciones/chinese-online-chinese-therapy-for-divorce">Online Chinese therapy for divorce</a>
+    <a href="/zhongwen/relaciones/chinese-therapy-after-divorce">离婚后的心理咨询</a>
+  </div>
+
+
+  <h3 id="sec-general" class="section-title">General <span class="count-pill">64</span></h3>
   <div class="grid">
     <a href="/zhongwen/general/chinese-chinese-speaking-therapist-for-acculturative-stress">Chinese speaking therapist for acculturative stress</a>
     <a href="/zhongwen/general/chinese-chinese-speaking-therapist-for-anger">Chinese speaking therapist for anger</a>
-    <a href="/zhongwen/ansiedad/chinese-chinese-speaking-therapist-for-anxiety">Chinese speaking therapist for anxiety</a>
     <a href="/zhongwen/general/chinese-chinese-speaking-therapist-for-breakup">Chinese speaking therapist for breakup</a>
     <a href="/zhongwen/general/chinese-chinese-speaking-therapist-for-burnout">Chinese speaking therapist for burnout</a>
-    <a href="/zhongwen/depresion/chinese-chinese-speaking-therapist-for-depression">Chinese speaking therapist for depression</a>
-    <a href="/zhongwen/relaciones/chinese-chinese-speaking-therapist-for-divorce">Chinese speaking therapist for divorce</a>
     <a href="/zhongwen/general/chinese-chinese-speaking-therapist-for-emotional-numbness">Chinese speaking therapist for emotional numbness</a>
     <a href="/zhongwen/general/chinese-chinese-speaking-therapist-for-family-pressure">Chinese speaking therapist for family pressure</a>
     <a href="/zhongwen/general/chinese-chinese-speaking-therapist-for-financial-stress">Chinese speaking therapist for financial stress</a>
-    <a href="/zhongwen/duelo/chinese-chinese-speaking-therapist-for-grief">Chinese speaking therapist for grief</a>
     <a href="/zhongwen/general/chinese-chinese-speaking-therapist-for-homesickness">Chinese speaking therapist for homesickness</a>
     <a href="/zhongwen/general/chinese-chinese-speaking-therapist-for-identity">Chinese speaking therapist for identity</a>
-    <a href="/zhongwen/inmigrantes/chinese-chinese-speaking-therapist-for-immigrant-guilt">Chinese speaking therapist for immigrant guilt</a>
-    <a href="/zhongwen/ansiedad/chinese-chinese-speaking-therapist-for-insomnia">Chinese speaking therapist for insomnia</a>
     <a href="/zhongwen/general/chinese-chinese-speaking-therapist-for-isolation">Chinese speaking therapist for isolation</a>
     <a href="/zhongwen/general/chinese-chinese-speaking-therapist-for-loneliness">Chinese speaking therapist for loneliness</a>
     <a href="/zhongwen/general/chinese-chinese-speaking-therapist-for-low-self-esteem">Chinese speaking therapist for low self esteem</a>
     <a href="/zhongwen/general/chinese-chinese-speaking-therapist-for-overthinking">Chinese speaking therapist for overthinking</a>
-    <a href="/zhongwen/ansiedad/chinese-chinese-speaking-therapist-for-panic-attacks">Chinese speaking therapist for panic attacks</a>
     <a href="/zhongwen/general/chinese-chinese-speaking-therapist-for-parenting-stress">Chinese speaking therapist for parenting stress</a>
     <a href="/zhongwen/general/chinese-chinese-speaking-therapist-for-perfectionism">Chinese speaking therapist for perfectionism</a>
-    <a href="/zhongwen/depresion/chinese-chinese-speaking-therapist-for-postpartum-depression">Chinese speaking therapist for postpartum depression</a>
     <a href="/zhongwen/general/chinese-chinese-speaking-therapist-for-relationship-problems">Chinese speaking therapist for relationship problems</a>
-    <a href="/zhongwen/ansiedad/chinese-chinese-speaking-therapist-for-social-anxiety">Chinese speaking therapist for social anxiety</a>
     <a href="/zhongwen/general/chinese-chinese-speaking-therapist-for-stress">Chinese speaking therapist for stress</a>
     <a href="/zhongwen/general/chinese-chinese-speaking-therapist-for-trauma">Chinese speaking therapist for trauma</a>
     <a href="/zhongwen/general/chinese-chinese-speaking-therapist-for-work-stress">Chinese speaking therapist for work stress</a>
     <a href="/zhongwen/general/chinese-chinese-therapy-for-acculturative-stress">Chinese therapy for acculturative stress</a>
     <a href="/zhongwen/general/chinese-chinese-therapy-for-anger">Chinese therapy for anger</a>
-    <a href="/zhongwen/ansiedad/chinese-chinese-therapy-for-anxiety">Chinese therapy for anxiety</a>
     <a href="/zhongwen/general/chinese-chinese-therapy-for-breakup">Chinese therapy for breakup</a>
     <a href="/zhongwen/general/chinese-chinese-therapy-for-burnout">Chinese therapy for burnout</a>
-    <a href="/zhongwen/depresion/chinese-chinese-therapy-for-depression">Chinese therapy for depression</a>
-    <a href="/zhongwen/relaciones/chinese-chinese-therapy-for-divorce">Chinese therapy for divorce</a>
     <a href="/zhongwen/general/chinese-chinese-therapy-for-emotional-numbness">Chinese therapy for emotional numbness</a>
     <a href="/zhongwen/general/chinese-chinese-therapy-for-family-pressure">Chinese therapy for family pressure</a>
     <a href="/zhongwen/general/chinese-chinese-therapy-for-financial-stress">Chinese therapy for financial stress</a>
-    <a href="/zhongwen/duelo/chinese-chinese-therapy-for-grief">Chinese therapy for grief</a>
     <a href="/zhongwen/general/chinese-chinese-therapy-for-homesickness">Chinese therapy for homesickness</a>
     <a href="/zhongwen/general/chinese-chinese-therapy-for-identity">Chinese therapy for identity</a>
-    <a href="/zhongwen/inmigrantes/chinese-chinese-therapy-for-immigrant-guilt">Chinese therapy for immigrant guilt</a>
-    <a href="/zhongwen/ansiedad/chinese-chinese-therapy-for-insomnia">Chinese therapy for insomnia</a>
     <a href="/zhongwen/general/chinese-chinese-therapy-for-isolation">Chinese therapy for isolation</a>
     <a href="/zhongwen/general/chinese-chinese-therapy-for-loneliness">Chinese therapy for loneliness</a>
     <a href="/zhongwen/general/chinese-chinese-therapy-for-low-self-esteem">Chinese therapy for low self esteem</a>
     <a href="/zhongwen/general/chinese-chinese-therapy-for-overthinking">Chinese therapy for overthinking</a>
-    <a href="/zhongwen/ansiedad/chinese-chinese-therapy-for-panic-attacks">Chinese therapy for panic attacks</a>
     <a href="/zhongwen/general/chinese-chinese-therapy-for-parenting-stress">Chinese therapy for parenting stress</a>
     <a href="/zhongwen/general/chinese-chinese-therapy-for-perfectionism">Chinese therapy for perfectionism</a>
-    <a href="/zhongwen/depresion/chinese-chinese-therapy-for-postpartum-depression">Chinese therapy for postpartum depression</a>
     <a href="/zhongwen/general/chinese-chinese-therapy-for-relationship-problems">Chinese therapy for relationship problems</a>
-    <a href="/zhongwen/ansiedad/chinese-chinese-therapy-for-social-anxiety">Chinese therapy for social anxiety</a>
     <a href="/zhongwen/general/chinese-chinese-therapy-for-stress">Chinese therapy for stress</a>
     <a href="/zhongwen/general/chinese-chinese-therapy-for-trauma">Chinese therapy for trauma</a>
     <a href="/zhongwen/general/chinese-chinese-therapy-for-work-stress">Chinese therapy for work stress</a>
     <a href="/zhongwen/general/chinese-online-chinese-therapy-for-acculturative-stress">Online Chinese therapy for acculturative stress</a>
     <a href="/zhongwen/general/chinese-online-chinese-therapy-for-anger">Online Chinese therapy for anger</a>
-    <a href="/zhongwen/ansiedad/chinese-online-chinese-therapy-for-anxiety">Online Chinese therapy for anxiety</a>
     <a href="/zhongwen/general/chinese-online-chinese-therapy-for-breakup">Online Chinese therapy for breakup</a>
     <a href="/zhongwen/general/chinese-online-chinese-therapy-for-burnout">Online Chinese therapy for burnout</a>
-    <a href="/zhongwen/depresion/chinese-online-chinese-therapy-for-depression">Online Chinese therapy for depression</a>
-    <a href="/zhongwen/relaciones/chinese-online-chinese-therapy-for-divorce">Online Chinese therapy for divorce</a>
     <a href="/zhongwen/general/chinese-online-chinese-therapy-for-emotional-numbness">Online Chinese therapy for emotional numbness</a>
     <a href="/zhongwen/general/chinese-online-chinese-therapy-for-family-pressure">Online Chinese therapy for family pressure</a>
     <a href="/zhongwen/general/chinese-online-chinese-therapy-for-financial-stress">Online Chinese therapy for financial stress</a>
-    <a href="/zhongwen/duelo/chinese-online-chinese-therapy-for-grief">Online Chinese therapy for grief</a>
     <a href="/zhongwen/general/chinese-online-chinese-therapy-for-homesickness">Online Chinese therapy for homesickness</a>
     <a href="/zhongwen/general/chinese-online-chinese-therapy-for-identity">Online Chinese therapy for identity</a>
-    <a href="/zhongwen/inmigrantes/chinese-online-chinese-therapy-for-immigrant-guilt">Online Chinese therapy for immigrant guilt</a>
-    <a href="/zhongwen/ansiedad/chinese-online-chinese-therapy-for-insomnia">Online Chinese therapy for insomnia</a>
     <a href="/zhongwen/general/chinese-online-chinese-therapy-for-isolation">Online Chinese therapy for isolation</a>
     <a href="/zhongwen/general/chinese-online-chinese-therapy-for-loneliness">Online Chinese therapy for loneliness</a>
     <a href="/zhongwen/general/chinese-online-chinese-therapy-for-low-self-esteem">Online Chinese therapy for low self esteem</a>
     <a href="/zhongwen/general/chinese-online-chinese-therapy-for-overthinking">Online Chinese therapy for overthinking</a>
-    <a href="/zhongwen/ansiedad/chinese-online-chinese-therapy-for-panic-attacks">Online Chinese therapy for panic attacks</a>
     <a href="/zhongwen/general/chinese-online-chinese-therapy-for-parenting-stress">Online Chinese therapy for parenting stress</a>
     <a href="/zhongwen/general/chinese-online-chinese-therapy-for-perfectionism">Online Chinese therapy for perfectionism</a>
-    <a href="/zhongwen/depresion/chinese-online-chinese-therapy-for-postpartum-depression">Online Chinese therapy for postpartum depression</a>
     <a href="/zhongwen/general/chinese-online-chinese-therapy-for-relationship-problems">Online Chinese therapy for relationship problems</a>
-    <a href="/zhongwen/ansiedad/chinese-online-chinese-therapy-for-social-anxiety">Online Chinese therapy for social anxiety</a>
     <a href="/zhongwen/general/chinese-online-chinese-therapy-for-stress">Online Chinese therapy for stress</a>
     <a href="/zhongwen/general/chinese-online-chinese-therapy-for-trauma">Online Chinese therapy for trauma</a>
     <a href="/zhongwen/general/chinese-online-chinese-therapy-for-work-stress">Online Chinese therapy for work stress</a>
-    <a href="/zhongwen/duelo/chinese-grief-therapy-in-chinese">中文哀伤辅导</a>
     <a href="/zhongwen/general/chinese-therapy-in-chinese-for-us-chinese-speakers">中文心理咨询</a>
-    <a href="/zhongwen/depresion/chinese-depression-therapy-in-chinese">中文抑郁症治疗</a>
-    <a href="/zhongwen/ansiedad/chinese-anxiety-therapy-in-chinese">中文焦虑症治疗</a>
     <a href="/zhongwen/general/chinese-why-do-i-feel-alone-in-america">为什么我在美国感到孤独</a>
     <a href="/zhongwen/general/chinese-finding-a-chinese-speaking-therapist">会说中文的心理医生</a>
     <a href="/zhongwen/general/chinese-therapy-for-chinese-mothers">华人母亲心理咨询</a>
-    <a href="/zhongwen/inmigrantes/chinese-therapy-for-chinese-immigrants">华人移民心理咨询</a>
     <a href="/zhongwen/general/chinese-online-chinese-therapy">在线中文心理治疗</a>
     <a href="/zhongwen/general/chinese-homesickness-therapy">思乡之情的心理治疗</a>
     <a href="/zhongwen/general/chinese-emotional-burnout">情绪倦怠心理治疗</a>
-    <a href="/zhongwen/relaciones/chinese-therapy-after-divorce">离婚后的心理咨询</a>
-    <a href="/zhongwen/inmigrantes/chinese-immigrant-loneliness">移民孤独感心理咨询</a>
   </div>
+
+  </div>
+  <p id="noResults" class="no-results" style="display:none;">No resources match your search. Try a different word.</p>
 </div>
+<script>
+function filterCards() {
+  const q = document.getElementById('filterBox').value.toLowerCase();
+  const cards = document.querySelectorAll('#resultsWrap .grid a');
+  const sections = document.querySelectorAll('#resultsWrap h3');
+  let anyVisible = false;
+  cards.forEach(c => {
+    const match = c.textContent.toLowerCase().includes(q);
+    c.style.display = match ? 'block' : 'none';
+    if (match) anyVisible = true;
+  });
+  sections.forEach(h => {
+    const grid = h.nextElementSibling;
+    const visibleInGrid = grid ? Array.from(grid.querySelectorAll('a')).some(a => a.style.display !== 'none') : false;
+    h.style.display = visibleInGrid ? 'block' : 'none';
+    if (grid) grid.style.display = visibleInGrid ? 'grid' : 'none';
+  });
+  document.getElementById('noResults').style.display = anyVisible ? 'none' : 'block';
+}
+</script>
 <footer>
 TherapyFor.us &nbsp;·&nbsp; Helping people access mental health support<br>
 We may earn a commission if you sign up through our links, at no extra cost to you.<br>

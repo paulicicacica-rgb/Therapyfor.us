@@ -29,8 +29,15 @@
  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:12px;margin-bottom:40px;}
  .grid a{display:block;padding:16px 18px;background:var(--navy2);border:1px solid var(--rule);border-radius:8px;color:var(--text);text-decoration:none;font-size:14px;transition:all .2s;}
  .grid a:hover{border-color:var(--green);color:var(--white);}
- .subhubs{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:36px;}
+ .subhubs{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:32px;}
  .subhubs a{padding:8px 16px;background:var(--navy3);border:1px solid var(--rule);border-radius:20px;color:var(--green-bright);text-decoration:none;font-size:13px;font-weight:500;}
+ .filter-box{width:100%;padding:14px 18px;background:var(--navy2);border:1px solid var(--rule);border-radius:10px;color:var(--white);font-size:15px;font-family:'Inter',sans-serif;margin-bottom:28px;outline:none;}
+ .filter-box:focus{border-color:var(--green);}
+ .filter-box::placeholder{color:var(--text-muted);}
+ .section-title{font-family:'Inter',sans-serif;font-size:15px;font-weight:700;color:var(--green-bright);text-transform:uppercase;letter-spacing:0.06em;margin:36px 0 16px;display:flex;align-items:center;gap:10px;}
+ .section-title:first-of-type{margin-top:8px;}
+ .count-pill{background:var(--navy3);color:var(--text-muted);font-size:11px;font-weight:600;padding:2px 9px;border-radius:10px;letter-spacing:0;text-transform:none;}
+ .no-results{color:var(--text-muted);font-size:14px;padding:24px 0;}
  footer{background:var(--navy2);border-top:1px solid var(--rule);padding:36px 48px;font-size:13px;color:var(--text-muted);line-height:1.8;margin-top:40px;}
  footer a{color:var(--text-muted);text-decoration:underline;}
  @media(max-width:640px){nav,.hero,.wrap,.breadcrumb,footer{padding-left:20px;padding-right:20px;}}
@@ -47,109 +54,160 @@
   <a href="https://betterhelp.com/YOUR_AFFILIATE_LINK" class="btn-main">Talk to Someone Today</a>
 </div>
 <div class="wrap">
-  <div class="subhubs"><a href="/polski/general/">General</a><a href="/polski/ansiedad/">Ansiedad</a><a href="/polski/depresion/">Depresion</a><a href="/polski/inmigrantes/">Inmigrantes</a><a href="/polski/relaciones/">Relaciones</a><a href="/polski/duelo/">Duelo</a></div>
-  <h2>All terapia po polsku resources</h2>
+  <input type="text" id="filterBox" class="filter-box" placeholder="Search 98 resources by keyword..." onkeyup="filterCards()">
+  <div class="subhubs"><a href="#sec-general">General (65)</a><a href="#sec-ansiedad">Ansiedad (13)</a><a href="#sec-depresion">Depresion (7)</a><a href="#sec-inmigrantes">Inmigrantes (5)</a><a href="#sec-relaciones">Relaciones (4)</a><a href="#sec-duelo">Duelo (4)</a></div>
+  <div id="resultsWrap">
+  
+  <h3 id="sec-ansiedad" class="section-title">Ansiedad <span class="count-pill">13</span></h3>
+  <div class="grid">
+    <a href="/polski/ansiedad/polish-polish-speaking-therapist-for-anxiety">Polish speaking therapist for anxiety</a>
+    <a href="/polski/ansiedad/polish-polish-speaking-therapist-for-insomnia">Polish speaking therapist for insomnia</a>
+    <a href="/polski/ansiedad/polish-polish-speaking-therapist-for-panic-attacks">Polish speaking therapist for panic attacks</a>
+    <a href="/polski/ansiedad/polish-polish-speaking-therapist-for-social-anxiety">Polish speaking therapist for social anxiety</a>
+    <a href="/polski/ansiedad/polish-polish-therapy-for-anxiety">Polish therapy for anxiety</a>
+    <a href="/polski/ansiedad/polish-polish-therapy-for-insomnia">Polish therapy for insomnia</a>
+    <a href="/polski/ansiedad/polish-polish-therapy-for-panic-attacks">Polish therapy for panic attacks</a>
+    <a href="/polski/ansiedad/polish-polish-therapy-for-social-anxiety">Polish therapy for social anxiety</a>
+    <a href="/polski/ansiedad/polish-online-polish-therapy-for-anxiety">Online Polish therapy for anxiety</a>
+    <a href="/polski/ansiedad/polish-online-polish-therapy-for-insomnia">Online Polish therapy for insomnia</a>
+    <a href="/polski/ansiedad/polish-online-polish-therapy-for-panic-attacks">Online Polish therapy for panic attacks</a>
+    <a href="/polski/ansiedad/polish-online-polish-therapy-for-social-anxiety">Online Polish therapy for social anxiety</a>
+    <a href="/polski/ansiedad/polish-terapia-na-lk-po-polsku">Terapia na lęk po polsku</a>
+  </div>
+
+
+  <h3 id="sec-depresion" class="section-title">Depresion <span class="count-pill">7</span></h3>
+  <div class="grid">
+    <a href="/polski/depresion/polish-polish-speaking-therapist-for-depression">Polish speaking therapist for depression</a>
+    <a href="/polski/depresion/polish-polish-speaking-therapist-for-postpartum-depression">Polish speaking therapist for postpartum depression</a>
+    <a href="/polski/depresion/polish-polish-therapy-for-depression">Polish therapy for depression</a>
+    <a href="/polski/depresion/polish-polish-therapy-for-postpartum-depression">Polish therapy for postpartum depression</a>
+    <a href="/polski/depresion/polish-online-polish-therapy-for-depression">Online Polish therapy for depression</a>
+    <a href="/polski/depresion/polish-online-polish-therapy-for-postpartum-depression">Online Polish therapy for postpartum depression</a>
+    <a href="/polski/depresion/polish-terapia-na-depresj-po-polsku">Terapia na depresję po polsku</a>
+  </div>
+
+
+  <h3 id="sec-duelo" class="section-title">Duelo <span class="count-pill">4</span></h3>
+  <div class="grid">
+    <a href="/polski/duelo/polish-polish-speaking-therapist-for-grief">Polish speaking therapist for grief</a>
+    <a href="/polski/duelo/polish-polish-therapy-for-grief">Polish therapy for grief</a>
+    <a href="/polski/duelo/polish-online-polish-therapy-for-grief">Online Polish therapy for grief</a>
+    <a href="/polski/duelo/polish-terapia-w-aobie-po-polsku">Terapia w żałobie po polsku</a>
+  </div>
+
+
+  <h3 id="sec-inmigrantes" class="section-title">Inmigrantes <span class="count-pill">5</span></h3>
+  <div class="grid">
+    <a href="/polski/inmigrantes/polish-polish-speaking-therapist-for-immigrant-guilt">Polish speaking therapist for immigrant guilt</a>
+    <a href="/polski/inmigrantes/polish-polish-therapy-for-immigrant-guilt">Polish therapy for immigrant guilt</a>
+    <a href="/polski/inmigrantes/polish-online-polish-therapy-for-immigrant-guilt">Online Polish therapy for immigrant guilt</a>
+    <a href="/polski/inmigrantes/polish-terapia-dla-polskich-imigrantw">Terapia dla polskich imigrantów</a>
+    <a href="/polski/inmigrantes/polish-terapia-na-samotno-imigranta">Terapia na samotność imigranta</a>
+  </div>
+
+
+  <h3 id="sec-relaciones" class="section-title">Relaciones <span class="count-pill">4</span></h3>
+  <div class="grid">
+    <a href="/polski/relaciones/polish-polish-speaking-therapist-for-divorce">Polish speaking therapist for divorce</a>
+    <a href="/polski/relaciones/polish-polish-therapy-for-divorce">Polish therapy for divorce</a>
+    <a href="/polski/relaciones/polish-online-polish-therapy-for-divorce">Online Polish therapy for divorce</a>
+    <a href="/polski/relaciones/polish-terapia-po-rozwodzie">Terapia po rozwodzie</a>
+  </div>
+
+
+  <h3 id="sec-general" class="section-title">General <span class="count-pill">65</span></h3>
   <div class="grid">
     <a href="/polski/general/polish-polish-speaking-therapist-for-acculturative-stress">Polish speaking therapist for acculturative stress</a>
     <a href="/polski/general/polish-polish-speaking-therapist-for-anger">Polish speaking therapist for anger</a>
-    <a href="/polski/ansiedad/polish-polish-speaking-therapist-for-anxiety">Polish speaking therapist for anxiety</a>
     <a href="/polski/general/polish-polish-speaking-therapist-for-breakup">Polish speaking therapist for breakup</a>
     <a href="/polski/general/polish-polish-speaking-therapist-for-burnout">Polish speaking therapist for burnout</a>
-    <a href="/polski/depresion/polish-polish-speaking-therapist-for-depression">Polish speaking therapist for depression</a>
-    <a href="/polski/relaciones/polish-polish-speaking-therapist-for-divorce">Polish speaking therapist for divorce</a>
     <a href="/polski/general/polish-polish-speaking-therapist-for-emotional-numbness">Polish speaking therapist for emotional numbness</a>
     <a href="/polski/general/polish-polish-speaking-therapist-for-family-pressure">Polish speaking therapist for family pressure</a>
     <a href="/polski/general/polish-polish-speaking-therapist-for-financial-stress">Polish speaking therapist for financial stress</a>
-    <a href="/polski/duelo/polish-polish-speaking-therapist-for-grief">Polish speaking therapist for grief</a>
     <a href="/polski/general/polish-polish-speaking-therapist-for-homesickness">Polish speaking therapist for homesickness</a>
     <a href="/polski/general/polish-polish-speaking-therapist-for-identity">Polish speaking therapist for identity</a>
-    <a href="/polski/inmigrantes/polish-polish-speaking-therapist-for-immigrant-guilt">Polish speaking therapist for immigrant guilt</a>
-    <a href="/polski/ansiedad/polish-polish-speaking-therapist-for-insomnia">Polish speaking therapist for insomnia</a>
     <a href="/polski/general/polish-polish-speaking-therapist-for-isolation">Polish speaking therapist for isolation</a>
     <a href="/polski/general/polish-polish-speaking-therapist-for-loneliness">Polish speaking therapist for loneliness</a>
     <a href="/polski/general/polish-polish-speaking-therapist-for-low-self-esteem">Polish speaking therapist for low self esteem</a>
     <a href="/polski/general/polish-polish-speaking-therapist-for-overthinking">Polish speaking therapist for overthinking</a>
-    <a href="/polski/ansiedad/polish-polish-speaking-therapist-for-panic-attacks">Polish speaking therapist for panic attacks</a>
     <a href="/polski/general/polish-polish-speaking-therapist-for-parenting-stress">Polish speaking therapist for parenting stress</a>
     <a href="/polski/general/polish-polish-speaking-therapist-for-perfectionism">Polish speaking therapist for perfectionism</a>
-    <a href="/polski/depresion/polish-polish-speaking-therapist-for-postpartum-depression">Polish speaking therapist for postpartum depression</a>
     <a href="/polski/general/polish-polish-speaking-therapist-for-relationship-problems">Polish speaking therapist for relationship problems</a>
-    <a href="/polski/ansiedad/polish-polish-speaking-therapist-for-social-anxiety">Polish speaking therapist for social anxiety</a>
     <a href="/polski/general/polish-polish-speaking-therapist-for-stress">Polish speaking therapist for stress</a>
     <a href="/polski/general/polish-polish-speaking-therapist-for-trauma">Polish speaking therapist for trauma</a>
     <a href="/polski/general/polish-polish-speaking-therapist-for-work-stress">Polish speaking therapist for work stress</a>
     <a href="/polski/general/polish-polish-therapy-for-acculturative-stress">Polish therapy for acculturative stress</a>
     <a href="/polski/general/polish-polish-therapy-for-anger">Polish therapy for anger</a>
-    <a href="/polski/ansiedad/polish-polish-therapy-for-anxiety">Polish therapy for anxiety</a>
     <a href="/polski/general/polish-polish-therapy-for-breakup">Polish therapy for breakup</a>
     <a href="/polski/general/polish-polish-therapy-for-burnout">Polish therapy for burnout</a>
-    <a href="/polski/depresion/polish-polish-therapy-for-depression">Polish therapy for depression</a>
-    <a href="/polski/relaciones/polish-polish-therapy-for-divorce">Polish therapy for divorce</a>
     <a href="/polski/general/polish-polish-therapy-for-emotional-numbness">Polish therapy for emotional numbness</a>
     <a href="/polski/general/polish-polish-therapy-for-family-pressure">Polish therapy for family pressure</a>
     <a href="/polski/general/polish-polish-therapy-for-financial-stress">Polish therapy for financial stress</a>
-    <a href="/polski/duelo/polish-polish-therapy-for-grief">Polish therapy for grief</a>
     <a href="/polski/general/polish-polish-therapy-for-homesickness">Polish therapy for homesickness</a>
     <a href="/polski/general/polish-polish-therapy-for-identity">Polish therapy for identity</a>
-    <a href="/polski/inmigrantes/polish-polish-therapy-for-immigrant-guilt">Polish therapy for immigrant guilt</a>
-    <a href="/polski/ansiedad/polish-polish-therapy-for-insomnia">Polish therapy for insomnia</a>
     <a href="/polski/general/polish-polish-therapy-for-isolation">Polish therapy for isolation</a>
     <a href="/polski/general/polish-polish-therapy-for-loneliness">Polish therapy for loneliness</a>
     <a href="/polski/general/polish-polish-therapy-for-low-self-esteem">Polish therapy for low self esteem</a>
     <a href="/polski/general/polish-polish-therapy-for-overthinking">Polish therapy for overthinking</a>
-    <a href="/polski/ansiedad/polish-polish-therapy-for-panic-attacks">Polish therapy for panic attacks</a>
     <a href="/polski/general/polish-polish-therapy-for-parenting-stress">Polish therapy for parenting stress</a>
     <a href="/polski/general/polish-polish-therapy-for-perfectionism">Polish therapy for perfectionism</a>
-    <a href="/polski/depresion/polish-polish-therapy-for-postpartum-depression">Polish therapy for postpartum depression</a>
     <a href="/polski/general/polish-polish-therapy-for-relationship-problems">Polish therapy for relationship problems</a>
-    <a href="/polski/ansiedad/polish-polish-therapy-for-social-anxiety">Polish therapy for social anxiety</a>
     <a href="/polski/general/polish-polish-therapy-for-stress">Polish therapy for stress</a>
     <a href="/polski/general/polish-polish-therapy-for-trauma">Polish therapy for trauma</a>
     <a href="/polski/general/polish-polish-therapy-for-work-stress">Polish therapy for work stress</a>
     <a href="/polski/general/polish-dlaczego-czuj-si-samotny-w-ameryce">Dlaczego czuję się samotny w Ameryce</a>
     <a href="/polski/general/polish-online-polish-therapy-for-acculturative-stress">Online Polish therapy for acculturative stress</a>
     <a href="/polski/general/polish-online-polish-therapy-for-anger">Online Polish therapy for anger</a>
-    <a href="/polski/ansiedad/polish-online-polish-therapy-for-anxiety">Online Polish therapy for anxiety</a>
     <a href="/polski/general/polish-online-polish-therapy-for-breakup">Online Polish therapy for breakup</a>
     <a href="/polski/general/polish-online-polish-therapy-for-burnout">Online Polish therapy for burnout</a>
-    <a href="/polski/depresion/polish-online-polish-therapy-for-depression">Online Polish therapy for depression</a>
-    <a href="/polski/relaciones/polish-online-polish-therapy-for-divorce">Online Polish therapy for divorce</a>
     <a href="/polski/general/polish-online-polish-therapy-for-emotional-numbness">Online Polish therapy for emotional numbness</a>
     <a href="/polski/general/polish-online-polish-therapy-for-family-pressure">Online Polish therapy for family pressure</a>
     <a href="/polski/general/polish-online-polish-therapy-for-financial-stress">Online Polish therapy for financial stress</a>
-    <a href="/polski/duelo/polish-online-polish-therapy-for-grief">Online Polish therapy for grief</a>
     <a href="/polski/general/polish-online-polish-therapy-for-homesickness">Online Polish therapy for homesickness</a>
     <a href="/polski/general/polish-online-polish-therapy-for-identity">Online Polish therapy for identity</a>
-    <a href="/polski/inmigrantes/polish-online-polish-therapy-for-immigrant-guilt">Online Polish therapy for immigrant guilt</a>
-    <a href="/polski/ansiedad/polish-online-polish-therapy-for-insomnia">Online Polish therapy for insomnia</a>
     <a href="/polski/general/polish-online-polish-therapy-for-isolation">Online Polish therapy for isolation</a>
     <a href="/polski/general/polish-online-polish-therapy-for-loneliness">Online Polish therapy for loneliness</a>
     <a href="/polski/general/polish-online-polish-therapy-for-low-self-esteem">Online Polish therapy for low self esteem</a>
     <a href="/polski/general/polish-online-polish-therapy-for-overthinking">Online Polish therapy for overthinking</a>
-    <a href="/polski/ansiedad/polish-online-polish-therapy-for-panic-attacks">Online Polish therapy for panic attacks</a>
     <a href="/polski/general/polish-online-polish-therapy-for-parenting-stress">Online Polish therapy for parenting stress</a>
     <a href="/polski/general/polish-online-polish-therapy-for-perfectionism">Online Polish therapy for perfectionism</a>
-    <a href="/polski/depresion/polish-online-polish-therapy-for-postpartum-depression">Online Polish therapy for postpartum depression</a>
     <a href="/polski/general/polish-online-polish-therapy-for-relationship-problems">Online Polish therapy for relationship problems</a>
-    <a href="/polski/ansiedad/polish-online-polish-therapy-for-social-anxiety">Online Polish therapy for social anxiety</a>
     <a href="/polski/general/polish-online-polish-therapy-for-stress">Online Polish therapy for stress</a>
     <a href="/polski/general/polish-online-polish-therapy-for-trauma">Online Polish therapy for trauma</a>
     <a href="/polski/general/polish-online-polish-therapy-for-work-stress">Online Polish therapy for work stress</a>
     <a href="/polski/general/polish-psycholog-mwicy-po-polsku">Psycholog mówiący po polsku</a>
-    <a href="/polski/inmigrantes/polish-terapia-dla-polskich-imigrantw">Terapia dla polskich imigrantów</a>
     <a href="/polski/general/polish-terapia-dla-polskich-matek">Terapia dla polskich matek</a>
-    <a href="/polski/depresion/polish-terapia-na-depresj-po-polsku">Terapia na depresję po polsku</a>
-    <a href="/polski/ansiedad/polish-terapia-na-lk-po-polsku">Terapia na lęk po polsku</a>
-    <a href="/polski/inmigrantes/polish-terapia-na-samotno-imigranta">Terapia na samotność imigranta</a>
     <a href="/polski/general/polish-terapia-na-stres-adaptacyjny">Terapia na stres adaptacyjny</a>
     <a href="/polski/general/polish-terapia-na-tsknot-za-domem">Terapia na tęsknotę za domem</a>
     <a href="/polski/general/polish-terapia-na-wypalenie-emocjonalne">Terapia na wypalenie emocjonalne</a>
     <a href="/polski/general/polish-terapia-online-po-polsku">Terapia online po polsku</a>
     <a href="/polski/general/polish-terapia-po-polsku">Terapia po polsku</a>
-    <a href="/polski/relaciones/polish-terapia-po-rozwodzie">Terapia po rozwodzie</a>
-    <a href="/polski/duelo/polish-terapia-w-aobie-po-polsku">Terapia w żałobie po polsku</a>
   </div>
+
+  </div>
+  <p id="noResults" class="no-results" style="display:none;">No resources match your search. Try a different word.</p>
 </div>
+<script>
+function filterCards() {
+  const q = document.getElementById('filterBox').value.toLowerCase();
+  const cards = document.querySelectorAll('#resultsWrap .grid a');
+  const sections = document.querySelectorAll('#resultsWrap h3');
+  let anyVisible = false;
+  cards.forEach(c => {
+    const match = c.textContent.toLowerCase().includes(q);
+    c.style.display = match ? 'block' : 'none';
+    if (match) anyVisible = true;
+  });
+  sections.forEach(h => {
+    const grid = h.nextElementSibling;
+    const visibleInGrid = grid ? Array.from(grid.querySelectorAll('a')).some(a => a.style.display !== 'none') : false;
+    h.style.display = visibleInGrid ? 'block' : 'none';
+    if (grid) grid.style.display = visibleInGrid ? 'grid' : 'none';
+  });
+  document.getElementById('noResults').style.display = anyVisible ? 'none' : 'block';
+}
+</script>
 <footer>
 TherapyFor.us &nbsp;·&nbsp; Helping people access mental health support<br>
 We may earn a commission if you sign up through our links, at no extra cost to you.<br>

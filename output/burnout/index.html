@@ -29,8 +29,15 @@
  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:12px;margin-bottom:40px;}
  .grid a{display:block;padding:16px 18px;background:var(--navy2);border:1px solid var(--rule);border-radius:8px;color:var(--text);text-decoration:none;font-size:14px;transition:all .2s;}
  .grid a:hover{border-color:var(--green);color:var(--white);}
- .subhubs{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:36px;}
+ .subhubs{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:32px;}
  .subhubs a{padding:8px 16px;background:var(--navy3);border:1px solid var(--rule);border-radius:20px;color:var(--green-bright);text-decoration:none;font-size:13px;font-weight:500;}
+ .filter-box{width:100%;padding:14px 18px;background:var(--navy2);border:1px solid var(--rule);border-radius:10px;color:var(--white);font-size:15px;font-family:'Inter',sans-serif;margin-bottom:28px;outline:none;}
+ .filter-box:focus{border-color:var(--green);}
+ .filter-box::placeholder{color:var(--text-muted);}
+ .section-title{font-family:'Inter',sans-serif;font-size:15px;font-weight:700;color:var(--green-bright);text-transform:uppercase;letter-spacing:0.06em;margin:36px 0 16px;display:flex;align-items:center;gap:10px;}
+ .section-title:first-of-type{margin-top:8px;}
+ .count-pill{background:var(--navy3);color:var(--text-muted);font-size:11px;font-weight:600;padding:2px 9px;border-radius:10px;letter-spacing:0;text-transform:none;}
+ .no-results{color:var(--text-muted);font-size:14px;padding:24px 0;}
  footer{background:var(--navy2);border-top:1px solid var(--rule);padding:36px 48px;font-size:13px;color:var(--text-muted);line-height:1.8;margin-top:40px;}
  footer a{color:var(--text-muted);text-decoration:underline;}
  @media(max-width:640px){nav,.hero,.wrap,.breadcrumb,footer{padding-left:20px;padding-right:20px;}}
@@ -47,188 +54,244 @@
   <a href="https://betterhelp.com/YOUR_AFFILIATE_LINK" class="btn-main">Talk to Someone Today</a>
 </div>
 <div class="wrap">
+  <input type="text" id="filterBox" class="filter-box" placeholder="Search 177 resources by keyword..." onkeyup="filterCards()">
+  <div class="subhubs"><a href="#sec-general">General (77)</a><a href="#sec-parents">Parents (20)</a><a href="#sec-students-young-adults">Students Young Adults (21)</a><a href="#sec-working-professionals">Working Professionals (47)</a><a href="#sec-men">Men (6)</a><a href="#sec-seniors-retirees">Seniors Retirees (3)</a><a href="#sec-couples-relationships">Couples Relationships (3)</a></div>
+  <div id="resultsWrap">
   
-  <h2>All therapy for burnout & stress resources</h2>
+  <h3 id="sec-couples-relationships" class="section-title">Couples Relationships <span class="count-pill">3</span></h3>
   <div class="grid">
-    <a href="/burnout/affordable-therapy-without-insurance-michigan">Affordable therapy without insurance in Michigan</a>
-    <a href="/burnout/story-burnout-therapy">Burnout therapy story</a>
-    <a href="/burnout/counseling-for-burnout">Counseling for burnout</a>
-    <a href="/burnout/counseling-for-perfectionism">Counseling for perfectionism</a>
-    <a href="/burnout/counseling-for-stress">Counseling for stress</a>
-    <a href="/burnout/help-for-burnout">Help for burnout</a>
-    <a href="/burnout/help-for-perfectionism">Help for perfectionism</a>
-    <a href="/burnout/help-for-stress">Help for stress</a>
-    <a href="/burnout/online-therapy-for-burnout">Online therapy for burnout</a>
-    <a href="/burnout/online-therapy-for-perfectionism">Online therapy for perfectionism</a>
-    <a href="/burnout/online-therapy-for-stress">Online therapy for stress</a>
-    <a href="/burnout/therapy-for-adult-children-of-narcissists-who-feel-overwhelmed">Therapy for adult children of narcissists who feel overwhelmed</a>
-    <a href="/burnout/therapy-for-adult-children-of-narcissists-with-burnout">Therapy for adult children of narcissists with burnout</a>
-    <a href="/burnout/therapy-for-adult-children-of-narcissists-with-stress">Therapy for adult children of narcissists with stress</a>
-    <a href="/burnout/therapy-for-athletes-who-feel-overwhelmed">Therapy for athletes who feel overwhelmed</a>
-    <a href="/burnout/therapy-for-athletes-with-burnout">Therapy for athletes with burnout</a>
-    <a href="/burnout/therapy-for-athletes-with-stress">Therapy for athletes with stress</a>
-    <a href="/burnout/therapy-for-burnout">Therapy for burnout</a>
-    <a href="/burnout/therapy-for-caregivers">Therapy for caregivers</a>
-    <a href="/burnout/therapy-for-caregivers-who-feel-alone">Therapy for caregivers who feel alone</a>
-    <a href="/burnout/therapy-for-caregivers-who-feel-overwhelmed">Therapy for caregivers who feel overwhelmed</a>
-    <a href="/burnout/therapy-for-caregivers-who-feel-stuck">Therapy for caregivers who feel stuck</a>
-    <a href="/burnout/therapy-for-caregivers-with-anger-issues">Therapy for caregivers with anger issues</a>
-    <a href="/burnout/therapy-for-caregivers-with-burnout">Therapy for caregivers with burnout</a>
-    <a href="/burnout/therapy-for-caregivers-with-low-self-esteem">Therapy for caregivers with low self esteem</a>
-    <a href="/burnout/therapy-for-caregivers-with-stress">Therapy for caregivers with stress</a>
-    <a href="/burnout/therapy-for-caregivers-with-trauma">Therapy for caregivers with trauma</a>
-    <a href="/burnout/therapy-for-college-students-who-feel-overwhelmed">Therapy for college students who feel overwhelmed</a>
-    <a href="/burnout/therapy-for-college-students-with-burnout">Therapy for college students with burnout</a>
-    <a href="/burnout/therapy-for-college-students-with-stress">Therapy for college students with stress</a>
-    <a href="/burnout/therapy-for-couples-who-feel-overwhelmed">Therapy for couples who feel overwhelmed</a>
-    <a href="/burnout/therapy-for-couples-with-burnout">Therapy for couples with burnout</a>
-    <a href="/burnout/therapy-for-couples-with-stress">Therapy for couples with stress</a>
-    <a href="/burnout/therapy-for-doctors">Therapy for doctors</a>
-    <a href="/burnout/therapy-for-doctors-who-feel-alone">Therapy for doctors who feel alone</a>
-    <a href="/burnout/therapy-for-doctors-who-feel-overwhelmed">Therapy for doctors who feel overwhelmed</a>
-    <a href="/burnout/therapy-for-doctors-who-feel-stuck">Therapy for doctors who feel stuck</a>
-    <a href="/burnout/therapy-for-doctors-with-anger-issues">Therapy for doctors with anger issues</a>
-    <a href="/burnout/therapy-for-doctors-with-burnout">Therapy for doctors with burnout</a>
-    <a href="/burnout/therapy-for-doctors-with-low-self-esteem">Therapy for doctors with low self esteem</a>
-    <a href="/burnout/therapy-for-doctors-with-stress">Therapy for doctors with stress</a>
-    <a href="/burnout/therapy-for-doctors-with-trauma">Therapy for doctors with trauma</a>
-    <a href="/burnout/therapy-for-emotional-burnout">Therapy for emotional burnout</a>
-    <a href="/burnout/therapy-for-empty-nesters-who-feel-overwhelmed">Therapy for empty nesters who feel overwhelmed</a>
-    <a href="/burnout/therapy-for-empty-nesters-with-burnout">Therapy for empty nesters with burnout</a>
-    <a href="/burnout/therapy-for-empty-nesters-with-stress">Therapy for empty nesters with stress</a>
-    <a href="/burnout/therapy-for-entrepreneurs-who-feel-overwhelmed">Therapy for entrepreneurs who feel overwhelmed</a>
-    <a href="/burnout/therapy-for-entrepreneurs-with-burnout">Therapy for entrepreneurs with burnout</a>
-    <a href="/burnout/therapy-for-entrepreneurs-with-stress">Therapy for entrepreneurs with stress</a>
-    <a href="/burnout/therapy-for-expats-who-feel-overwhelmed">Therapy for expats who feel overwhelmed</a>
-    <a href="/burnout/therapy-for-expats-with-burnout">Therapy for expats with burnout</a>
-    <a href="/burnout/therapy-for-expats-with-stress">Therapy for expats with stress</a>
-    <a href="/burnout/therapy-for-first-responders-who-feel-overwhelmed">Therapy for first responders who feel overwhelmed</a>
-    <a href="/burnout/therapy-for-first-responders-with-burnout">Therapy for first responders with burnout</a>
-    <a href="/burnout/therapy-for-first-responders-with-stress">Therapy for first responders with stress</a>
-    <a href="/burnout/therapy-for-freelancers-who-feel-overwhelmed">Therapy for freelancers who feel overwhelmed</a>
-    <a href="/burnout/therapy-for-freelancers-with-burnout">Therapy for freelancers with burnout</a>
-    <a href="/burnout/therapy-for-freelancers-with-stress">Therapy for freelancers with stress</a>
-    <a href="/burnout/therapy-for-grad-students-who-feel-overwhelmed">Therapy for grad students who feel overwhelmed</a>
-    <a href="/burnout/therapy-for-grad-students-with-burnout">Therapy for grad students with burnout</a>
-    <a href="/burnout/therapy-for-grad-students-with-stress">Therapy for grad students with stress</a>
-    <a href="/burnout/therapy-for-healthcare-workers">Therapy for healthcare workers</a>
-    <a href="/burnout/therapy-for-healthcare-workers-who-feel-alone">Therapy for healthcare workers who feel alone</a>
-    <a href="/burnout/therapy-for-healthcare-workers-who-feel-overwhelmed">Therapy for healthcare workers who feel overwhelmed</a>
-    <a href="/burnout/therapy-for-healthcare-workers-who-feel-stuck">Therapy for healthcare workers who feel stuck</a>
-    <a href="/burnout/therapy-for-healthcare-workers-with-anger-issues">Therapy for healthcare workers with anger issues</a>
-    <a href="/burnout/therapy-for-healthcare-workers-with-burnout">Therapy for healthcare workers with burnout</a>
-    <a href="/burnout/therapy-for-healthcare-workers-with-low-self-esteem">Therapy for healthcare workers with low self esteem</a>
-    <a href="/burnout/therapy-for-healthcare-workers-with-stress">Therapy for healthcare workers with stress</a>
-    <a href="/burnout/therapy-for-healthcare-workers-with-trauma">Therapy for healthcare workers with trauma</a>
-    <a href="/burnout/therapy-for-highly-sensitive-people-who-feel-overwhelmed">Therapy for highly sensitive people who feel overwhelmed</a>
-    <a href="/burnout/therapy-for-highly-sensitive-people-with-burnout">Therapy for highly sensitive people with burnout</a>
-    <a href="/burnout/therapy-for-highly-sensitive-people-with-stress">Therapy for highly sensitive people with stress</a>
-    <a href="/burnout/therapy-for-interracial-relationship-stress">Therapy for interracial relationship stress</a>
-    <a href="/burnout/therapy-for-introverts-who-feel-overwhelmed">Therapy for introverts who feel overwhelmed</a>
-    <a href="/burnout/therapy-for-introverts-with-burnout">Therapy for introverts with burnout</a>
-    <a href="/burnout/therapy-for-introverts-with-stress">Therapy for introverts with stress</a>
-    <a href="/burnout/therapy-for-lawyers">Therapy for lawyers</a>
-    <a href="/burnout/therapy-for-lawyers-who-feel-alone">Therapy for lawyers who feel alone</a>
-    <a href="/burnout/therapy-for-lawyers-who-feel-overwhelmed">Therapy for lawyers who feel overwhelmed</a>
-    <a href="/burnout/therapy-for-lawyers-who-feel-stuck">Therapy for lawyers who feel stuck</a>
-    <a href="/burnout/therapy-for-lawyers-with-anger-issues">Therapy for lawyers with anger issues</a>
-    <a href="/burnout/therapy-for-lawyers-with-burnout">Therapy for lawyers with burnout</a>
-    <a href="/burnout/therapy-for-lawyers-with-low-self-esteem">Therapy for lawyers with low self esteem</a>
-    <a href="/burnout/therapy-for-lawyers-with-stress">Therapy for lawyers with stress</a>
-    <a href="/burnout/therapy-for-lawyers-with-trauma">Therapy for lawyers with trauma</a>
-    <a href="/burnout/therapy-for-men-who-feel-overwhelmed">Therapy for men who feel overwhelmed</a>
-    <a href="/burnout/therapy-for-men-with-burnout">Therapy for men with burnout</a>
-    <a href="/burnout/therapy-for-men-with-stress">Therapy for men with stress</a>
-    <a href="/burnout/therapy-for-new-moms">Therapy for new moms</a>
-    <a href="/burnout/therapy-for-new-moms">Therapy for new moms</a>
-    <a href="/burnout/therapy-for-new-moms-who-feel-alone">Therapy for new moms who feel alone</a>
-    <a href="/burnout/therapy-for-new-moms-who-feel-overwhelmed">Therapy for new moms who feel overwhelmed</a>
-    <a href="/burnout/therapy-for-new-moms-who-feel-stuck">Therapy for new moms who feel stuck</a>
-    <a href="/burnout/therapy-for-new-moms-with-anger-issues">Therapy for new moms with anger issues</a>
-    <a href="/burnout/therapy-for-new-moms-with-burnout">Therapy for new moms with burnout</a>
-    <a href="/burnout/therapy-for-new-moms-with-low-self-esteem">Therapy for new moms with low self esteem</a>
-    <a href="/burnout/therapy-for-new-moms-with-stress">Therapy for new moms with stress</a>
-    <a href="/burnout/therapy-for-new-moms-with-trauma">Therapy for new moms with trauma</a>
-    <a href="/burnout/therapy-for-nurses">Therapy for nurses</a>
-    <a href="/burnout/therapy-for-nurses-who-feel-alone">Therapy for nurses who feel alone</a>
-    <a href="/burnout/therapy-for-nurses-who-feel-overwhelmed">Therapy for nurses who feel overwhelmed</a>
-    <a href="/burnout/therapy-for-nurses-who-feel-stuck">Therapy for nurses who feel stuck</a>
-    <a href="/burnout/therapy-for-nurses-with-anger-issues">Therapy for nurses with anger issues</a>
-    <a href="/burnout/therapy-for-nurses-with-burnout">Therapy for nurses with burnout</a>
-    <a href="/burnout/therapy-for-nurses-with-low-self-esteem">Therapy for nurses with low self esteem</a>
-    <a href="/burnout/therapy-for-nurses-with-stress">Therapy for nurses with stress</a>
-    <a href="/burnout/therapy-for-nurses-with-trauma">Therapy for nurses with trauma</a>
-    <a href="/burnout/therapy-for-overwhelmed-mothers">Therapy for overwhelmed mothers</a>
-    <a href="/burnout/therapy-for-parents-who-feel-overwhelmed">Therapy for parents who feel overwhelmed</a>
-    <a href="/burnout/therapy-for-parents-with-burnout">Therapy for parents with burnout</a>
-    <a href="/burnout/therapy-for-parents-with-stress">Therapy for parents with stress</a>
-    <a href="/burnout/therapy-for-people-pleasers-who-feel-overwhelmed">Therapy for people pleasers who feel overwhelmed</a>
-    <a href="/burnout/therapy-for-people-pleasers-with-burnout">Therapy for people pleasers with burnout</a>
-    <a href="/burnout/therapy-for-people-pleasers-with-stress">Therapy for people pleasers with stress</a>
-    <a href="/burnout/therapy-for-perfectionism">Therapy for perfectionism</a>
-    <a href="/burnout/therapy-for-perfectionism">Therapy for perfectionism</a>
-    <a href="/burnout/therapy-for-perfectionists-who-feel-overwhelmed">Therapy for perfectionists who feel overwhelmed</a>
-    <a href="/burnout/therapy-for-perfectionists-with-burnout">Therapy for perfectionists with burnout</a>
-    <a href="/burnout/therapy-for-perfectionists-with-stress">Therapy for perfectionists with stress</a>
-    <a href="/burnout/therapy-for-remote-workers-who-feel-overwhelmed">Therapy for remote workers who feel overwhelmed</a>
-    <a href="/burnout/therapy-for-remote-workers-with-burnout">Therapy for remote workers with burnout</a>
-    <a href="/burnout/therapy-for-remote-workers-with-stress">Therapy for remote workers with stress</a>
-    <a href="/burnout/therapy-for-seniors-who-feel-overwhelmed">Therapy for seniors who feel overwhelmed</a>
-    <a href="/burnout/therapy-for-seniors-with-burnout">Therapy for seniors with burnout</a>
-    <a href="/burnout/therapy-for-seniors-with-stress">Therapy for seniors with stress</a>
-    <a href="/burnout/therapy-for-shift-workers-who-feel-overwhelmed">Therapy for shift workers who feel overwhelmed</a>
-    <a href="/burnout/therapy-for-shift-workers-with-burnout">Therapy for shift workers with burnout</a>
-    <a href="/burnout/therapy-for-shift-workers-with-stress">Therapy for shift workers with stress</a>
-    <a href="/burnout/therapy-for-single-dads-who-feel-overwhelmed">Therapy for single dads who feel overwhelmed</a>
-    <a href="/burnout/therapy-for-single-dads-with-burnout">Therapy for single dads with burnout</a>
-    <a href="/burnout/therapy-for-single-dads-with-stress">Therapy for single dads with stress</a>
-    <a href="/burnout/therapy-for-single-moms-who-feel-overwhelmed">Therapy for single moms who feel overwhelmed</a>
-    <a href="/burnout/therapy-for-single-moms-with-burnout">Therapy for single moms with burnout</a>
-    <a href="/burnout/therapy-for-single-moms-with-stress">Therapy for single moms with stress</a>
-    <a href="/burnout/therapy-for-small-business-owners-who-feel-overwhelmed">Therapy for small business owners who feel overwhelmed</a>
-    <a href="/burnout/therapy-for-small-business-owners-with-burnout">Therapy for small business owners with burnout</a>
-    <a href="/burnout/therapy-for-small-business-owners-with-stress">Therapy for small business owners with stress</a>
-    <a href="/burnout/therapy-for-stress">Therapy for stress</a>
-    <a href="/burnout/therapy-for-students-who-feel-overwhelmed">Therapy for students who feel overwhelmed</a>
-    <a href="/burnout/therapy-for-students-with-burnout">Therapy for students with burnout</a>
-    <a href="/burnout/therapy-for-students-with-stress">Therapy for students with stress</a>
-    <a href="/burnout/therapy-for-teachers-who-feel-overwhelmed">Therapy for teachers who feel overwhelmed</a>
-    <a href="/burnout/therapy-for-teachers-with-burnout">Therapy for teachers with burnout</a>
-    <a href="/burnout/therapy-for-teachers-with-stress">Therapy for teachers with stress</a>
-    <a href="/burnout/therapy-for-teenagers">Therapy for teenagers</a>
-    <a href="/burnout/therapy-for-teenagers-who-feel-alone">Therapy for teenagers who feel alone</a>
-    <a href="/burnout/therapy-for-teenagers-who-feel-overwhelmed">Therapy for teenagers who feel overwhelmed</a>
-    <a href="/burnout/therapy-for-teenagers-who-feel-stuck">Therapy for teenagers who feel stuck</a>
-    <a href="/burnout/therapy-for-teenagers-with-anger-issues">Therapy for teenagers with anger issues</a>
-    <a href="/burnout/therapy-for-teenagers-with-burnout">Therapy for teenagers with burnout</a>
-    <a href="/burnout/therapy-for-teenagers-with-low-self-esteem">Therapy for teenagers with low self esteem</a>
-    <a href="/burnout/therapy-for-teenagers-with-stress">Therapy for teenagers with stress</a>
-    <a href="/burnout/therapy-for-teenagers-with-trauma">Therapy for teenagers with trauma</a>
-    <a href="/burnout/therapy-for-truck-drivers">Therapy for truck drivers</a>
-    <a href="/burnout/therapy-for-truck-drivers-who-feel-alone">Therapy for truck drivers who feel alone</a>
-    <a href="/burnout/therapy-for-truck-drivers-who-feel-overwhelmed">Therapy for truck drivers who feel overwhelmed</a>
-    <a href="/burnout/therapy-for-truck-drivers-who-feel-stuck">Therapy for truck drivers who feel stuck</a>
-    <a href="/burnout/therapy-for-truck-drivers-with-anger-issues">Therapy for truck drivers with anger issues</a>
-    <a href="/burnout/therapy-for-truck-drivers-with-burnout">Therapy for truck drivers with burnout</a>
-    <a href="/burnout/therapy-for-truck-drivers-with-low-self-esteem">Therapy for truck drivers with low self esteem</a>
-    <a href="/burnout/therapy-for-truck-drivers-with-stress">Therapy for truck drivers with stress</a>
-    <a href="/burnout/therapy-for-truck-drivers-with-trauma">Therapy for truck drivers with trauma</a>
-    <a href="/burnout/therapy-for-veterans-who-feel-overwhelmed">Therapy for veterans who feel overwhelmed</a>
-    <a href="/burnout/therapy-for-veterans-with-burnout">Therapy for veterans with burnout</a>
-    <a href="/burnout/therapy-for-veterans-with-stress">Therapy for veterans with stress</a>
-    <a href="/burnout/therapy-for-women-who-feel-overwhelmed">Therapy for women who feel overwhelmed</a>
-    <a href="/burnout/therapy-for-women-with-burnout">Therapy for women with burnout</a>
-    <a href="/burnout/therapy-for-women-with-stress">Therapy for women with stress</a>
-    <a href="/burnout/therapy-for-work-burnout">Therapy for work burnout</a>
-    <a href="/burnout/therapy-for-workaholics-who-feel-overwhelmed">Therapy for workaholics who feel overwhelmed</a>
-    <a href="/burnout/therapy-for-workaholics-with-burnout">Therapy for workaholics with burnout</a>
-    <a href="/burnout/therapy-for-workaholics-with-stress">Therapy for workaholics with stress</a>
-    <a href="/burnout/therapy-for-young-adults-who-feel-overwhelmed">Therapy for young adults who feel overwhelmed</a>
-    <a href="/burnout/therapy-for-young-adults-with-burnout">Therapy for young adults with burnout</a>
-    <a href="/burnout/therapy-for-young-adults-with-stress">Therapy for young adults with stress</a>
-    <a href="/burnout/why-am-i-so-tired-all-the-time-emotionally">Why am I so tired all the time emotionally</a>
+    <a href="/burnout/couples-relationships/therapy-for-couples-who-feel-overwhelmed">Therapy for couples who feel overwhelmed</a>
+    <a href="/burnout/couples-relationships/therapy-for-couples-with-burnout">Therapy for couples with burnout</a>
+    <a href="/burnout/couples-relationships/therapy-for-couples-with-stress">Therapy for couples with stress</a>
   </div>
+
+
+  <h3 id="sec-men" class="section-title">Men <span class="count-pill">6</span></h3>
+  <div class="grid">
+    <a href="/burnout/men/therapy-for-men-who-feel-overwhelmed">Therapy for men who feel overwhelmed</a>
+    <a href="/burnout/men/therapy-for-men-with-burnout">Therapy for men with burnout</a>
+    <a href="/burnout/men/therapy-for-men-with-stress">Therapy for men with stress</a>
+    <a href="/burnout/men/therapy-for-women-who-feel-overwhelmed">Therapy for women who feel overwhelmed</a>
+    <a href="/burnout/men/therapy-for-women-with-burnout">Therapy for women with burnout</a>
+    <a href="/burnout/men/therapy-for-women-with-stress">Therapy for women with stress</a>
+  </div>
+
+
+  <h3 id="sec-parents" class="section-title">Parents <span class="count-pill">20</span></h3>
+  <div class="grid">
+    <a href="/burnout/parents/therapy-for-new-moms">Therapy for new moms</a>
+    <a href="/burnout/parents/therapy-for-new-moms">Therapy for new moms</a>
+    <a href="/burnout/parents/therapy-for-new-moms-who-feel-alone">Therapy for new moms who feel alone</a>
+    <a href="/burnout/parents/therapy-for-new-moms-who-feel-overwhelmed">Therapy for new moms who feel overwhelmed</a>
+    <a href="/burnout/parents/therapy-for-new-moms-who-feel-stuck">Therapy for new moms who feel stuck</a>
+    <a href="/burnout/parents/therapy-for-new-moms-with-anger-issues">Therapy for new moms with anger issues</a>
+    <a href="/burnout/parents/therapy-for-new-moms-with-burnout">Therapy for new moms with burnout</a>
+    <a href="/burnout/parents/therapy-for-new-moms-with-low-self-esteem">Therapy for new moms with low self esteem</a>
+    <a href="/burnout/parents/therapy-for-new-moms-with-stress">Therapy for new moms with stress</a>
+    <a href="/burnout/parents/therapy-for-new-moms-with-trauma">Therapy for new moms with trauma</a>
+    <a href="/burnout/parents/therapy-for-overwhelmed-mothers">Therapy for overwhelmed mothers</a>
+    <a href="/burnout/parents/therapy-for-parents-who-feel-overwhelmed">Therapy for parents who feel overwhelmed</a>
+    <a href="/burnout/parents/therapy-for-parents-with-burnout">Therapy for parents with burnout</a>
+    <a href="/burnout/parents/therapy-for-parents-with-stress">Therapy for parents with stress</a>
+    <a href="/burnout/parents/therapy-for-single-dads-who-feel-overwhelmed">Therapy for single dads who feel overwhelmed</a>
+    <a href="/burnout/parents/therapy-for-single-dads-with-burnout">Therapy for single dads with burnout</a>
+    <a href="/burnout/parents/therapy-for-single-dads-with-stress">Therapy for single dads with stress</a>
+    <a href="/burnout/parents/therapy-for-single-moms-who-feel-overwhelmed">Therapy for single moms who feel overwhelmed</a>
+    <a href="/burnout/parents/therapy-for-single-moms-with-burnout">Therapy for single moms with burnout</a>
+    <a href="/burnout/parents/therapy-for-single-moms-with-stress">Therapy for single moms with stress</a>
+  </div>
+
+
+  <h3 id="sec-seniors-retirees" class="section-title">Seniors Retirees <span class="count-pill">3</span></h3>
+  <div class="grid">
+    <a href="/burnout/seniors-retirees/therapy-for-seniors-who-feel-overwhelmed">Therapy for seniors who feel overwhelmed</a>
+    <a href="/burnout/seniors-retirees/therapy-for-seniors-with-burnout">Therapy for seniors with burnout</a>
+    <a href="/burnout/seniors-retirees/therapy-for-seniors-with-stress">Therapy for seniors with stress</a>
+  </div>
+
+
+  <h3 id="sec-students-young-adults" class="section-title">Students Young Adults <span class="count-pill">21</span></h3>
+  <div class="grid">
+    <a href="/burnout/students-young-adults/therapy-for-college-students-who-feel-overwhelmed">Therapy for college students who feel overwhelmed</a>
+    <a href="/burnout/students-young-adults/therapy-for-college-students-with-burnout">Therapy for college students with burnout</a>
+    <a href="/burnout/students-young-adults/therapy-for-college-students-with-stress">Therapy for college students with stress</a>
+    <a href="/burnout/students-young-adults/therapy-for-grad-students-who-feel-overwhelmed">Therapy for grad students who feel overwhelmed</a>
+    <a href="/burnout/students-young-adults/therapy-for-grad-students-with-burnout">Therapy for grad students with burnout</a>
+    <a href="/burnout/students-young-adults/therapy-for-grad-students-with-stress">Therapy for grad students with stress</a>
+    <a href="/burnout/students-young-adults/therapy-for-students-who-feel-overwhelmed">Therapy for students who feel overwhelmed</a>
+    <a href="/burnout/students-young-adults/therapy-for-students-with-burnout">Therapy for students with burnout</a>
+    <a href="/burnout/students-young-adults/therapy-for-students-with-stress">Therapy for students with stress</a>
+    <a href="/burnout/students-young-adults/therapy-for-teenagers">Therapy for teenagers</a>
+    <a href="/burnout/students-young-adults/therapy-for-teenagers-who-feel-alone">Therapy for teenagers who feel alone</a>
+    <a href="/burnout/students-young-adults/therapy-for-teenagers-who-feel-overwhelmed">Therapy for teenagers who feel overwhelmed</a>
+    <a href="/burnout/students-young-adults/therapy-for-teenagers-who-feel-stuck">Therapy for teenagers who feel stuck</a>
+    <a href="/burnout/students-young-adults/therapy-for-teenagers-with-anger-issues">Therapy for teenagers with anger issues</a>
+    <a href="/burnout/students-young-adults/therapy-for-teenagers-with-burnout">Therapy for teenagers with burnout</a>
+    <a href="/burnout/students-young-adults/therapy-for-teenagers-with-low-self-esteem">Therapy for teenagers with low self esteem</a>
+    <a href="/burnout/students-young-adults/therapy-for-teenagers-with-stress">Therapy for teenagers with stress</a>
+    <a href="/burnout/students-young-adults/therapy-for-teenagers-with-trauma">Therapy for teenagers with trauma</a>
+    <a href="/burnout/students-young-adults/therapy-for-young-adults-who-feel-overwhelmed">Therapy for young adults who feel overwhelmed</a>
+    <a href="/burnout/students-young-adults/therapy-for-young-adults-with-burnout">Therapy for young adults with burnout</a>
+    <a href="/burnout/students-young-adults/therapy-for-young-adults-with-stress">Therapy for young adults with stress</a>
+  </div>
+
+
+  <h3 id="sec-working-professionals" class="section-title">Working Professionals <span class="count-pill">47</span></h3>
+  <div class="grid">
+    <a href="/burnout/working-professionals/story-burnout-therapy">Burnout therapy story</a>
+    <a href="/burnout/working-professionals/therapy-for-caregivers">Therapy for caregivers</a>
+    <a href="/burnout/working-professionals/therapy-for-caregivers-who-feel-alone">Therapy for caregivers who feel alone</a>
+    <a href="/burnout/working-professionals/therapy-for-caregivers-who-feel-overwhelmed">Therapy for caregivers who feel overwhelmed</a>
+    <a href="/burnout/working-professionals/therapy-for-caregivers-who-feel-stuck">Therapy for caregivers who feel stuck</a>
+    <a href="/burnout/working-professionals/therapy-for-caregivers-with-anger-issues">Therapy for caregivers with anger issues</a>
+    <a href="/burnout/working-professionals/therapy-for-caregivers-with-burnout">Therapy for caregivers with burnout</a>
+    <a href="/burnout/working-professionals/therapy-for-caregivers-with-low-self-esteem">Therapy for caregivers with low self esteem</a>
+    <a href="/burnout/working-professionals/therapy-for-caregivers-with-stress">Therapy for caregivers with stress</a>
+    <a href="/burnout/working-professionals/therapy-for-caregivers-with-trauma">Therapy for caregivers with trauma</a>
+    <a href="/burnout/working-professionals/therapy-for-entrepreneurs-who-feel-overwhelmed">Therapy for entrepreneurs who feel overwhelmed</a>
+    <a href="/burnout/working-professionals/therapy-for-entrepreneurs-with-burnout">Therapy for entrepreneurs with burnout</a>
+    <a href="/burnout/working-professionals/therapy-for-entrepreneurs-with-stress">Therapy for entrepreneurs with stress</a>
+    <a href="/burnout/working-professionals/therapy-for-first-responders-who-feel-overwhelmed">Therapy for first responders who feel overwhelmed</a>
+    <a href="/burnout/working-professionals/therapy-for-first-responders-with-burnout">Therapy for first responders with burnout</a>
+    <a href="/burnout/working-professionals/therapy-for-first-responders-with-stress">Therapy for first responders with stress</a>
+    <a href="/burnout/working-professionals/therapy-for-healthcare-workers">Therapy for healthcare workers</a>
+    <a href="/burnout/working-professionals/therapy-for-healthcare-workers-who-feel-alone">Therapy for healthcare workers who feel alone</a>
+    <a href="/burnout/working-professionals/therapy-for-healthcare-workers-who-feel-overwhelmed">Therapy for healthcare workers who feel overwhelmed</a>
+    <a href="/burnout/working-professionals/therapy-for-healthcare-workers-who-feel-stuck">Therapy for healthcare workers who feel stuck</a>
+    <a href="/burnout/working-professionals/therapy-for-healthcare-workers-with-anger-issues">Therapy for healthcare workers with anger issues</a>
+    <a href="/burnout/working-professionals/therapy-for-healthcare-workers-with-burnout">Therapy for healthcare workers with burnout</a>
+    <a href="/burnout/working-professionals/therapy-for-healthcare-workers-with-low-self-esteem">Therapy for healthcare workers with low self esteem</a>
+    <a href="/burnout/working-professionals/therapy-for-healthcare-workers-with-stress">Therapy for healthcare workers with stress</a>
+    <a href="/burnout/working-professionals/therapy-for-healthcare-workers-with-trauma">Therapy for healthcare workers with trauma</a>
+    <a href="/burnout/working-professionals/therapy-for-nurses">Therapy for nurses</a>
+    <a href="/burnout/working-professionals/therapy-for-nurses-who-feel-alone">Therapy for nurses who feel alone</a>
+    <a href="/burnout/working-professionals/therapy-for-nurses-who-feel-overwhelmed">Therapy for nurses who feel overwhelmed</a>
+    <a href="/burnout/working-professionals/therapy-for-nurses-who-feel-stuck">Therapy for nurses who feel stuck</a>
+    <a href="/burnout/working-professionals/therapy-for-nurses-with-anger-issues">Therapy for nurses with anger issues</a>
+    <a href="/burnout/working-professionals/therapy-for-nurses-with-burnout">Therapy for nurses with burnout</a>
+    <a href="/burnout/working-professionals/therapy-for-nurses-with-low-self-esteem">Therapy for nurses with low self esteem</a>
+    <a href="/burnout/working-professionals/therapy-for-nurses-with-stress">Therapy for nurses with stress</a>
+    <a href="/burnout/working-professionals/therapy-for-nurses-with-trauma">Therapy for nurses with trauma</a>
+    <a href="/burnout/working-professionals/therapy-for-remote-workers-who-feel-overwhelmed">Therapy for remote workers who feel overwhelmed</a>
+    <a href="/burnout/working-professionals/therapy-for-remote-workers-with-burnout">Therapy for remote workers with burnout</a>
+    <a href="/burnout/working-professionals/therapy-for-remote-workers-with-stress">Therapy for remote workers with stress</a>
+    <a href="/burnout/working-professionals/therapy-for-teachers-who-feel-overwhelmed">Therapy for teachers who feel overwhelmed</a>
+    <a href="/burnout/working-professionals/therapy-for-teachers-with-burnout">Therapy for teachers with burnout</a>
+    <a href="/burnout/working-professionals/therapy-for-teachers-with-stress">Therapy for teachers with stress</a>
+    <a href="/burnout/working-professionals/therapy-for-veterans-who-feel-overwhelmed">Therapy for veterans who feel overwhelmed</a>
+    <a href="/burnout/working-professionals/therapy-for-veterans-with-burnout">Therapy for veterans with burnout</a>
+    <a href="/burnout/working-professionals/therapy-for-veterans-with-stress">Therapy for veterans with stress</a>
+    <a href="/burnout/working-professionals/therapy-for-work-burnout">Therapy for work burnout</a>
+    <a href="/burnout/working-professionals/therapy-for-workaholics-who-feel-overwhelmed">Therapy for workaholics who feel overwhelmed</a>
+    <a href="/burnout/working-professionals/therapy-for-workaholics-with-burnout">Therapy for workaholics with burnout</a>
+    <a href="/burnout/working-professionals/therapy-for-workaholics-with-stress">Therapy for workaholics with stress</a>
+  </div>
+
+
+  <h3 id="sec-general" class="section-title">General <span class="count-pill">77</span></h3>
+  <div class="grid">
+    <a href="/burnout/general/affordable-therapy-without-insurance-michigan">Affordable therapy without insurance in Michigan</a>
+    <a href="/burnout/general/counseling-for-burnout">Counseling for burnout</a>
+    <a href="/burnout/general/counseling-for-perfectionism">Counseling for perfectionism</a>
+    <a href="/burnout/general/counseling-for-stress">Counseling for stress</a>
+    <a href="/burnout/general/help-for-burnout">Help for burnout</a>
+    <a href="/burnout/general/help-for-perfectionism">Help for perfectionism</a>
+    <a href="/burnout/general/help-for-stress">Help for stress</a>
+    <a href="/burnout/general/online-therapy-for-burnout">Online therapy for burnout</a>
+    <a href="/burnout/general/online-therapy-for-perfectionism">Online therapy for perfectionism</a>
+    <a href="/burnout/general/online-therapy-for-stress">Online therapy for stress</a>
+    <a href="/burnout/general/therapy-for-adult-children-of-narcissists-who-feel-overwhelmed">Therapy for adult children of narcissists who feel overwhelmed</a>
+    <a href="/burnout/general/therapy-for-adult-children-of-narcissists-with-burnout">Therapy for adult children of narcissists with burnout</a>
+    <a href="/burnout/general/therapy-for-adult-children-of-narcissists-with-stress">Therapy for adult children of narcissists with stress</a>
+    <a href="/burnout/general/therapy-for-athletes-who-feel-overwhelmed">Therapy for athletes who feel overwhelmed</a>
+    <a href="/burnout/general/therapy-for-athletes-with-burnout">Therapy for athletes with burnout</a>
+    <a href="/burnout/general/therapy-for-athletes-with-stress">Therapy for athletes with stress</a>
+    <a href="/burnout/general/therapy-for-burnout">Therapy for burnout</a>
+    <a href="/burnout/general/therapy-for-doctors">Therapy for doctors</a>
+    <a href="/burnout/general/therapy-for-doctors-who-feel-alone">Therapy for doctors who feel alone</a>
+    <a href="/burnout/general/therapy-for-doctors-who-feel-overwhelmed">Therapy for doctors who feel overwhelmed</a>
+    <a href="/burnout/general/therapy-for-doctors-who-feel-stuck">Therapy for doctors who feel stuck</a>
+    <a href="/burnout/general/therapy-for-doctors-with-anger-issues">Therapy for doctors with anger issues</a>
+    <a href="/burnout/general/therapy-for-doctors-with-burnout">Therapy for doctors with burnout</a>
+    <a href="/burnout/general/therapy-for-doctors-with-low-self-esteem">Therapy for doctors with low self esteem</a>
+    <a href="/burnout/general/therapy-for-doctors-with-stress">Therapy for doctors with stress</a>
+    <a href="/burnout/general/therapy-for-doctors-with-trauma">Therapy for doctors with trauma</a>
+    <a href="/burnout/general/therapy-for-emotional-burnout">Therapy for emotional burnout</a>
+    <a href="/burnout/general/therapy-for-empty-nesters-who-feel-overwhelmed">Therapy for empty nesters who feel overwhelmed</a>
+    <a href="/burnout/general/therapy-for-empty-nesters-with-burnout">Therapy for empty nesters with burnout</a>
+    <a href="/burnout/general/therapy-for-empty-nesters-with-stress">Therapy for empty nesters with stress</a>
+    <a href="/burnout/general/therapy-for-expats-who-feel-overwhelmed">Therapy for expats who feel overwhelmed</a>
+    <a href="/burnout/general/therapy-for-expats-with-burnout">Therapy for expats with burnout</a>
+    <a href="/burnout/general/therapy-for-expats-with-stress">Therapy for expats with stress</a>
+    <a href="/burnout/general/therapy-for-freelancers-who-feel-overwhelmed">Therapy for freelancers who feel overwhelmed</a>
+    <a href="/burnout/general/therapy-for-freelancers-with-burnout">Therapy for freelancers with burnout</a>
+    <a href="/burnout/general/therapy-for-freelancers-with-stress">Therapy for freelancers with stress</a>
+    <a href="/burnout/general/therapy-for-highly-sensitive-people-who-feel-overwhelmed">Therapy for highly sensitive people who feel overwhelmed</a>
+    <a href="/burnout/general/therapy-for-highly-sensitive-people-with-burnout">Therapy for highly sensitive people with burnout</a>
+    <a href="/burnout/general/therapy-for-highly-sensitive-people-with-stress">Therapy for highly sensitive people with stress</a>
+    <a href="/burnout/general/therapy-for-interracial-relationship-stress">Therapy for interracial relationship stress</a>
+    <a href="/burnout/general/therapy-for-introverts-who-feel-overwhelmed">Therapy for introverts who feel overwhelmed</a>
+    <a href="/burnout/general/therapy-for-introverts-with-burnout">Therapy for introverts with burnout</a>
+    <a href="/burnout/general/therapy-for-introverts-with-stress">Therapy for introverts with stress</a>
+    <a href="/burnout/general/therapy-for-lawyers">Therapy for lawyers</a>
+    <a href="/burnout/general/therapy-for-lawyers-who-feel-alone">Therapy for lawyers who feel alone</a>
+    <a href="/burnout/general/therapy-for-lawyers-who-feel-overwhelmed">Therapy for lawyers who feel overwhelmed</a>
+    <a href="/burnout/general/therapy-for-lawyers-who-feel-stuck">Therapy for lawyers who feel stuck</a>
+    <a href="/burnout/general/therapy-for-lawyers-with-anger-issues">Therapy for lawyers with anger issues</a>
+    <a href="/burnout/general/therapy-for-lawyers-with-burnout">Therapy for lawyers with burnout</a>
+    <a href="/burnout/general/therapy-for-lawyers-with-low-self-esteem">Therapy for lawyers with low self esteem</a>
+    <a href="/burnout/general/therapy-for-lawyers-with-stress">Therapy for lawyers with stress</a>
+    <a href="/burnout/general/therapy-for-lawyers-with-trauma">Therapy for lawyers with trauma</a>
+    <a href="/burnout/general/therapy-for-people-pleasers-who-feel-overwhelmed">Therapy for people pleasers who feel overwhelmed</a>
+    <a href="/burnout/general/therapy-for-people-pleasers-with-burnout">Therapy for people pleasers with burnout</a>
+    <a href="/burnout/general/therapy-for-people-pleasers-with-stress">Therapy for people pleasers with stress</a>
+    <a href="/burnout/general/therapy-for-perfectionism">Therapy for perfectionism</a>
+    <a href="/burnout/general/therapy-for-perfectionism">Therapy for perfectionism</a>
+    <a href="/burnout/general/therapy-for-perfectionists-who-feel-overwhelmed">Therapy for perfectionists who feel overwhelmed</a>
+    <a href="/burnout/general/therapy-for-perfectionists-with-burnout">Therapy for perfectionists with burnout</a>
+    <a href="/burnout/general/therapy-for-perfectionists-with-stress">Therapy for perfectionists with stress</a>
+    <a href="/burnout/general/therapy-for-shift-workers-who-feel-overwhelmed">Therapy for shift workers who feel overwhelmed</a>
+    <a href="/burnout/general/therapy-for-shift-workers-with-burnout">Therapy for shift workers with burnout</a>
+    <a href="/burnout/general/therapy-for-shift-workers-with-stress">Therapy for shift workers with stress</a>
+    <a href="/burnout/general/therapy-for-small-business-owners-who-feel-overwhelmed">Therapy for small business owners who feel overwhelmed</a>
+    <a href="/burnout/general/therapy-for-small-business-owners-with-burnout">Therapy for small business owners with burnout</a>
+    <a href="/burnout/general/therapy-for-small-business-owners-with-stress">Therapy for small business owners with stress</a>
+    <a href="/burnout/general/therapy-for-stress">Therapy for stress</a>
+    <a href="/burnout/general/therapy-for-truck-drivers">Therapy for truck drivers</a>
+    <a href="/burnout/general/therapy-for-truck-drivers-who-feel-alone">Therapy for truck drivers who feel alone</a>
+    <a href="/burnout/general/therapy-for-truck-drivers-who-feel-overwhelmed">Therapy for truck drivers who feel overwhelmed</a>
+    <a href="/burnout/general/therapy-for-truck-drivers-who-feel-stuck">Therapy for truck drivers who feel stuck</a>
+    <a href="/burnout/general/therapy-for-truck-drivers-with-anger-issues">Therapy for truck drivers with anger issues</a>
+    <a href="/burnout/general/therapy-for-truck-drivers-with-burnout">Therapy for truck drivers with burnout</a>
+    <a href="/burnout/general/therapy-for-truck-drivers-with-low-self-esteem">Therapy for truck drivers with low self esteem</a>
+    <a href="/burnout/general/therapy-for-truck-drivers-with-stress">Therapy for truck drivers with stress</a>
+    <a href="/burnout/general/therapy-for-truck-drivers-with-trauma">Therapy for truck drivers with trauma</a>
+    <a href="/burnout/general/why-am-i-so-tired-all-the-time-emotionally">Why am I so tired all the time emotionally</a>
+  </div>
+
+  </div>
+  <p id="noResults" class="no-results" style="display:none;">No resources match your search. Try a different word.</p>
 </div>
+<script>
+function filterCards() {
+  const q = document.getElementById('filterBox').value.toLowerCase();
+  const cards = document.querySelectorAll('#resultsWrap .grid a');
+  const sections = document.querySelectorAll('#resultsWrap h3');
+  let anyVisible = false;
+  cards.forEach(c => {
+    const match = c.textContent.toLowerCase().includes(q);
+    c.style.display = match ? 'block' : 'none';
+    if (match) anyVisible = true;
+  });
+  sections.forEach(h => {
+    const grid = h.nextElementSibling;
+    const visibleInGrid = grid ? Array.from(grid.querySelectorAll('a')).some(a => a.style.display !== 'none') : false;
+    h.style.display = visibleInGrid ? 'block' : 'none';
+    if (grid) grid.style.display = visibleInGrid ? 'grid' : 'none';
+  });
+  document.getElementById('noResults').style.display = anyVisible ? 'none' : 'block';
+}
+</script>
 <footer>
 TherapyFor.us &nbsp;·&nbsp; Helping people access mental health support<br>
 We may earn a commission if you sign up through our links, at no extra cost to you.<br>

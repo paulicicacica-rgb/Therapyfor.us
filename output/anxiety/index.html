@@ -29,8 +29,15 @@
  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:12px;margin-bottom:40px;}
  .grid a{display:block;padding:16px 18px;background:var(--navy2);border:1px solid var(--rule);border-radius:8px;color:var(--text);text-decoration:none;font-size:14px;transition:all .2s;}
  .grid a:hover{border-color:var(--green);color:var(--white);}
- .subhubs{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:36px;}
+ .subhubs{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:32px;}
  .subhubs a{padding:8px 16px;background:var(--navy3);border:1px solid var(--rule);border-radius:20px;color:var(--green-bright);text-decoration:none;font-size:13px;font-weight:500;}
+ .filter-box{width:100%;padding:14px 18px;background:var(--navy2);border:1px solid var(--rule);border-radius:10px;color:var(--white);font-size:15px;font-family:'Inter',sans-serif;margin-bottom:28px;outline:none;}
+ .filter-box:focus{border-color:var(--green);}
+ .filter-box::placeholder{color:var(--text-muted);}
+ .section-title{font-family:'Inter',sans-serif;font-size:15px;font-weight:700;color:var(--green-bright);text-transform:uppercase;letter-spacing:0.06em;margin:36px 0 16px;display:flex;align-items:center;gap:10px;}
+ .section-title:first-of-type{margin-top:8px;}
+ .count-pill{background:var(--navy3);color:var(--text-muted);font-size:11px;font-weight:600;padding:2px 9px;border-radius:10px;letter-spacing:0;text-transform:none;}
+ .no-results{color:var(--text-muted);font-size:14px;padding:24px 0;}
  footer{background:var(--navy2);border-top:1px solid var(--rule);padding:36px 48px;font-size:13px;color:var(--text-muted);line-height:1.8;margin-top:40px;}
  footer a{color:var(--text-muted);text-decoration:underline;}
  @media(max-width:640px){nav,.hero,.wrap,.breadcrumb,footer{padding-left:20px;padding-right:20px;}}
@@ -47,174 +54,230 @@
   <a href="https://betterhelp.com/YOUR_AFFILIATE_LINK" class="btn-main">Talk to Someone Today</a>
 </div>
 <div class="wrap">
+  <input type="text" id="filterBox" class="filter-box" placeholder="Search 163 resources by keyword..." onkeyup="filterCards()">
+  <div class="subhubs"><a href="#sec-general">General (44)</a><a href="#sec-specific-fears">Specific Fears (54)</a><a href="#sec-parents">Parents (13)</a><a href="#sec-men">Men (6)</a><a href="#sec-students-young-adults">Students Young Adults (15)</a><a href="#sec-seniors-retirees">Seniors Retirees (4)</a><a href="#sec-working-professionals">Working Professionals (27)</a></div>
+  <div id="resultsWrap">
   
-  <h2>All therapy for anxiety resources</h2>
+  <h3 id="sec-men" class="section-title">Men <span class="count-pill">6</span></h3>
   <div class="grid">
-    <a href="/anxiety/i-cant-stop-worrying-about-everything">I can't stop worrying about everything</a>
-    <a href="/anxiety/i-cant-switch-my-brain-off-at-night">I can't switch my brain off at night</a>
-    <a href="/anxiety/story-anxiety-therapy-success">Anxiety therapy success story</a>
-    <a href="/anxiety/counseling-for-anxiety">Counseling for anxiety</a>
-    <a href="/anxiety/counseling-for-health-anxiety">Counseling for health anxiety</a>
-    <a href="/anxiety/counseling-for-intrusive-thoughts">Counseling for intrusive thoughts</a>
-    <a href="/anxiety/counseling-for-overthinking">Counseling for overthinking</a>
-    <a href="/anxiety/counseling-for-panic-attacks">Counseling for panic attacks</a>
-    <a href="/anxiety/counseling-for-social-anxiety">Counseling for social anxiety</a>
-    <a href="/anxiety/help-for-anxiety">Help for anxiety</a>
-    <a href="/anxiety/help-for-health-anxiety">Help for health anxiety</a>
-    <a href="/anxiety/help-for-intrusive-thoughts">Help for intrusive thoughts</a>
-    <a href="/anxiety/help-for-overthinking">Help for overthinking</a>
-    <a href="/anxiety/help-for-panic-attacks">Help for panic attacks</a>
-    <a href="/anxiety/help-for-social-anxiety">Help for social anxiety</a>
-    <a href="/anxiety/online-therapy-for-anxiety">Online therapy for anxiety</a>
-    <a href="/anxiety/online-therapy-for-health-anxiety">Online therapy for health anxiety</a>
-    <a href="/anxiety/online-therapy-for-intrusive-thoughts">Online therapy for intrusive thoughts</a>
-    <a href="/anxiety/online-therapy-for-overthinking">Online therapy for overthinking</a>
-    <a href="/anxiety/online-therapy-for-panic-attacks">Online therapy for panic attacks</a>
-    <a href="/anxiety/online-therapy-for-social-anxiety">Online therapy for social anxiety</a>
-    <a href="/anxiety/therapy-for-adult-children-of-narcissists-who-cant-sleep">Therapy for adult children of narcissists who can't sleep</a>
-    <a href="/anxiety/therapy-for-adult-children-of-narcissists-who-overthink-everything">Therapy for adult children of narcissists who overthink everything</a>
-    <a href="/anxiety/therapy-for-adult-children-of-narcissists-with-anxiety">Therapy for adult children of narcissists with anxiety</a>
-    <a href="/anxiety/therapy-for-anxiety">Therapy for anxiety</a>
-    <a href="/anxiety/therapy-for-anxiety-guide">Therapy for anxiety complete guide</a>
-    <a href="/anxiety/therapy-for-athletes-who-cant-sleep">Therapy for athletes who can't sleep</a>
-    <a href="/anxiety/therapy-for-athletes-who-overthink-everything">Therapy for athletes who overthink everything</a>
-    <a href="/anxiety/therapy-for-athletes-with-anxiety">Therapy for athletes with anxiety</a>
-    <a href="/anxiety/therapy-for-career-anxiety">Therapy for career anxiety</a>
-    <a href="/anxiety/therapy-for-caregivers-who-cant-sleep">Therapy for caregivers who can't sleep</a>
-    <a href="/anxiety/therapy-for-caregivers-who-overthink-everything">Therapy for caregivers who overthink everything</a>
-    <a href="/anxiety/therapy-for-caregivers-with-anxiety">Therapy for caregivers with anxiety</a>
-    <a href="/anxiety/therapy-for-chronic-worrying">Therapy for chronic worrying</a>
-    <a href="/anxiety/therapy-for-college-students-who-cant-sleep">Therapy for college students who can't sleep</a>
-    <a href="/anxiety/therapy-for-college-students-who-overthink-everything">Therapy for college students who overthink everything</a>
-    <a href="/anxiety/therapy-for-college-students-with-anxiety">Therapy for college students with anxiety</a>
-    <a href="/anxiety/therapy-for-couples-who-cant-sleep">Therapy for couples who can't sleep</a>
-    <a href="/anxiety/therapy-for-couples-who-overthink-everything">Therapy for couples who overthink everything</a>
-    <a href="/anxiety/therapy-for-couples-with-anxiety">Therapy for couples with anxiety</a>
-    <a href="/anxiety/therapy-for-dads-with-anxiety">Therapy for dads with anxiety</a>
-    <a href="/anxiety/therapy-for-doctors-who-cant-sleep">Therapy for doctors who can't sleep</a>
-    <a href="/anxiety/therapy-for-doctors-who-overthink-everything">Therapy for doctors who overthink everything</a>
-    <a href="/anxiety/therapy-for-doctors-with-anxiety">Therapy for doctors with anxiety</a>
-    <a href="/anxiety/therapy-for-empty-nesters-who-cant-sleep">Therapy for empty nesters who can't sleep</a>
-    <a href="/anxiety/therapy-for-empty-nesters-who-overthink-everything">Therapy for empty nesters who overthink everything</a>
-    <a href="/anxiety/therapy-for-empty-nesters-with-anxiety">Therapy for empty nesters with anxiety</a>
-    <a href="/anxiety/therapy-for-entrepreneurs-who-cant-sleep">Therapy for entrepreneurs who can't sleep</a>
-    <a href="/anxiety/therapy-for-entrepreneurs-who-overthink-everything">Therapy for entrepreneurs who overthink everything</a>
-    <a href="/anxiety/therapy-for-entrepreneurs-with-anxiety">Therapy for entrepreneurs with anxiety</a>
-    <a href="/anxiety/therapy-for-expats-who-cant-sleep">Therapy for expats who can't sleep</a>
-    <a href="/anxiety/therapy-for-expats-who-overthink-everything">Therapy for expats who overthink everything</a>
-    <a href="/anxiety/therapy-for-expats-with-anxiety">Therapy for expats with anxiety</a>
-    <a href="/anxiety/therapy-for-first-responders-who-cant-sleep">Therapy for first responders who can't sleep</a>
-    <a href="/anxiety/therapy-for-first-responders-who-overthink-everything">Therapy for first responders who overthink everything</a>
-    <a href="/anxiety/therapy-for-first-responders-with-anxiety">Therapy for first responders with anxiety</a>
-    <a href="/anxiety/therapy-for-freelancers-who-cant-sleep">Therapy for freelancers who can't sleep</a>
-    <a href="/anxiety/therapy-for-freelancers-who-overthink-everything">Therapy for freelancers who overthink everything</a>
-    <a href="/anxiety/therapy-for-freelancers-with-anxiety">Therapy for freelancers with anxiety</a>
-    <a href="/anxiety/therapy-for-grad-students-who-cant-sleep">Therapy for grad students who can't sleep</a>
-    <a href="/anxiety/therapy-for-grad-students-who-overthink-everything">Therapy for grad students who overthink everything</a>
-    <a href="/anxiety/therapy-for-grad-students-with-anxiety">Therapy for grad students with anxiety</a>
-    <a href="/anxiety/therapy-for-health-anxiety">Therapy for health anxiety</a>
-    <a href="/anxiety/therapy-for-health-anxiety">Therapy for health anxiety</a>
-    <a href="/anxiety/therapy-for-healthcare-workers-who-cant-sleep">Therapy for healthcare workers who can't sleep</a>
-    <a href="/anxiety/therapy-for-healthcare-workers-who-overthink-everything">Therapy for healthcare workers who overthink everything</a>
-    <a href="/anxiety/therapy-for-healthcare-workers-with-anxiety">Therapy for healthcare workers with anxiety</a>
-    <a href="/anxiety/therapy-for-high-functioning-anxiety">Therapy for high functioning anxiety</a>
-    <a href="/anxiety/therapy-for-highly-sensitive-people-who-cant-sleep">Therapy for highly sensitive people who can't sleep</a>
-    <a href="/anxiety/therapy-for-highly-sensitive-people-who-overthink-everything">Therapy for highly sensitive people who overthink everything</a>
-    <a href="/anxiety/therapy-for-highly-sensitive-people-with-anxiety">Therapy for highly sensitive people with anxiety</a>
-    <a href="/anxiety/therapy-for-introverts-who-cant-sleep">Therapy for introverts who can't sleep</a>
-    <a href="/anxiety/therapy-for-introverts-who-overthink-everything">Therapy for introverts who overthink everything</a>
-    <a href="/anxiety/therapy-for-introverts-with-anxiety">Therapy for introverts with anxiety</a>
-    <a href="/anxiety/therapy-for-intrusive-thoughts">Therapy for intrusive thoughts</a>
-    <a href="/anxiety/therapy-for-intrusive-thoughts">Therapy for intrusive thoughts</a>
-    <a href="/anxiety/therapy-for-lawyers-who-cant-sleep">Therapy for lawyers who can't sleep</a>
-    <a href="/anxiety/therapy-for-lawyers-who-overthink-everything">Therapy for lawyers who overthink everything</a>
-    <a href="/anxiety/therapy-for-lawyers-with-anxiety">Therapy for lawyers with anxiety</a>
-    <a href="/anxiety/therapy-for-men-who-cant-sleep">Therapy for men who can't sleep</a>
-    <a href="/anxiety/therapy-for-men-who-overthink-everything">Therapy for men who overthink everything</a>
-    <a href="/anxiety/therapy-for-men-with-anxiety">Therapy for men with anxiety</a>
-    <a href="/anxiety/therapy-for-new-moms-who-cant-sleep">Therapy for new moms who can't sleep</a>
-    <a href="/anxiety/therapy-for-new-moms-who-overthink-everything">Therapy for new moms who overthink everything</a>
-    <a href="/anxiety/therapy-for-new-moms-with-anxiety">Therapy for new moms with anxiety</a>
-    <a href="/anxiety/therapy-for-nurses-who-cant-sleep">Therapy for nurses who can't sleep</a>
-    <a href="/anxiety/therapy-for-nurses-who-overthink-everything">Therapy for nurses who overthink everything</a>
-    <a href="/anxiety/therapy-for-nurses-with-anxiety">Therapy for nurses with anxiety</a>
-    <a href="/anxiety/therapy-for-overthinkers">Therapy for overthinkers</a>
-    <a href="/anxiety/therapy-for-overthinkers-who-cant-sleep">Therapy for overthinkers who can't sleep</a>
-    <a href="/anxiety/therapy-for-overthinkers-who-feel-alone">Therapy for overthinkers who feel alone</a>
-    <a href="/anxiety/therapy-for-overthinkers-who-feel-overwhelmed">Therapy for overthinkers who feel overwhelmed</a>
-    <a href="/anxiety/therapy-for-overthinkers-who-feel-stuck">Therapy for overthinkers who feel stuck</a>
-    <a href="/anxiety/therapy-for-overthinkers-who-overthink-everything">Therapy for overthinkers who overthink everything</a>
-    <a href="/anxiety/therapy-for-overthinkers-with-anger-issues">Therapy for overthinkers with anger issues</a>
-    <a href="/anxiety/therapy-for-overthinkers-with-anxiety">Therapy for overthinkers with anxiety</a>
-    <a href="/anxiety/therapy-for-overthinkers-with-burnout">Therapy for overthinkers with burnout</a>
-    <a href="/anxiety/therapy-for-overthinkers-with-depression">Therapy for overthinkers with depression</a>
-    <a href="/anxiety/therapy-for-overthinkers-with-low-self-esteem">Therapy for overthinkers with low self esteem</a>
-    <a href="/anxiety/therapy-for-overthinkers-with-stress">Therapy for overthinkers with stress</a>
-    <a href="/anxiety/therapy-for-overthinkers-with-trauma">Therapy for overthinkers with trauma</a>
-    <a href="/anxiety/therapy-for-overthinking">Therapy for overthinking</a>
-    <a href="/anxiety/therapy-for-panic-attacks">Therapy for panic attacks</a>
-    <a href="/anxiety/therapy-for-panic-attacks">Therapy for panic attacks</a>
-    <a href="/anxiety/therapy-for-parents-who-cant-sleep">Therapy for parents who can't sleep</a>
-    <a href="/anxiety/therapy-for-parents-who-overthink-everything">Therapy for parents who overthink everything</a>
-    <a href="/anxiety/therapy-for-parents-with-anxiety">Therapy for parents with anxiety</a>
-    <a href="/anxiety/therapy-for-people-pleasers-who-cant-sleep">Therapy for people pleasers who can't sleep</a>
-    <a href="/anxiety/therapy-for-people-pleasers-who-overthink-everything">Therapy for people pleasers who overthink everything</a>
-    <a href="/anxiety/therapy-for-people-pleasers-with-anxiety">Therapy for people pleasers with anxiety</a>
-    <a href="/anxiety/therapy-for-perfectionists-who-cant-sleep">Therapy for perfectionists who can't sleep</a>
-    <a href="/anxiety/therapy-for-perfectionists-who-overthink-everything">Therapy for perfectionists who overthink everything</a>
-    <a href="/anxiety/therapy-for-perfectionists-with-anxiety">Therapy for perfectionists with anxiety</a>
-    <a href="/anxiety/therapy-for-remote-workers-who-cant-sleep">Therapy for remote workers who can't sleep</a>
-    <a href="/anxiety/therapy-for-remote-workers-who-overthink-everything">Therapy for remote workers who overthink everything</a>
-    <a href="/anxiety/therapy-for-remote-workers-with-anxiety">Therapy for remote workers with anxiety</a>
-    <a href="/anxiety/therapy-for-retirement-anxiety">Therapy for retirement anxiety</a>
-    <a href="/anxiety/therapy-for-seniors-who-cant-sleep">Therapy for seniors who can't sleep</a>
-    <a href="/anxiety/therapy-for-seniors-who-overthink-everything">Therapy for seniors who overthink everything</a>
-    <a href="/anxiety/therapy-for-seniors-with-anxiety">Therapy for seniors with anxiety</a>
-    <a href="/anxiety/therapy-for-shift-workers-who-cant-sleep">Therapy for shift workers who can't sleep</a>
-    <a href="/anxiety/therapy-for-shift-workers-who-overthink-everything">Therapy for shift workers who overthink everything</a>
-    <a href="/anxiety/therapy-for-shift-workers-with-anxiety">Therapy for shift workers with anxiety</a>
-    <a href="/anxiety/therapy-for-single-dads-who-cant-sleep">Therapy for single dads who can't sleep</a>
-    <a href="/anxiety/therapy-for-single-dads-who-overthink-everything">Therapy for single dads who overthink everything</a>
-    <a href="/anxiety/therapy-for-single-dads-with-anxiety">Therapy for single dads with anxiety</a>
-    <a href="/anxiety/therapy-for-single-moms-who-cant-sleep">Therapy for single moms who can't sleep</a>
-    <a href="/anxiety/therapy-for-single-moms-who-overthink-everything">Therapy for single moms who overthink everything</a>
-    <a href="/anxiety/therapy-for-single-moms-with-anxiety">Therapy for single moms with anxiety</a>
-    <a href="/anxiety/therapy-for-small-business-owners-who-cant-sleep">Therapy for small business owners who can't sleep</a>
-    <a href="/anxiety/therapy-for-small-business-owners-who-overthink-everything">Therapy for small business owners who overthink everything</a>
-    <a href="/anxiety/therapy-for-small-business-owners-with-anxiety">Therapy for small business owners with anxiety</a>
-    <a href="/anxiety/therapy-for-social-anxiety">Therapy for social anxiety</a>
-    <a href="/anxiety/therapy-for-social-anxiety">Therapy for social anxiety</a>
-    <a href="/anxiety/therapy-for-students-who-cant-sleep">Therapy for students who can't sleep</a>
-    <a href="/anxiety/therapy-for-students-who-overthink-everything">Therapy for students who overthink everything</a>
-    <a href="/anxiety/therapy-for-students-with-anxiety">Therapy for students with anxiety</a>
-    <a href="/anxiety/therapy-for-teachers-who-cant-sleep">Therapy for teachers who can't sleep</a>
-    <a href="/anxiety/therapy-for-teachers-who-overthink-everything">Therapy for teachers who overthink everything</a>
-    <a href="/anxiety/therapy-for-teachers-with-anxiety">Therapy for teachers with anxiety</a>
-    <a href="/anxiety/therapy-for-teenagers-who-cant-sleep">Therapy for teenagers who can't sleep</a>
-    <a href="/anxiety/therapy-for-teenagers-who-overthink-everything">Therapy for teenagers who overthink everything</a>
-    <a href="/anxiety/therapy-for-teenagers-with-anxiety">Therapy for teenagers with anxiety</a>
-    <a href="/anxiety/therapy-for-truck-drivers-who-cant-sleep">Therapy for truck drivers who can't sleep</a>
-    <a href="/anxiety/therapy-for-truck-drivers-who-overthink-everything">Therapy for truck drivers who overthink everything</a>
-    <a href="/anxiety/therapy-for-truck-drivers-with-anxiety">Therapy for truck drivers with anxiety</a>
-    <a href="/anxiety/therapy-for-veterans-who-cant-sleep">Therapy for veterans who can't sleep</a>
-    <a href="/anxiety/therapy-for-veterans-who-overthink-everything">Therapy for veterans who overthink everything</a>
-    <a href="/anxiety/therapy-for-veterans-with-anxiety">Therapy for veterans with anxiety</a>
-    <a href="/anxiety/therapy-for-women-who-cant-sleep">Therapy for women who can't sleep</a>
-    <a href="/anxiety/therapy-for-women-who-overthink-everything">Therapy for women who overthink everything</a>
-    <a href="/anxiety/therapy-for-women-with-anxiety">Therapy for women with anxiety</a>
-    <a href="/anxiety/therapy-for-workaholics-who-cant-sleep">Therapy for workaholics who can't sleep</a>
-    <a href="/anxiety/therapy-for-workaholics-who-overthink-everything">Therapy for workaholics who overthink everything</a>
-    <a href="/anxiety/therapy-for-workaholics-with-anxiety">Therapy for workaholics with anxiety</a>
-    <a href="/anxiety/therapy-for-young-adults-who-cant-sleep">Therapy for young adults who can't sleep</a>
-    <a href="/anxiety/therapy-for-young-adults-who-overthink-everything">Therapy for young adults who overthink everything</a>
-    <a href="/anxiety/therapy-for-young-adults-with-anxiety">Therapy for young adults with anxiety</a>
-    <a href="/anxiety/why-cant-i-stop-overthinking">Why can't I stop overthinking</a>
-    <a href="/anxiety/why-cant-i-stop-overthinking">Why can't I stop overthinking</a>
-    <a href="/anxiety/why-do-i-feel-anxious-all-the-time">Why do I feel anxious all the time</a>
-    <a href="/anxiety/why-do-i-feel-anxious-all-the-time">Why do I feel anxious all the time</a>
-    <a href="/anxiety/why-do-i-feel-worse-at-night">Why do I feel worse at night</a>
+    <a href="/anxiety/men/therapy-for-men-who-cant-sleep">Therapy for men who can't sleep</a>
+    <a href="/anxiety/men/therapy-for-men-who-overthink-everything">Therapy for men who overthink everything</a>
+    <a href="/anxiety/men/therapy-for-men-with-anxiety">Therapy for men with anxiety</a>
+    <a href="/anxiety/men/therapy-for-women-who-cant-sleep">Therapy for women who can't sleep</a>
+    <a href="/anxiety/men/therapy-for-women-who-overthink-everything">Therapy for women who overthink everything</a>
+    <a href="/anxiety/men/therapy-for-women-with-anxiety">Therapy for women with anxiety</a>
   </div>
+
+
+  <h3 id="sec-parents" class="section-title">Parents <span class="count-pill">13</span></h3>
+  <div class="grid">
+    <a href="/anxiety/parents/therapy-for-dads-with-anxiety">Therapy for dads with anxiety</a>
+    <a href="/anxiety/parents/therapy-for-new-moms-who-cant-sleep">Therapy for new moms who can't sleep</a>
+    <a href="/anxiety/parents/therapy-for-new-moms-who-overthink-everything">Therapy for new moms who overthink everything</a>
+    <a href="/anxiety/parents/therapy-for-new-moms-with-anxiety">Therapy for new moms with anxiety</a>
+    <a href="/anxiety/parents/therapy-for-parents-who-cant-sleep">Therapy for parents who can't sleep</a>
+    <a href="/anxiety/parents/therapy-for-parents-who-overthink-everything">Therapy for parents who overthink everything</a>
+    <a href="/anxiety/parents/therapy-for-parents-with-anxiety">Therapy for parents with anxiety</a>
+    <a href="/anxiety/parents/therapy-for-single-dads-who-cant-sleep">Therapy for single dads who can't sleep</a>
+    <a href="/anxiety/parents/therapy-for-single-dads-who-overthink-everything">Therapy for single dads who overthink everything</a>
+    <a href="/anxiety/parents/therapy-for-single-dads-with-anxiety">Therapy for single dads with anxiety</a>
+    <a href="/anxiety/parents/therapy-for-single-moms-who-cant-sleep">Therapy for single moms who can't sleep</a>
+    <a href="/anxiety/parents/therapy-for-single-moms-who-overthink-everything">Therapy for single moms who overthink everything</a>
+    <a href="/anxiety/parents/therapy-for-single-moms-with-anxiety">Therapy for single moms with anxiety</a>
+  </div>
+
+
+  <h3 id="sec-seniors-retirees" class="section-title">Seniors Retirees <span class="count-pill">4</span></h3>
+  <div class="grid">
+    <a href="/anxiety/seniors-retirees/therapy-for-retirement-anxiety">Therapy for retirement anxiety</a>
+    <a href="/anxiety/seniors-retirees/therapy-for-seniors-who-cant-sleep">Therapy for seniors who can't sleep</a>
+    <a href="/anxiety/seniors-retirees/therapy-for-seniors-who-overthink-everything">Therapy for seniors who overthink everything</a>
+    <a href="/anxiety/seniors-retirees/therapy-for-seniors-with-anxiety">Therapy for seniors with anxiety</a>
+  </div>
+
+
+  <h3 id="sec-specific-fears" class="section-title">Specific Fears <span class="count-pill">54</span></h3>
+  <div class="grid">
+    <a href="/anxiety/specific-fears/counseling-for-health-anxiety">Counseling for health anxiety</a>
+    <a href="/anxiety/specific-fears/counseling-for-intrusive-thoughts">Counseling for intrusive thoughts</a>
+    <a href="/anxiety/specific-fears/counseling-for-overthinking">Counseling for overthinking</a>
+    <a href="/anxiety/specific-fears/counseling-for-panic-attacks">Counseling for panic attacks</a>
+    <a href="/anxiety/specific-fears/counseling-for-social-anxiety">Counseling for social anxiety</a>
+    <a href="/anxiety/specific-fears/help-for-health-anxiety">Help for health anxiety</a>
+    <a href="/anxiety/specific-fears/help-for-intrusive-thoughts">Help for intrusive thoughts</a>
+    <a href="/anxiety/specific-fears/help-for-overthinking">Help for overthinking</a>
+    <a href="/anxiety/specific-fears/help-for-panic-attacks">Help for panic attacks</a>
+    <a href="/anxiety/specific-fears/help-for-social-anxiety">Help for social anxiety</a>
+    <a href="/anxiety/specific-fears/online-therapy-for-health-anxiety">Online therapy for health anxiety</a>
+    <a href="/anxiety/specific-fears/online-therapy-for-intrusive-thoughts">Online therapy for intrusive thoughts</a>
+    <a href="/anxiety/specific-fears/online-therapy-for-overthinking">Online therapy for overthinking</a>
+    <a href="/anxiety/specific-fears/online-therapy-for-panic-attacks">Online therapy for panic attacks</a>
+    <a href="/anxiety/specific-fears/online-therapy-for-social-anxiety">Online therapy for social anxiety</a>
+    <a href="/anxiety/specific-fears/therapy-for-adult-children-of-narcissists-who-overthink-everything">Therapy for adult children of narcissists who overthink everything</a>
+    <a href="/anxiety/specific-fears/therapy-for-athletes-who-overthink-everything">Therapy for athletes who overthink everything</a>
+    <a href="/anxiety/specific-fears/therapy-for-couples-who-overthink-everything">Therapy for couples who overthink everything</a>
+    <a href="/anxiety/specific-fears/therapy-for-doctors-who-overthink-everything">Therapy for doctors who overthink everything</a>
+    <a href="/anxiety/specific-fears/therapy-for-empty-nesters-who-overthink-everything">Therapy for empty nesters who overthink everything</a>
+    <a href="/anxiety/specific-fears/therapy-for-expats-who-overthink-everything">Therapy for expats who overthink everything</a>
+    <a href="/anxiety/specific-fears/therapy-for-freelancers-who-overthink-everything">Therapy for freelancers who overthink everything</a>
+    <a href="/anxiety/specific-fears/therapy-for-health-anxiety">Therapy for health anxiety</a>
+    <a href="/anxiety/specific-fears/therapy-for-health-anxiety">Therapy for health anxiety</a>
+    <a href="/anxiety/specific-fears/therapy-for-highly-sensitive-people-who-overthink-everything">Therapy for highly sensitive people who overthink everything</a>
+    <a href="/anxiety/specific-fears/therapy-for-introverts-who-overthink-everything">Therapy for introverts who overthink everything</a>
+    <a href="/anxiety/specific-fears/therapy-for-intrusive-thoughts">Therapy for intrusive thoughts</a>
+    <a href="/anxiety/specific-fears/therapy-for-intrusive-thoughts">Therapy for intrusive thoughts</a>
+    <a href="/anxiety/specific-fears/therapy-for-lawyers-who-overthink-everything">Therapy for lawyers who overthink everything</a>
+    <a href="/anxiety/specific-fears/therapy-for-overthinkers">Therapy for overthinkers</a>
+    <a href="/anxiety/specific-fears/therapy-for-overthinkers-who-cant-sleep">Therapy for overthinkers who can't sleep</a>
+    <a href="/anxiety/specific-fears/therapy-for-overthinkers-who-feel-alone">Therapy for overthinkers who feel alone</a>
+    <a href="/anxiety/specific-fears/therapy-for-overthinkers-who-feel-overwhelmed">Therapy for overthinkers who feel overwhelmed</a>
+    <a href="/anxiety/specific-fears/therapy-for-overthinkers-who-feel-stuck">Therapy for overthinkers who feel stuck</a>
+    <a href="/anxiety/specific-fears/therapy-for-overthinkers-who-overthink-everything">Therapy for overthinkers who overthink everything</a>
+    <a href="/anxiety/specific-fears/therapy-for-overthinkers-with-anger-issues">Therapy for overthinkers with anger issues</a>
+    <a href="/anxiety/specific-fears/therapy-for-overthinkers-with-anxiety">Therapy for overthinkers with anxiety</a>
+    <a href="/anxiety/specific-fears/therapy-for-overthinkers-with-burnout">Therapy for overthinkers with burnout</a>
+    <a href="/anxiety/specific-fears/therapy-for-overthinkers-with-depression">Therapy for overthinkers with depression</a>
+    <a href="/anxiety/specific-fears/therapy-for-overthinkers-with-low-self-esteem">Therapy for overthinkers with low self esteem</a>
+    <a href="/anxiety/specific-fears/therapy-for-overthinkers-with-stress">Therapy for overthinkers with stress</a>
+    <a href="/anxiety/specific-fears/therapy-for-overthinkers-with-trauma">Therapy for overthinkers with trauma</a>
+    <a href="/anxiety/specific-fears/therapy-for-overthinking">Therapy for overthinking</a>
+    <a href="/anxiety/specific-fears/therapy-for-panic-attacks">Therapy for panic attacks</a>
+    <a href="/anxiety/specific-fears/therapy-for-panic-attacks">Therapy for panic attacks</a>
+    <a href="/anxiety/specific-fears/therapy-for-people-pleasers-who-overthink-everything">Therapy for people pleasers who overthink everything</a>
+    <a href="/anxiety/specific-fears/therapy-for-perfectionists-who-overthink-everything">Therapy for perfectionists who overthink everything</a>
+    <a href="/anxiety/specific-fears/therapy-for-shift-workers-who-overthink-everything">Therapy for shift workers who overthink everything</a>
+    <a href="/anxiety/specific-fears/therapy-for-small-business-owners-who-overthink-everything">Therapy for small business owners who overthink everything</a>
+    <a href="/anxiety/specific-fears/therapy-for-social-anxiety">Therapy for social anxiety</a>
+    <a href="/anxiety/specific-fears/therapy-for-social-anxiety">Therapy for social anxiety</a>
+    <a href="/anxiety/specific-fears/therapy-for-truck-drivers-who-overthink-everything">Therapy for truck drivers who overthink everything</a>
+    <a href="/anxiety/specific-fears/why-cant-i-stop-overthinking">Why can't I stop overthinking</a>
+    <a href="/anxiety/specific-fears/why-cant-i-stop-overthinking">Why can't I stop overthinking</a>
+  </div>
+
+
+  <h3 id="sec-students-young-adults" class="section-title">Students Young Adults <span class="count-pill">15</span></h3>
+  <div class="grid">
+    <a href="/anxiety/students-young-adults/therapy-for-college-students-who-cant-sleep">Therapy for college students who can't sleep</a>
+    <a href="/anxiety/students-young-adults/therapy-for-college-students-who-overthink-everything">Therapy for college students who overthink everything</a>
+    <a href="/anxiety/students-young-adults/therapy-for-college-students-with-anxiety">Therapy for college students with anxiety</a>
+    <a href="/anxiety/students-young-adults/therapy-for-grad-students-who-cant-sleep">Therapy for grad students who can't sleep</a>
+    <a href="/anxiety/students-young-adults/therapy-for-grad-students-who-overthink-everything">Therapy for grad students who overthink everything</a>
+    <a href="/anxiety/students-young-adults/therapy-for-grad-students-with-anxiety">Therapy for grad students with anxiety</a>
+    <a href="/anxiety/students-young-adults/therapy-for-students-who-cant-sleep">Therapy for students who can't sleep</a>
+    <a href="/anxiety/students-young-adults/therapy-for-students-who-overthink-everything">Therapy for students who overthink everything</a>
+    <a href="/anxiety/students-young-adults/therapy-for-students-with-anxiety">Therapy for students with anxiety</a>
+    <a href="/anxiety/students-young-adults/therapy-for-teenagers-who-cant-sleep">Therapy for teenagers who can't sleep</a>
+    <a href="/anxiety/students-young-adults/therapy-for-teenagers-who-overthink-everything">Therapy for teenagers who overthink everything</a>
+    <a href="/anxiety/students-young-adults/therapy-for-teenagers-with-anxiety">Therapy for teenagers with anxiety</a>
+    <a href="/anxiety/students-young-adults/therapy-for-young-adults-who-cant-sleep">Therapy for young adults who can't sleep</a>
+    <a href="/anxiety/students-young-adults/therapy-for-young-adults-who-overthink-everything">Therapy for young adults who overthink everything</a>
+    <a href="/anxiety/students-young-adults/therapy-for-young-adults-with-anxiety">Therapy for young adults with anxiety</a>
+  </div>
+
+
+  <h3 id="sec-working-professionals" class="section-title">Working Professionals <span class="count-pill">27</span></h3>
+  <div class="grid">
+    <a href="/anxiety/working-professionals/therapy-for-caregivers-who-cant-sleep">Therapy for caregivers who can't sleep</a>
+    <a href="/anxiety/working-professionals/therapy-for-caregivers-who-overthink-everything">Therapy for caregivers who overthink everything</a>
+    <a href="/anxiety/working-professionals/therapy-for-caregivers-with-anxiety">Therapy for caregivers with anxiety</a>
+    <a href="/anxiety/working-professionals/therapy-for-entrepreneurs-who-cant-sleep">Therapy for entrepreneurs who can't sleep</a>
+    <a href="/anxiety/working-professionals/therapy-for-entrepreneurs-who-overthink-everything">Therapy for entrepreneurs who overthink everything</a>
+    <a href="/anxiety/working-professionals/therapy-for-entrepreneurs-with-anxiety">Therapy for entrepreneurs with anxiety</a>
+    <a href="/anxiety/working-professionals/therapy-for-first-responders-who-cant-sleep">Therapy for first responders who can't sleep</a>
+    <a href="/anxiety/working-professionals/therapy-for-first-responders-who-overthink-everything">Therapy for first responders who overthink everything</a>
+    <a href="/anxiety/working-professionals/therapy-for-first-responders-with-anxiety">Therapy for first responders with anxiety</a>
+    <a href="/anxiety/working-professionals/therapy-for-healthcare-workers-who-cant-sleep">Therapy for healthcare workers who can't sleep</a>
+    <a href="/anxiety/working-professionals/therapy-for-healthcare-workers-who-overthink-everything">Therapy for healthcare workers who overthink everything</a>
+    <a href="/anxiety/working-professionals/therapy-for-healthcare-workers-with-anxiety">Therapy for healthcare workers with anxiety</a>
+    <a href="/anxiety/working-professionals/therapy-for-nurses-who-cant-sleep">Therapy for nurses who can't sleep</a>
+    <a href="/anxiety/working-professionals/therapy-for-nurses-who-overthink-everything">Therapy for nurses who overthink everything</a>
+    <a href="/anxiety/working-professionals/therapy-for-nurses-with-anxiety">Therapy for nurses with anxiety</a>
+    <a href="/anxiety/working-professionals/therapy-for-remote-workers-who-cant-sleep">Therapy for remote workers who can't sleep</a>
+    <a href="/anxiety/working-professionals/therapy-for-remote-workers-who-overthink-everything">Therapy for remote workers who overthink everything</a>
+    <a href="/anxiety/working-professionals/therapy-for-remote-workers-with-anxiety">Therapy for remote workers with anxiety</a>
+    <a href="/anxiety/working-professionals/therapy-for-teachers-who-cant-sleep">Therapy for teachers who can't sleep</a>
+    <a href="/anxiety/working-professionals/therapy-for-teachers-who-overthink-everything">Therapy for teachers who overthink everything</a>
+    <a href="/anxiety/working-professionals/therapy-for-teachers-with-anxiety">Therapy for teachers with anxiety</a>
+    <a href="/anxiety/working-professionals/therapy-for-veterans-who-cant-sleep">Therapy for veterans who can't sleep</a>
+    <a href="/anxiety/working-professionals/therapy-for-veterans-who-overthink-everything">Therapy for veterans who overthink everything</a>
+    <a href="/anxiety/working-professionals/therapy-for-veterans-with-anxiety">Therapy for veterans with anxiety</a>
+    <a href="/anxiety/working-professionals/therapy-for-workaholics-who-cant-sleep">Therapy for workaholics who can't sleep</a>
+    <a href="/anxiety/working-professionals/therapy-for-workaholics-who-overthink-everything">Therapy for workaholics who overthink everything</a>
+    <a href="/anxiety/working-professionals/therapy-for-workaholics-with-anxiety">Therapy for workaholics with anxiety</a>
+  </div>
+
+
+  <h3 id="sec-general" class="section-title">General <span class="count-pill">44</span></h3>
+  <div class="grid">
+    <a href="/anxiety/general/i-cant-stop-worrying-about-everything">I can't stop worrying about everything</a>
+    <a href="/anxiety/general/i-cant-switch-my-brain-off-at-night">I can't switch my brain off at night</a>
+    <a href="/anxiety/general/story-anxiety-therapy-success">Anxiety therapy success story</a>
+    <a href="/anxiety/general/counseling-for-anxiety">Counseling for anxiety</a>
+    <a href="/anxiety/general/help-for-anxiety">Help for anxiety</a>
+    <a href="/anxiety/general/online-therapy-for-anxiety">Online therapy for anxiety</a>
+    <a href="/anxiety/general/therapy-for-adult-children-of-narcissists-who-cant-sleep">Therapy for adult children of narcissists who can't sleep</a>
+    <a href="/anxiety/general/therapy-for-adult-children-of-narcissists-with-anxiety">Therapy for adult children of narcissists with anxiety</a>
+    <a href="/anxiety/general/therapy-for-anxiety">Therapy for anxiety</a>
+    <a href="/anxiety/general/therapy-for-anxiety-guide">Therapy for anxiety complete guide</a>
+    <a href="/anxiety/general/therapy-for-athletes-who-cant-sleep">Therapy for athletes who can't sleep</a>
+    <a href="/anxiety/general/therapy-for-athletes-with-anxiety">Therapy for athletes with anxiety</a>
+    <a href="/anxiety/general/therapy-for-career-anxiety">Therapy for career anxiety</a>
+    <a href="/anxiety/general/therapy-for-chronic-worrying">Therapy for chronic worrying</a>
+    <a href="/anxiety/general/therapy-for-couples-who-cant-sleep">Therapy for couples who can't sleep</a>
+    <a href="/anxiety/general/therapy-for-couples-with-anxiety">Therapy for couples with anxiety</a>
+    <a href="/anxiety/general/therapy-for-doctors-who-cant-sleep">Therapy for doctors who can't sleep</a>
+    <a href="/anxiety/general/therapy-for-doctors-with-anxiety">Therapy for doctors with anxiety</a>
+    <a href="/anxiety/general/therapy-for-empty-nesters-who-cant-sleep">Therapy for empty nesters who can't sleep</a>
+    <a href="/anxiety/general/therapy-for-empty-nesters-with-anxiety">Therapy for empty nesters with anxiety</a>
+    <a href="/anxiety/general/therapy-for-expats-who-cant-sleep">Therapy for expats who can't sleep</a>
+    <a href="/anxiety/general/therapy-for-expats-with-anxiety">Therapy for expats with anxiety</a>
+    <a href="/anxiety/general/therapy-for-freelancers-who-cant-sleep">Therapy for freelancers who can't sleep</a>
+    <a href="/anxiety/general/therapy-for-freelancers-with-anxiety">Therapy for freelancers with anxiety</a>
+    <a href="/anxiety/general/therapy-for-high-functioning-anxiety">Therapy for high functioning anxiety</a>
+    <a href="/anxiety/general/therapy-for-highly-sensitive-people-who-cant-sleep">Therapy for highly sensitive people who can't sleep</a>
+    <a href="/anxiety/general/therapy-for-highly-sensitive-people-with-anxiety">Therapy for highly sensitive people with anxiety</a>
+    <a href="/anxiety/general/therapy-for-introverts-who-cant-sleep">Therapy for introverts who can't sleep</a>
+    <a href="/anxiety/general/therapy-for-introverts-with-anxiety">Therapy for introverts with anxiety</a>
+    <a href="/anxiety/general/therapy-for-lawyers-who-cant-sleep">Therapy for lawyers who can't sleep</a>
+    <a href="/anxiety/general/therapy-for-lawyers-with-anxiety">Therapy for lawyers with anxiety</a>
+    <a href="/anxiety/general/therapy-for-people-pleasers-who-cant-sleep">Therapy for people pleasers who can't sleep</a>
+    <a href="/anxiety/general/therapy-for-people-pleasers-with-anxiety">Therapy for people pleasers with anxiety</a>
+    <a href="/anxiety/general/therapy-for-perfectionists-who-cant-sleep">Therapy for perfectionists who can't sleep</a>
+    <a href="/anxiety/general/therapy-for-perfectionists-with-anxiety">Therapy for perfectionists with anxiety</a>
+    <a href="/anxiety/general/therapy-for-shift-workers-who-cant-sleep">Therapy for shift workers who can't sleep</a>
+    <a href="/anxiety/general/therapy-for-shift-workers-with-anxiety">Therapy for shift workers with anxiety</a>
+    <a href="/anxiety/general/therapy-for-small-business-owners-who-cant-sleep">Therapy for small business owners who can't sleep</a>
+    <a href="/anxiety/general/therapy-for-small-business-owners-with-anxiety">Therapy for small business owners with anxiety</a>
+    <a href="/anxiety/general/therapy-for-truck-drivers-who-cant-sleep">Therapy for truck drivers who can't sleep</a>
+    <a href="/anxiety/general/therapy-for-truck-drivers-with-anxiety">Therapy for truck drivers with anxiety</a>
+    <a href="/anxiety/general/why-do-i-feel-anxious-all-the-time">Why do I feel anxious all the time</a>
+    <a href="/anxiety/general/why-do-i-feel-anxious-all-the-time">Why do I feel anxious all the time</a>
+    <a href="/anxiety/general/why-do-i-feel-worse-at-night">Why do I feel worse at night</a>
+  </div>
+
+  </div>
+  <p id="noResults" class="no-results" style="display:none;">No resources match your search. Try a different word.</p>
 </div>
+<script>
+function filterCards() {
+  const q = document.getElementById('filterBox').value.toLowerCase();
+  const cards = document.querySelectorAll('#resultsWrap .grid a');
+  const sections = document.querySelectorAll('#resultsWrap h3');
+  let anyVisible = false;
+  cards.forEach(c => {
+    const match = c.textContent.toLowerCase().includes(q);
+    c.style.display = match ? 'block' : 'none';
+    if (match) anyVisible = true;
+  });
+  sections.forEach(h => {
+    const grid = h.nextElementSibling;
+    const visibleInGrid = grid ? Array.from(grid.querySelectorAll('a')).some(a => a.style.display !== 'none') : false;
+    h.style.display = visibleInGrid ? 'block' : 'none';
+    if (grid) grid.style.display = visibleInGrid ? 'grid' : 'none';
+  });
+  document.getElementById('noResults').style.display = anyVisible ? 'none' : 'block';
+}
+</script>
 <footer>
 TherapyFor.us &nbsp;·&nbsp; Helping people access mental health support<br>
 We may earn a commission if you sign up through our links, at no extra cost to you.<br>

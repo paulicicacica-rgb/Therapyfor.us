@@ -29,8 +29,15 @@
  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:12px;margin-bottom:40px;}
  .grid a{display:block;padding:16px 18px;background:var(--navy2);border:1px solid var(--rule);border-radius:8px;color:var(--text);text-decoration:none;font-size:14px;transition:all .2s;}
  .grid a:hover{border-color:var(--green);color:var(--white);}
- .subhubs{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:36px;}
+ .subhubs{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:32px;}
  .subhubs a{padding:8px 16px;background:var(--navy3);border:1px solid var(--rule);border-radius:20px;color:var(--green-bright);text-decoration:none;font-size:13px;font-weight:500;}
+ .filter-box{width:100%;padding:14px 18px;background:var(--navy2);border:1px solid var(--rule);border-radius:10px;color:var(--white);font-size:15px;font-family:'Inter',sans-serif;margin-bottom:28px;outline:none;}
+ .filter-box:focus{border-color:var(--green);}
+ .filter-box::placeholder{color:var(--text-muted);}
+ .section-title{font-family:'Inter',sans-serif;font-size:15px;font-weight:700;color:var(--green-bright);text-transform:uppercase;letter-spacing:0.06em;margin:36px 0 16px;display:flex;align-items:center;gap:10px;}
+ .section-title:first-of-type{margin-top:8px;}
+ .count-pill{background:var(--navy3);color:var(--text-muted);font-size:11px;font-weight:600;padding:2px 9px;border-radius:10px;letter-spacing:0;text-transform:none;}
+ .no-results{color:var(--text-muted);font-size:14px;padding:24px 0;}
  footer{background:var(--navy2);border-top:1px solid var(--rule);padding:36px 48px;font-size:13px;color:var(--text-muted);line-height:1.8;margin-top:40px;}
  footer a{color:var(--text-muted);text-decoration:underline;}
  @media(max-width:640px){nav,.hero,.wrap,.breadcrumb,footer{padding-left:20px;padding-right:20px;}}
@@ -47,108 +54,159 @@
   <a href="https://betterhelp.com/YOUR_AFFILIATE_LINK" class="btn-main">Talk to Someone Today</a>
 </div>
 <div class="wrap">
-  <div class="subhubs"><a href="/arabi/general/">General</a><a href="/arabi/ansiedad/">Ansiedad</a><a href="/arabi/depresion/">Depresion</a><a href="/arabi/inmigrantes/">Inmigrantes</a><a href="/arabi/relaciones/">Relaciones</a><a href="/arabi/duelo/">Duelo</a></div>
-  <h2>All العلاج النفسي بالعربية resources</h2>
+  <input type="text" id="filterBox" class="filter-box" placeholder="Search 97 resources by keyword..." onkeyup="filterCards()">
+  <div class="subhubs"><a href="#sec-general">General (64)</a><a href="#sec-ansiedad">Ansiedad (13)</a><a href="#sec-depresion">Depresion (7)</a><a href="#sec-inmigrantes">Inmigrantes (5)</a><a href="#sec-relaciones">Relaciones (4)</a><a href="#sec-duelo">Duelo (4)</a></div>
+  <div id="resultsWrap">
+  
+  <h3 id="sec-ansiedad" class="section-title">Ansiedad <span class="count-pill">13</span></h3>
+  <div class="grid">
+    <a href="/arabi/ansiedad/arabic-arabic-speaking-therapist-for-anxiety">Arabic speaking therapist for anxiety</a>
+    <a href="/arabi/ansiedad/arabic-arabic-speaking-therapist-for-insomnia">Arabic speaking therapist for insomnia</a>
+    <a href="/arabi/ansiedad/arabic-arabic-speaking-therapist-for-panic-attacks">Arabic speaking therapist for panic attacks</a>
+    <a href="/arabi/ansiedad/arabic-arabic-speaking-therapist-for-social-anxiety">Arabic speaking therapist for social anxiety</a>
+    <a href="/arabi/ansiedad/arabic-arabic-therapy-for-anxiety">Arabic therapy for anxiety</a>
+    <a href="/arabi/ansiedad/arabic-arabic-therapy-for-insomnia">Arabic therapy for insomnia</a>
+    <a href="/arabi/ansiedad/arabic-arabic-therapy-for-panic-attacks">Arabic therapy for panic attacks</a>
+    <a href="/arabi/ansiedad/arabic-arabic-therapy-for-social-anxiety">Arabic therapy for social anxiety</a>
+    <a href="/arabi/ansiedad/arabic-online-arabic-therapy-for-anxiety">Online Arabic therapy for anxiety</a>
+    <a href="/arabi/ansiedad/arabic-online-arabic-therapy-for-insomnia">Online Arabic therapy for insomnia</a>
+    <a href="/arabi/ansiedad/arabic-online-arabic-therapy-for-panic-attacks">Online Arabic therapy for panic attacks</a>
+    <a href="/arabi/ansiedad/arabic-online-arabic-therapy-for-social-anxiety">Online Arabic therapy for social anxiety</a>
+    <a href="/arabi/ansiedad/arabic-anxiety-therapy-in-arabic">علاج القلق بالعربية</a>
+  </div>
+
+
+  <h3 id="sec-depresion" class="section-title">Depresion <span class="count-pill">7</span></h3>
+  <div class="grid">
+    <a href="/arabi/depresion/arabic-arabic-speaking-therapist-for-depression">Arabic speaking therapist for depression</a>
+    <a href="/arabi/depresion/arabic-arabic-speaking-therapist-for-postpartum-depression">Arabic speaking therapist for postpartum depression</a>
+    <a href="/arabi/depresion/arabic-arabic-therapy-for-depression">Arabic therapy for depression</a>
+    <a href="/arabi/depresion/arabic-arabic-therapy-for-postpartum-depression">Arabic therapy for postpartum depression</a>
+    <a href="/arabi/depresion/arabic-online-arabic-therapy-for-depression">Online Arabic therapy for depression</a>
+    <a href="/arabi/depresion/arabic-online-arabic-therapy-for-postpartum-depression">Online Arabic therapy for postpartum depression</a>
+    <a href="/arabi/depresion/arabic-depression-therapy-in-arabic">علاج الاكتئاب بالعربية</a>
+  </div>
+
+
+  <h3 id="sec-duelo" class="section-title">Duelo <span class="count-pill">4</span></h3>
+  <div class="grid">
+    <a href="/arabi/duelo/arabic-arabic-speaking-therapist-for-grief">Arabic speaking therapist for grief</a>
+    <a href="/arabi/duelo/arabic-arabic-therapy-for-grief">Arabic therapy for grief</a>
+    <a href="/arabi/duelo/arabic-online-arabic-therapy-for-grief">Online Arabic therapy for grief</a>
+    <a href="/arabi/duelo/arabic-grief-therapy-in-arabic">علاج الحزن والفقدان بالعربية</a>
+  </div>
+
+
+  <h3 id="sec-inmigrantes" class="section-title">Inmigrantes <span class="count-pill">5</span></h3>
+  <div class="grid">
+    <a href="/arabi/inmigrantes/arabic-arabic-speaking-therapist-for-immigrant-guilt">Arabic speaking therapist for immigrant guilt</a>
+    <a href="/arabi/inmigrantes/arabic-arabic-therapy-for-immigrant-guilt">Arabic therapy for immigrant guilt</a>
+    <a href="/arabi/inmigrantes/arabic-online-arabic-therapy-for-immigrant-guilt">Online Arabic therapy for immigrant guilt</a>
+    <a href="/arabi/inmigrantes/arabic-immigrant-loneliness">علاج الشعور بالوحدة للمهاجرين</a>
+    <a href="/arabi/inmigrantes/arabic-therapy-for-arab-immigrants">علاج نفسي للمهاجرين العرب</a>
+  </div>
+
+
+  <h3 id="sec-relaciones" class="section-title">Relaciones <span class="count-pill">4</span></h3>
+  <div class="grid">
+    <a href="/arabi/relaciones/arabic-arabic-speaking-therapist-for-divorce">Arabic speaking therapist for divorce</a>
+    <a href="/arabi/relaciones/arabic-arabic-therapy-for-divorce">Arabic therapy for divorce</a>
+    <a href="/arabi/relaciones/arabic-online-arabic-therapy-for-divorce">Online Arabic therapy for divorce</a>
+    <a href="/arabi/relaciones/arabic-therapy-after-divorce">علاج نفسي بعد الطلاق</a>
+  </div>
+
+
+  <h3 id="sec-general" class="section-title">General <span class="count-pill">64</span></h3>
   <div class="grid">
     <a href="/arabi/general/arabic-arabic-speaking-therapist-for-acculturative-stress">Arabic speaking therapist for acculturative stress</a>
     <a href="/arabi/general/arabic-arabic-speaking-therapist-for-anger">Arabic speaking therapist for anger</a>
-    <a href="/arabi/ansiedad/arabic-arabic-speaking-therapist-for-anxiety">Arabic speaking therapist for anxiety</a>
     <a href="/arabi/general/arabic-arabic-speaking-therapist-for-breakup">Arabic speaking therapist for breakup</a>
     <a href="/arabi/general/arabic-arabic-speaking-therapist-for-burnout">Arabic speaking therapist for burnout</a>
-    <a href="/arabi/depresion/arabic-arabic-speaking-therapist-for-depression">Arabic speaking therapist for depression</a>
-    <a href="/arabi/relaciones/arabic-arabic-speaking-therapist-for-divorce">Arabic speaking therapist for divorce</a>
     <a href="/arabi/general/arabic-arabic-speaking-therapist-for-emotional-numbness">Arabic speaking therapist for emotional numbness</a>
     <a href="/arabi/general/arabic-arabic-speaking-therapist-for-family-pressure">Arabic speaking therapist for family pressure</a>
     <a href="/arabi/general/arabic-arabic-speaking-therapist-for-financial-stress">Arabic speaking therapist for financial stress</a>
-    <a href="/arabi/duelo/arabic-arabic-speaking-therapist-for-grief">Arabic speaking therapist for grief</a>
     <a href="/arabi/general/arabic-arabic-speaking-therapist-for-homesickness">Arabic speaking therapist for homesickness</a>
     <a href="/arabi/general/arabic-arabic-speaking-therapist-for-identity">Arabic speaking therapist for identity</a>
-    <a href="/arabi/inmigrantes/arabic-arabic-speaking-therapist-for-immigrant-guilt">Arabic speaking therapist for immigrant guilt</a>
-    <a href="/arabi/ansiedad/arabic-arabic-speaking-therapist-for-insomnia">Arabic speaking therapist for insomnia</a>
     <a href="/arabi/general/arabic-arabic-speaking-therapist-for-isolation">Arabic speaking therapist for isolation</a>
     <a href="/arabi/general/arabic-arabic-speaking-therapist-for-loneliness">Arabic speaking therapist for loneliness</a>
     <a href="/arabi/general/arabic-arabic-speaking-therapist-for-low-self-esteem">Arabic speaking therapist for low self esteem</a>
     <a href="/arabi/general/arabic-arabic-speaking-therapist-for-overthinking">Arabic speaking therapist for overthinking</a>
-    <a href="/arabi/ansiedad/arabic-arabic-speaking-therapist-for-panic-attacks">Arabic speaking therapist for panic attacks</a>
     <a href="/arabi/general/arabic-arabic-speaking-therapist-for-parenting-stress">Arabic speaking therapist for parenting stress</a>
     <a href="/arabi/general/arabic-arabic-speaking-therapist-for-perfectionism">Arabic speaking therapist for perfectionism</a>
-    <a href="/arabi/depresion/arabic-arabic-speaking-therapist-for-postpartum-depression">Arabic speaking therapist for postpartum depression</a>
     <a href="/arabi/general/arabic-arabic-speaking-therapist-for-relationship-problems">Arabic speaking therapist for relationship problems</a>
-    <a href="/arabi/ansiedad/arabic-arabic-speaking-therapist-for-social-anxiety">Arabic speaking therapist for social anxiety</a>
     <a href="/arabi/general/arabic-arabic-speaking-therapist-for-stress">Arabic speaking therapist for stress</a>
     <a href="/arabi/general/arabic-arabic-speaking-therapist-for-trauma">Arabic speaking therapist for trauma</a>
     <a href="/arabi/general/arabic-arabic-speaking-therapist-for-work-stress">Arabic speaking therapist for work stress</a>
     <a href="/arabi/general/arabic-arabic-therapy-for-acculturative-stress">Arabic therapy for acculturative stress</a>
     <a href="/arabi/general/arabic-arabic-therapy-for-anger">Arabic therapy for anger</a>
-    <a href="/arabi/ansiedad/arabic-arabic-therapy-for-anxiety">Arabic therapy for anxiety</a>
     <a href="/arabi/general/arabic-arabic-therapy-for-breakup">Arabic therapy for breakup</a>
     <a href="/arabi/general/arabic-arabic-therapy-for-burnout">Arabic therapy for burnout</a>
-    <a href="/arabi/depresion/arabic-arabic-therapy-for-depression">Arabic therapy for depression</a>
-    <a href="/arabi/relaciones/arabic-arabic-therapy-for-divorce">Arabic therapy for divorce</a>
     <a href="/arabi/general/arabic-arabic-therapy-for-emotional-numbness">Arabic therapy for emotional numbness</a>
     <a href="/arabi/general/arabic-arabic-therapy-for-family-pressure">Arabic therapy for family pressure</a>
     <a href="/arabi/general/arabic-arabic-therapy-for-financial-stress">Arabic therapy for financial stress</a>
-    <a href="/arabi/duelo/arabic-arabic-therapy-for-grief">Arabic therapy for grief</a>
     <a href="/arabi/general/arabic-arabic-therapy-for-homesickness">Arabic therapy for homesickness</a>
     <a href="/arabi/general/arabic-arabic-therapy-for-identity">Arabic therapy for identity</a>
-    <a href="/arabi/inmigrantes/arabic-arabic-therapy-for-immigrant-guilt">Arabic therapy for immigrant guilt</a>
-    <a href="/arabi/ansiedad/arabic-arabic-therapy-for-insomnia">Arabic therapy for insomnia</a>
     <a href="/arabi/general/arabic-arabic-therapy-for-isolation">Arabic therapy for isolation</a>
     <a href="/arabi/general/arabic-arabic-therapy-for-loneliness">Arabic therapy for loneliness</a>
     <a href="/arabi/general/arabic-arabic-therapy-for-low-self-esteem">Arabic therapy for low self esteem</a>
     <a href="/arabi/general/arabic-arabic-therapy-for-overthinking">Arabic therapy for overthinking</a>
-    <a href="/arabi/ansiedad/arabic-arabic-therapy-for-panic-attacks">Arabic therapy for panic attacks</a>
     <a href="/arabi/general/arabic-arabic-therapy-for-parenting-stress">Arabic therapy for parenting stress</a>
     <a href="/arabi/general/arabic-arabic-therapy-for-perfectionism">Arabic therapy for perfectionism</a>
-    <a href="/arabi/depresion/arabic-arabic-therapy-for-postpartum-depression">Arabic therapy for postpartum depression</a>
     <a href="/arabi/general/arabic-arabic-therapy-for-relationship-problems">Arabic therapy for relationship problems</a>
-    <a href="/arabi/ansiedad/arabic-arabic-therapy-for-social-anxiety">Arabic therapy for social anxiety</a>
     <a href="/arabi/general/arabic-arabic-therapy-for-stress">Arabic therapy for stress</a>
     <a href="/arabi/general/arabic-arabic-therapy-for-trauma">Arabic therapy for trauma</a>
     <a href="/arabi/general/arabic-arabic-therapy-for-work-stress">Arabic therapy for work stress</a>
     <a href="/arabi/general/arabic-online-arabic-therapy-for-acculturative-stress">Online Arabic therapy for acculturative stress</a>
     <a href="/arabi/general/arabic-online-arabic-therapy-for-anger">Online Arabic therapy for anger</a>
-    <a href="/arabi/ansiedad/arabic-online-arabic-therapy-for-anxiety">Online Arabic therapy for anxiety</a>
     <a href="/arabi/general/arabic-online-arabic-therapy-for-breakup">Online Arabic therapy for breakup</a>
     <a href="/arabi/general/arabic-online-arabic-therapy-for-burnout">Online Arabic therapy for burnout</a>
-    <a href="/arabi/depresion/arabic-online-arabic-therapy-for-depression">Online Arabic therapy for depression</a>
-    <a href="/arabi/relaciones/arabic-online-arabic-therapy-for-divorce">Online Arabic therapy for divorce</a>
     <a href="/arabi/general/arabic-online-arabic-therapy-for-emotional-numbness">Online Arabic therapy for emotional numbness</a>
     <a href="/arabi/general/arabic-online-arabic-therapy-for-family-pressure">Online Arabic therapy for family pressure</a>
     <a href="/arabi/general/arabic-online-arabic-therapy-for-financial-stress">Online Arabic therapy for financial stress</a>
-    <a href="/arabi/duelo/arabic-online-arabic-therapy-for-grief">Online Arabic therapy for grief</a>
     <a href="/arabi/general/arabic-online-arabic-therapy-for-homesickness">Online Arabic therapy for homesickness</a>
     <a href="/arabi/general/arabic-online-arabic-therapy-for-identity">Online Arabic therapy for identity</a>
-    <a href="/arabi/inmigrantes/arabic-online-arabic-therapy-for-immigrant-guilt">Online Arabic therapy for immigrant guilt</a>
-    <a href="/arabi/ansiedad/arabic-online-arabic-therapy-for-insomnia">Online Arabic therapy for insomnia</a>
     <a href="/arabi/general/arabic-online-arabic-therapy-for-isolation">Online Arabic therapy for isolation</a>
     <a href="/arabi/general/arabic-online-arabic-therapy-for-loneliness">Online Arabic therapy for loneliness</a>
     <a href="/arabi/general/arabic-online-arabic-therapy-for-low-self-esteem">Online Arabic therapy for low self esteem</a>
     <a href="/arabi/general/arabic-online-arabic-therapy-for-overthinking">Online Arabic therapy for overthinking</a>
-    <a href="/arabi/ansiedad/arabic-online-arabic-therapy-for-panic-attacks">Online Arabic therapy for panic attacks</a>
     <a href="/arabi/general/arabic-online-arabic-therapy-for-parenting-stress">Online Arabic therapy for parenting stress</a>
     <a href="/arabi/general/arabic-online-arabic-therapy-for-perfectionism">Online Arabic therapy for perfectionism</a>
-    <a href="/arabi/depresion/arabic-online-arabic-therapy-for-postpartum-depression">Online Arabic therapy for postpartum depression</a>
     <a href="/arabi/general/arabic-online-arabic-therapy-for-relationship-problems">Online Arabic therapy for relationship problems</a>
-    <a href="/arabi/ansiedad/arabic-online-arabic-therapy-for-social-anxiety">Online Arabic therapy for social anxiety</a>
     <a href="/arabi/general/arabic-online-arabic-therapy-for-stress">Online Arabic therapy for stress</a>
     <a href="/arabi/general/arabic-online-arabic-therapy-for-trauma">Online Arabic therapy for trauma</a>
     <a href="/arabi/general/arabic-online-arabic-therapy-for-work-stress">Online Arabic therapy for work stress</a>
     <a href="/arabi/general/arabic-emotional-burnout">علاج الإرهاق العاطفي</a>
-    <a href="/arabi/depresion/arabic-depression-therapy-in-arabic">علاج الاكتئاب بالعربية</a>
-    <a href="/arabi/duelo/arabic-grief-therapy-in-arabic">علاج الحزن والفقدان بالعربية</a>
     <a href="/arabi/general/arabic-homesickness-therapy">علاج الحنين إلى الوطن</a>
-    <a href="/arabi/inmigrantes/arabic-immigrant-loneliness">علاج الشعور بالوحدة للمهاجرين</a>
-    <a href="/arabi/ansiedad/arabic-anxiety-therapy-in-arabic">علاج القلق بالعربية</a>
     <a href="/arabi/general/arabic-online-arabic-therapy">علاج نفسي اونلاين بالعربية</a>
     <a href="/arabi/general/arabic-therapy-in-arabic-for-us-arabic-speakers">علاج نفسي بالعربية</a>
-    <a href="/arabi/relaciones/arabic-therapy-after-divorce">علاج نفسي بعد الطلاق</a>
     <a href="/arabi/general/arabic-therapy-for-arab-mothers">علاج نفسي للأمهات العربيات</a>
-    <a href="/arabi/inmigrantes/arabic-therapy-for-arab-immigrants">علاج نفسي للمهاجرين العرب</a>
     <a href="/arabi/general/arabic-why-do-i-feel-alone-in-america">لماذا أشعر بالوحدة في أمريكا</a>
     <a href="/arabi/general/arabic-finding-an-arabic-speaking-therapist">معالج نفسي يتحدث العربية</a>
   </div>
+
+  </div>
+  <p id="noResults" class="no-results" style="display:none;">No resources match your search. Try a different word.</p>
 </div>
+<script>
+function filterCards() {
+  const q = document.getElementById('filterBox').value.toLowerCase();
+  const cards = document.querySelectorAll('#resultsWrap .grid a');
+  const sections = document.querySelectorAll('#resultsWrap h3');
+  let anyVisible = false;
+  cards.forEach(c => {
+    const match = c.textContent.toLowerCase().includes(q);
+    c.style.display = match ? 'block' : 'none';
+    if (match) anyVisible = true;
+  });
+  sections.forEach(h => {
+    const grid = h.nextElementSibling;
+    const visibleInGrid = grid ? Array.from(grid.querySelectorAll('a')).some(a => a.style.display !== 'none') : false;
+    h.style.display = visibleInGrid ? 'block' : 'none';
+    if (grid) grid.style.display = visibleInGrid ? 'grid' : 'none';
+  });
+  document.getElementById('noResults').style.display = anyVisible ? 'none' : 'block';
+}
+</script>
 <footer>
 TherapyFor.us &nbsp;·&nbsp; Helping people access mental health support<br>
 We may earn a commission if you sign up through our links, at no extra cost to you.<br>

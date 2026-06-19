@@ -29,8 +29,15 @@
  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:12px;margin-bottom:40px;}
  .grid a{display:block;padding:16px 18px;background:var(--navy2);border:1px solid var(--rule);border-radius:8px;color:var(--text);text-decoration:none;font-size:14px;transition:all .2s;}
  .grid a:hover{border-color:var(--green);color:var(--white);}
- .subhubs{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:36px;}
+ .subhubs{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:32px;}
  .subhubs a{padding:8px 16px;background:var(--navy3);border:1px solid var(--rule);border-radius:20px;color:var(--green-bright);text-decoration:none;font-size:13px;font-weight:500;}
+ .filter-box{width:100%;padding:14px 18px;background:var(--navy2);border:1px solid var(--rule);border-radius:10px;color:var(--white);font-size:15px;font-family:'Inter',sans-serif;margin-bottom:28px;outline:none;}
+ .filter-box:focus{border-color:var(--green);}
+ .filter-box::placeholder{color:var(--text-muted);}
+ .section-title{font-family:'Inter',sans-serif;font-size:15px;font-weight:700;color:var(--green-bright);text-transform:uppercase;letter-spacing:0.06em;margin:36px 0 16px;display:flex;align-items:center;gap:10px;}
+ .section-title:first-of-type{margin-top:8px;}
+ .count-pill{background:var(--navy3);color:var(--text-muted);font-size:11px;font-weight:600;padding:2px 9px;border-radius:10px;letter-spacing:0;text-transform:none;}
+ .no-results{color:var(--text-muted);font-size:14px;padding:24px 0;}
  footer{background:var(--navy2);border-top:1px solid var(--rule);padding:36px 48px;font-size:13px;color:var(--text-muted);line-height:1.8;margin-top:40px;}
  footer a{color:var(--text-muted);text-decoration:underline;}
  @media(max-width:640px){nav,.hero,.wrap,.breadcrumb,footer{padding-left:20px;padding-right:20px;}}
@@ -47,62 +54,108 @@
   <a href="https://betterhelp.com/YOUR_AFFILIATE_LINK" class="btn-main">Talk to Someone Today</a>
 </div>
 <div class="wrap">
-  <div class="subhubs"><a href="/espanol/general/">General</a><a href="/espanol/ansiedad/">Ansiedad</a><a href="/espanol/depresion/">Depresion</a><a href="/espanol/relaciones/">Relaciones</a><a href="/espanol/inmigrantes/">Inmigrantes</a><a href="/espanol/duelo/">Duelo</a></div>
-  <h2>All terapia en español resources</h2>
+  <input type="text" id="filterBox" class="filter-box" placeholder="Search 104 resources by keyword..." onkeyup="filterCards()">
+  <div class="subhubs"><a href="#sec-general">General (68)</a><a href="#sec-ansiedad">Ansiedad (14)</a><a href="#sec-depresion">Depresion (7)</a><a href="#sec-relaciones">Relaciones (5)</a><a href="#sec-inmigrantes">Inmigrantes (6)</a><a href="#sec-duelo">Duelo (4)</a></div>
+  <div id="resultsWrap">
+  
+  <h3 id="sec-ansiedad" class="section-title">Ansiedad <span class="count-pill">14</span></h3>
+  <div class="grid">
+    <a href="/espanol/ansiedad/spanish-spanish-speaking-therapist-for-anxiety">Spanish speaking therapist for anxiety</a>
+    <a href="/espanol/ansiedad/spanish-spanish-speaking-therapist-for-insomnia">Spanish speaking therapist for insomnia</a>
+    <a href="/espanol/ansiedad/spanish-spanish-speaking-therapist-for-panic-attacks">Spanish speaking therapist for panic attacks</a>
+    <a href="/espanol/ansiedad/spanish-spanish-speaking-therapist-for-social-anxiety">Spanish speaking therapist for social anxiety</a>
+    <a href="/espanol/ansiedad/spanish-spanish-therapy-for-anxiety">Spanish therapy for anxiety</a>
+    <a href="/espanol/ansiedad/spanish-spanish-therapy-for-insomnia">Spanish therapy for insomnia</a>
+    <a href="/espanol/ansiedad/spanish-spanish-therapy-for-panic-attacks">Spanish therapy for panic attacks</a>
+    <a href="/espanol/ansiedad/spanish-spanish-therapy-for-social-anxiety">Spanish therapy for social anxiety</a>
+    <a href="/espanol/ansiedad/spanish-online-spanish-therapy-for-anxiety">Online Spanish therapy for anxiety</a>
+    <a href="/espanol/ansiedad/spanish-online-spanish-therapy-for-insomnia">Online Spanish therapy for insomnia</a>
+    <a href="/espanol/ansiedad/spanish-online-spanish-therapy-for-panic-attacks">Online Spanish therapy for panic attacks</a>
+    <a href="/espanol/ansiedad/spanish-online-spanish-therapy-for-social-anxiety">Online Spanish therapy for social anxiety</a>
+    <a href="/espanol/ansiedad/spanish-terapia-para-ataques-de-pnico-en-espaol">Terapia para ataques de pánico en español</a>
+    <a href="/espanol/ansiedad/spanish-terapia-para-la-ansiedad-en-espaol">Terapia para la ansiedad en español</a>
+  </div>
+
+
+  <h3 id="sec-depresion" class="section-title">Depresion <span class="count-pill">7</span></h3>
+  <div class="grid">
+    <a href="/espanol/depresion/spanish-spanish-speaking-therapist-for-depression">Spanish speaking therapist for depression</a>
+    <a href="/espanol/depresion/spanish-spanish-speaking-therapist-for-postpartum-depression">Spanish speaking therapist for postpartum depression</a>
+    <a href="/espanol/depresion/spanish-spanish-therapy-for-depression">Spanish therapy for depression</a>
+    <a href="/espanol/depresion/spanish-spanish-therapy-for-postpartum-depression">Spanish therapy for postpartum depression</a>
+    <a href="/espanol/depresion/spanish-online-spanish-therapy-for-depression">Online Spanish therapy for depression</a>
+    <a href="/espanol/depresion/spanish-online-spanish-therapy-for-postpartum-depression">Online Spanish therapy for postpartum depression</a>
+    <a href="/espanol/depresion/spanish-terapia-para-la-depresin-en-espaol">Terapia para la depresión en español</a>
+  </div>
+
+
+  <h3 id="sec-duelo" class="section-title">Duelo <span class="count-pill">4</span></h3>
+  <div class="grid">
+    <a href="/espanol/duelo/spanish-spanish-speaking-therapist-for-grief">Spanish speaking therapist for grief</a>
+    <a href="/espanol/duelo/spanish-spanish-therapy-for-grief">Spanish therapy for grief</a>
+    <a href="/espanol/duelo/spanish-online-spanish-therapy-for-grief">Online Spanish therapy for grief</a>
+    <a href="/espanol/duelo/spanish-terapia-para-el-duelo-en-espaol">Terapia para el duelo en español</a>
+  </div>
+
+
+  <h3 id="sec-inmigrantes" class="section-title">Inmigrantes <span class="count-pill">6</span></h3>
+  <div class="grid">
+    <a href="/espanol/inmigrantes/spanish-spanish-speaking-therapist-for-immigrant-guilt">Spanish speaking therapist for immigrant guilt</a>
+    <a href="/espanol/inmigrantes/spanish-spanish-therapy-for-immigrant-guilt">Spanish therapy for immigrant guilt</a>
+    <a href="/espanol/inmigrantes/spanish-online-spanish-therapy-for-immigrant-guilt">Online Spanish therapy for immigrant guilt</a>
+    <a href="/espanol/inmigrantes/spanish-terapia-para-inmigrantes-latinos">Terapia para inmigrantes latinos</a>
+    <a href="/espanol/inmigrantes/spanish-terapia-para-la-culpa-del-inmigrante">Terapia para la culpa del inmigrante</a>
+    <a href="/espanol/inmigrantes/spanish-terapia-para-la-soledad-del-inmigrante">Terapia para la soledad del inmigrante</a>
+  </div>
+
+
+  <h3 id="sec-relaciones" class="section-title">Relaciones <span class="count-pill">5</span></h3>
+  <div class="grid">
+    <a href="/espanol/relaciones/spanish-spanish-speaking-therapist-for-divorce">Spanish speaking therapist for divorce</a>
+    <a href="/espanol/relaciones/spanish-spanish-therapy-for-divorce">Spanish therapy for divorce</a>
+    <a href="/espanol/relaciones/spanish-online-spanish-therapy-for-divorce">Online Spanish therapy for divorce</a>
+    <a href="/espanol/relaciones/spanish-terapia-de-pareja-en-espaol">Terapia de pareja en español</a>
+    <a href="/espanol/relaciones/spanish-terapia-despus-del-divorcio">Terapia después del divorcio</a>
+  </div>
+
+
+  <h3 id="sec-general" class="section-title">General <span class="count-pill">68</span></h3>
   <div class="grid">
     <a href="/espanol/general/spanish-spanish-speaking-therapist-for-acculturative-stress">Spanish speaking therapist for acculturative stress</a>
     <a href="/espanol/general/spanish-spanish-speaking-therapist-for-anger">Spanish speaking therapist for anger</a>
-    <a href="/espanol/ansiedad/spanish-spanish-speaking-therapist-for-anxiety">Spanish speaking therapist for anxiety</a>
     <a href="/espanol/general/spanish-spanish-speaking-therapist-for-breakup">Spanish speaking therapist for breakup</a>
     <a href="/espanol/general/spanish-spanish-speaking-therapist-for-burnout">Spanish speaking therapist for burnout</a>
-    <a href="/espanol/depresion/spanish-spanish-speaking-therapist-for-depression">Spanish speaking therapist for depression</a>
-    <a href="/espanol/relaciones/spanish-spanish-speaking-therapist-for-divorce">Spanish speaking therapist for divorce</a>
     <a href="/espanol/general/spanish-spanish-speaking-therapist-for-emotional-numbness">Spanish speaking therapist for emotional numbness</a>
     <a href="/espanol/general/spanish-spanish-speaking-therapist-for-family-pressure">Spanish speaking therapist for family pressure</a>
     <a href="/espanol/general/spanish-spanish-speaking-therapist-for-financial-stress">Spanish speaking therapist for financial stress</a>
-    <a href="/espanol/duelo/spanish-spanish-speaking-therapist-for-grief">Spanish speaking therapist for grief</a>
     <a href="/espanol/general/spanish-spanish-speaking-therapist-for-homesickness">Spanish speaking therapist for homesickness</a>
     <a href="/espanol/general/spanish-spanish-speaking-therapist-for-identity">Spanish speaking therapist for identity</a>
-    <a href="/espanol/inmigrantes/spanish-spanish-speaking-therapist-for-immigrant-guilt">Spanish speaking therapist for immigrant guilt</a>
-    <a href="/espanol/ansiedad/spanish-spanish-speaking-therapist-for-insomnia">Spanish speaking therapist for insomnia</a>
     <a href="/espanol/general/spanish-spanish-speaking-therapist-for-isolation">Spanish speaking therapist for isolation</a>
     <a href="/espanol/general/spanish-spanish-speaking-therapist-for-loneliness">Spanish speaking therapist for loneliness</a>
     <a href="/espanol/general/spanish-spanish-speaking-therapist-for-low-self-esteem">Spanish speaking therapist for low self esteem</a>
     <a href="/espanol/general/spanish-spanish-speaking-therapist-for-overthinking">Spanish speaking therapist for overthinking</a>
-    <a href="/espanol/ansiedad/spanish-spanish-speaking-therapist-for-panic-attacks">Spanish speaking therapist for panic attacks</a>
     <a href="/espanol/general/spanish-spanish-speaking-therapist-for-parenting-stress">Spanish speaking therapist for parenting stress</a>
     <a href="/espanol/general/spanish-spanish-speaking-therapist-for-perfectionism">Spanish speaking therapist for perfectionism</a>
-    <a href="/espanol/depresion/spanish-spanish-speaking-therapist-for-postpartum-depression">Spanish speaking therapist for postpartum depression</a>
     <a href="/espanol/general/spanish-spanish-speaking-therapist-for-relationship-problems">Spanish speaking therapist for relationship problems</a>
-    <a href="/espanol/ansiedad/spanish-spanish-speaking-therapist-for-social-anxiety">Spanish speaking therapist for social anxiety</a>
     <a href="/espanol/general/spanish-spanish-speaking-therapist-for-stress">Spanish speaking therapist for stress</a>
     <a href="/espanol/general/spanish-spanish-speaking-therapist-for-trauma">Spanish speaking therapist for trauma</a>
     <a href="/espanol/general/spanish-spanish-speaking-therapist-for-work-stress">Spanish speaking therapist for work stress</a>
     <a href="/espanol/general/spanish-spanish-therapy-for-acculturative-stress">Spanish therapy for acculturative stress</a>
     <a href="/espanol/general/spanish-spanish-therapy-for-anger">Spanish therapy for anger</a>
-    <a href="/espanol/ansiedad/spanish-spanish-therapy-for-anxiety">Spanish therapy for anxiety</a>
     <a href="/espanol/general/spanish-spanish-therapy-for-breakup">Spanish therapy for breakup</a>
     <a href="/espanol/general/spanish-spanish-therapy-for-burnout">Spanish therapy for burnout</a>
-    <a href="/espanol/depresion/spanish-spanish-therapy-for-depression">Spanish therapy for depression</a>
-    <a href="/espanol/relaciones/spanish-spanish-therapy-for-divorce">Spanish therapy for divorce</a>
     <a href="/espanol/general/spanish-spanish-therapy-for-emotional-numbness">Spanish therapy for emotional numbness</a>
     <a href="/espanol/general/spanish-spanish-therapy-for-family-pressure">Spanish therapy for family pressure</a>
     <a href="/espanol/general/spanish-spanish-therapy-for-financial-stress">Spanish therapy for financial stress</a>
-    <a href="/espanol/duelo/spanish-spanish-therapy-for-grief">Spanish therapy for grief</a>
     <a href="/espanol/general/spanish-spanish-therapy-for-homesickness">Spanish therapy for homesickness</a>
     <a href="/espanol/general/spanish-spanish-therapy-for-identity">Spanish therapy for identity</a>
-    <a href="/espanol/inmigrantes/spanish-spanish-therapy-for-immigrant-guilt">Spanish therapy for immigrant guilt</a>
-    <a href="/espanol/ansiedad/spanish-spanish-therapy-for-insomnia">Spanish therapy for insomnia</a>
     <a href="/espanol/general/spanish-spanish-therapy-for-isolation">Spanish therapy for isolation</a>
     <a href="/espanol/general/spanish-spanish-therapy-for-loneliness">Spanish therapy for loneliness</a>
     <a href="/espanol/general/spanish-spanish-therapy-for-low-self-esteem">Spanish therapy for low self esteem</a>
     <a href="/espanol/general/spanish-spanish-therapy-for-overthinking">Spanish therapy for overthinking</a>
-    <a href="/espanol/ansiedad/spanish-spanish-therapy-for-panic-attacks">Spanish therapy for panic attacks</a>
     <a href="/espanol/general/spanish-spanish-therapy-for-parenting-stress">Spanish therapy for parenting stress</a>
     <a href="/espanol/general/spanish-spanish-therapy-for-perfectionism">Spanish therapy for perfectionism</a>
-    <a href="/espanol/depresion/spanish-spanish-therapy-for-postpartum-depression">Spanish therapy for postpartum depression</a>
     <a href="/espanol/general/spanish-spanish-therapy-for-relationship-problems">Spanish therapy for relationship problems</a>
-    <a href="/espanol/ansiedad/spanish-spanish-therapy-for-social-anxiety">Spanish therapy for social anxiety</a>
     <a href="/espanol/general/spanish-spanish-therapy-for-stress">Spanish therapy for stress</a>
     <a href="/espanol/general/spanish-spanish-therapy-for-trauma">Spanish therapy for trauma</a>
     <a href="/espanol/general/spanish-spanish-therapy-for-work-stress">Spanish therapy for work stress</a>
@@ -110,52 +163,57 @@
     <a href="/espanol/general/spanish-hablar-con-alguien-en-espaol-sobre-mis-problemas">Hablar con alguien en español sobre mis problemas</a>
     <a href="/espanol/general/spanish-online-spanish-therapy-for-acculturative-stress">Online Spanish therapy for acculturative stress</a>
     <a href="/espanol/general/spanish-online-spanish-therapy-for-anger">Online Spanish therapy for anger</a>
-    <a href="/espanol/ansiedad/spanish-online-spanish-therapy-for-anxiety">Online Spanish therapy for anxiety</a>
     <a href="/espanol/general/spanish-online-spanish-therapy-for-breakup">Online Spanish therapy for breakup</a>
     <a href="/espanol/general/spanish-online-spanish-therapy-for-burnout">Online Spanish therapy for burnout</a>
-    <a href="/espanol/depresion/spanish-online-spanish-therapy-for-depression">Online Spanish therapy for depression</a>
-    <a href="/espanol/relaciones/spanish-online-spanish-therapy-for-divorce">Online Spanish therapy for divorce</a>
     <a href="/espanol/general/spanish-online-spanish-therapy-for-emotional-numbness">Online Spanish therapy for emotional numbness</a>
     <a href="/espanol/general/spanish-online-spanish-therapy-for-family-pressure">Online Spanish therapy for family pressure</a>
     <a href="/espanol/general/spanish-online-spanish-therapy-for-financial-stress">Online Spanish therapy for financial stress</a>
-    <a href="/espanol/duelo/spanish-online-spanish-therapy-for-grief">Online Spanish therapy for grief</a>
     <a href="/espanol/general/spanish-online-spanish-therapy-for-homesickness">Online Spanish therapy for homesickness</a>
     <a href="/espanol/general/spanish-online-spanish-therapy-for-identity">Online Spanish therapy for identity</a>
-    <a href="/espanol/inmigrantes/spanish-online-spanish-therapy-for-immigrant-guilt">Online Spanish therapy for immigrant guilt</a>
-    <a href="/espanol/ansiedad/spanish-online-spanish-therapy-for-insomnia">Online Spanish therapy for insomnia</a>
     <a href="/espanol/general/spanish-online-spanish-therapy-for-isolation">Online Spanish therapy for isolation</a>
     <a href="/espanol/general/spanish-online-spanish-therapy-for-loneliness">Online Spanish therapy for loneliness</a>
     <a href="/espanol/general/spanish-online-spanish-therapy-for-low-self-esteem">Online Spanish therapy for low self esteem</a>
     <a href="/espanol/general/spanish-online-spanish-therapy-for-overthinking">Online Spanish therapy for overthinking</a>
-    <a href="/espanol/ansiedad/spanish-online-spanish-therapy-for-panic-attacks">Online Spanish therapy for panic attacks</a>
     <a href="/espanol/general/spanish-online-spanish-therapy-for-parenting-stress">Online Spanish therapy for parenting stress</a>
     <a href="/espanol/general/spanish-online-spanish-therapy-for-perfectionism">Online Spanish therapy for perfectionism</a>
-    <a href="/espanol/depresion/spanish-online-spanish-therapy-for-postpartum-depression">Online Spanish therapy for postpartum depression</a>
     <a href="/espanol/general/spanish-online-spanish-therapy-for-relationship-problems">Online Spanish therapy for relationship problems</a>
-    <a href="/espanol/ansiedad/spanish-online-spanish-therapy-for-social-anxiety">Online Spanish therapy for social anxiety</a>
     <a href="/espanol/general/spanish-online-spanish-therapy-for-stress">Online Spanish therapy for stress</a>
     <a href="/espanol/general/spanish-online-spanish-therapy-for-trauma">Online Spanish therapy for trauma</a>
     <a href="/espanol/general/spanish-online-spanish-therapy-for-work-stress">Online Spanish therapy for work stress</a>
     <a href="/espanol/general/spanish-por-qu-me-siento-solo-en-estados-unidos">Por qué me siento solo en Estados Unidos</a>
     <a href="/espanol/general/spanish-psiclogo-que-hable-espaol">Psicólogo que hable español</a>
-    <a href="/espanol/relaciones/spanish-terapia-de-pareja-en-espaol">Terapia de pareja en español</a>
-    <a href="/espanol/relaciones/spanish-terapia-despus-del-divorcio">Terapia después del divorcio</a>
     <a href="/espanol/general/spanish-terapia-en-espaol">Terapia en español</a>
     <a href="/espanol/general/spanish-terapia-online-en-espaol-sin-seguro">Terapia online en español sin seguro</a>
-    <a href="/espanol/ansiedad/spanish-terapia-para-ataques-de-pnico-en-espaol">Terapia para ataques de pánico en español</a>
     <a href="/espanol/general/spanish-terapia-para-el-agotamiento-emocional">Terapia para el agotamiento emocional</a>
-    <a href="/espanol/duelo/spanish-terapia-para-el-duelo-en-espaol">Terapia para el duelo en español</a>
     <a href="/espanol/general/spanish-terapia-para-el-estrs-de-adaptacin">Terapia para el estrés de adaptación</a>
-    <a href="/espanol/inmigrantes/spanish-terapia-para-inmigrantes-latinos">Terapia para inmigrantes latinos</a>
-    <a href="/espanol/ansiedad/spanish-terapia-para-la-ansiedad-en-espaol">Terapia para la ansiedad en español</a>
-    <a href="/espanol/inmigrantes/spanish-terapia-para-la-culpa-del-inmigrante">Terapia para la culpa del inmigrante</a>
-    <a href="/espanol/depresion/spanish-terapia-para-la-depresin-en-espaol">Terapia para la depresión en español</a>
     <a href="/espanol/general/spanish-terapia-para-la-nostalgia-de-casa">Terapia para la nostalgia de casa</a>
-    <a href="/espanol/inmigrantes/spanish-terapia-para-la-soledad-del-inmigrante">Terapia para la soledad del inmigrante</a>
     <a href="/espanol/general/spanish-terapia-para-latinos-sin-papeles">Terapia para latinos sin papeles</a>
     <a href="/espanol/general/spanish-terapia-para-madres-latinas">Terapia para madres latinas</a>
   </div>
+
+  </div>
+  <p id="noResults" class="no-results" style="display:none;">No resources match your search. Try a different word.</p>
 </div>
+<script>
+function filterCards() {
+  const q = document.getElementById('filterBox').value.toLowerCase();
+  const cards = document.querySelectorAll('#resultsWrap .grid a');
+  const sections = document.querySelectorAll('#resultsWrap h3');
+  let anyVisible = false;
+  cards.forEach(c => {
+    const match = c.textContent.toLowerCase().includes(q);
+    c.style.display = match ? 'block' : 'none';
+    if (match) anyVisible = true;
+  });
+  sections.forEach(h => {
+    const grid = h.nextElementSibling;
+    const visibleInGrid = grid ? Array.from(grid.querySelectorAll('a')).some(a => a.style.display !== 'none') : false;
+    h.style.display = visibleInGrid ? 'block' : 'none';
+    if (grid) grid.style.display = visibleInGrid ? 'grid' : 'none';
+  });
+  document.getElementById('noResults').style.display = anyVisible ? 'none' : 'block';
+}
+</script>
 <footer>
 TherapyFor.us &nbsp;·&nbsp; Helping people access mental health support<br>
 We may earn a commission if you sign up through our links, at no extra cost to you.<br>

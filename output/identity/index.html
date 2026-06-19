@@ -29,8 +29,15 @@
  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:12px;margin-bottom:40px;}
  .grid a{display:block;padding:16px 18px;background:var(--navy2);border:1px solid var(--rule);border-radius:8px;color:var(--text);text-decoration:none;font-size:14px;transition:all .2s;}
  .grid a:hover{border-color:var(--green);color:var(--white);}
- .subhubs{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:36px;}
+ .subhubs{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:32px;}
  .subhubs a{padding:8px 16px;background:var(--navy3);border:1px solid var(--rule);border-radius:20px;color:var(--green-bright);text-decoration:none;font-size:13px;font-weight:500;}
+ .filter-box{width:100%;padding:14px 18px;background:var(--navy2);border:1px solid var(--rule);border-radius:10px;color:var(--white);font-size:15px;font-family:'Inter',sans-serif;margin-bottom:28px;outline:none;}
+ .filter-box:focus{border-color:var(--green);}
+ .filter-box::placeholder{color:var(--text-muted);}
+ .section-title{font-family:'Inter',sans-serif;font-size:15px;font-weight:700;color:var(--green-bright);text-transform:uppercase;letter-spacing:0.06em;margin:36px 0 16px;display:flex;align-items:center;gap:10px;}
+ .section-title:first-of-type{margin-top:8px;}
+ .count-pill{background:var(--navy3);color:var(--text-muted);font-size:11px;font-weight:600;padding:2px 9px;border-radius:10px;letter-spacing:0;text-transform:none;}
+ .no-results{color:var(--text-muted);font-size:14px;padding:24px 0;}
  footer{background:var(--navy2);border-top:1px solid var(--rule);padding:36px 48px;font-size:13px;color:var(--text-muted);line-height:1.8;margin-top:40px;}
  footer a{color:var(--text-muted);text-decoration:underline;}
  @media(max-width:640px){nav,.hero,.wrap,.breadcrumb,footer{padding-left:20px;padding-right:20px;}}
@@ -47,97 +54,143 @@
   <a href="https://betterhelp.com/YOUR_AFFILIATE_LINK" class="btn-main">Talk to Someone Today</a>
 </div>
 <div class="wrap">
+  <input type="text" id="filterBox" class="filter-box" placeholder="Search 86 resources by keyword..." onkeyup="filterCards()">
+  <div class="subhubs"><a href="#sec-general">General (22)</a><a href="#sec-loneliness">Loneliness (16)</a><a href="#sec-self-worth">Self Worth (26)</a><a href="#sec-life-stage">Life Stage (13)</a><a href="#sec-by-group">By Group (9)</a></div>
+  <div id="resultsWrap">
   
-  <h2>All self-esteem & identity resources</h2>
+  <h3 id="sec-by-group" class="section-title">By Group <span class="count-pill">9</span></h3>
   <div class="grid">
-    <a href="/identity/i-feel-like-two-different-people-since-i-moved">I feel like two different people since I moved</a>
-    <a href="/identity/i-feel-stuck-and-i-dont-know-why">I feel stuck and I don't know why</a>
-    <a href="/identity/counseling-after-losing-your-job">Counseling after losing your job</a>
-    <a href="/identity/counseling-for-empty-nest">Counseling for empty nest</a>
-    <a href="/identity/counseling-for-loneliness">Counseling for loneliness</a>
-    <a href="/identity/counseling-for-low-self-esteem">Counseling for low self esteem</a>
-    <a href="/identity/counseling-for-midlife-crisis">Counseling for midlife crisis</a>
-    <a href="/identity/help-after-losing-your-job">Help after losing your job</a>
-    <a href="/identity/help-for-empty-nest">Help for empty nest</a>
-    <a href="/identity/help-for-loneliness">Help for loneliness</a>
-    <a href="/identity/help-for-low-self-esteem">Help for low self esteem</a>
-    <a href="/identity/help-for-midlife-crisis">Help for midlife crisis</a>
-    <a href="/identity/online-therapy-after-losing-your-job">Online therapy after losing your job</a>
-    <a href="/identity/online-therapy-for-empty-nest">Online therapy for empty nest</a>
-    <a href="/identity/online-therapy-for-loneliness">Online therapy for loneliness</a>
-    <a href="/identity/online-therapy-for-low-self-esteem">Online therapy for low self esteem</a>
-    <a href="/identity/online-therapy-for-midlife-crisis">Online therapy for midlife crisis</a>
-    <a href="/identity/therapy-after-losing-your-job">Therapy after losing your job</a>
-    <a href="/identity/therapy-after-losing-your-job">Therapy after losing your job</a>
-    <a href="/identity/therapy-for-athletes">Therapy for athletes</a>
-    <a href="/identity/therapy-for-athletes-who-feel-alone">Therapy for athletes who feel alone</a>
-    <a href="/identity/therapy-for-athletes-who-feel-stuck">Therapy for athletes who feel stuck</a>
-    <a href="/identity/therapy-for-athletes-with-anger-issues">Therapy for athletes with anger issues</a>
-    <a href="/identity/therapy-for-athletes-with-low-self-esteem">Therapy for athletes with low self esteem</a>
-    <a href="/identity/therapy-for-college-students-who-feel-stuck">Therapy for college students who feel stuck</a>
-    <a href="/identity/therapy-for-college-students-with-low-self-esteem">Therapy for college students with low self esteem</a>
-    <a href="/identity/therapy-for-cultural-identity-crisis">Therapy for cultural identity crisis</a>
-    <a href="/identity/therapy-for-empty-nest">Therapy for empty nest</a>
-    <a href="/identity/therapy-for-empty-nest-syndrome">Therapy for empty nest syndrome</a>
-    <a href="/identity/therapy-for-empty-nesters">Therapy for empty nesters</a>
-    <a href="/identity/therapy-for-empty-nesters-who-feel-alone">Therapy for empty nesters who feel alone</a>
-    <a href="/identity/therapy-for-empty-nesters-who-feel-stuck">Therapy for empty nesters who feel stuck</a>
-    <a href="/identity/therapy-for-empty-nesters-with-anger-issues">Therapy for empty nesters with anger issues</a>
-    <a href="/identity/therapy-for-empty-nesters-with-low-self-esteem">Therapy for empty nesters with low self esteem</a>
-    <a href="/identity/therapy-for-entrepreneurs-who-feel-stuck">Therapy for entrepreneurs who feel stuck</a>
-    <a href="/identity/therapy-for-entrepreneurs-with-low-self-esteem">Therapy for entrepreneurs with low self esteem</a>
-    <a href="/identity/therapy-for-expats">Therapy for expats</a>
-    <a href="/identity/therapy-for-expats-who-feel-alone">Therapy for expats who feel alone</a>
-    <a href="/identity/therapy-for-expats-who-feel-stuck">Therapy for expats who feel stuck</a>
-    <a href="/identity/therapy-for-expats-with-anger-issues">Therapy for expats with anger issues</a>
-    <a href="/identity/therapy-for-expats-with-low-self-esteem">Therapy for expats with low self esteem</a>
-    <a href="/identity/therapy-for-feeling-stuck-in-life">Therapy for feeling stuck in life</a>
-    <a href="/identity/therapy-for-freelancers-who-feel-stuck">Therapy for freelancers who feel stuck</a>
-    <a href="/identity/therapy-for-freelancers-with-low-self-esteem">Therapy for freelancers with low self esteem</a>
-    <a href="/identity/therapy-for-grad-students-who-feel-stuck">Therapy for grad students who feel stuck</a>
-    <a href="/identity/therapy-for-grad-students-with-low-self-esteem">Therapy for grad students with low self esteem</a>
-    <a href="/identity/therapy-for-highly-sensitive-people-who-feel-stuck">Therapy for highly sensitive people who feel stuck</a>
-    <a href="/identity/therapy-for-highly-sensitive-people-with-low-self-esteem">Therapy for highly sensitive people with low self esteem</a>
-    <a href="/identity/therapy-for-imposter-syndrome">Therapy for imposter syndrome</a>
-    <a href="/identity/therapy-for-introverts-who-feel-stuck">Therapy for introverts who feel stuck</a>
-    <a href="/identity/therapy-for-introverts-with-low-self-esteem">Therapy for introverts with low self esteem</a>
-    <a href="/identity/therapy-for-loneliness">Therapy for loneliness</a>
-    <a href="/identity/therapy-for-loneliness">Therapy for loneliness</a>
-    <a href="/identity/therapy-for-low-self-esteem">Therapy for low self esteem</a>
-    <a href="/identity/therapy-for-low-self-esteem">Therapy for low self esteem</a>
-    <a href="/identity/therapy-for-men-who-feel-stuck">Therapy for men who feel stuck</a>
-    <a href="/identity/therapy-for-men-with-low-self-esteem">Therapy for men with low self esteem</a>
-    <a href="/identity/therapy-for-midlife-crisis">Therapy for midlife crisis</a>
-    <a href="/identity/therapy-for-perfectionists">Therapy for perfectionists</a>
-    <a href="/identity/therapy-for-perfectionists-who-feel-alone">Therapy for perfectionists who feel alone</a>
-    <a href="/identity/therapy-for-perfectionists-who-feel-stuck">Therapy for perfectionists who feel stuck</a>
-    <a href="/identity/therapy-for-perfectionists-with-anger-issues">Therapy for perfectionists with anger issues</a>
-    <a href="/identity/therapy-for-perfectionists-with-low-self-esteem">Therapy for perfectionists with low self esteem</a>
-    <a href="/identity/therapy-for-seniors-who-feel-stuck">Therapy for seniors who feel stuck</a>
-    <a href="/identity/therapy-for-seniors-with-low-self-esteem">Therapy for seniors with low self esteem</a>
-    <a href="/identity/therapy-for-shift-workers-who-feel-stuck">Therapy for shift workers who feel stuck</a>
-    <a href="/identity/therapy-for-shift-workers-with-low-self-esteem">Therapy for shift workers with low self esteem</a>
-    <a href="/identity/therapy-for-single-dads-who-feel-stuck">Therapy for single dads who feel stuck</a>
-    <a href="/identity/therapy-for-single-dads-with-low-self-esteem">Therapy for single dads with low self esteem</a>
-    <a href="/identity/therapy-for-single-moms-who-feel-stuck">Therapy for single moms who feel stuck</a>
-    <a href="/identity/therapy-for-single-moms-with-low-self-esteem">Therapy for single moms with low self esteem</a>
-    <a href="/identity/therapy-for-small-business-owners-who-feel-stuck">Therapy for small business owners who feel stuck</a>
-    <a href="/identity/therapy-for-small-business-owners-with-low-self-esteem">Therapy for small business owners with low self esteem</a>
-    <a href="/identity/therapy-for-students-who-feel-stuck">Therapy for students who feel stuck</a>
-    <a href="/identity/therapy-for-students-with-low-self-esteem">Therapy for students with low self esteem</a>
-    <a href="/identity/therapy-for-teachers-who-feel-stuck">Therapy for teachers who feel stuck</a>
-    <a href="/identity/therapy-for-teachers-with-low-self-esteem">Therapy for teachers with low self esteem</a>
-    <a href="/identity/therapy-for-veterans-who-feel-stuck">Therapy for veterans who feel stuck</a>
-    <a href="/identity/therapy-for-veterans-with-low-self-esteem">Therapy for veterans with low self esteem</a>
-    <a href="/identity/therapy-for-women-who-feel-stuck">Therapy for women who feel stuck</a>
-    <a href="/identity/therapy-for-women-with-low-self-esteem">Therapy for women with low self esteem</a>
-    <a href="/identity/therapy-for-workaholics-who-feel-stuck">Therapy for workaholics who feel stuck</a>
-    <a href="/identity/therapy-for-workaholics-with-low-self-esteem">Therapy for workaholics with low self esteem</a>
-    <a href="/identity/therapy-for-young-adults-who-feel-stuck">Therapy for young adults who feel stuck</a>
-    <a href="/identity/therapy-for-young-adults-with-low-self-esteem">Therapy for young adults with low self esteem</a>
-    <a href="/identity/why-do-i-feel-so-lonely-after-moving-to-america">Why do I feel so lonely after moving to America</a>
+    <a href="/identity/by-group/therapy-for-athletes">Therapy for athletes</a>
+    <a href="/identity/by-group/therapy-for-athletes-who-feel-stuck">Therapy for athletes who feel stuck</a>
+    <a href="/identity/by-group/therapy-for-athletes-with-anger-issues">Therapy for athletes with anger issues</a>
+    <a href="/identity/by-group/therapy-for-expats">Therapy for expats</a>
+    <a href="/identity/by-group/therapy-for-expats-who-feel-stuck">Therapy for expats who feel stuck</a>
+    <a href="/identity/by-group/therapy-for-expats-with-anger-issues">Therapy for expats with anger issues</a>
+    <a href="/identity/by-group/therapy-for-freelancers-who-feel-stuck">Therapy for freelancers who feel stuck</a>
+    <a href="/identity/by-group/therapy-for-highly-sensitive-people-who-feel-stuck">Therapy for highly sensitive people who feel stuck</a>
+    <a href="/identity/by-group/therapy-for-introverts-who-feel-stuck">Therapy for introverts who feel stuck</a>
   </div>
+
+
+  <h3 id="sec-life-stage" class="section-title">Life Stage <span class="count-pill">13</span></h3>
+  <div class="grid">
+    <a href="/identity/life-stage/counseling-for-empty-nest">Counseling for empty nest</a>
+    <a href="/identity/life-stage/counseling-for-midlife-crisis">Counseling for midlife crisis</a>
+    <a href="/identity/life-stage/help-for-empty-nest">Help for empty nest</a>
+    <a href="/identity/life-stage/help-for-midlife-crisis">Help for midlife crisis</a>
+    <a href="/identity/life-stage/online-therapy-for-empty-nest">Online therapy for empty nest</a>
+    <a href="/identity/life-stage/online-therapy-for-midlife-crisis">Online therapy for midlife crisis</a>
+    <a href="/identity/life-stage/therapy-for-empty-nest">Therapy for empty nest</a>
+    <a href="/identity/life-stage/therapy-for-empty-nest-syndrome">Therapy for empty nest syndrome</a>
+    <a href="/identity/life-stage/therapy-for-empty-nesters">Therapy for empty nesters</a>
+    <a href="/identity/life-stage/therapy-for-empty-nesters-who-feel-stuck">Therapy for empty nesters who feel stuck</a>
+    <a href="/identity/life-stage/therapy-for-empty-nesters-with-anger-issues">Therapy for empty nesters with anger issues</a>
+    <a href="/identity/life-stage/therapy-for-empty-nesters-with-low-self-esteem">Therapy for empty nesters with low self esteem</a>
+    <a href="/identity/life-stage/therapy-for-midlife-crisis">Therapy for midlife crisis</a>
+  </div>
+
+
+  <h3 id="sec-loneliness" class="section-title">Loneliness <span class="count-pill">16</span></h3>
+  <div class="grid">
+    <a href="/identity/loneliness/counseling-for-loneliness">Counseling for loneliness</a>
+    <a href="/identity/loneliness/help-for-loneliness">Help for loneliness</a>
+    <a href="/identity/loneliness/online-therapy-for-loneliness">Online therapy for loneliness</a>
+    <a href="/identity/loneliness/therapy-for-athletes-who-feel-alone">Therapy for athletes who feel alone</a>
+    <a href="/identity/loneliness/therapy-for-empty-nesters-who-feel-alone">Therapy for empty nesters who feel alone</a>
+    <a href="/identity/loneliness/therapy-for-expats-who-feel-alone">Therapy for expats who feel alone</a>
+    <a href="/identity/loneliness/therapy-for-loneliness">Therapy for loneliness</a>
+    <a href="/identity/loneliness/therapy-for-loneliness">Therapy for loneliness</a>
+    <a href="/identity/loneliness/therapy-for-perfectionists-who-feel-alone">Therapy for perfectionists who feel alone</a>
+    <a href="/identity/loneliness/therapy-for-single-dads-who-feel-stuck">Therapy for single dads who feel stuck</a>
+    <a href="/identity/loneliness/therapy-for-single-dads-with-low-self-esteem">Therapy for single dads with low self esteem</a>
+    <a href="/identity/loneliness/therapy-for-single-moms-who-feel-stuck">Therapy for single moms who feel stuck</a>
+    <a href="/identity/loneliness/therapy-for-single-moms-with-low-self-esteem">Therapy for single moms with low self esteem</a>
+    <a href="/identity/loneliness/therapy-for-small-business-owners-who-feel-stuck">Therapy for small business owners who feel stuck</a>
+    <a href="/identity/loneliness/therapy-for-small-business-owners-with-low-self-esteem">Therapy for small business owners with low self esteem</a>
+    <a href="/identity/loneliness/why-do-i-feel-so-lonely-after-moving-to-america">Why do I feel so lonely after moving to America</a>
+  </div>
+
+
+  <h3 id="sec-self-worth" class="section-title">Self Worth <span class="count-pill">26</span></h3>
+  <div class="grid">
+    <a href="/identity/self-worth/counseling-for-low-self-esteem">Counseling for low self esteem</a>
+    <a href="/identity/self-worth/help-for-low-self-esteem">Help for low self esteem</a>
+    <a href="/identity/self-worth/online-therapy-for-low-self-esteem">Online therapy for low self esteem</a>
+    <a href="/identity/self-worth/therapy-for-athletes-with-low-self-esteem">Therapy for athletes with low self esteem</a>
+    <a href="/identity/self-worth/therapy-for-college-students-with-low-self-esteem">Therapy for college students with low self esteem</a>
+    <a href="/identity/self-worth/therapy-for-entrepreneurs-with-low-self-esteem">Therapy for entrepreneurs with low self esteem</a>
+    <a href="/identity/self-worth/therapy-for-expats-with-low-self-esteem">Therapy for expats with low self esteem</a>
+    <a href="/identity/self-worth/therapy-for-freelancers-with-low-self-esteem">Therapy for freelancers with low self esteem</a>
+    <a href="/identity/self-worth/therapy-for-grad-students-with-low-self-esteem">Therapy for grad students with low self esteem</a>
+    <a href="/identity/self-worth/therapy-for-highly-sensitive-people-with-low-self-esteem">Therapy for highly sensitive people with low self esteem</a>
+    <a href="/identity/self-worth/therapy-for-introverts-with-low-self-esteem">Therapy for introverts with low self esteem</a>
+    <a href="/identity/self-worth/therapy-for-low-self-esteem">Therapy for low self esteem</a>
+    <a href="/identity/self-worth/therapy-for-low-self-esteem">Therapy for low self esteem</a>
+    <a href="/identity/self-worth/therapy-for-men-with-low-self-esteem">Therapy for men with low self esteem</a>
+    <a href="/identity/self-worth/therapy-for-perfectionists">Therapy for perfectionists</a>
+    <a href="/identity/self-worth/therapy-for-perfectionists-who-feel-stuck">Therapy for perfectionists who feel stuck</a>
+    <a href="/identity/self-worth/therapy-for-perfectionists-with-anger-issues">Therapy for perfectionists with anger issues</a>
+    <a href="/identity/self-worth/therapy-for-perfectionists-with-low-self-esteem">Therapy for perfectionists with low self esteem</a>
+    <a href="/identity/self-worth/therapy-for-seniors-with-low-self-esteem">Therapy for seniors with low self esteem</a>
+    <a href="/identity/self-worth/therapy-for-shift-workers-with-low-self-esteem">Therapy for shift workers with low self esteem</a>
+    <a href="/identity/self-worth/therapy-for-students-with-low-self-esteem">Therapy for students with low self esteem</a>
+    <a href="/identity/self-worth/therapy-for-teachers-with-low-self-esteem">Therapy for teachers with low self esteem</a>
+    <a href="/identity/self-worth/therapy-for-veterans-with-low-self-esteem">Therapy for veterans with low self esteem</a>
+    <a href="/identity/self-worth/therapy-for-women-with-low-self-esteem">Therapy for women with low self esteem</a>
+    <a href="/identity/self-worth/therapy-for-workaholics-with-low-self-esteem">Therapy for workaholics with low self esteem</a>
+    <a href="/identity/self-worth/therapy-for-young-adults-with-low-self-esteem">Therapy for young adults with low self esteem</a>
+  </div>
+
+
+  <h3 id="sec-general" class="section-title">General <span class="count-pill">22</span></h3>
+  <div class="grid">
+    <a href="/identity/general/i-feel-like-two-different-people-since-i-moved">I feel like two different people since I moved</a>
+    <a href="/identity/general/i-feel-stuck-and-i-dont-know-why">I feel stuck and I don't know why</a>
+    <a href="/identity/general/counseling-after-losing-your-job">Counseling after losing your job</a>
+    <a href="/identity/general/help-after-losing-your-job">Help after losing your job</a>
+    <a href="/identity/general/online-therapy-after-losing-your-job">Online therapy after losing your job</a>
+    <a href="/identity/general/therapy-after-losing-your-job">Therapy after losing your job</a>
+    <a href="/identity/general/therapy-after-losing-your-job">Therapy after losing your job</a>
+    <a href="/identity/general/therapy-for-college-students-who-feel-stuck">Therapy for college students who feel stuck</a>
+    <a href="/identity/general/therapy-for-cultural-identity-crisis">Therapy for cultural identity crisis</a>
+    <a href="/identity/general/therapy-for-entrepreneurs-who-feel-stuck">Therapy for entrepreneurs who feel stuck</a>
+    <a href="/identity/general/therapy-for-feeling-stuck-in-life">Therapy for feeling stuck in life</a>
+    <a href="/identity/general/therapy-for-grad-students-who-feel-stuck">Therapy for grad students who feel stuck</a>
+    <a href="/identity/general/therapy-for-imposter-syndrome">Therapy for imposter syndrome</a>
+    <a href="/identity/general/therapy-for-men-who-feel-stuck">Therapy for men who feel stuck</a>
+    <a href="/identity/general/therapy-for-seniors-who-feel-stuck">Therapy for seniors who feel stuck</a>
+    <a href="/identity/general/therapy-for-shift-workers-who-feel-stuck">Therapy for shift workers who feel stuck</a>
+    <a href="/identity/general/therapy-for-students-who-feel-stuck">Therapy for students who feel stuck</a>
+    <a href="/identity/general/therapy-for-teachers-who-feel-stuck">Therapy for teachers who feel stuck</a>
+    <a href="/identity/general/therapy-for-veterans-who-feel-stuck">Therapy for veterans who feel stuck</a>
+    <a href="/identity/general/therapy-for-women-who-feel-stuck">Therapy for women who feel stuck</a>
+    <a href="/identity/general/therapy-for-workaholics-who-feel-stuck">Therapy for workaholics who feel stuck</a>
+    <a href="/identity/general/therapy-for-young-adults-who-feel-stuck">Therapy for young adults who feel stuck</a>
+  </div>
+
+  </div>
+  <p id="noResults" class="no-results" style="display:none;">No resources match your search. Try a different word.</p>
 </div>
+<script>
+function filterCards() {
+  const q = document.getElementById('filterBox').value.toLowerCase();
+  const cards = document.querySelectorAll('#resultsWrap .grid a');
+  const sections = document.querySelectorAll('#resultsWrap h3');
+  let anyVisible = false;
+  cards.forEach(c => {
+    const match = c.textContent.toLowerCase().includes(q);
+    c.style.display = match ? 'block' : 'none';
+    if (match) anyVisible = true;
+  });
+  sections.forEach(h => {
+    const grid = h.nextElementSibling;
+    const visibleInGrid = grid ? Array.from(grid.querySelectorAll('a')).some(a => a.style.display !== 'none') : false;
+    h.style.display = visibleInGrid ? 'block' : 'none';
+    if (grid) grid.style.display = visibleInGrid ? 'grid' : 'none';
+  });
+  document.getElementById('noResults').style.display = anyVisible ? 'none' : 'block';
+}
+</script>
 <footer>
 TherapyFor.us &nbsp;·&nbsp; Helping people access mental health support<br>
 We may earn a commission if you sign up through our links, at no extra cost to you.<br>
