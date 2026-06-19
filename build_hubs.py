@@ -21,6 +21,8 @@ from taxonomy import hub_for, HUBS, DEFAULT_HUB
 import sitestructure
 from config import AFFILIATE_LINK, SITE_URL
 
+OUTPUT_DIR = "output"
+
 # ── shared head/style (mirrors the page template, lighter) ──
 HEAD = """<!DOCTYPE html>
 <html lang="{lang}"{dir}>
