@@ -1,0 +1,30 @@
+name: Build Hubs and Homepage
+
+# Run this once to generate the homepage and all hub index pages.
+# After it runs you can delete this file.
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build-hubs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Build hubs and homepage
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          python build_hubs.py
+          python build_sitemap.py
+      - name: Commit
+        run: |
+          git config user.name "page-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add output/
+          git commit -m "Build homepage and hub index pages" || echo "No changes"
+          git push
