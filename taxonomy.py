@@ -152,7 +152,12 @@ def hub_for(page):
             continue
         for term in hub.get("match_any", []):
             if term in haystack:
-                sub = _immigrant_subhub(haystack) if hub["slug"] == "immigrants" else None
+                if hub["slug"] == "immigrants":
+                    sub = _immigrant_subhub(haystack)
+                elif hub["slug"] in TOPIC_SUBHUB_RULES:
+                    sub = _topic_subhub(hub["slug"], haystack)
+                else:
+                    sub = None
                 return hub, sub
 
     return DEFAULT_HUB, None
@@ -175,6 +180,76 @@ IMM_SUB_RULES = [
 
 def _immigrant_subhub(haystack):
     for sub, terms in IMM_SUB_RULES:
+        for t in terms:
+            if t in haystack:
+                return sub
+    return "general"
+
+
+# Sub-hub routing for the big topic hubs (anxiety, burnout, identity, divorce,
+# affordable-therapy). These hubs are mostly "topic x person-group" or
+# "topic x state" combinations, so we split along that axis. Order matters —
+# most specific group first, "general" (empty terms) always last as catch-all.
+TOPIC_SUBHUB_RULES = {
+    "anxiety": [
+        ("parents", ["new mom", "single mom", "single dad", "parent", "mother", "father", "dad", "mom"]),
+        ("students-young-adults", ["student", "teenager", "young adult", "college"]),
+        ("working-professionals", ["nurse", "teacher", "caregiver", "first responder",
+                                    "entrepreneur", "remote worker", "healthcare worker",
+                                    "veteran", "workaholic"]),
+        ("seniors-retirees", ["senior", "retiree", "retirement"]),
+        ("men", ["for men", "men with", "men who"]),
+        ("women", ["for women", "women with", "women who"]),
+        ("specific-fears", ["panic", "health anxiety", "social anxiety",
+                            "intrusive thought", "overthink"]),
+        ("general", []),
+    ],
+    "burnout": [
+        ("parents", ["new mom", "single mom", "single dad", "parent", "mother", "father", "dad", "mom"]),
+        ("students-young-adults", ["student", "teenager", "young adult", "college"]),
+        ("working-professionals", ["nurse", "teacher", "caregiver", "first responder",
+                                    "entrepreneur", "remote worker", "healthcare worker",
+                                    "veteran", "workaholic", "work burnout", "job", "career", "imposter"]),
+        ("seniors-retirees", ["senior", "retiree", "retirement"]),
+        ("couples-relationships", ["couple"]),
+        ("men", ["for men", "men with", "men who"]),
+        ("women", ["for women", "women with", "women who"]),
+        ("general", []),
+    ],
+    "identity": [
+        ("loneliness", ["lonely", "loneliness", "alone"]),
+        ("life-stage", ["midlife", "empty nest", "retirement"]),
+        ("self-worth", ["self esteem", "self-esteem", "perfectionis"]),
+        ("by-group", ["expat", "athlete", "lgbtq", "introvert", "highly sensitive",
+                      "freelancer", "small business owner"]),
+        ("general", []),
+    ],
+    "divorce": [
+        ("divorced-dads", ["divorced dad"]),
+        ("breakups", ["breakup", "break up", "ghosted", "wrong partner"]),
+        ("infidelity", ["cheated", "infidelity"]),
+        ("patterns", ["codependency", "anxious attachment", "toxic relationship"]),
+        ("general", []),
+    ],
+    "affordable-therapy": [
+        ("by-state", ["california", "texas", "florida", "new york", "illinois",
+                      "pennsylvania", "ohio", "georgia", "north carolina",
+                      "michigan", "new jersey", "virginia", "washington",
+                      "arizona", "massachusetts", "tennessee", "indiana",
+                      "missouri", "maryland", "wisconsin", "colorado",
+                      "minnesota", "south carolina", "alabama", "louisiana",
+                      "kentucky", "oregon", "oklahoma", "connecticut", "nevada"]),
+        ("cost-questions", ["how much", "cost", "worth it", "vs in person",
+                            "vs in-person"]),
+        ("general", []),
+    ],
+}
+
+
+def _topic_subhub(hub_slug, haystack):
+    for sub, terms in TOPIC_SUBHUB_RULES.get(hub_slug, []):
+        if not terms:  # the "general" catch-all has an empty terms list
+            return sub
         for t in terms:
             if t in haystack:
                 return sub

@@ -55,8 +55,15 @@ HEAD = """<!DOCTYPE html>
  .grid{{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:12px;margin-bottom:40px;}}
  .grid a{{display:block;padding:16px 18px;background:var(--navy2);border:1px solid var(--rule);border-radius:8px;color:var(--text);text-decoration:none;font-size:14px;transition:all .2s;}}
  .grid a:hover{{border-color:var(--green);color:var(--white);}}
- .subhubs{{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:36px;}}
+ .subhubs{{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:32px;}}
  .subhubs a{{padding:8px 16px;background:var(--navy3);border:1px solid var(--rule);border-radius:20px;color:var(--green-bright);text-decoration:none;font-size:13px;font-weight:500;}}
+ .filter-box{{width:100%;padding:14px 18px;background:var(--navy2);border:1px solid var(--rule);border-radius:10px;color:var(--white);font-size:15px;font-family:'Inter',sans-serif;margin-bottom:28px;outline:none;}}
+ .filter-box:focus{{border-color:var(--green);}}
+ .filter-box::placeholder{{color:var(--text-muted);}}
+ .section-title{{font-family:'Inter',sans-serif;font-size:15px;font-weight:700;color:var(--green-bright);text-transform:uppercase;letter-spacing:0.06em;margin:36px 0 16px;display:flex;align-items:center;gap:10px;}}
+ .section-title:first-of-type{{margin-top:8px;}}
+ .count-pill{{background:var(--navy3);color:var(--text-muted);font-size:11px;font-weight:600;padding:2px 9px;border-radius:10px;letter-spacing:0;text-transform:none;}}
+ .no-results{{color:var(--text-muted);font-size:14px;padding:24px 0;}}
  footer{{background:var(--navy2);border-top:1px solid var(--rule);padding:36px 48px;font-size:13px;color:var(--text-muted);line-height:1.8;margin-top:40px;}}
  footer a{{color:var(--text-muted);text-decoration:underline;}}
  @media(max-width:640px){{nav,.hero,.wrap,.breadcrumb,footer{{padding-left:20px;padding-right:20px;}}}}
@@ -133,15 +140,32 @@ def build():
         for title, url, sub in members:
             by_sub[sub].append((title, url))
 
-        # subhub pills
+        has_real_subs = len([s for s in by_sub if s]) > 1
+
+        # subhub pills (jump links within the page)
         sub_pills = ""
-        if len([s for s in by_sub if s]) > 1:
-            pills = [f'<a href="/{hub["slug"]}/{s}/">{s.replace("-"," ").title()}</a>'
+        if has_real_subs:
+            pills = [f'<a href="#sec-{s}">{s.replace("-"," ").title()} ({len(by_sub[s])})</a>'
                      for s in by_sub if s]
             sub_pills = f'<div class="subhubs">{"".join(pills)}</div>'
 
-        # all spoke cards
-        cards = "\n    ".join(card(t, u) for t, u, _s in sorted(members, key=lambda x: x[0]))
+        # build either grouped sections (if real subs exist) or one flat grid
+        if has_real_subs:
+            sections = []
+            for sub in sorted(by_sub, key=lambda s: (s == "general", s or "")):
+                items = sorted(by_sub[sub], key=lambda x: x[0])
+                label = (sub or "general").replace("-", " ").title()
+                cards_html = "\n    ".join(card(t, u) for t, u in items)
+                sections.append(f"""
+  <h3 id="sec-{sub or 'general'}" class="section-title">{label} <span class="count-pill">{len(items)}</span></h3>
+  <div class="grid">
+    {cards_html}
+  </div>
+""")
+            body_html = "\n".join(sections)
+        else:
+            cards_html = "\n    ".join(card(t, u) for t, u, _s in sorted(members, key=lambda x: x[0]))
+            body_html = f'<div class="grid">\n    {cards_html}\n  </div>'
 
         page = HEAD.format(
             lang=lang, dir=dir_attr, title=f"{hub['title']} | TherapyFor.us",
@@ -156,12 +180,33 @@ def build():
   <a href="{AFFILIATE_LINK}" class="btn-main">Talk to Someone Today</a>
 </div>
 <div class="wrap">
+  <input type="text" id="filterBox" class="filter-box" placeholder="Search {len(members)} resources by keyword..." onkeyup="filterCards()">
   {sub_pills}
-  <h2>All {hub['title'].lower()} resources</h2>
-  <div class="grid">
-    {cards}
+  <div id="resultsWrap">
+  {body_html}
   </div>
+  <p id="noResults" class="no-results" style="display:none;">No resources match your search. Try a different word.</p>
 </div>
+<script>
+function filterCards() {{
+  const q = document.getElementById('filterBox').value.toLowerCase();
+  const cards = document.querySelectorAll('#resultsWrap .grid a');
+  const sections = document.querySelectorAll('#resultsWrap h3');
+  let anyVisible = false;
+  cards.forEach(c => {{
+    const match = c.textContent.toLowerCase().includes(q);
+    c.style.display = match ? 'block' : 'none';
+    if (match) anyVisible = true;
+  }});
+  sections.forEach(h => {{
+    const grid = h.nextElementSibling;
+    const visibleInGrid = grid ? Array.from(grid.querySelectorAll('a')).some(a => a.style.display !== 'none') : false;
+    h.style.display = visibleInGrid ? 'block' : 'none';
+    if (grid) grid.style.display = visibleInGrid ? 'grid' : 'none';
+  }});
+  document.getElementById('noResults').style.display = anyVisible ? 'none' : 'block';
+}}
+</script>
 """
         page += FOOTER
         folder = os.path.join(OUTPUT_DIR, hub["slug"])
