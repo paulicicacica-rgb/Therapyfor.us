@@ -1,0 +1,46 @@
+name: Audit Dead Pages (TherapyFor.us)
+
+# Crawls the live sitemap, checks every URL for: 404 / thin content / leftover
+# English CTA strings on non-English pages / whether a source file exists in
+# this repo for pages that 404 (tells "never generated" apart from "broken
+# deploy"). Uploads a CSV report as an artifact — does not change anything.
+
+on:
+  workflow_dispatch:
+    inputs:
+      sitemap_url:
+        description: "Sitemap URL to crawl"
+        required: true
+        default: "https://therapyfor.us/sitemap.xml"
+      use_repo_root:
+        description: "Cross-check against this repo's checked-out files (true/false)"
+        required: true
+        default: "true"
+        type: choice
+        options: ["true", "false"]
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Run audit
+        run: |
+          if [ "${{ github.event.inputs.use_repo_root }}" = "true" ]; then
+            python3 audit_dead_pages.py --sitemap "${{ github.event.inputs.sitemap_url }}" --repo-root "${{ github.workspace }}"
+          else
+            python3 audit_dead_pages.py --sitemap "${{ github.event.inputs.sitemap_url }}"
+          fi
+
+      - name: Upload report
+        uses: actions/upload-artifact@v4
+        with:
+          name: dead-pages-report
+          path: dead_pages_report.csv
