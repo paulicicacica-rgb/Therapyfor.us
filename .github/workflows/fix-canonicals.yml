@@ -1,0 +1,50 @@
+name: Fix Canonical URLs (www)
+
+# One-time (but safely re-runnable) sitewide fix: every page generated so far
+# has its canonical link, schema "url" field, and og:url baked in with the
+# wrong (non-www) domain, because config.py's SITE_URL was wrong at the time
+# they were generated. This rewrites every existing output/*.html file to
+# use the correct https://www.therapyfor.us domain. Idempotent — running it
+# again after config.py is fixed and new pages are generated will find
+# nothing left to change.
+
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Dry run only (report changes, don't write files)"
+        required: true
+        default: "true"
+        type: choice
+        options: ["true", "false"]
+
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Run canonical fix
+        run: |
+          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
+            python3 fix_canonicals.py --dir output --dry-run
+          else
+            python3 fix_canonicals.py --dir output
+          fi
+
+      - name: Commit fixed pages
+        if: ${{ github.event.inputs.dry_run == 'false' }}
+        run: |
+          git config user.name "page-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add output/
+          git commit -m "Fix sitewide canonical/schema URLs to use www domain" || echo "No changes to commit"
+          git push
