@@ -3,4 +3,4 @@
 
 AFFILIATE_LINK = "https://betterhelp.com/YOUR_AFFILIATE_LINK"
 
-SITE_URL = "https://therapyfor.us"
+SITE_URL = "https://www.therapyfor.us"
